@@ -1,0 +1,17 @@
+{
+  "label": "Volkswagen UK electric company car incentives",
+  "url": "https://www.volkswagen.co.uk/en/electric-and-hybrid/benefits-and-costs/discover-electric/electric-company-car.html",
+  "expectedClassification": "unhealthy",
+  "classification": "unhealthy",
+  "expectedIssue": null,
+  "expectedIssuesAnyOf": [
+    "expired_date_or_deadline",
+    "verified_current_claim_issue"
+  ],
+  "issues": [
+    "insufficient_information",
+    "verified_current_claim_issue"
+  ],
+  "passed": true,
+  "error": null
+}

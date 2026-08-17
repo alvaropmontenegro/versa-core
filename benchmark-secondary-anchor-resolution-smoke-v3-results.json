@@ -1,0 +1,28 @@
+[
+  {
+    "label": "Cylogy Symposium 2024 CTA",
+    "url": "https://www.cylogy.com/insights/what-to-look-forward-to-at-the-sitecore-symposium/",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "expectedIssue": "expired_date_or_deadline",
+    "expectedIssuesAnyOf": [],
+    "issues": [
+      "stale_risk"
+    ],
+    "passed": false,
+    "error": null
+  },
+  {
+    "label": "Cylogy Symposium 2020 recap",
+    "url": "https://www.cylogy.com/insights/5-takeaways-from-the-2020-sitecore-symposium/",
+    "expectedClassification": "healthy",
+    "classification": "unhealthy",
+    "expectedIssue": null,
+    "expectedIssuesAnyOf": [],
+    "issues": [
+      "stale_risk"
+    ],
+    "passed": false,
+    "error": null
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "label": "Ethisys hiring announcement 2021",
+  "url": "https://ethisys.co.uk/2021/11/30/were-hiring/",
+  "expectedClassification": "unhealthy",
+  "classification": "unhealthy",
+  "expectedIssue": "expired_date_or_deadline",
+  "expectedIssuesAnyOf": [],
+  "issues": [
+    "expired_date_or_deadline",
+    "expired_date_or_deadline"
+  ],
+  "passed": true,
+  "error": null
+}

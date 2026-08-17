@@ -1,0 +1,24 @@
+[
+  {
+    "label": "Cylogy Symposium 2024 CTA",
+    "url": "https://www.cylogy.com/insights/what-to-look-forward-to-at-the-sitecore-symposium/",
+    "expectedClassification": "unhealthy",
+    "classification": "inconclusive",
+    "expectedIssue": "expired_date_or_deadline",
+    "expectedIssuesAnyOf": [],
+    "issues": [],
+    "passed": false,
+    "error": "System.Text.Json.JsonReaderException: The JSON object contains a trailing comma at the end which is not supported in this mode. Change the reader options. LineNumber: 2 | BytePositionInLine: 0.\r\n   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)\r\n   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)\r\n   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()\r\n   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, JsonReaderOptions readerOptions, MetadataDb& database, StackRowStack& stack)\r\n   at System.Text.Json.JsonDocument.ParseUnrented(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, JsonTokenType tokenType, Boolean allowDuplicateProperties)\r\n   at System.Text.Json.JsonDocument.ParseValue(ReadOnlySpan`1 json, JsonDocumentOptions options)\r\n   at System.Text.Json.Nodes.JsonNode.Parse(String json, Nullable`1 nodeOptions, JsonDocumentOptions documentOptions)\r\n   at VersaCore.SecondaryPipeline.RequestIntrinsicAuditAsync(SecondaryPipelineInput input) in C:\\Dev\\versa\\versa-core\\SecondaryPipeline.cs:line 117\r\n   at VersaCore.SecondaryPipeline.RunAsync(SecondaryPipelineInput input) in C:\\Dev\\versa\\versa-core\\SecondaryPipeline.cs:line 30"
+  },
+  {
+    "label": "Cylogy Symposium 2020 recap",
+    "url": "https://www.cylogy.com/insights/5-takeaways-from-the-2020-sitecore-symposium/",
+    "expectedClassification": "healthy",
+    "classification": "inconclusive",
+    "expectedIssue": null,
+    "expectedIssuesAnyOf": [],
+    "issues": [],
+    "passed": false,
+    "error": "System.Text.Json.JsonReaderException: The JSON object contains a trailing comma at the end which is not supported in this mode. Change the reader options. LineNumber: 2 | BytePositionInLine: 0.\r\n   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)\r\n   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)\r\n   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()\r\n   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, JsonReaderOptions readerOptions, MetadataDb& database, StackRowStack& stack)\r\n   at System.Text.Json.JsonDocument.ParseUnrented(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, JsonTokenType tokenType, Boolean allowDuplicateProperties)\r\n   at System.Text.Json.JsonDocument.ParseValue(ReadOnlySpan`1 json, JsonDocumentOptions options)\r\n   at System.Text.Json.Nodes.JsonNode.Parse(String json, Nullable`1 nodeOptions, JsonDocumentOptions documentOptions)\r\n   at VersaCore.SecondaryPipeline.RequestIntrinsicAuditAsync(SecondaryPipelineInput input) in C:\\Dev\\versa\\versa-core\\SecondaryPipeline.cs:line 117\r\n   at VersaCore.SecondaryPipeline.RunAsync(SecondaryPipelineInput input) in C:\\Dev\\versa\\versa-core\\SecondaryPipeline.cs:line 30"
+  }
+]

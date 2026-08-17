@@ -1,0 +1,24 @@
+[
+  {
+    "label": "Cylogy Symposium 2020 recap",
+    "url": "https://www.cylogy.com/insights/5-takeaways-from-the-2020-sitecore-symposium/",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "expectedIssue": null,
+    "expectedIssuesAnyOf": [],
+    "issues": [],
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Eurodicas Democratic Memory Law deadline",
+    "url": "https://www.eurodicas.com.br/lei-da-memoria-democratica-na-espanha-pode-ser-derrubada/",
+    "expectedClassification": "unhealthy",
+    "classification": "healthy",
+    "expectedIssue": "expired_date_or_deadline",
+    "expectedIssuesAnyOf": [],
+    "issues": [],
+    "passed": false,
+    "error": null
+  }
+]

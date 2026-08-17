@@ -1,0 +1,13 @@
+{
+  "label": "Legalteam Democratic Memory Law guidance",
+  "url": "https://legalteam.es/ley-de-memoria-democratica-publicada-en-el-boe/",
+  "expectedClassification": "unhealthy",
+  "classification": "unhealthy",
+  "expectedIssue": "expired_date_or_deadline",
+  "expectedIssuesAnyOf": [],
+  "issues": [
+    "expired_date_or_deadline"
+  ],
+  "passed": true,
+  "error": null
+}

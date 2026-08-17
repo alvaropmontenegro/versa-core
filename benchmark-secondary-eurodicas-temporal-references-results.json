@@ -1,0 +1,13 @@
+{
+  "label": "Eurodicas Democratic Memory Law deadline",
+  "url": "https://www.eurodicas.com.br/lei-da-memoria-democratica-na-espanha-pode-ser-derrubada/",
+  "expectedClassification": "unhealthy",
+  "classification": "unhealthy",
+  "expectedIssue": "expired_date_or_deadline",
+  "expectedIssuesAnyOf": [],
+  "issues": [
+    "expired_date_or_deadline"
+  ],
+  "passed": true,
+  "error": null
+}

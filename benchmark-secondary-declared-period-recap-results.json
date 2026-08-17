@@ -1,0 +1,11 @@
+{
+  "label": "Cylogy Symposium 2020 recap",
+  "url": "https://www.cylogy.com/insights/5-takeaways-from-the-2020-sitecore-symposium/",
+  "expectedClassification": "healthy",
+  "classification": "healthy",
+  "expectedIssue": null,
+  "expectedIssuesAnyOf": [],
+  "issues": [],
+  "passed": true,
+  "error": null
+}

@@ -1,0 +1,13 @@
+{
+  "label": "Western Mercedes EV tax guidance",
+  "url": "https://www.easternwestern.co.uk/mercedes-benz/news/exploring-the-tax-advantages-of-electric-cars-for-drivers-in-scotland/",
+  "expectedClassification": "unhealthy",
+  "classification": "unhealthy",
+  "expectedIssue": "verified_current_claim_issue",
+  "expectedIssuesAnyOf": [],
+  "issues": [
+    "verified_current_claim_issue"
+  ],
+  "passed": true,
+  "error": null
+}

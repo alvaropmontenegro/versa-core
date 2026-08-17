@@ -1,0 +1,13 @@
+{
+  "label": "Bufete Padilla Altea Norwegian language mismatch",
+  "url": "https://bufetepadillatorrevieja.com/no/lawyers-altea",
+  "expectedClassification": "unhealthy",
+  "classification": "unhealthy",
+  "expectedIssue": "language_mismatch",
+  "expectedIssuesAnyOf": [],
+  "issues": [
+    "language_mismatch"
+  ],
+  "passed": true,
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "label": "VW T-Roc R pre-order announcement",
+  "url": "https://www.sparneuwagen.de/news/neuer-vw-t-roc-r-jetzt-bestellen/",
+  "expectedClassification": "healthy",
+  "classification": "healthy",
+  "expectedIssue": null,
+  "expectedIssuesAnyOf": [],
+  "issues": [],
+  "passed": true,
+  "error": null
+}

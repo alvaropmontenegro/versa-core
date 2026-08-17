@@ -1,0 +1,24 @@
+[
+  {
+    "label": "Cylogy Symposium 2024 CTA",
+    "url": "https://www.cylogy.com/insights/what-to-look-forward-to-at-the-sitecore-symposium/",
+    "expectedClassification": "unhealthy",
+    "classification": "inconclusive",
+    "expectedIssue": "expired_date_or_deadline",
+    "expectedIssuesAnyOf": [],
+    "issues": [],
+    "passed": false,
+    "error": "System.ArgumentException: An item with the same key has already been added. Key: 1\r\n   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)\r\n   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)\r\n   at System.Linq.Enumerable.ToDictionary[TSource,TKey](IEnumerable`1 source, Func`2 keySelector, IEqualityComparer`1 comparer)\r\n   at VersaCore.SecondaryPipeline.ResolveVerificationResults(SecondaryPipelineInput input, IReadOnlyList`1 claims, String factRaw, IReadOnlyList`1 evidence) in C:\\Dev\\versa\\versa-core\\SecondaryPipeline.cs:line 296\r\n   at VersaCore.SecondaryPipeline.RunAsync(SecondaryPipelineInput input) in C:\\Dev\\versa\\versa-core\\SecondaryPipeline.cs:line 51"
+  },
+  {
+    "label": "Cylogy Symposium 2020 recap",
+    "url": "https://www.cylogy.com/insights/5-takeaways-from-the-2020-sitecore-symposium/",
+    "expectedClassification": "healthy",
+    "classification": "inconclusive",
+    "expectedIssue": null,
+    "expectedIssuesAnyOf": [],
+    "issues": [],
+    "passed": false,
+    "error": "System.InvalidOperationException: The node already has a parent.\r\n   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_NodeAlreadyHasParent()\r\n   at System.Text.Json.Nodes.JsonNode.AssignParent(JsonNode parent)\r\n   at System.Text.Json.Nodes.JsonObject.SetItem(String propertyName, JsonNode value)\r\n   at VersaCore.SecondaryPipeline.ResolveResult(SecondaryPipelineInput input, JsonElement understanding, JsonElement intrinsic, IReadOnlyList`1 actions, IReadOnlyList`1 claims, IReadOnlyList`1 verification, Boolean historicalRecord) in C:\\Dev\\versa\\versa-core\\SecondaryPipeline.cs:line 397\r\n   at VersaCore.SecondaryPipeline.RunAsync(SecondaryPipelineInput input) in C:\\Dev\\versa\\versa-core\\SecondaryPipeline.cs:line 55"
+  }
+]

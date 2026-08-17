@@ -1,0 +1,39 @@
+[
+  {
+    "label": "Cylogy Symposium 2024 CTA",
+    "url": "https://www.cylogy.com/insights/what-to-look-forward-to-at-the-sitecore-symposium/",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "expectedIssue": "expired_date_or_deadline",
+    "expectedIssuesAnyOf": [],
+    "issues": [
+      "stale_risk"
+    ],
+    "passed": false,
+    "error": null
+  },
+  {
+    "label": "Eurodicas Democratic Memory Law deadline",
+    "url": "https://www.eurodicas.com.br/lei-da-memoria-democratica-na-espanha-pode-ser-derrubada/",
+    "expectedClassification": "unhealthy",
+    "classification": "inconclusive",
+    "expectedIssue": "expired_date_or_deadline",
+    "expectedIssuesAnyOf": [],
+    "issues": [],
+    "passed": false,
+    "error": "System.ArgumentException: An item with the same key has already been added. Key: c5\r\n   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)\r\n   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)\r\n   at System.Linq.Enumerable.ToDictionary[TSource,TKey](IEnumerable`1 source, Func`2 keySelector, IEqualityComparer`1 comparer)\r\n   at VersaCore.SecondaryPipeline.ResolveVerificationResults(SecondaryPipelineInput input, IReadOnlyList`1 claims, String factRaw, IReadOnlyList`1 evidence) in C:\\Dev\\versa\\versa-core\\SecondaryPipeline.cs:line 296\r\n   at VersaCore.SecondaryPipeline.RunAsync(SecondaryPipelineInput input) in C:\\Dev\\versa\\versa-core\\SecondaryPipeline.cs:line 51"
+  },
+  {
+    "label": "Ethisys hiring announcement 2021",
+    "url": "https://ethisys.co.uk/2021/11/30/were-hiring/",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "expectedIssue": "expired_date_or_deadline",
+    "expectedIssuesAnyOf": [],
+    "issues": [
+      "insufficient_information"
+    ],
+    "passed": false,
+    "error": null
+  }
+]

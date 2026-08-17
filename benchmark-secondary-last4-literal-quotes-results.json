@@ -1,0 +1,49 @@
+[
+  {
+    "label": "Western Mercedes EV tax guidance",
+    "url": "https://www.easternwestern.co.uk/mercedes-benz/news/exploring-the-tax-advantages-of-electric-cars-for-drivers-in-scotland/",
+    "expectedClassification": "unhealthy",
+    "classification": "healthy",
+    "expectedIssue": "verified_current_claim_issue",
+    "expectedIssuesAnyOf": [],
+    "issues": [],
+    "passed": false,
+    "error": null
+  },
+  {
+    "label": "Bufete Padilla Altea Norwegian language mismatch",
+    "url": "https://bufetepadillatorrevieja.com/no/lawyers-altea",
+    "expectedClassification": "unhealthy",
+    "classification": "healthy",
+    "expectedIssue": "language_mismatch",
+    "expectedIssuesAnyOf": [],
+    "issues": [],
+    "passed": false,
+    "error": null
+  },
+  {
+    "label": "Ethisys hiring announcement 2021",
+    "url": "https://ethisys.co.uk/2021/11/30/were-hiring/",
+    "expectedClassification": "unhealthy",
+    "classification": "healthy",
+    "expectedIssue": "expired_date_or_deadline",
+    "expectedIssuesAnyOf": [],
+    "issues": [],
+    "passed": false,
+    "error": null
+  },
+  {
+    "label": "Volkswagen UK electric company car incentives",
+    "url": "https://www.volkswagen.co.uk/en/electric-and-hybrid/benefits-and-costs/discover-electric/electric-company-car.html",
+    "expectedClassification": "unhealthy",
+    "classification": "healthy",
+    "expectedIssue": null,
+    "expectedIssuesAnyOf": [
+      "expired_date_or_deadline",
+      "verified_current_claim_issue"
+    ],
+    "issues": [],
+    "passed": false,
+    "error": null
+  }
+]

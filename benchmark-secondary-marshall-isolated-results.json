@@ -1,0 +1,14 @@
+{
+  "label": "Marshall Mercedes E 350 e grant guidance",
+  "url": "https://www.marshall.co.uk/mercedes-benz/news/e-saloon-now-eligible-for-government-plug-in-grant/",
+  "expectedClassification": "unhealthy",
+  "classification": "unhealthy",
+  "expectedIssue": "verified_current_claim_issue",
+  "expectedIssuesAnyOf": [],
+  "issues": [
+    "insufficient_information",
+    "verified_current_claim_issue"
+  ],
+  "passed": true,
+  "error": null
+}

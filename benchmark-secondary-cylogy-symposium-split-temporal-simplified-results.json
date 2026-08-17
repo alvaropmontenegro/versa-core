@@ -1,0 +1,13 @@
+{
+  "label": "Cylogy Symposium 2024 CTA",
+  "url": "https://www.cylogy.com/insights/what-to-look-forward-to-at-the-sitecore-symposium/",
+  "expectedClassification": "unhealthy",
+  "classification": "unhealthy",
+  "expectedIssue": "expired_date_or_deadline",
+  "expectedIssuesAnyOf": [],
+  "issues": [
+    "expired_date_or_deadline"
+  ],
+  "passed": true,
+  "error": null
+}
