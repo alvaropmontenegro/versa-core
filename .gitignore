@@ -39,6 +39,9 @@ ScaffoldingReadMe.txt
 # dotenv environment variables file
 .env
 
+# Generated benchmark output can contain request diagnostics.
+benchmark-parallel/
+
 # Others
 ~$*
 *~

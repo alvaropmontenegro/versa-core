@@ -551,6 +551,14 @@ internal sealed class SecondaryPipeline
                     "A historical copy, canonical variant, or AMP variant of the audited page cannot prove current status.", consultedUrls));
                 continue;
             }
+            if (ReadString(check, "verdict") == "not_enough_evidence")
+            {
+                results.Add(SecondaryVerificationResult.NotEnoughEvidence(
+                    claim,
+                    ReadString(check, "reason") ?? "The evidence packet does not establish the claim.",
+                    consultedUrls));
+                continue;
+            }
             var selectedEvidence = citedEvidence.FirstOrDefault(item => item.SourceClass == "source_of_record") ?? citedEvidence.FirstOrDefault();
             results.Add(new SecondaryVerificationResult(
                 claim,

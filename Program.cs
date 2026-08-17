@@ -14,6 +14,7 @@ namespace VersaCore;
 
 internal static partial class Program
 {
+    private static readonly bool EnvironmentLoaded = LoadEnvironment();
     private static string? FactCheckModelOverride;
     private static readonly JsonSerializerOptions JsonOptions = new(JsonSerializerDefaults.Web)
     {
@@ -57,6 +58,12 @@ internal static partial class Program
         ".grecaptcha-badge",
         "access-widget-ui"
     ];
+
+    private static bool LoadEnvironment()
+    {
+        DotNetEnv.Env.TraversePath().Load();
+        return true;
+    }
 
     public static async Task<int> Main(string[] args)
     {
