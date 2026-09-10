@@ -1,0 +1,54 @@
+[
+  {
+    "label": "Unverified claims are outside intrinsic scope",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/unverified-claims.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Bufete Padilla Altea Norwegian route",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/bufete-padilla-altea-no.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "requiredIssues": [
+      "language_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "unprofessional_writing",
+      "language_mismatch"
+    ],
+    "scored": true,
+    "passed": false,
+    "error": null
+  },
+  {
+    "label": "Bufete Padilla Altea Norwegian route",
+    "source": "live",
+    "url": "https://bufetepadillatorrevieja.com/no/lawyers-altea",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "requiredIssues": [
+      "language_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors",
+      "language_mismatch"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "file": "benchmarks/results/benchmark-v45-dedicated-writing-full.json",
+    "pages": 19,
+    "passed": 14,
+    "failed": 5,
+    "badStages": 0,
+    "modelCalls": 57.0
+  },
+  {
+    "file": "benchmarks/results/benchmark-cylogy-v45-frozen.json",
+    "pages": 5,
+    "passed": 0,
+    "failed": 0,
+    "badStages": 0,
+    "modelCalls": 15.0
+  },
+  {
+    "file": "benchmarks/results/benchmark-v45-writing-repeat-1.json",
+    "pages": 4,
+    "passed": 3,
+    "failed": 1,
+    "badStages": 0,
+    "modelCalls": 12.0
+  },
+  {
+    "file": "benchmarks/results/benchmark-v45-writing-repeat-2.json",
+    "pages": 4,
+    "passed": 3,
+    "failed": 1,
+    "badStages": 0,
+    "modelCalls": 12.0
+  }
+]

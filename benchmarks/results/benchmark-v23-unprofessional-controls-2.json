@@ -1,0 +1,72 @@
+[
+  {
+    "label": "Persistently unprofessional writing",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/unprofessional-writing.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a marketing page for an analytics service called Our Analytics Service. It presents brief promotional copy about the team and the results the service claims to deliver. The page also includes a more concrete statement about analysts connecting reporting to the questions a team needs to answer.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Our Analytics Service",
+      "titlePromise": "A page about an analytics service.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the analytics-service subject with promotional description and a concrete statement about how analysts support reporting and team questions.",
+      "bodyEvidenceQuote": "Our analysts connect reporting to the questions your team needs to answer."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Our analysts connect reporting to the questions your team needs to answer."
+    },
+    "requiredIssues": [
+      "unprofessional_writing"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "unprofessional_writing"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Title and body cover different subjects",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/title-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a marketing landing page for Meridian Digital’s project management software. It presents the platform as a tool for teams, highlighting workflow customization, time tracking, integrations, pricing, and onboarding features. The page also includes a call to start a free trial.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "10 Best Project Management Tools Compared (2025)",
+      "titlePromise": "A comparison of 10 project management tools, likely with evaluative coverage of multiple tools.",
+      "fulfillment": "not_fulfilled",
+      "reason": "The title promises a comparison of 10 project management tools, but the body mainly promotes Meridian Digital itself rather than comparing ten tools. The content focuses on one product’s features, pricing, onboarding, and trial offer.",
+      "bodyEvidenceQuote": "Meridian's feature set is purpose-built for productivity. Here's what our customers rely on most:"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Meridian's feature set is purpose-built for productivity. Here's what our customers rely on most:"
+    },
+    "requiredIssues": [
+      "title_body_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "title_body_mismatch"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "audits": 67,
+  "modelCalls": 201,
+  "failedStages": 0,
+  "reports": [
+    {
+      "file": "benchmarks/results/benchmark-v46-baseline-none.json",
+      "audits": 4,
+      "scored": 4,
+      "passed": 2,
+      "reasoningTokens": 0,
+      "completionTokens": 1943
+    },
+    {
+      "file": "benchmarks/results/benchmark-v46-baseline-none-repeat.json",
+      "audits": 4,
+      "scored": 4,
+      "passed": 1,
+      "reasoningTokens": 0,
+      "completionTokens": 2220
+    },
+    {
+      "file": "benchmarks/results/benchmark-v46-baseline-medium.json",
+      "audits": 4,
+      "scored": 4,
+      "passed": 3,
+      "reasoningTokens": 3572,
+      "completionTokens": 5072
+    },
+    {
+      "file": "benchmarks/results/benchmark-v46-baseline-medium-repeat.json",
+      "audits": 4,
+      "scored": 4,
+      "passed": 3,
+      "reasoningTokens": 3812,
+      "completionTokens": 5795
+    },
+    {
+      "file": "benchmarks/results/benchmark-v46-full.json",
+      "audits": 19,
+      "scored": 19,
+      "passed": 18,
+      "reasoningTokens": 10754,
+      "completionTokens": 18333
+    },
+    {
+      "file": "benchmarks/results/benchmark-v46-controls-1.json",
+      "audits": 4,
+      "scored": 4,
+      "passed": 4,
+      "reasoningTokens": 1941,
+      "completionTokens": 4035
+    },
+    {
+      "file": "benchmarks/results/benchmark-v46-controls-2.json",
+      "audits": 4,
+      "scored": 4,
+      "passed": 4,
+      "reasoningTokens": 3927,
+      "completionTokens": 6067
+    },
+    {
+      "file": "benchmarks/results/benchmark-cylogy-v46-frozen.json",
+      "audits": 5,
+      "scored": 0,
+      "passed": 0,
+      "reasoningTokens": 25047,
+      "completionTokens": 29680
+    },
+    {
+      "file": "benchmarks/results/benchmark-v46-frozen-repeat-full.json",
+      "audits": 19,
+      "scored": 19,
+      "passed": 18,
+      "reasoningTokens": 6564,
+      "completionTokens": 14278
+    }
+  ],
+  "fullRepeatSameInputAndPromptHashes": true
+}

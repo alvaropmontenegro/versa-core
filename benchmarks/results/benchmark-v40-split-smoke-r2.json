@@ -1,0 +1,74 @@
+[
+  {
+    "label": "Title and body cover different subjects",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/title-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a marketing page for Meridian Digital focused on project management software. It describes the platform’s workflow, timeline, tracking, integrations, pricing, and onboarding features for teams evaluating project management tools. The page also includes a call to action to start a free trial.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "10 Best Project Management Tools Compared (2025)",
+      "titlePromise": "The title promises a comparison of ten project management tools, likely helping readers evaluate multiple options side by side.",
+      "fulfillment": "not_fulfilled",
+      "reason": "The body does not compare ten tools; it mainly promotes Meridian Digital as a single product and explains its features, pricing, and trial offer.",
+      "bodyEvidenceQuote": "Meridian Digital was designed from the ground up to eliminate the friction that slows teams down."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Meridian Digital was designed from the ground up to eliminate the friction that slows teams down."
+    },
+    "requiredIssues": [
+      "title_body_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "title_body_mismatch"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Endesa Santa Coloma placeholder and writing errors",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/endesa-santa-coloma-placeholder.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Spanish Endesa location page for Calle Rambla de San Sebastián, 42 in Santa Coloma de Gramenet, Barcelona. It presents the site as a nearby point for contracting energy, solar panels, or electric mobility services and includes a call to action to request an appointment. The page also mentions that there is no permanence and that customers can change tariff or company without penalty.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Calle Rambla de San Sebastián, 42, Santa Coloma De Gramenet, Barcelona",
+      "titlePromise": "The title creates the expectation of a page about this specific Endesa office or location at the named address in Santa Coloma de Gramenet, Barcelona.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops that location-focused expectation by describing the nearby Endesa point and its services at the same address context.",
+      "bodyEvidenceQuote": "Encuentra tu Punto Endesa más cercano para contratar Energía, Placas Solares o Movilidad eléctrica"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Encuentra tu Punto Endesa más cercano para contratar Energía, Placas Solares o Movilidad eléctrica"
+    },
+    "requiredIssues": [
+      "published_placeholder_content",
+      "writing_errors"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors",
+      "published_placeholder_content"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  }
+]

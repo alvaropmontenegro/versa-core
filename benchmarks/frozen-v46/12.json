@@ -1,0 +1,244 @@
+{
+  "url": "http://127.0.0.1:8088/pages/brand-safety-risk.html",
+  "finalUrl": "http://127.0.0.1:8088/pages/brand-safety-risk.html",
+  "outputLanguage": "en",
+  "executedAt": "2026-09-08T22:40:28.5980714+00:00",
+  "capture": {
+    "statusCode": 200,
+    "finalUrl": "http://127.0.0.1:8088/pages/brand-safety-risk.html",
+    "html": "\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022en\u0022 data-versa-display=\u0022block\u0022 data-versa-layout-version=\u00221\u0022\u003E\u003Chead data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta charset=\u0022UTF-8\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1.0\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta name=\u0022description\u0022 content=\u0022An old field-marketing post with outdated and risky language about event staffing and prospects.\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Ctitle data-versa-display=\u0022none\u0022\u003EHow to Work a Trade Show Crowd \u2014 Meridian Digital\u003C/title\u003E\n  \u003Clink rel=\u0022canonical\u0022 href=\u0022https://test.versacontent.com/pages/brand-safety-risk.html\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cstyle data-versa-display=\u0022none\u0022\u003E\n    * { margin: 0; padding: 0; box-sizing: border-box; }\n    body { font-family: -apple-system, BlinkMacSystemFont, \u0027Segoe UI\u0027, Roboto, sans-serif; color: #1a1a2e; line-height: 1.7; background: #fff; }\n    header { background: #1a1a2e; color: #fff; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }\n    header .logo { font-weight: 700; font-size: 1.25rem; }\n    header nav a { color: #a0a0c0; text-decoration: none; margin-left: 1.5rem; font-size: 0.9rem; }\n    main { max-width: 760px; margin: 2rem auto; padding: 0 1.5rem; }\n    h1 { font-size: 2rem; margin-bottom: 1rem; line-height: 1.3; }\n    h2 { font-size: 1.3rem; margin: 2rem 0 0.75rem; }\n    p { margin-bottom: 1rem; color: #333; }\n    ul { margin: 0 0 1rem 1.5rem; }\n    li { margin-bottom: 0.4rem; }\n    .meta { font-size: 0.85rem; color: #666; margin-bottom: 1.5rem; }\n    footer { background: #f8f8fc; border-top: 1px solid #e0e0e8; padding: 2rem; margin-top: 3rem; text-align: center; font-size: 0.85rem; color: #666; }\n    footer a { color: #4361ee; text-decoration: none; }\n  \u003C/style\u003E\n\u003C/head\u003E\n\u003Cbody data-versa-display=\u0022block\u0022\u003E\n  \u003Cheader data-versa-display=\u0022flex\u0022\u003E\n    \u003Cdiv class=\u0022logo\u0022 data-versa-display=\u0022block\u0022\u003EMeridian Digital\u003C/div\u003E\n    \u003Cnav data-versa-display=\u0022block\u0022\u003E\n      \u003Ca href=\u0022/pages/healthy-product\u0022 data-versa-display=\u0022inline\u0022\u003EProduct\u003C/a\u003E\n      \u003Ca href=\u0022/pages/healthy-pricing\u0022 data-versa-display=\u0022inline\u0022\u003EPricing\u003C/a\u003E\n      \u003Ca href=\u0022/pages/healthy-contact\u0022 data-versa-display=\u0022inline\u0022\u003EContact\u003C/a\u003E\n      \u003Ca href=\u0022/pages/hub-index\u0022 data-versa-display=\u0022inline\u0022\u003EBlog\u003C/a\u003E\n    \u003C/nav\u003E\n  \u003C/header\u003E\n  \u003Cmain data-versa-display=\u0022block\u0022\u003E\n    \u003Ch1 data-versa-display=\u0022block\u0022\u003EHow to Work a Trade Show Crowd\u003C/h1\u003E\n    \u003Cp class=\u0022meta\u0022 data-versa-display=\u0022block\u0022\u003EPublished June 4, 2016 by Field Marketing Team\u003C/p\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003ETrade shows are simple if you remember that most attendees are bored, distracted, and easy to steer if your team keeps control of the conversation. The trick is to keep the booth loud, playful, and visually loaded so prospects stop long enough for your reps to push the demo.\u003C/p\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EUse booth girls to stop traffic\u003C/h2\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003EIf you really want a crowd, hire booth girls who know how to flirt, smile on command, and keep the men hanging around while your sales team works the serious leads. This approach is still the fastest way to create buzz when the product itself is too technical to get attention on its own.\u003C/p\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EKeep weaker prospects in line\u003C/h2\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003ESome prospects from smaller markets need hand-holding and will waste your team\u2019s time if you let them ramble. Cut them off early, move them through the script, and focus your energy on buyers who look polished enough to close inside the quarter.\u003C/p\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003ETurn the booth into a pressure zone\u003C/h2\u003E\n    \u003Cul data-versa-display=\u0022block\u0022\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003EKeep the music loud enough that people feel awkward leaving without talking.\u003C/li\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003EMake jokes about indecisive visitors so the rest of the crowd stays engaged.\u003C/li\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003EUse drinks and cheeky banter to keep the sales guys energized through the afternoon.\u003C/li\u003E\n    \u003C/ul\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003EIf you run events aggressively, the crowd will follow your lead. Being too careful is how brands disappear into the background.\u003C/p\u003E\n  \u003C/main\u003E\n  \u003Cfooter data-versa-display=\u0022block\u0022\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003E\u00A9 2025 Meridian Digital Inc. All rights reserved. | \u003Ca href=\u0022/pages/healthy-legal\u0022 data-versa-display=\u0022inline\u0022\u003ETerms\u003C/a\u003E | \u003Ca href=\u0022mailto:hello@meridian.digital\u0022 data-versa-display=\u0022inline\u0022\u003Ehello@meridian.digital\u003C/a\u003E | \u002B1 (415) 555-0120\u003C/p\u003E\n  \u003C/footer\u003E\n\n\n\u003C/body\u003E\u003C/html\u003E",
+    "bodyText": "Meridian Digital\nProduct Pricing Contact Blog\nHow to Work a Trade Show Crowd\n\nPublished June 4, 2016 by Field Marketing Team\n\nTrade shows are simple if you remember that most attendees are bored, distracted, and easy to steer if your team keeps control of the conversation. The trick is to keep the booth loud, playful, and visually loaded so prospects stop long enough for your reps to push the demo.\n\nUse booth girls to stop traffic\n\nIf you really want a crowd, hire booth girls who know how to flirt, smile on command, and keep the men hanging around while your sales team works the serious leads. This approach is still the fastest way to create buzz when the product itself is too technical to get attention on its own.\n\nKeep weaker prospects in line\n\nSome prospects from smaller markets need hand-holding and will waste your team\u2019s time if you let them ramble. Cut them off early, move them through the script, and focus your energy on buyers who look polished enough to close inside the quarter.\n\nTurn the booth into a pressure zone\nKeep the music loud enough that people feel awkward leaving without talking.\nMake jokes about indecisive visitors so the rest of the crowd stays engaged.\nUse drinks and cheeky banter to keep the sales guys energized through the afternoon.\n\nIf you run events aggressively, the crowd will follow your lead. Being too careful is how brands disappear into the background.\n\n\u00A9 2025 Meridian Digital Inc. All rights reserved. | Terms | hello@meridian.digital | \u002B1 (415) 555-0120",
+    "bodyWordCount": 260
+  },
+  "metadata": {
+    "title": "How to Work a Trade Show Crowd \u2014 Meridian Digital",
+    "metaDescription": "An old field-marketing post with outdated and risky language about event staffing and prospects.",
+    "canonicalUrl": "https://test.versacontent.com/pages/brand-safety-risk.html",
+    "language": "en"
+  },
+  "structuralOutline": {
+    "markdown": "\u003Cui_text\u003EMeridian Digital\u003C/ui_text\u003E\n\n\u003Cheading level=\u00221\u0022\u003EHow to Work a Trade Show Crowd\u003C/heading\u003E\n\n\u003Cprose\u003EPublished June 4, 2016 by Field Marketing Team\u003C/prose\u003E\n\n\u003Cprose\u003ETrade shows are simple if you remember that most attendees are bored, distracted, and easy to steer if your team keeps control of the conversation. The trick is to keep the booth loud, playful, and visually loaded so prospects stop long enough for your reps to push the demo.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EUse booth girls to stop traffic\u003C/heading\u003E\n\n\u003Cprose\u003EIf you really want a crowd, hire booth girls who know how to flirt, smile on command, and keep the men hanging around while your sales team works the serious leads. This approach is still the fastest way to create buzz when the product itself is too technical to get attention on its own.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EKeep weaker prospects in line\u003C/heading\u003E\n\n\u003Cprose\u003ESome prospects from smaller markets need hand-holding and will waste your team\u2019s time if you let them ramble. Cut them off early, move them through the script, and focus your energy on buyers who look polished enough to close inside the quarter.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003ETurn the booth into a pressure zone\u003C/heading\u003E\n\n\u003Clist_item\u003EKeep the music loud enough that people feel awkward leaving without talking.\u003C/list_item\u003E\n\n\u003Clist_item\u003EMake jokes about indecisive visitors so the rest of the crowd stays engaged.\u003C/list_item\u003E\n\n\u003Clist_item\u003EUse drinks and cheeky banter to keep the sales guys energized through the afternoon.\u003C/list_item\u003E\n\n\u003Cprose\u003EIf you run events aggressively, the crowd will follow your lead. Being too careful is how brands disappear into the background.\u003C/prose\u003E",
+    "summary": {
+      "estimatedTokens": 415,
+      "truncatedByTextLimit": false
+    }
+  },
+  "analysis": {
+    "observations": {
+      "mainContentLanguage": "en",
+      "mainContentLanguageEvidence": "Trade shows are simple if you remember that most attendees are bored, distracted, and easy to steer if your team keeps control of the conversation.",
+      "pagePurpose": "The page gives advice on how to attract and manage attention at a trade show booth in order to generate leads and keep the crowd engaged.",
+      "pageSummary": "This is a marketing advice article about handling trade show crowds for a company called Meridian Digital. It focuses on booth tactics meant to draw attention, keep prospects talking, and support sales reps during an event. The intended audience appears to be field marketing or sales teams planning trade show presence."
+    },
+    "sensitiveTopicAssessment": {
+      "status": "not_applicable",
+      "evidenceQuote": "",
+      "reason": ""
+    },
+    "titlePromiseAssessment": {
+      "titleQuote": "How to Work a Trade Show Crowd",
+      "titlePromise": "The title promises guidance on managing or engaging a trade show audience.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops trade show crowd tactics, including booth presentation, lead handling, and crowd engagement strategies, which matches the title\u2019s expectation.",
+      "bodyEvidenceQuote": "The trick is to keep the booth loud, playful, and visually loaded so prospects stop long enough for your reps to push the demo."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "The trick is to keep the booth loud, playful, and visually loaded so prospects stop long enough for your reps to push the demo."
+    },
+    "sensitiveTopicValidation": {
+      "status": "valid",
+      "reason": "no_sensitive_guidance_detected",
+      "normalizedEvidenceQuote": ""
+    },
+    "issues": [
+      {
+        "code": "brand_safety_risk",
+        "reason": "The page explicitly uses sexist and objectifying language toward women in a sales context.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Use booth girls to stop traffic",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "heading",
+            "blockId": "block-453"
+          },
+          {
+            "quote": "hire booth girls who know how to flirt, smile on command, and keep the men hanging around while your sales team works the serious leads.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-515"
+          },
+          {
+            "quote": "Some prospects from smaller markets need hand-holding and will waste your team\u2019s time if you let them ramble.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-880"
+          },
+          {
+            "quote": "focus your energy on buyers who look polished enough to close inside the quarter.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-880"
+          },
+          {
+            "quote": "Keep the music loud enough that people feel awkward leaving without talking.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "list_item",
+            "blockId": "block-1208"
+          },
+          {
+            "quote": "Make jokes about indecisive visitors so the rest of the crowd stays engaged.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "list_item",
+            "blockId": "block-1309"
+          }
+        ],
+        "pageQuotes": [
+          "Use booth girls to stop traffic",
+          "hire booth girls who know how to flirt, smile on command, and keep the men hanging around while your sales team works the serious leads.",
+          "Some prospects from smaller markets need hand-holding and will waste your team\u2019s time if you let them ramble.",
+          "focus your energy on buyers who look polished enough to close inside the quarter.",
+          "Keep the music loud enough that people feel awkward leaving without talking.",
+          "Make jokes about indecisive visitors so the rest of the crowd stays engaged."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Remove or rewrite the cited language to avoid abusive, discriminatory, humiliating, or coercive treatment.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_e898f4e05fdf44668a16ff99ca37d165",
+          "systemFingerprint": null,
+          "inputHash": "B2F98D8EE918952C4AF86A9AC09FDF66CA1964E012E3AF6D6CA1AC67FE0AC646",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1823,
+          "completionTokens": 444,
+          "totalTokens": 2267,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_179f098c144146f8b26b35ba6d1667d5",
+          "systemFingerprint": null,
+          "inputHash": "B2F98D8EE918952C4AF86A9AC09FDF66CA1964E012E3AF6D6CA1AC67FE0AC646",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 1017,
+          "completionTokens": 21,
+          "totalTokens": 1038,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_9262b1ef2fa4430c87fc12c2a301fd14",
+          "systemFingerprint": null,
+          "inputHash": "B2F98D8EE918952C4AF86A9AC09FDF66CA1964E012E3AF6D6CA1AC67FE0AC646",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 1160,
+          "completionTokens": 112,
+          "totalTokens": 1272,
+          "reasoningTokens": 92
+        },
+        "error": null
+      }
+    ],
+    "classification": {
+      "type": "unhealthy",
+      "confidence": null,
+      "confidenceBasis": "not_calibrated",
+      "insufficientEvidence": false
+    },
+    "externalVerification": {
+      "enabled": false,
+      "skipped": true
+    }
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "webSourceUrls": []
+  }
+}

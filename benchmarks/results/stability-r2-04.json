@@ -1,0 +1,16 @@
+{
+  "label": "Sensitive topic handled responsibly",
+  "source": "artificial",
+  "url": "http://127.0.0.1:8088/pages/sensitive-topic-good.html",
+  "expectedClassification": "healthy",
+  "classification": "unhealthy",
+  "requiredIssues": [],
+  "allowedIssues": [],
+  "forbiddenIssues": [],
+  "issues": [
+    "sensitive_topic_without_context"
+  ],
+  "scored": true,
+  "passed": false,
+  "error": null
+}

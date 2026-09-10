@@ -1,0 +1,18 @@
+{
+  "label": "Published placeholder content",
+  "source": "artificial",
+  "url": "http://127.0.0.1:8088/pages/incomplete-placeholder-content.html",
+  "expectedClassification": "unhealthy",
+  "classification": "unhealthy",
+  "requiredIssues": [
+    "published_placeholder_content"
+  ],
+  "allowedIssues": [],
+  "forbiddenIssues": [],
+  "issues": [
+    "published_placeholder_content"
+  ],
+  "scored": true,
+  "passed": true,
+  "error": null
+}

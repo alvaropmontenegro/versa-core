@@ -1,0 +1,135 @@
+[
+  {
+    "label": "Healthy support guide",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/healthy-support-doc.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "titlePromiseAssessment": {
+      "titleQuote": "How to Set Up Team Permissions",
+      "titlePromise": "Instructions for setting up team permissions in Meridian.",
+      "fulfillment": "fulfilled",
+      "reason": "The page delivers step-by-step setup guidance for team permissions, including prerequisites, role assignment, project-level permissions, and verification.",
+      "bodyEvidenceQuote": "Step-by-Step Setup"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Step-by-Step Setup"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Title and body cover different subjects",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/title-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "titlePromiseAssessment": {
+      "titleQuote": "10 Best Project Management Tools Compared (2025)",
+      "titlePromise": "A comparison of 10 project management tools, likely including how they differ or rank in 2025.",
+      "fulfillment": "not_fulfilled",
+      "reason": "The title promises a comparison of 10 tools, but the body mainly presents Meridian Digital as a single product with features, pricing, and a trial offer rather than comparing ten tools.",
+      "bodyEvidenceQuote": "Meridian Digital was designed from the ground up to eliminate the friction that slows teams down."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Meridian Digital was designed from the ground up to eliminate the friction that slows teams down."
+    },
+    "requiredIssues": [
+      "title_body_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "title_body_mismatch"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Unsafe sensitive-topic guidance",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/sensitive-topic-bad.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "titlePromiseAssessment": {
+      "titleQuote": "How Support Agents Should Reply to Self-Harm Messages",
+      "titlePromise": "Instructions for support agents on how to respond to self-harm messages.",
+      "fulfillment": "fulfilled",
+      "reason": "The body provides direct response guidance for self-harm messages, including recommended response flow and escalation handling.",
+      "bodyEvidenceQuote": "Recommended response flow"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Recommended response flow"
+    },
+    "requiredIssues": [
+      "sensitive_topic_without_context"
+    ],
+    "allowedIssues": [
+      "brand_safety_risk"
+    ],
+    "forbiddenIssues": [],
+    "issues": [
+      "sensitive_topic_without_context"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Endesa Santa Coloma placeholder and writing errors",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/endesa-santa-coloma-placeholder.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "titlePromiseAssessment": {
+      "titleQuote": "Calle Rambla de San Sebastián, 42, Santa Coloma De Gramenet, Barcelona",
+      "titlePromise": "A page about the specific Endesa office/location at this address.",
+      "fulfillment": "fulfilled",
+      "reason": "The body content presents the same office/location and related service information, so the title's location-based expectation is delivered.",
+      "bodyEvidenceQuote": "Encuentra tu Punto Endesa más cercano para contratar Energía, Placas Solares o Movilidad eléctrica"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Encuentra tu Punto Endesa más cercano para contratar Energía, Placas Solares o Movilidad eléctrica"
+    },
+    "requiredIssues": [
+      "published_placeholder_content",
+      "writing_errors"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "published_placeholder_content",
+      "writing_errors",
+      "unprofessional_writing"
+    ],
+    "scored": true,
+    "passed": false,
+    "error": null
+  }
+]

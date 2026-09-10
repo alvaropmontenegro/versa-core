@@ -1,0 +1,134 @@
+[
+  {
+    "label": "Cylogy containerization",
+    "source": "live",
+    "url": "https://www.cylogy.com/services/hosting-infrastructure/sitecore-containerization/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy service page about Sitecore containerization. It explains benefits of using a container-based architecture for Sitecore implementations, including local development, deployment, and monitoring. The page also includes a section of customer success stories and calls to view more stories or contact the company.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Sitecore Containerization",
+      "titlePromise": "The page should provide substantive information about Sitecore containerization.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the same subject with explanations of container-based architecture, deployment, local environments, monitoring, and related service examples.",
+      "bodyEvidenceQuote": "Whether you’re working on a new Sitecore implementation or have an existing one that you’re looking to optimize, choosing a container-based architecture has many benefits."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Whether you’re working on a new Sitecore implementation or have an existing one that you’re looking to optimize, choosing a container-based architecture has many benefits."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Marketo technology",
+    "source": "live",
+    "url": "https://www.cylogy.com/technologies/marketo/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy technology page about Adobe/Marketo Engage. It describes Marketo as a marketing automation platform and outlines related capabilities such as lead management, email marketing, ABM, personalization, and Salesforce integration. The page also includes links to related services and a series of customer success stories.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Adobe/Marketo Engage",
+      "titlePromise": "A page about Adobe/Marketo Engage, likely describing the product and related services or capabilities.",
+      "fulfillment": "fulfilled",
+      "reason": "The body content discusses Marketo extensively, including marketing automation, lead management, email marketing, ABM, personalization, and Salesforce integration, which matches the title's subject.",
+      "bodyEvidenceQuote": "Marketo is a comprehensive marketing automation software built to help organizations automate and measure marketing engagement, tasks and workflows and centralize all materials, templates and reports for every kind of campaign from email to ABM to social media."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Marketo is a comprehensive marketing automation software built to help organizations automate and measure marketing engagement, tasks and workflows and centralize all materials, templates and reports for every kind of campaign from email to ABM to social media."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Sitecore CDP technology",
+    "source": "live",
+    "url": "https://www.cylogy.com/technologies/sitecore-cdp/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy technology landing page focused on Sitecore CDP. It describes the platform’s customer data, real-time insights, segmentation, and omnichannel capabilities, and it includes related technology mentions and customer success story teasers. The page is aimed at readers evaluating Sitecore CDP or related digital experience solutions.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Sitecore CDP",
+      "titlePromise": "A page about Sitecore CDP, expecting substantive information on that product or topic.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops Sitecore CDP with an overview, capabilities, and related technology context, so the page delivers the subject promised by the title.",
+      "bodyEvidenceQuote": "What is Sitecore CDP?"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "What is Sitecore CDP?"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Symposium 2020 recap",
+    "source": "live",
+    "url": "https://www.cylogy.com/insights/5-takeaways-from-the-2020-sitecore-symposium/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a blog article in the Cylogy Insights section about the 2020 Sitecore Symposium. It presents five takeaways from the event, focusing on Sitecore’s customer-centric strategy, Content Hub, automation for personalization, SaaS plans, and leadership ambitions. The page also includes related-post links and a contact form for readers who want help.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "5 takeaways from the 2020 Sitecore Symposium",
+      "titlePromise": "A list of five takeaways from the 2020 Sitecore Symposium.",
+      "fulfillment": "fulfilled",
+      "reason": "The body presents five numbered takeaways and discusses the symposium throughout the article.",
+      "bodyEvidenceQuote": "1. The future requires even more customer-centric and granular approaches"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "1. The future requires even more customer-centric and granular approaches"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  }
+]

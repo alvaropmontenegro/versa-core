@@ -1,0 +1,182 @@
+{
+  "label": "Endesa Santa Coloma placeholder and writing errors",
+  "source": "snapshot",
+  "url": "http://127.0.0.1:8089/endesa-santa-coloma-placeholder.html",
+  "expectedClassification": "unhealthy",
+  "classification": "unhealthy",
+  "insufficientEvidence": false,
+  "assessmentInvalid": false,
+  "model": "gpt-5.4-mini",
+  "pageSummary": "This is a Spanish local service page for an Endesa office at Calle Rambla de San Sebastián, 42, Santa Coloma De Gramenet, Barcelona. It presents nearby Endesa services such as energy, solar panels, and electric mobility, and includes a call to action to request an appointment. The page also mentions that there is no permanence and that users can change tariffs or companies without penalty.",
+  "recommendationsComplete": true,
+  "titlePromiseAssessment": {
+    "titleQuote": "Calle Rambla de San Sebastián, 42, Santa Coloma De Gramenet, Barcelona",
+    "titlePromise": "The page is expected to provide information about the Endesa office or point at this specific address in Santa Coloma De Gramenet, Barcelona.",
+    "fulfillment": "fulfilled",
+    "reason": "The body develops the same local office/location subject by inviting users to find the nearest Endesa point and by listing services and an appointment action for that address context.",
+    "bodyEvidenceQuote": "Encuentra tu Punto Endesa más cercano para contratar Energía, Placas Solares o Movilidad eléctrica"
+  },
+  "titlePromiseValidation": {
+    "status": "valid",
+    "reason": "literal_evidence_valid",
+    "normalizedBodyEvidenceQuote": "Encuentra tu Punto Endesa más cercano para contratar Energía, Placas Solares o Movilidad eléctrica"
+  },
+  "requiredIssues": [
+    "published_placeholder_content",
+    "writing_errors"
+  ],
+  "allowedIssues": [],
+  "forbiddenIssues": [],
+  "issues": [
+    "writing_errors",
+    "published_placeholder_content"
+  ],
+  "issueDetails": [
+    {
+      "code": "writing_errors",
+      "reason": "In Spanish, the noun is normally written with the accent: \"decisión\". The original \"decision\" is a spelling error in this context, and the proposed correction preserves the intended meaning.",
+      "contradictionKind": "none",
+      "contradictionCondition": "",
+      "claimAPolarity": "none",
+      "claimBPolarity": "none",
+      "claimAValue": "",
+      "claimBValue": "",
+      "evidence": [
+        {
+          "quote": "Toma una decision formidable",
+          "purpose": "writing_error",
+          "errorType": "spelling",
+          "problemSpan": "decision",
+          "explanation": "In Spanish, the noun is normally written with the accent: \"decisión\". The original \"decision\" is a spelling error in this context, and the proposed correction preserves the intended meaning.",
+          "correctionStatus": "safe",
+          "correctedQuote": "Toma una decisión formidable",
+          "verification": {
+            "candidateIndex": 0,
+            "decision": "confirmed_error",
+            "correctionSafe": true,
+            "reason": "In Spanish, the noun is normally written with the accent: \"decisión\". The original \"decision\" is a spelling error in this context, and the proposed correction preserves the intended meaning."
+          },
+          "blockRole": "prose",
+          "blockId": "block-527",
+          "edit": {
+            "start": 9,
+            "length": 8,
+            "replacement": "decisión"
+          }
+        }
+      ],
+      "pageQuotes": [
+        "Toma una decision formidable"
+      ],
+      "source": "page",
+      "recommendation": {
+        "summary": "Correct the objective writing errors identified in the cited sentences.",
+        "suggestedCorrections": [
+          {
+            "original": "Toma una decision formidable",
+            "suggestion": "Toma una decisión formidable",
+            "pageQuote": "Toma una decision formidable",
+            "problemSpan": "decision",
+            "edit": {
+              "start": 9,
+              "length": 8,
+              "replacement": "decisión"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "code": "published_placeholder_content",
+      "reason": "This visible block contains explicit placeholder filler text and is reader-facing unfinished content.",
+      "contradictionKind": "none",
+      "contradictionCondition": "",
+      "claimAPolarity": "none",
+      "claimBPolarity": "none",
+      "claimAValue": "",
+      "claimBValue": "",
+      "evidence": [
+        {
+          "quote": "Loresm imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl.",
+          "purpose": "page_evidence",
+          "errorType": "none",
+          "problemSpan": "",
+          "explanation": "",
+          "correctionOrRule": "none",
+          "suggestionConfidence": "none",
+          "correctedQuote": "",
+          "blockRole": "ui_text",
+          "blockId": "block-258"
+        }
+      ],
+      "pageQuotes": [
+        "Loresm imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl."
+      ],
+      "source": "page",
+      "recommendation": {
+        "summary": "Replace the cited placeholder content with reviewed final copy before keeping the page published.",
+        "suggestedCorrections": []
+      }
+    }
+  ],
+  "rejectedIssues": [],
+  "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+  "auditScope": {
+    "content": "eligible_snapshot_blocks",
+    "includesRecurringContent": true,
+    "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+    "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+    "recurrence": "unknown_within_single_page"
+  },
+  "pipelineStages": [
+    {
+      "stage": "page_understanding",
+      "status": "completed",
+      "model": "gpt-5.4-mini",
+      "usage": {
+        "promptTokens": 1583,
+        "completionTokens": 347,
+        "totalTokens": 1930
+      },
+      "error": null
+    },
+    {
+      "stage": "editorial_quality_inspection",
+      "status": "completed",
+      "model": "gpt-5.4-mini",
+      "usage": {
+        "promptTokens": 1420,
+        "completionTokens": 178,
+        "totalTokens": 1598
+      },
+      "error": null
+    },
+    {
+      "stage": "writing_verification",
+      "status": "completed",
+      "model": "gpt-5.4-mini",
+      "usage": {
+        "promptTokens": 717,
+        "completionTokens": 73,
+        "totalTokens": 790
+      },
+      "error": null
+    }
+  ],
+  "evidencePassed": false,
+  "forbiddenWritingEvidence": [],
+  "duplicateWritingEvidence": [],
+  "missingCorrections": [
+    {
+      "quote": "Sin permanencia: puedes cambiarte de tarifa (o de compañia) sin penalización.",
+      "problemSpan": "compañia",
+      "errorType": "spelling",
+      "correctionStatus": "safe",
+      "correctedQuote": "Sin permanencia: puedes cambiarte de tarifa (o de compañía) sin penalización."
+    }
+  ],
+  "unexpectedCorrections": [],
+  "scored": true,
+  "passed": false,
+  "error": null
+}

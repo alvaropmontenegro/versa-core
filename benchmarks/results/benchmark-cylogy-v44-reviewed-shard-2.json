@@ -1,0 +1,1119 @@
+[
+  {
+    "label": "Cylogy partners",
+    "source": "live",
+    "url": "https://www.cylogy.com/company/partners/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a company partners page for Cylogy. It introduces partner agencies and briefly describes how they support Cylogy’s design, UX, content strategy, and digital experience work. The page also highlights Cylogy services and several customer success stories with calls to view more details.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Partners",
+      "titlePromise": "The page is expected to present Cylogy’s partners or partner relationships.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly develops the partner subject by introducing multiple agencies and describing Cylogy’s partnerships with them.",
+      "bodyEvidenceQuote": "At Cylogy, we’ve partnered with best-in-class design, UX, and content strategy agencies to deliver superior digital experiences to our clients."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "At Cylogy, we’ve partnered with best-in-class design, UX, and content strategy agencies to deliver superior digital experiences to our clients."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "The comma after ‘redesign’ splits the subject from its verb in a way that is not grammatical in standard usage. The proposed fix removes the comma, but agreement/structure issues should not be approved as a safe repair here.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors. Discover how we optimized the user experience!",
+            "purpose": "writing_error",
+            "errorType": "punctuation",
+            "problemSpan": "redesign, features",
+            "explanation": "The comma after ‘redesign’ splits the subject from its verb in a way that is not grammatical in standard usage. The proposed fix removes the comma, but agreement/structure issues should not be approved as a safe repair here.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "verification": {
+              "candidateIndex": 3,
+              "decision": "confirmed_error",
+              "correctionSafe": false,
+              "reason": "The comma after ‘redesign’ splits the subject from its verb in a way that is not grammatical in standard usage. The proposed fix removes the comma, but agreement/structure issues should not be approved as a safe repair here."
+            },
+            "correctionPolicy": "verifier_requires_review",
+            "blockRole": "ui_text",
+            "blockId": "block-2821"
+          }
+        ],
+        "pageQuotes": [
+          "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors. Discover how we optimized the user experience!"
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Apply safe corrections and review errors without an unambiguous correction.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [
+      {
+        "code": "writing_errors",
+        "reason": "The hyphenated compound is broken by an internal space, which makes the phrase incorrectly punctuated in this block. Removing the space yields the standard form and preserves the intended meaning.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Lowercase Productions is an award winning team of innovators, architects, visual planners and design experts, all focused on improving the way we communicate in the digital world by delivering one-of- a-kind designs that communicate clear messages to consumers. Recent Projects: Spare the Air Redesign",
+            "purpose": "writing_error",
+            "errorType": "punctuation",
+            "problemSpan": "one-of- a-kind",
+            "explanation": "The hyphenated compound is broken by an internal space, which makes the phrase incorrectly punctuated in this block. Removing the space yields the standard form and preserves the intended meaning.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Lowercase Productions is an award winning team of innovators, architects, visual planners and design experts, all focused on improving the way we communicate in the digital world by delivering one-of-a-kind designs that communicate clear messages to consumers. Recent Projects: Spare the Air Redesign",
+            "verification": {
+              "candidateIndex": 0,
+              "decision": "accepted_usage",
+              "correctionSafe": false,
+              "reason": "The phrase is readable as an informal hyphenation/spacing variant of the compound ‘one-of-a-kind’. The original block still has a valid interpretation, so this is not a confirmed error."
+            }
+          }
+        ],
+        "rejectionReason": "writing_verification_did_not_confirm_defect"
+      },
+      {
+        "code": "writing_errors",
+        "reason": "The compound modifier is missing a required hyphen in this block. Adding the hyphen fixes the objective spelling/punctuation error without changing the meaning.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Civic Edge Consulting is an employee-owned, womenled business based in San Francisco, providing responsive public relations, strategic messaging and communications along with authentic community engagements throughout the bay area. Recent Projects: Spare the Air Redesign",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "womenled",
+            "explanation": "The compound modifier is missing a required hyphen in this block. Adding the hyphen fixes the objective spelling/punctuation error without changing the meaning.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Civic Edge Consulting is an employee-owned, women-led business based in San Francisco, providing responsive public relations, strategic messaging and communications along with authentic community engagements throughout the bay area. Recent Projects: Spare the Air Redesign",
+            "verification": {
+              "candidateIndex": 1,
+              "decision": "accepted_usage",
+              "correctionSafe": false,
+              "reason": "‘womenled’ is nonstandard, but the complete block can still be read as intended branding or compressed compound usage. No mandatory rule is clearly broken in the supplied text."
+            }
+          }
+        ],
+        "rejectionReason": "writing_verification_did_not_confirm_defect"
+      },
+      {
+        "code": "writing_errors",
+        "reason": "In this block, the proper noun is written without the required capitalization. Capitalizing both words corrects the objective writing error.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Civic Edge Consulting is an employee-owned, womenled business based in San Francisco, providing responsive public relations, strategic messaging and communications along with authentic community engagements throughout the bay area. Recent Projects: Spare the Air Redesign",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "bay area",
+            "explanation": "In this block, the proper noun is written without the required capitalization. Capitalizing both words corrects the objective writing error.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Civic Edge Consulting is an employee-owned, women-led business based in San Francisco, providing responsive public relations, strategic messaging and communications along with authentic community engagements throughout the Bay Area. Recent Projects: Spare the Air Redesign",
+            "verification": {
+              "candidateIndex": 2,
+              "decision": "accepted_usage",
+              "correctionSafe": false,
+              "reason": "‘Bay area’ can be read as a common place-name reference, and the capitalization choice is a style preference rather than a demonstrable error in this snapshot."
+            }
+          }
+        ],
+        "rejectionReason": "writing_verification_did_not_confirm_defect"
+      }
+    ],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2195,
+          "completionTokens": 246,
+          "totalTokens": 2441
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2032,
+          "completionTokens": 627,
+          "totalTokens": 2659
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_verification",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1853,
+          "completionTokens": 243,
+          "totalTokens": 2096
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy careers",
+    "source": "live",
+    "url": "https://www.cylogy.com/company/careers/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a careers page for Cylogy aimed at prospective employees. It highlights remote work, flexibility, collaboration, global team locations, and benefits, and invites readers to join the team. The page presents the company’s vision and workplace culture rather than a specific job listing.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Join the Cylogy Team!",
+      "titlePromise": "The page will present Cylogy’s careers opportunity and explain what it is like to work there, likely encouraging applicants to join the team.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the promised careers/workplace subject by describing remote work, team culture, flexibility, benefits, and the company vision for employees.",
+      "bodyEvidenceQuote": "Looking for a career where you can work remotely, expand your skillset, and help build exceptional digital experiences for your clients?"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Looking for a career where you can work remotely, expand your skillset, and help build exceptional digital experiences for your clients?"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "‘everyday’ is used where the adverbial phrase ‘every day’ is required. The proposed correction fixes the error without changing the intended meaning.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "At Cylogy we encourage collaboration and intellectual curiosity. We practice this everyday by allowing space for team members to express their ideas; big or small. This keeps our teams engaged and helps us continually deliver innovation to our clients.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "everyday",
+            "explanation": "‘everyday’ is used where the adverbial phrase ‘every day’ is required. The proposed correction fixes the error without changing the intended meaning.",
+            "correctionStatus": "safe",
+            "correctedQuote": "At Cylogy we encourage collaboration and intellectual curiosity. We practice this every day by allowing space for team members to express their ideas; big or small. This keeps our teams engaged and helps us continually deliver innovation to our clients.",
+            "verification": {
+              "candidateIndex": 0,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "‘everyday’ is used where the adverbial phrase ‘every day’ is required. The proposed correction fixes the error without changing the intended meaning."
+            },
+            "blockRole": "ui_text",
+            "blockId": "block-1489",
+            "edit": {
+              "start": 82,
+              "length": 8,
+              "replacement": "every day"
+            }
+          }
+        ],
+        "pageQuotes": [
+          "At Cylogy we encourage collaboration and intellectual curiosity. We practice this everyday by allowing space for team members to express their ideas; big or small. This keeps our teams engaged and helps us continually deliver innovation to our clients."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Correct the objective writing errors identified in the cited sentences.",
+          "suggestedCorrections": [
+            {
+              "original": "At Cylogy we encourage collaboration and intellectual curiosity. We practice this everyday by allowing space for team members to express their ideas; big or small. This keeps our teams engaged and helps us continually deliver innovation to our clients.",
+              "suggestion": "At Cylogy we encourage collaboration and intellectual curiosity. We practice this every day by allowing space for team members to express their ideas; big or small. This keeps our teams engaged and helps us continually deliver innovation to our clients.",
+              "pageQuote": "At Cylogy we encourage collaboration and intellectual curiosity. We practice this everyday by allowing space for team members to express their ideas; big or small. This keeps our teams engaged and helps us continually deliver innovation to our clients.",
+              "problemSpan": "everyday",
+              "edit": {
+                "start": 82,
+                "length": 8,
+                "replacement": "every day"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1821,
+          "completionTokens": 271,
+          "totalTokens": 2092
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1658,
+          "completionTokens": 197,
+          "totalTokens": 1855
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_verification",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1059,
+          "completionTokens": 65,
+          "totalTokens": 1124
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy contact",
+    "source": "live",
+    "url": "https://www.cylogy.com/contact-us/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a simple contact page for Cylogy. It presents the company name and its San Francisco address, along with a phone number and email address for getting in touch. The page is aimed at visitors who want to contact the company directly.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Contact Us",
+      "titlePromise": "The page will provide ways to contact Cylogy or information for reaching the company.",
+      "fulfillment": "fulfilled",
+      "reason": "The body presents the company name, postal address, phone number, and email address, which directly delivers the contact information promised by the title.",
+      "bodyEvidenceQuote": "600 California St. 11th Floor San Francisco, CA 94108 United States"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "600 California St. 11th Floor San Francisco, CA 94108 United States"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1491,
+          "completionTokens": 243,
+          "totalTokens": 1734
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1328,
+          "completionTokens": 25,
+          "totalTokens": 1353
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Pelion project",
+    "source": "live",
+    "url": "https://www.cylogy.com/project/pelion/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a portfolio/project case study page about Cylogy’s rapid build and launch of the Pelion Corp site. It describes the project goals, the 10-week timeline, the WordPress-based implementation, and supporting features such as search, security, and marketing automation. The page is aimed at readers evaluating Cylogy’s web development work and project capabilities.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Pelion Corp Site Rapid Build and Launch",
+      "titlePromise": "The page is expected to describe a rapid build and launch project for Pelion’s corporate website, including what was built and how it was delivered.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops the promised project case study by explaining the website build, the 10-week launch timeline, the WordPress implementation, and related project details.",
+      "bodyEvidenceQuote": "With only 10 weeks to design and launch the website from scratch, the close-knit project team worked to an aggressive project schedule using a hybrid agile methodology, with parallel mini-cycles of design, development and content entry for different parts of the site."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "With only 10 weeks to design and launch the website from scratch, the close-knit project team worked to an aggressive project schedule using a hybrid agile methodology, with parallel mini-cycles of design, development and content entry for different parts of the site."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2442,
+          "completionTokens": 350,
+          "totalTokens": 2792
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2279,
+          "completionTokens": 25,
+          "totalTokens": 2304
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Qlik project",
+    "source": "live",
+    "url": "https://www.cylogy.com/project/qlik-change-management/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a portfolio/project case study page about Qlik Change Management Strategy & Implementation. It describes how Cylogy worked with Qlik to automate deployments, define a DevOps and release strategy, and reduce manual intervention across multiple systems and environments. The page also lists project facts, services, and partner sections.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Qlik Change Management Strategy & Implementation",
+      "titlePromise": "The page is expected to explain a Qlik-focused change management strategy and implementation project, including what was done and how it was carried out.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops the promised Qlik change management and implementation project by describing deployment automation, DevOps strategy, release and hotfix processes, and the tools used.",
+      "bodyEvidenceQuote": "We started by defining a DevOps strategy to set up a foundation for success."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "We started by defining a DevOps strategy to set up a foundation for success."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2010,
+          "completionTokens": 287,
+          "totalTokens": 2297
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1847,
+          "completionTokens": 25,
+          "totalTokens": 1872
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Sabre project",
+    "source": "live",
+    "url": "https://www.cylogy.com/project/sabre/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a portfolio/project case study page about the Sabre Travel Network Support Portal. It describes Cylogy’s rebuild of Sabre’s international support platform on Sitecore, including modernization goals, analytics integration, and editor usability. The page also lists project services, technology context, and background on Sabre Travel Network.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Sabre Travel Network Support Portal",
+      "titlePromise": "The page is expected to describe or showcase a support portal for Sabre Travel Network, likely as a project or portfolio case study.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops the Sabre Travel Network support portal project, including the rebuild, platform details, and related project information.",
+      "bodyEvidenceQuote": "A full rebuild of Sabre’s extensive international support platform on Sitecore using advanced analytics features."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "A full rebuild of Sabre’s extensive international support platform on Sitecore using advanced analytics features."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1911,
+          "completionTokens": 301,
+          "totalTokens": 2212
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1748,
+          "completionTokens": 25,
+          "totalTokens": 1773
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Symposium 2020 recap",
+    "source": "live",
+    "url": "https://www.cylogy.com/insights/5-takeaways-from-the-2020-sitecore-symposium/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy Insights blog post about the 2020 Sitecore Symposium. It presents five takeaways covering customer-centric experiences, Content Hub, automation and personalization, SaaS plans, and Sitecore leadership ambitions. The page is aimed at readers interested in Sitecore and digital marketing platform strategy.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "5 takeaways from the 2020 Sitecore Symposium",
+      "titlePromise": "The page will present five takeaways or key points from the 2020 Sitecore Symposium.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly develops five numbered takeaways from the symposium and discusses each one in detail, matching the title’s promise.",
+      "bodyEvidenceQuote": "Here’s five key takeaways from the 2020 Sitecore Symposium."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Here’s five key takeaways from the 2020 Sitecore Symposium."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "\"are more\" is an incomplete list ending; the intended fixed phrase is \"and more.\" The proposed correction cleanly repairs the punctuation/wording. \"Here’s five\" conflicts with the plural noun phrase that follows. \"Here are five\" is the straightforward correction. \"This fact that\" is not a valid noun phrase here; the sentence needs \"The fact that\" or similar. The proposed change fixes the demonstrated error. The clause after \"as\" is missing an explicit subject, so the sentence is defective. However, the repair is not uniquely determined from the text, so the proposed correction is not safely approved.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+            "purpose": "writing_error",
+            "errorType": "punctuation",
+            "problemSpan": "are more",
+            "explanation": "\"are more\" is an incomplete list ending; the intended fixed phrase is \"and more.\" The proposed correction cleanly repairs the punctuation/wording.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes and more.",
+            "verification": {
+              "candidateIndex": 1,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "\"are more\" is an incomplete list ending; the intended fixed phrase is \"and more.\" The proposed correction cleanly repairs the punctuation/wording."
+            },
+            "blockRole": "prose",
+            "blockId": "block-239",
+            "edit": {
+              "start": 234,
+              "length": 8,
+              "replacement": "and more"
+            }
+          },
+          {
+            "quote": "Here’s five key takeaways from the 2020 Sitecore Symposium.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "Here’s five",
+            "explanation": "\"Here’s five\" conflicts with the plural noun phrase that follows. \"Here are five\" is the straightforward correction.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Here are five key takeaways from the 2020 Sitecore Symposium.",
+            "verification": {
+              "candidateIndex": 2,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "\"Here’s five\" conflicts with the plural noun phrase that follows. \"Here are five\" is the straightforward correction."
+            },
+            "blockRole": "prose",
+            "blockId": "block-929",
+            "edit": {
+              "start": 0,
+              "length": 11,
+              "replacement": "Here are five"
+            }
+          },
+          {
+            "quote": "This fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "This fact that",
+            "explanation": "\"This fact that\" is not a valid noun phrase here; the sentence needs \"The fact that\" or similar. The proposed change fixes the demonstrated error.",
+            "correctionStatus": "safe",
+            "correctedQuote": "The fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.",
+            "verification": {
+              "candidateIndex": 3,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "\"This fact that\" is not a valid noun phrase here; the sentence needs \"The fact that\" or similar. The proposed change fixes the demonstrated error."
+            },
+            "blockRole": "prose",
+            "blockId": "block-2628",
+            "edit": {
+              "start": 0,
+              "length": 14,
+              "replacement": "The fact that"
+            }
+          },
+          {
+            "quote": "It also makes good sense for Sitecore as effectively makes the platform a whole digital marketing and content ecosystem.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "as effectively makes",
+            "explanation": "The clause after \"as\" is missing an explicit subject, so the sentence is defective. However, the repair is not uniquely determined from the text, so the proposed correction is not safely approved.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "verification": {
+              "candidateIndex": 4,
+              "decision": "confirmed_error",
+              "correctionSafe": false,
+              "reason": "The clause after \"as\" is missing an explicit subject, so the sentence is defective. However, the repair is not uniquely determined from the text, so the proposed correction is not safely approved."
+            },
+            "correctionPolicy": "verifier_requires_review",
+            "blockRole": "prose",
+            "blockId": "block-2628"
+          }
+        ],
+        "pageQuotes": [
+          "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+          "Here’s five key takeaways from the 2020 Sitecore Symposium.",
+          "This fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.",
+          "It also makes good sense for Sitecore as effectively makes the platform a whole digital marketing and content ecosystem."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Apply safe corrections and review errors without an unambiguous correction.",
+          "suggestedCorrections": [
+            {
+              "original": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+              "suggestion": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes and more.",
+              "pageQuote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+              "problemSpan": "are more",
+              "edit": {
+                "start": 234,
+                "length": 8,
+                "replacement": "and more"
+              }
+            },
+            {
+              "original": "Here’s five key takeaways from the 2020 Sitecore Symposium.",
+              "suggestion": "Here are five key takeaways from the 2020 Sitecore Symposium.",
+              "pageQuote": "Here’s five key takeaways from the 2020 Sitecore Symposium.",
+              "problemSpan": "Here’s five",
+              "edit": {
+                "start": 0,
+                "length": 11,
+                "replacement": "Here are five"
+              }
+            },
+            {
+              "original": "This fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.",
+              "suggestion": "The fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.",
+              "pageQuote": "This fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.",
+              "problemSpan": "This fact that",
+              "edit": {
+                "start": 0,
+                "length": 14,
+                "replacement": "The fact that"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [
+      {
+        "code": "writing_errors",
+        "reason": "The subject \"team\" is singular here, so the verb must agree in number. \"attend\" makes the sentence ungrammatical in this context; \"attends\" fixes the agreement error.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "attend",
+            "explanation": "The subject \"team\" is singular here, so the verb must agree in number. \"attend\" makes the sentence ungrammatical in this context; \"attends\" fixes the agreement error.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Each year the Cylogy team attends the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+            "verification": {
+              "candidateIndex": 0,
+              "decision": "accepted_usage",
+              "correctionSafe": false,
+              "reason": "The original can be read as British-style collective-noun agreement, where \"the Cylogy team\" takes a plural verb. The sentence is still awkward, but not a confirmed grammar error from the supplied text alone."
+            }
+          }
+        ],
+        "rejectionReason": "writing_verification_did_not_confirm_defect"
+      },
+      {
+        "code": "writing_errors",
+        "reason": "The proper name is misspelled in this block. The visible text uses \"Tzikaki,\" which is an invalid spelling of the name as written elsewhere on the page; correcting the missing letter fixes the typo.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Here, two things stuck out for me that bode well for the future. Firstly, Tzikaki wasn’t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency.",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "Tzikaki",
+            "explanation": "The proper name is misspelled in this block. The visible text uses \"Tzikaki,\" which is an invalid spelling of the name as written elsewhere on the page; correcting the missing letter fixes the typo.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Here, two things stuck out for me that bode well for the future. Firstly, Tzikakis wasn’t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency.",
+            "verification": {
+              "candidateIndex": 5,
+              "decision": "uncertain",
+              "correctionSafe": false,
+              "reason": "The name appears inconsistent with the later occurrence on the page, but the supplied snapshot does not establish a mandatory spelling rule violation with certainty. This is best treated as uncertain."
+            }
+          }
+        ],
+        "rejectionReason": "writing_verification_did_not_confirm_defect"
+      }
+    ],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 3036,
+          "completionTokens": 278,
+          "totalTokens": 3314
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2873,
+          "completionTokens": 809,
+          "totalTokens": 3682
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_verification",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2956,
+          "completionTokens": 333,
+          "totalTokens": 3289
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Symposium 2024 preview",
+    "source": "live",
+    "url": "https://www.cylogy.com/insights/what-to-look-forward-to-at-the-sitecore-symposium/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy Insights blog post about the 2024 Sitecore Symposium. It highlights anticipated keynotes, breakout sessions, networking, hands-on workshops, product roadmap updates, community engagement, and the event venue in Nashville. The page is aimed at readers interested in Sitecore and encourages them to register for the event.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "What to Look Forward to at the 2024 Sitecore Symposium",
+      "titlePromise": "The page will describe anticipated highlights, experiences, or reasons to attend the 2024 Sitecore Symposium.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops exactly that subject by previewing keynote speakers, breakout sessions, networking, workshops, product updates, community engagement, the venue, and Nashville activities.",
+      "bodyEvidenceQuote": "One of the highlights of the Sitecore Symposium is the lineup of keynote speakers who are at the forefront of digital innovation."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "One of the highlights of the Sitecore Symposium is the lineup of keynote speakers who are at the forefront of digital innovation."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2921,
+          "completionTokens": 309,
+          "totalTokens": 3230
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2758,
+          "completionTokens": 25,
+          "totalTokens": 2783
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Sitecore SaaS",
+    "source": "live",
+    "url": "https://www.cylogy.com/insights/sitecores-move-to-a-saas-model-key-questions-for-new-and-existing-customers/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a simple website error page for Cylogy. It states that the requested page is not available and provides a return-home option. The visible content is minimal and does not present the intended article or service content.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Page is not found",
+      "titlePromise": "The page will tell the reader that the requested page cannot be found or is unavailable.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly matches the title’s expectation by stating that the page is missing and offering a way back home.",
+      "bodyEvidenceQuote": "We’re sorry the page that you are looking for is not here. Return Home"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "We’re sorry the page that you are looking for is not here. Return Home"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1459,
+          "completionTokens": 245,
+          "totalTokens": 1704
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1296,
+          "completionTokens": 25,
+          "totalTokens": 1321
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy content migration",
+    "source": "live",
+    "url": "https://www.cylogy.com/insights/7-essential-ingredients-of-a-successful-content-migration/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy Insights blog article about content migration for website projects. It presents seven recommended practices, including auditing content, starting early, using content strategy, planning redirects, cleaning up media assets, and using automation carefully. The page also includes related-post links and a contact form for readers who want help with content migration.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "7 essential ingredients of a successful content migration",
+      "titlePromise": "The title promises an article explaining seven key components or best practices for making a content migration successful.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly develops the promised subject by presenting seven numbered sections about content migration practices and supporting them with detailed guidance.",
+      "bodyEvidenceQuote": "In this post, we’re going to explore what we see as seven essential ingredients of a successful content migration."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "In this post, we’re going to explore what we see as seven essential ingredients of a successful content migration."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 3220,
+          "completionTokens": 276,
+          "totalTokens": 3496
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 3057,
+          "completionTokens": 25,
+          "totalTokens": 3082
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  }
+]

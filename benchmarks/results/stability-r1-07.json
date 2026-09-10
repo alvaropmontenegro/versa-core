@@ -1,0 +1,18 @@
+{
+  "label": "Objective spelling and grammar errors",
+  "source": "artificial",
+  "url": "http://127.0.0.1:8088/pages/writing-errors.html",
+  "expectedClassification": "unhealthy",
+  "classification": "unhealthy",
+  "requiredIssues": [
+    "writing_errors"
+  ],
+  "allowedIssues": [],
+  "forbiddenIssues": [],
+  "issues": [
+    "writing_errors"
+  ],
+  "scored": true,
+  "passed": true,
+  "error": null
+}

@@ -1,0 +1,831 @@
+{
+  "recurringContexts": [
+    {
+      "sentenceContext": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+      "recurrence": "observed_across_pages",
+      "componentIdentity": "unverified",
+      "pageCount": 5,
+      "occurrences": [
+        {
+          "sentenceContext": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/sitecore/",
+          "quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+          "problemSpan": "connect and engagement",
+          "blockId": "block-2906",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engage with their customers more effectively.",
+          "explanation": "\"Connect and engagement\" is not a valid parallel construction. Replacing \"engagement\" with \"engage\" yields a grammatical phrase and preserves the sentence’s meaning."
+        },
+        {
+          "sentenceContext": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/marketo/",
+          "quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:",
+          "problemSpan": "connect and engagement",
+          "blockId": "block-2133",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engage with their customers more effectively. Related Services:",
+          "explanation": "‘connect and engagement’ breaks parallel verb form: ‘connect’ is a verb but ‘engagement’ is a noun. Replacing it with ‘engage’ yields a grammatical coordinated verb phrase, and the repair is safe."
+        },
+        {
+          "sentenceContext": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/google-analytics/",
+          "quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:",
+          "problemSpan": "connect and engagement",
+          "blockId": "block-2871",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engage with their customers more effectively. Related Services:",
+          "explanation": "‘connect and engagement’ is not parallel: a verb is coordinated with a noun. Changing it to ‘connect and engage’ repairs the grammar cleanly."
+        },
+        {
+          "sentenceContext": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/contentful/",
+          "quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+          "problemSpan": "connect and engagement",
+          "blockId": "block-2105",
+          "blockRole": "ui_text",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null,
+          "explanation": "The phrase “connect and engagement” is not parallel: a verb is coordinated with a noun. The sentence needs repair, but the exact intended fix is not fully determined from the snapshot, so correctionSafe is false."
+        },
+        {
+          "sentenceContext": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/sitecore-cdp/",
+          "quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:",
+          "problemSpan": "helping brands of all sizes and industries, connect and engagement with their customers more effectively",
+          "blockId": "block-1609",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries connect and engage with their customers more effectively. Related Services:",
+          "explanation": "The original has a clear grammar error: the phrase \"connect and engagement\" breaks parallel structure, and \"helping brands ...\" is awkwardly attached to the preceding clause. The proposed correction restores a valid parallel verb phrase and keeps the intended meaning."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+      "recurrence": "observed_across_pages",
+      "componentIdentity": "unverified",
+      "pageCount": 8,
+      "occurrences": [
+        {
+          "sentenceContext": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/services/site-health-maintenance/",
+          "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "problemSpan": "redesign, features",
+          "blockId": "block-3515",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "explanation": "The comma splits the subject and verb in a way that is not grammatical in standard English. Removing it yields a clear, valid sentence, and the proposed correction changes only that punctuation."
+        },
+        {
+          "sentenceContext": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/services/hosting-infrastructure/",
+          "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "problemSpan": "redesign, features",
+          "blockId": "block-3110",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "explanation": "The comma between the subject and verb breaks the sentence in this prose block. Removing it yields a grammatical reading without changing the meaning."
+        },
+        {
+          "sentenceContext": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/services/optimizely-development/",
+          "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "problemSpan": "redesign,",
+          "blockId": "block-4196",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "explanation": "The comma after ‘redesign’ breaks the subject-verb connection in this sentence. Removing it yields a grammatical sentence, and the repair is safe."
+        },
+        {
+          "sentenceContext": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/services/enterprise-seo-and-analytics-optimization/",
+          "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "problemSpan": "website redesign, features",
+          "blockId": "block-5872",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "explanation": "The comma splits the subject and verb in a way that is not a valid reading here. Removing it yields a grammatical sentence without changing meaning."
+        },
+        {
+          "sentenceContext": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/sitecore/",
+          "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "problemSpan": "redesign, features",
+          "blockId": "block-4079",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "explanation": "The comma after \"redesign\" wrongly splits the subject from its verb. Removing that comma makes the sentence grammatical, and the proposed repair is safe."
+        },
+        {
+          "sentenceContext": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/salesforce/",
+          "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "problemSpan": "redesign, features",
+          "blockId": "block-3330",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "explanation": "The comma after \"redesign\" wrongly splits the subject from its verb. Removing that comma fixes the punctuation error without changing meaning."
+        },
+        {
+          "sentenceContext": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/google-analytics/",
+          "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors. Discover how we optimized the user experience!",
+          "problemSpan": "redesign, features",
+          "blockId": "block-4044",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors. Discover how we optimized the user experience!",
+          "explanation": "The comma in ‘redesign, features’ wrongly splits the subject from its verb. Removing it yields a grammatical sentence."
+        },
+        {
+          "sentenceContext": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/company/partners/",
+          "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors. Discover how we optimized the user experience!",
+          "problemSpan": "redesign, features",
+          "blockId": "block-2821",
+          "blockRole": "ui_text",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null,
+          "explanation": "The comma after ‘redesign’ splits the subject from its verb in a way that is not grammatical in standard usage. The proposed fix removes the comma, but agreement/structure issues should not be approved as a safe repair here."
+        }
+      ]
+    }
+  ],
+  "pages": 30,
+  "writingOccurrences": 32,
+  "uniqueFindings": 24,
+  "recurringFindings": 2,
+  "note": "Recurrence does not prove shared component identity. Page verdicts are preserved. Span boundaries may vary, so uniqueFindings counts evidence signatures, not independently established defects. Precision requires manual annotations.",
+  "findings": [
+    {
+      "sentenceContext": "Are you looking to create a world-class digital experience for you users on the Optimizely DXP platform?",
+      "quote": "Are you looking to create a world-class digital experience for you users on the Optimizely DXP platform?",
+      "problemSpan": "you users",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "Are you looking to create a world-class digital experience for you users on the Optimizely DXP platform?",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/services/optimizely-development/",
+          "quote": "Are you looking to create a world-class digital experience for you users on the Optimizely DXP platform?",
+          "problemSpan": "you users",
+          "blockId": "block-53",
+          "blockRole": "prose",
+          "correctionStatus": "safe",
+          "correctedQuote": "Are you looking to create a world-class digital experience for your users on the Optimizely DXP platform?",
+          "explanation": "‘you users’ is not a valid reading here; the intended possessive form is ‘your users’. The proposed correction fixes the error without changing anything else."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "Contentful is a cloud-based headless CMS that originated in in 2013.",
+      "quote": "Contentful is a cloud-based headless CMS that originated in in 2013.",
+      "problemSpan": "in in",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "Contentful is a cloud-based headless CMS that originated in in 2013.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/contentful/",
+          "quote": "Contentful is a cloud-based headless CMS that originated in in 2013.",
+          "problemSpan": "in in",
+          "blockId": "block-320",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Contentful is a cloud-based headless CMS that originated in 2013.",
+          "explanation": "The phrase has a duplicated preposition, “in in 2013,” which is ungrammatical. Removing one “in” fixes it without changing meaning."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "Cylogy’s QA team builds a comprehensive testing strategy for each application, focused on ensuring the app meets all it’s performance and functionality goals.",
+      "quote": "Cylogy’s QA team builds a comprehensive testing strategy for each application, focused on ensuring the app meets all it’s performance and functionality goals.",
+      "problemSpan": "it’s",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "Cylogy’s QA team builds a comprehensive testing strategy for each application, focused on ensuring the app meets all it’s performance and functionality goals.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/services/mobile-app-development-and-maintenance/",
+          "quote": "Cylogy’s QA team builds a comprehensive testing strategy for each application, focused on ensuring the app meets all it’s performance and functionality goals.",
+          "problemSpan": "it’s",
+          "blockId": "block-3637",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Cylogy’s QA team builds a comprehensive testing strategy for each application, focused on ensuring the app meets all its performance and functionality goals.",
+          "explanation": "‘it’s’ is the wrong form here; the sentence needs the possessive ‘its’ to refer to the app’s goals."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+      "quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+      "problemSpan": "are more",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/insights/5-takeaways-from-the-2020-sitecore-symposium/",
+          "quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+          "problemSpan": "are more",
+          "blockId": "block-239",
+          "blockRole": "prose",
+          "correctionStatus": "safe",
+          "correctedQuote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes and more.",
+          "explanation": "\"are more\" is an incomplete list ending; the intended fixed phrase is \"and more.\" The proposed correction cleanly repairs the punctuation/wording."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "Headless development paired with Sitecore, leverages Sitecore’s robust features alongside the agility and speed of headless, enabling you to fully harness the potential of your digital experiences.",
+      "quote": "Headless development paired with Sitecore, leverages Sitecore’s robust features alongside the agility and speed of headless, enabling you to fully harness the potential of your digital experiences.",
+      "problemSpan": "paired with Sitecore, leverages",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "Headless development paired with Sitecore, leverages Sitecore’s robust features alongside the agility and speed of headless, enabling you to fully harness the potential of your digital experiences.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/services/sitecore-headless/",
+          "quote": "Headless development paired with Sitecore, leverages Sitecore’s robust features alongside the agility and speed of headless, enabling you to fully harness the potential of your digital experiences.",
+          "problemSpan": "paired with Sitecore, leverages",
+          "blockId": "block-48",
+          "blockRole": "prose",
+          "correctionStatus": "safe",
+          "correctedQuote": "Headless development paired with Sitecore leverages Sitecore’s robust features alongside the agility and speed of headless, enabling you to fully harness the potential of your digital experiences.",
+          "explanation": "The sentence has a clear comma splice: the participial phrase is followed by an independent clause without proper separation. Removing the comma after “Sitecore” yields a grammatical reading."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "Here’s five key takeaways from the 2020 Sitecore Symposium.",
+      "quote": "Here’s five key takeaways from the 2020 Sitecore Symposium.",
+      "problemSpan": "Here’s five",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "Here’s five key takeaways from the 2020 Sitecore Symposium.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/insights/5-takeaways-from-the-2020-sitecore-symposium/",
+          "quote": "Here’s five key takeaways from the 2020 Sitecore Symposium.",
+          "problemSpan": "Here’s five",
+          "blockId": "block-929",
+          "blockRole": "prose",
+          "correctionStatus": "safe",
+          "correctedQuote": "Here are five key takeaways from the 2020 Sitecore Symposium.",
+          "explanation": "\"Here’s five\" conflicts with the plural noun phrase that follows. \"Here are five\" is the straightforward correction."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "It also makes good sense for Sitecore as effectively makes the platform a whole digital marketing and content ecosystem.",
+      "quote": "It also makes good sense for Sitecore as effectively makes the platform a whole digital marketing and content ecosystem.",
+      "problemSpan": "as effectively makes",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "It also makes good sense for Sitecore as effectively makes the platform a whole digital marketing and content ecosystem.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/insights/5-takeaways-from-the-2020-sitecore-symposium/",
+          "quote": "It also makes good sense for Sitecore as effectively makes the platform a whole digital marketing and content ecosystem.",
+          "problemSpan": "as effectively makes",
+          "blockId": "block-2628",
+          "blockRole": "prose",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null,
+          "explanation": "The clause after \"as\" is missing an explicit subject, so the sentence is defective. However, the repair is not uniquely determined from the text, so the proposed correction is not safely approved."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "Marketo is helps us attract leads and guide them through the sales funnel to help your company grow.",
+      "quote": "Marketo is helps us attract leads and guide them through the sales funnel to help your company grow.",
+      "problemSpan": "is helps",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "Marketo is helps us attract leads and guide them through the sales funnel to help your company grow.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/marketo/",
+          "quote": "Marketo is helps us attract leads and guide them through the sales funnel to help your company grow.",
+          "problemSpan": "is helps",
+          "blockId": "block-985",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Marketo helps us attract leads and guide them through the sales funnel to help your company grow.",
+          "explanation": "‘is helps’ is not a valid verb phrase in this context; the sentence needs a single finite verb such as ‘helps’. The proposed correction fixes that specific error without changing the intended meaning."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "Moving your Sitecore instance Sitecore XM Cloud will be one of them.",
+      "quote": "Moving your Sitecore instance Sitecore XM Cloud will be one of them.",
+      "problemSpan": "instance Sitecore XM Cloud",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "Moving your Sitecore instance Sitecore XM Cloud will be one of them.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/services/sitecore-headless/",
+          "quote": "Moving your Sitecore instance Sitecore XM Cloud will be one of them.",
+          "problemSpan": "instance Sitecore XM Cloud",
+          "blockId": "block-11496",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Moving your Sitecore instance to Sitecore XM Cloud will be one of them.",
+          "explanation": "The phrase is missing a linking word between “instance” and “Sitecore XM Cloud,” so the sentence is ungrammatical as written. Inserting “to” fixes the construction without changing the intended meaning."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "Oprimizely & Integration",
+      "quote": "Oprimizely & Integration",
+      "problemSpan": "Oprimizely",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "Oprimizely & Integration",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/services/optimizely-development/",
+          "quote": "Oprimizely & Integration",
+          "problemSpan": "Oprimizely",
+          "blockId": "block-1632",
+          "blockRole": "heading",
+          "correctionStatus": "safe",
+          "correctedQuote": "Optimizely & Integration",
+          "explanation": "‘Oprimizely’ is a clear misspelling of the product name in this block. Replacing it with ‘Optimizely’ safely fixes the defect."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "Our mission is to be a trusted advisor, relentlessly advancing our clients’ top digital business priorities through strategy and a superior level quality.",
+      "quote": "Our mission is to be a trusted advisor, relentlessly advancing our clients’ top digital business priorities through strategy and a superior level quality.",
+      "problemSpan": "a superior level quality",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "Our mission is to be a trusted advisor, relentlessly advancing our clients’ top digital business priorities through strategy and a superior level quality.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/company/",
+          "quote": "Our mission is to be a trusted advisor, relentlessly advancing our clients’ top digital business priorities through strategy and a superior level quality.",
+          "problemSpan": "a superior level quality",
+          "blockId": "block-1768",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Our mission is to be a trusted advisor, relentlessly advancing our clients’ top digital business priorities through strategy and a superior level of quality.",
+          "explanation": "‘a superior level quality’ is ungrammatical in this context; it needs a preposition such as ‘of’ to form a valid noun phrase. The proposed correction fixes that specific error without changing the meaning."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+      "quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+      "problemSpan": "connect and engagement",
+      "recurrence": "observed_across_pages",
+      "componentIdentity": "unverified",
+      "pageCount": 4,
+      "occurrenceCount": 4,
+      "occurrences": [
+        {
+          "sentenceContext": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/sitecore/",
+          "quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+          "problemSpan": "connect and engagement",
+          "blockId": "block-2906",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engage with their customers more effectively.",
+          "explanation": "\"Connect and engagement\" is not a valid parallel construction. Replacing \"engagement\" with \"engage\" yields a grammatical phrase and preserves the sentence’s meaning."
+        },
+        {
+          "sentenceContext": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/marketo/",
+          "quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:",
+          "problemSpan": "connect and engagement",
+          "blockId": "block-2133",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engage with their customers more effectively. Related Services:",
+          "explanation": "‘connect and engagement’ breaks parallel verb form: ‘connect’ is a verb but ‘engagement’ is a noun. Replacing it with ‘engage’ yields a grammatical coordinated verb phrase, and the repair is safe."
+        },
+        {
+          "sentenceContext": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/google-analytics/",
+          "quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:",
+          "problemSpan": "connect and engagement",
+          "blockId": "block-2871",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engage with their customers more effectively. Related Services:",
+          "explanation": "‘connect and engagement’ is not parallel: a verb is coordinated with a noun. Changing it to ‘connect and engage’ repairs the grammar cleanly."
+        },
+        {
+          "sentenceContext": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/contentful/",
+          "quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+          "problemSpan": "connect and engagement",
+          "blockId": "block-2105",
+          "blockRole": "ui_text",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null,
+          "explanation": "The phrase “connect and engagement” is not parallel: a verb is coordinated with a noun. The sentence needs repair, but the exact intended fix is not fully determined from the snapshot, so correctionSafe is false."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+      "quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:",
+      "problemSpan": "helping brands of all sizes and industries, connect and engagement with their customers more effectively",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/sitecore-cdp/",
+          "quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:",
+          "problemSpan": "helping brands of all sizes and industries, connect and engagement with their customers more effectively",
+          "blockId": "block-1609",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries connect and engage with their customers more effectively. Related Services:",
+          "explanation": "The original has a clear grammar error: the phrase \"connect and engagement\" breaks parallel structure, and \"helping brands ...\" is awkwardly attached to the preceding clause. The proposed correction restores a valid parallel verb phrase and keeps the intended meaning."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "Sitecore’s core competency and future technology delivers unparalleled leadership in the industry, and lend the flexibility and reliability needed to support our enterprise organizations now and in the future.",
+      "quote": "Sitecore’s core competency and future technology delivers unparalleled leadership in the industry, and lend the flexibility and reliability needed to support our enterprise organizations now and in the future.",
+      "problemSpan": "delivers unparalleled leadership in the industry, and lend",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "Sitecore’s core competency and future technology delivers unparalleled leadership in the industry, and lend the flexibility and reliability needed to support our enterprise organizations now and in the future.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/sitecore/",
+          "quote": "Sitecore’s core competency and future technology delivers unparalleled leadership in the industry, and lend the flexibility and reliability needed to support our enterprise organizations now and in the future.",
+          "problemSpan": "delivers unparalleled leadership in the industry, and lend",
+          "blockId": "block-1155",
+          "blockRole": "ui_text",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null,
+          "explanation": "The subject is singular, so the coordinated predicate should not switch to the plural verb \"lend\". Changing it to \"lends\" fixes the agreement error without altering the intended meaning."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+      "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+      "problemSpan": "redesign, features",
+      "recurrence": "observed_across_pages",
+      "componentIdentity": "unverified",
+      "pageCount": 6,
+      "occurrenceCount": 6,
+      "occurrences": [
+        {
+          "sentenceContext": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/services/site-health-maintenance/",
+          "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "problemSpan": "redesign, features",
+          "blockId": "block-3515",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "explanation": "The comma splits the subject and verb in a way that is not grammatical in standard English. Removing it yields a clear, valid sentence, and the proposed correction changes only that punctuation."
+        },
+        {
+          "sentenceContext": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/services/hosting-infrastructure/",
+          "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "problemSpan": "redesign, features",
+          "blockId": "block-3110",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "explanation": "The comma between the subject and verb breaks the sentence in this prose block. Removing it yields a grammatical reading without changing the meaning."
+        },
+        {
+          "sentenceContext": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/sitecore/",
+          "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "problemSpan": "redesign, features",
+          "blockId": "block-4079",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "explanation": "The comma after \"redesign\" wrongly splits the subject from its verb. Removing that comma makes the sentence grammatical, and the proposed repair is safe."
+        },
+        {
+          "sentenceContext": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/salesforce/",
+          "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "problemSpan": "redesign, features",
+          "blockId": "block-3330",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "explanation": "The comma after \"redesign\" wrongly splits the subject from its verb. Removing that comma fixes the punctuation error without changing meaning."
+        },
+        {
+          "sentenceContext": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/google-analytics/",
+          "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors. Discover how we optimized the user experience!",
+          "problemSpan": "redesign, features",
+          "blockId": "block-4044",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors. Discover how we optimized the user experience!",
+          "explanation": "The comma in ‘redesign, features’ wrongly splits the subject from its verb. Removing it yields a grammatical sentence."
+        },
+        {
+          "sentenceContext": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/company/partners/",
+          "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors. Discover how we optimized the user experience!",
+          "problemSpan": "redesign, features",
+          "blockId": "block-2821",
+          "blockRole": "ui_text",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null,
+          "explanation": "The comma after ‘redesign’ splits the subject from its verb in a way that is not grammatical in standard usage. The proposed fix removes the comma, but agreement/structure issues should not be approved as a safe repair here."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+      "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+      "problemSpan": "redesign,",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/services/optimizely-development/",
+          "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "problemSpan": "redesign,",
+          "blockId": "block-4196",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "explanation": "The comma after ‘redesign’ breaks the subject-verb connection in this sentence. Removing it yields a grammatical sentence, and the repair is safe."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+      "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+      "problemSpan": "website redesign, features",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/services/enterprise-seo-and-analytics-optimization/",
+          "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "problemSpan": "website redesign, features",
+          "blockId": "block-5872",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+          "explanation": "The comma splits the subject and verb in a way that is not a valid reading here. Removing it yields a grammatical sentence without changing meaning."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "The User Exerience",
+      "quote": "The User Exerience",
+      "problemSpan": "Exerience",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "The User Exerience",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/services/mobile-app-development-and-maintenance/",
+          "quote": "The User Exerience",
+          "problemSpan": "Exerience",
+          "blockId": "block-1171",
+          "blockRole": "heading",
+          "correctionStatus": "safe",
+          "correctedQuote": "The User Experience",
+          "explanation": "‘Exerience’ is a clear misspelling of ‘Experience’ in the heading."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "This demonstrates the long-term efficacy and a passion for the continual evolution and enhancement necessary to grow with your enterprise.",
+      "quote": "This demonstrates the long-term efficacy and a passion for the continual evolution and enhancement necessary to grow with your enterprise.",
+      "problemSpan": "the long-term efficacy and a passion",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "This demonstrates the long-term efficacy and a passion for the continual evolution and enhancement necessary to grow with your enterprise.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/salesforce/",
+          "quote": "This demonstrates the long-term efficacy and a passion for the continual evolution and enhancement necessary to grow with your enterprise.",
+          "problemSpan": "the long-term efficacy and a passion",
+          "blockId": "block-864",
+          "blockRole": "ui_text",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null,
+          "explanation": "The sentence has a clear coordination problem: \"demonstrates the long-term efficacy and a passion\" joins unlike structures after the same verb, so the original is not grammatically complete as written. The proposed repair is not safe because the intended parallel structure is ambiguous."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "This fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.",
+      "quote": "This fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.",
+      "problemSpan": "This fact that",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "This fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/insights/5-takeaways-from-the-2020-sitecore-symposium/",
+          "quote": "This fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.",
+          "problemSpan": "This fact that",
+          "blockId": "block-2628",
+          "blockRole": "prose",
+          "correctionStatus": "safe",
+          "correctedQuote": "The fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.",
+          "explanation": "\"This fact that\" is not a valid noun phrase here; the sentence needs \"The fact that\" or similar. The proposed change fixes the demonstrated error."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "Thoughtful API design choices enables developers, results in improved performance and streamlines future modifications, ensuring the project’s adaptability and scalability over time.",
+      "quote": "Thoughtful API design choices enables developers, results in improved performance and streamlines future modifications, ensuring the project’s adaptability and scalability over time.",
+      "problemSpan": "choices enables",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "Thoughtful API design choices enables developers, results in improved performance and streamlines future modifications, ensuring the project’s adaptability and scalability over time.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/services/sitecore-headless/",
+          "quote": "Thoughtful API design choices enables developers, results in improved performance and streamlines future modifications, ensuring the project’s adaptability and scalability over time.",
+          "problemSpan": "choices enables",
+          "blockId": "block-6386",
+          "blockRole": "ui_text",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null,
+          "explanation": "There is a real agreement problem: “choices” is plural, but the sentence continues with the singular verb “enables.” The proposed fix changes only one verb, but the rest of the sentence still contains additional agreement/structure problems, so the repair is not safely complete."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "Umbraco has an extensive track record with development beginning in 2000 and, being based on the .NET framework, has a large potential and actual developmer community with 200,000 registered developers.",
+      "quote": "Umbraco has an extensive track record with development beginning in 2000 and, being based on the .NET framework, has a large potential and actual developmer community with 200,000 registered developers.",
+      "problemSpan": "developmer",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "Umbraco has an extensive track record with development beginning in 2000 and, being based on the .NET framework, has a large potential and actual developmer community with 200,000 registered developers.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/technologies/google-analytics/",
+          "quote": "Umbraco has an extensive track record with development beginning in 2000 and, being based on the .NET framework, has a large potential and actual developmer community with 200,000 registered developers.",
+          "problemSpan": "developmer",
+          "blockId": "block-1050",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "Umbraco has an extensive track record with development beginning in 2000 and, being based on the .NET framework, has a large potential and actual developer community with 200,000 registered developers.",
+          "explanation": "‘developmer’ is a clear misspelling of ‘developer’. The proposed correction fixes the typo without changing meaning."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "We practice this everyday by allowing space for team members to express their ideas; big or small.",
+      "quote": "At Cylogy we encourage collaboration and intellectual curiosity. We practice this everyday by allowing space for team members to express their ideas; big or small. This keeps our teams engaged and helps us continually deliver innovation to our clients.",
+      "problemSpan": "everyday",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "We practice this everyday by allowing space for team members to express their ideas; big or small.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/company/careers/",
+          "quote": "At Cylogy we encourage collaboration and intellectual curiosity. We practice this everyday by allowing space for team members to express their ideas; big or small. This keeps our teams engaged and helps us continually deliver innovation to our clients.",
+          "problemSpan": "everyday",
+          "blockId": "block-1489",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "At Cylogy we encourage collaboration and intellectual curiosity. We practice this every day by allowing space for team members to express their ideas; big or small. This keeps our teams engaged and helps us continually deliver innovation to our clients.",
+          "explanation": "‘everyday’ is used where the adverbial phrase ‘every day’ is required. The proposed correction fixes the error without changing the intended meaning."
+        }
+      ]
+    },
+    {
+      "sentenceContext": "We’ll help your app interoperate with a CRM, ERP, or other enterprise solutions, we ensure smooth data flow and problem-free usage.",
+      "quote": "We’ll help your app interoperate with a CRM, ERP, or other enterprise solutions, we ensure smooth data flow and problem-free usage.",
+      "problemSpan": "solutions, we ensure",
+      "recurrence": "unknown",
+      "componentIdentity": "unverified",
+      "pageCount": 1,
+      "occurrenceCount": 1,
+      "occurrences": [
+        {
+          "sentenceContext": "We’ll help your app interoperate with a CRM, ERP, or other enterprise solutions, we ensure smooth data flow and problem-free usage.",
+          "host": "www.cylogy.com",
+          "url": "https://www.cylogy.com/services/mobile-app-development-and-maintenance/",
+          "quote": "We’ll help your app interoperate with a CRM, ERP, or other enterprise solutions, we ensure smooth data flow and problem-free usage.",
+          "problemSpan": "solutions, we ensure",
+          "blockId": "block-2878",
+          "blockRole": "ui_text",
+          "correctionStatus": "safe",
+          "correctedQuote": "We’ll help your app interoperate with a CRM, ERP, or other enterprise solutions. We ensure smooth data flow and problem-free usage.",
+          "explanation": "The comma joins two independent clauses, creating a comma splice. Replacing it with a period or semicolon fixes the punctuation without changing the meaning."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+[
+  {
+    "label": "Healthy article",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/healthy-article.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This page is an article about creating a content calendar for 2025. It explains why content calendars matter and walks through steps such as auditing existing content, defining content pillars, mapping content to the buyer journey, choosing a publishing cadence, building a calendar template, and planning for seasonal events. The intended audience appears to be marketing or content teams looking for a practical planning framework.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "How to Build an Effective Content Calendar for 2025",
+      "titlePromise": "The title promises guidance on building an effective content calendar specifically for 2025.",
+      "fulfillment": "fulfilled",
+      "reason": "The body delivers a step-by-step guide on creating a content calendar for 2025, including auditing existing content, defining pillars, mapping to the buyer journey, choosing cadence, building a template, and planning seasonal events.",
+      "bodyEvidenceQuote": "In this guide, we walk through a practical framework for building a content calendar that keeps your team aligned, your pipeline full, and your audience engaged throughout 2025."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "In this guide, we walk through a practical framework for building a content calendar that keeps your team aligned, your pipeline full, and your audience engaged throughout 2025."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Objective spelling and grammar errors",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/writing-errors.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This page gives brief guidance on preparing for a client workshop. It focuses on having a shared agenda, collecting inputs before the session, and sending the agenda to participants two days in advance. The intended audience appears to be people organizing or facilitating the workshop.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Preparing for a Client Workshop",
+      "titlePromise": "The page will provide guidance about preparing for a client workshop.",
+      "fulfillment": "fulfilled",
+      "reason": "The body gives preparation guidance for a client workshop, including agenda planning, collecting inputs, and sending the agenda in advance.",
+      "bodyEvidenceQuote": "A successful workshop begins with a shared agenda and a clear list of decisions."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "A successful workshop begins with a shared agenda and a clear list of decisions."
+    },
+    "requiredIssues": [
+      "writing_errors"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Title and body cover different subjects",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/title-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a marketing page for Meridian Digital focused on project management software. It presents Meridian as a platform for teams, describing features such as resource allocation, time tracking, custom workflows, integrations, pricing, and onboarding. The page also includes a free-trial call to action for readers considering the product.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "10 Best Project Management Tools Compared (2025)",
+      "titlePromise": "A comparison of 10 project management tools for 2025.",
+      "fulfillment": "not_fulfilled",
+      "reason": "The title promises a comparison of multiple project management tools, but the body mainly presents Meridian Digital as a single product and its features, pricing, and trial offer rather than comparing 10 tools.",
+      "bodyEvidenceQuote": "Meridian Digital was designed from the ground up to eliminate the friction that slows teams down."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Meridian Digital was designed from the ground up to eliminate the friction that slows teams down."
+    },
+    "requiredIssues": [
+      "title_body_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "title_body_mismatch"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Bufete Padilla Altea Norwegian route",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/bufete-padilla-altea-no.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a law firm landing page for English-speaking clients in Altea. It presents legal services for the international community, with FAQ-style information about pricing, practice areas, and languages spoken. The page also includes summer closure notices and calls to contact the firm by WhatsApp or email for urgent matters.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "English-Speaking Lawyers in Altea",
+      "titlePromise": "The page should present lawyers or legal services for English-speaking clients in Altea.",
+      "fulfillment": "fulfilled",
+      "reason": "The body describes professional legal services in Altea, includes an FAQ about fees and practice areas, and states that the team works in English and other languages.",
+      "bodyEvidenceQuote": "Professional legal services for the international community in Altea, Albir and Sierra de Altea."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Professional legal services for the international community in Altea, Albir and Sierra de Altea."
+    },
+    "requiredIssues": [
+      "language_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "direct_statement_contradiction",
+      "language_mismatch"
+    ],
+    "scored": true,
+    "passed": false,
+    "error": null
+  },
+  {
+    "label": "Bufete Padilla Altea Norwegian route",
+    "source": "live",
+    "url": "https://bufetepadillatorrevieja.com/no/lawyers-altea",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a marketing and information page for Bufete Padilla’s legal services in Altea. It presents English-speaking legal help for international residents and property buyers, along with FAQs about fees, appointments, languages, and the types of matters handled. The page also includes contact buttons, nearby service areas, and a property-related call to action.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "English-Speaking Lawyers in Altea",
+      "titlePromise": "The page should provide substantive information about English-speaking lawyers in Altea.",
+      "fulfillment": "fulfilled",
+      "reason": "The body content directly develops the promised subject with legal services, FAQs, contact details, and matters handled in Altea.",
+      "bodyEvidenceQuote": "Professional legal services for the international community in Altea, Albir and Sierra de Altea."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Professional legal services for the international community in Altea, Albir and Sierra de Altea."
+    },
+    "requiredIssues": [
+      "language_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "language_mismatch"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  }
+]

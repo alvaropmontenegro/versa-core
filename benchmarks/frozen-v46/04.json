@@ -1,0 +1,146 @@
+{
+  "url": "http://127.0.0.1:8088/pages/historical-event-recap.html",
+  "finalUrl": "http://127.0.0.1:8088/pages/historical-event-recap.html",
+  "outputLanguage": "en",
+  "executedAt": "2026-09-08T22:39:03.5439083+00:00",
+  "capture": {
+    "statusCode": 200,
+    "finalUrl": "http://127.0.0.1:8088/pages/historical-event-recap.html",
+    "html": "\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022en\u0022 data-versa-display=\u0022block\u0022 data-versa-layout-version=\u00221\u0022\u003E\u003Chead data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta charset=\u0022UTF-8\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1.0\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta name=\u0022description\u0022 content=\u0022Recap of Meridian Digital\u0027s takeaways from Web Summit 2019, including sessions on privacy, analytics, and product-led growth.\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Ctitle data-versa-display=\u0022none\u0022\u003EWhat We Learned at Web Summit 2019 \u2014 Meridian Digital\u003C/title\u003E\n  \u003Clink rel=\u0022canonical\u0022 href=\u0022https://test.versacontent.com/pages/historical-event-recap.html\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cstyle data-versa-display=\u0022none\u0022\u003E\n    * { margin: 0; padding: 0; box-sizing: border-box; }\n    body { font-family: -apple-system, BlinkMacSystemFont, \u0027Segoe UI\u0027, Roboto, sans-serif; color: #1a1a2e; line-height: 1.7; background: #fff; }\n    header { background: #1a1a2e; color: #fff; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }\n    header .logo { font-weight: 700; font-size: 1.25rem; }\n    header nav a { color: #a0a0c0; text-decoration: none; margin-left: 1.5rem; font-size: 0.9rem; }\n    main { max-width: 760px; margin: 2rem auto; padding: 0 1.5rem; }\n    h1 { font-size: 2rem; margin-bottom: 1rem; line-height: 1.3; }\n    h2 { font-size: 1.3rem; margin: 2rem 0 0.75rem; }\n    p { margin-bottom: 1rem; color: #333; }\n    ul { margin: 0 0 1rem 1.5rem; }\n    li { margin-bottom: 0.4rem; }\n    .meta { font-size: 0.85rem; color: #666; margin-bottom: 1.5rem; }\n    .tags { margin-top: 2rem; }\n    .tags span { background: #f0f0f5; padding: 0.25rem 0.75rem; border-radius: 99px; font-size: 0.8rem; margin-right: 0.5rem; color: #555; }\n    footer { background: #f8f8fc; border-top: 1px solid #e0e0e8; padding: 2rem; margin-top: 3rem; text-align: center; font-size: 0.85rem; color: #666; }\n    footer a { color: #4361ee; text-decoration: none; }\n  \u003C/style\u003E\n\u003C/head\u003E\n\u003Cbody data-versa-display=\u0022block\u0022\u003E\n  \u003Cheader data-versa-display=\u0022flex\u0022\u003E\n    \u003Cdiv class=\u0022logo\u0022 data-versa-display=\u0022block\u0022\u003EMeridian Digital\u003C/div\u003E\n    \u003Cnav data-versa-display=\u0022block\u0022\u003E\n      \u003Ca href=\u0022/pages/healthy-product\u0022 data-versa-display=\u0022inline\u0022\u003EProduct\u003C/a\u003E\n      \u003Ca href=\u0022/pages/healthy-pricing\u0022 data-versa-display=\u0022inline\u0022\u003EPricing\u003C/a\u003E\n      \u003Ca href=\u0022/pages/healthy-contact\u0022 data-versa-display=\u0022inline\u0022\u003EContact\u003C/a\u003E\n      \u003Ca href=\u0022/pages/hub-index\u0022 data-versa-display=\u0022inline\u0022\u003EBlog\u003C/a\u003E\n    \u003C/nav\u003E\n  \u003C/header\u003E\n  \u003Cmain data-versa-display=\u0022block\u0022\u003E\n    \u003Ch1 data-versa-display=\u0022block\u0022\u003EWhat We Learned at Web Summit 2019\u003C/h1\u003E\n    \u003Cp class=\u0022meta\u0022 data-versa-display=\u0022block\u0022\u003EPublished November 12, 2019 by Sarah Chen\u003C/p\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003ELast week our team returned from Web Summit 2019 in Lisbon with pages of notes, too many photos, and a much clearer picture of where digital experience platforms were heading. This recap captures the main ideas that stood out to us at the time, especially around privacy, analytics, and product-led growth.\u003C/p\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EPrivacy moved from niche concern to board-level topic\u003C/h2\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003ESeveral speakers framed privacy as one of the defining commercial questions for 2020. The strongest sessions focused on first-party data strategies, consent design, and the growing expectation that brands should earn trust instead of assuming it.\u003C/p\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EAnalytics teams expected a major transition in 2020\u003C/h2\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003EOne of the most repeated themes at this year\u0027s event was that analytics and attribution models would need to evolve rapidly before the end of 2020. Sessions on measurement pointed to looming browser restrictions, reduced signal access, and heavier pressure on owned data collection.\u003C/p\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EThree practical takeaways we brought home\u003C/h2\u003E\n    \u003Cul data-versa-display=\u0022block\u0022\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003EBuild stronger first-party data habits before disruption forces the change.\u003C/li\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003EReduce friction between editorial, product, and analytics teams.\u003C/li\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003ETreat trust signals as part of the product experience, not only a legal requirement.\u003C/li\u003E\n    \u003C/ul\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003EWe will be using these lessons to shape Meridian\u0027s client workshops through the rest of this year and into 2020.\u003C/p\u003E\n\n    \u003Cdiv class=\u0022tags\u0022 data-versa-display=\u0022block\u0022\u003E\n      \u003Cspan data-versa-display=\u0022inline\u0022\u003EWeb Summit\u003C/span\u003E\n      \u003Cspan data-versa-display=\u0022inline\u0022\u003EEvent Recap\u003C/span\u003E\n      \u003Cspan data-versa-display=\u0022inline\u0022\u003E2019\u003C/span\u003E\n      \u003Cspan data-versa-display=\u0022inline\u0022\u003EInsights\u003C/span\u003E\n    \u003C/div\u003E\n  \u003C/main\u003E\n  \u003Cfooter data-versa-display=\u0022block\u0022\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003E\u00A9 2025 Meridian Digital Inc. All rights reserved. | \u003Ca href=\u0022/pages/healthy-legal\u0022 data-versa-display=\u0022inline\u0022\u003ETerms\u003C/a\u003E | \u003Ca href=\u0022mailto:hello@meridian.digital\u0022 data-versa-display=\u0022inline\u0022\u003Ehello@meridian.digital\u003C/a\u003E | \u002B1 (415) 555-0120\u003C/p\u003E\n  \u003C/footer\u003E\n\n\n\u003C/body\u003E\u003C/html\u003E",
+    "bodyText": "Meridian Digital\nProduct Pricing Contact Blog\nWhat We Learned at Web Summit 2019\n\nPublished November 12, 2019 by Sarah Chen\n\nLast week our team returned from Web Summit 2019 in Lisbon with pages of notes, too many photos, and a much clearer picture of where digital experience platforms were heading. This recap captures the main ideas that stood out to us at the time, especially around privacy, analytics, and product-led growth.\n\nPrivacy moved from niche concern to board-level topic\n\nSeveral speakers framed privacy as one of the defining commercial questions for 2020. The strongest sessions focused on first-party data strategies, consent design, and the growing expectation that brands should earn trust instead of assuming it.\n\nAnalytics teams expected a major transition in 2020\n\nOne of the most repeated themes at this year\u0027s event was that analytics and attribution models would need to evolve rapidly before the end of 2020. Sessions on measurement pointed to looming browser restrictions, reduced signal access, and heavier pressure on owned data collection.\n\nThree practical takeaways we brought home\nBuild stronger first-party data habits before disruption forces the change.\nReduce friction between editorial, product, and analytics teams.\nTreat trust signals as part of the product experience, not only a legal requirement.\n\nWe will be using these lessons to shape Meridian\u0027s client workshops through the rest of this year and into 2020.\n\nWeb Summit Event Recap 2019 Insights\n\n\u00A9 2025 Meridian Digital Inc. All rights reserved. | Terms | hello@meridian.digital | \u002B1 (415) 555-0120",
+    "bodyWordCount": 247
+  },
+  "metadata": {
+    "title": "What We Learned at Web Summit 2019 \u2014 Meridian Digital",
+    "metaDescription": "Recap of Meridian Digital\u0027s takeaways from Web Summit 2019, including sessions on privacy, analytics, and product-led growth.",
+    "canonicalUrl": "https://test.versacontent.com/pages/historical-event-recap.html",
+    "language": "en"
+  },
+  "structuralOutline": {
+    "markdown": "\u003Cui_text\u003EMeridian Digital\u003C/ui_text\u003E\n\n\u003Cheading level=\u00221\u0022\u003EWhat We Learned at Web Summit 2019\u003C/heading\u003E\n\n\u003Cprose\u003EPublished November 12, 2019 by Sarah Chen\u003C/prose\u003E\n\n\u003Cprose\u003ELast week our team returned from Web Summit 2019 in Lisbon with pages of notes, too many photos, and a much clearer picture of where digital experience platforms were heading. This recap captures the main ideas that stood out to us at the time, especially around privacy, analytics, and product-led growth.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EPrivacy moved from niche concern to board-level topic\u003C/heading\u003E\n\n\u003Cprose\u003ESeveral speakers framed privacy as one of the defining commercial questions for 2020. The strongest sessions focused on first-party data strategies, consent design, and the growing expectation that brands should earn trust instead of assuming it.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EAnalytics teams expected a major transition in 2020\u003C/heading\u003E\n\n\u003Cprose\u003EOne of the most repeated themes at this year\u0027s event was that analytics and attribution models would need to evolve rapidly before the end of 2020. Sessions on measurement pointed to looming browser restrictions, reduced signal access, and heavier pressure on owned data collection.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EThree practical takeaways we brought home\u003C/heading\u003E\n\n\u003Clist_item\u003EBuild stronger first-party data habits before disruption forces the change.\u003C/list_item\u003E\n\n\u003Clist_item\u003EReduce friction between editorial, product, and analytics teams.\u003C/list_item\u003E\n\n\u003Clist_item\u003ETreat trust signals as part of the product experience, not only a legal requirement.\u003C/list_item\u003E\n\n\u003Cprose\u003EWe will be using these lessons to shape Meridian\u0027s client workshops through the rest of this year and into 2020.\u003C/prose\u003E\n\n\u003Cui_text\u003EWeb Summit Event Recap 2019 Insights\u003C/ui_text\u003E",
+    "summary": {
+      "estimatedTokens": 441,
+      "truncatedByTextLimit": false
+    }
+  },
+  "analysis": {
+    "observations": {
+      "mainContentLanguage": "en",
+      "mainContentLanguageEvidence": "What We Learned at Web Summit 2019",
+      "pagePurpose": "To recap Meridian Digital\u2019s takeaways from Web Summit 2019 and explain the conference themes they believed were shaping digital experience platforms, privacy, analytics, and product-led growth.",
+      "pageSummary": "This is a company blog recap from Meridian Digital about what the team learned at Web Summit 2019 in Lisbon. It highlights themes such as privacy, analytics, first-party data, and product-led growth, then closes with a few practical takeaways the company says it will apply to client workshops. The page is aimed at readers interested in digital experience strategy and conference insights."
+    },
+    "sensitiveTopicAssessment": {
+      "status": "not_applicable",
+      "evidenceQuote": "",
+      "reason": "The page is a conference recap and strategy summary; it does not provide guidance for responding to or managing a high-stakes sensitive situation."
+    },
+    "titlePromiseAssessment": {
+      "titleQuote": "What We Learned at Web Summit 2019",
+      "titlePromise": "The title promises a recap of lessons, insights, or takeaways from the Web Summit 2019 event.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantially delivers that expectation by recounting the team\u2019s notes from the event and organizing the recap around the lessons they took away, including privacy, analytics, and practical takeaways.",
+      "bodyEvidenceQuote": "This recap captures the main ideas that stood out to us at the time, especially around privacy, analytics, and product-led growth."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "This recap captures the main ideas that stood out to us at the time, especially around privacy, analytics, and product-led growth."
+    },
+    "sensitiveTopicValidation": {
+      "status": "valid",
+      "reason": "no_sensitive_guidance_detected",
+      "normalizedEvidenceQuote": ""
+    },
+    "issues": [],
+    "rejectedIssues": [],
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_bd0e8cc8916d4eeba208cc1b90036aad",
+          "systemFingerprint": null,
+          "inputHash": "26269F81B3ED33E8840EFA94388672CD64852CE33B03DB946C5F25F0601F13F6",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1838,
+          "completionTokens": 323,
+          "totalTokens": 2161,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_80ef9cc19c9f4727bef129e6436fa2db",
+          "systemFingerprint": null,
+          "inputHash": "26269F81B3ED33E8840EFA94388672CD64852CE33B03DB946C5F25F0601F13F6",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 1032,
+          "completionTokens": 21,
+          "totalTokens": 1053,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_bca1ee4d108d4b81b05bab3baa2ac45f",
+          "systemFingerprint": null,
+          "inputHash": "26269F81B3ED33E8840EFA94388672CD64852CE33B03DB946C5F25F0601F13F6",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 1175,
+          "completionTokens": 53,
+          "totalTokens": 1228,
+          "reasoningTokens": 33
+        },
+        "error": null
+      }
+    ],
+    "classification": {
+      "type": "healthy",
+      "confidence": null,
+      "confidenceBasis": "not_calibrated",
+      "insufficientEvidence": false
+    },
+    "externalVerification": {
+      "enabled": false,
+      "skipped": true
+    }
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "webSourceUrls": []
+  }
+}

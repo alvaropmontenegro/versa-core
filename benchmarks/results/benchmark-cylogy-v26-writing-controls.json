@@ -1,0 +1,99 @@
+[
+  {
+    "label": "Cylogy containerization",
+    "source": "live",
+    "url": "https://www.cylogy.com/services/hosting-infrastructure/sitecore-containerization/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy service page about Sitecore Containerization. It explains benefits of container-based architecture for Sitecore implementations, including simpler local environments, deployments, and monitoring. The page also includes links to customer success stories and additional services.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Sitecore Containerization",
+      "titlePromise": "Information about Sitecore containerization and what it offers or involves.",
+      "fulfillment": "fulfilled",
+      "reason": "The page content discusses container-based architecture for Sitecore implementations and explains related benefits, matching the title’s subject.",
+      "bodyEvidenceQuote": "choosing a container-based architecture has many benefits."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "choosing a container-based architecture has many benefits."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Sitecore technology",
+    "source": "live",
+    "url": "https://www.cylogy.com/technologies/sitecore/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This page is an informational and promotional page about Sitecore DXP and Sitecore CMS. It describes Sitecore’s content management, personalization, analytics, and marketing capabilities, then lists features and related technologies. The page also includes customer success stories and calls to explore Cylogy’s services.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Sitecore DXP | What is sitecore",
+      "titlePromise": "The page should explain what Sitecore DXP is and describe Sitecore-related content.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the Sitecore DXP topic with an explanation of Sitecore Experience Platform, its CMS and marketing capabilities, and a section titled 'What is Sitecore?'.",
+      "bodyEvidenceQuote": "Sitecore Experience Platform is a complete content management solution with integrated digital marketing functionality to create powerful and personalized customer experiences."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Sitecore Experience Platform is a complete content management solution with integrated digital marketing functionality to create powerful and personalized customer experiences."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Symposium 2020 recap",
+    "source": "live",
+    "url": "https://www.cylogy.com/insights/5-takeaways-from-the-2020-sitecore-symposium/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy Insights blog article about the 2020 Sitecore Symposium. It presents five takeaways about Sitecore topics such as customer-centric experiences, Content Hub, automation, SaaS, and leadership ambitions. The page also includes related post links and a contact form for visitors who want help.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "5 takeaways from the 2020 Sitecore Symposium",
+      "titlePromise": "The page will provide five takeaways from the 2020 Sitecore Symposium.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops five numbered takeaways about the symposium, matching the title's promise.",
+      "bodyEvidenceQuote": "1. The future requires even more customer-centric and granular approaches"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "1. The future requires even more customer-centric and granular approaches"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  }
+]

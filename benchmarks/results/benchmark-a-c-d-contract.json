@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Persistently unprofessional writing",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/unprofessional-writing.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "requiredIssues": [
+      "unprofessional_writing"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "unprofessional_writing"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Directly contradictory guidance",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/contradictory-guidance.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "requiredIssues": [
+      "direct_statement_contradiction"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "direct_statement_contradiction"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  }
+]

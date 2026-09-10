@@ -1,0 +1,2082 @@
+[
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-a-c-d-contract.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-a-c-d-contract.json",
+    "sha256": "C6C1F29A0E7D3F9FCAF36C44BBA5ABF3C0CEADB33A8FD3767E349F15ADAF9384"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-live-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-live-results.json",
+    "sha256": "A427B5692C6CA3209761EF42DB1857215DA696D77F8407CD99967DB5D69E6D1C"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-training-review.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-training-review.json",
+    "sha256": "48D0A0033C19D67E0E5E3E552BD7DAD33362A0A6AF6752FC52BFA50BBAC60FFD"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v15-post-sensitive-gate-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v15-post-sensitive-gate-full.json",
+    "sha256": "6B0CD1CB3811E7EBB770FBD03360215ABCC0D767746CA589B9D5084F7C29CAE7"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v15-post-sensitive-gate.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v15-post-sensitive-gate.json",
+    "sha256": "6E32886A4F06DBCE7A409F83CCBFC0A388FB09D3ABFCC816FF431C13BAB86ABF"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v15.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v15.json",
+    "sha256": "D7A1D70023FDF806469F44858D903FF2B2A0F3E17D0639F180C004B9DA502880"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v15.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-cylogy-v15.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v15.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-cylogy-v15.stdout.log",
+    "sha256": "EDD2E32465927F2E9B7855DEDFD03962C88DF87B332A0D42BBF3576AFD1EE527"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v16-symposium.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v16-symposium.json",
+    "sha256": "D2B99B17708252C2B608E4EC25F52568D2C393F95598824BEE76AA94747F26ED"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v21-live.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v21-live.json",
+    "sha256": "7DEA4296B198373580B0E4BD4C95CED96FE2C78729F1F7C2337E01643A638E63"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v21-live.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-cylogy-v21-live.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v21-live.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-cylogy-v21-live.stdout.log",
+    "sha256": "8FA9A27BC9C4CA3DB50379471E0DB9B6D4B9EBDD195846E3B5D48EEC8AB6A2F3"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v25-live.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v25-live.json",
+    "sha256": "AC5375B75066F41328B137185924CD42D1AE5DF22476D381D30FEC63ED729346"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v26-writing-controls.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v26-writing-controls.json",
+    "sha256": "D1C8669AEA8AF5E2CF3B92C18AC204BDC4327C3391B404CF0AD5CF2A362656EF"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v27-live.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v27-live.json",
+    "sha256": "121F6DEF76D9E3710D68F3E3C9968A7805AE19C271B7759C4CD555D4DAA35AD3"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v27-writing-controls.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v27-writing-controls.json",
+    "sha256": "9B73F8395D94C59A961E8DA33EEC5F97E6EB27AF2ED336B45FE2127A31563CFA"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v29-live.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v29-live.json",
+    "sha256": "64E2408E79ED97B1F0C17306D8905A489DFB2DF8CADFF9BDA72F205ABD9F1E79"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v30-container-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v30-container-1.json",
+    "sha256": "B0A019664A62FD5295DBDD097668DD3347924900E68E9DDD954D6A2D51236E9B"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v30-container-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v30-container-2.json",
+    "sha256": "BD99D8083ADAF9F011D92BAA4B77291C9D14A713F294A378DBE8BA26DD954E63"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v30-container-3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v30-container-3.json",
+    "sha256": "B2F40E020EA2C1D7D8D3672A676C1EB3151E38136A34272EC9B110172D8E8961"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v30-live.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v30-live.json",
+    "sha256": "0C95D40562414AABC652841F575C8F352A56BF36762C5B6AC030206D660DAC46"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v31-contract-controls.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v31-contract-controls.json",
+    "sha256": "644BE670C9F1D1D9C4AE04D026F52A75929597238054E53633CA702195018282"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v32-contract-controls.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v32-contract-controls.json",
+    "sha256": "329EE62178E0C7B7F5925B561617B00AA748648154A978AFCB535F14916705AE"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v33-contract-controls.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v33-contract-controls.json",
+    "sha256": "2FFA60CF200AEF30BD6E632117E35548B0F2FD89D8066FAA1AD453CC533651F5"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v33-live.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v33-live.json",
+    "sha256": "A85A99D52A7900C313549C1CF9B197CD1CFEE033A68D51555079DBFF5F250DDD"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v34-controls.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v34-controls.json",
+    "sha256": "1377B959156EEF50012CF8ECD896957CC2685326E91A7CF7D41C1A726743B391"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v42-cognitive-split-live.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v42-cognitive-split-live.json",
+    "sha256": "0B355B4045133B1246DFB040689FE899ACF25CBA157348CA030DB8FD7AD09ACE"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v43-contextual-evidence-live.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v43-contextual-evidence-live.json",
+    "sha256": "A9F3339926E189EA1A8C575E7997BA43C47370660F1028AB25E9268CBBBF3AD5"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v43-evidence-review.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v43-evidence-review.json",
+    "sha256": "81833B133BEC0593E4BEB6E580CEF07123AA10DA101005B330C5E0F33DAC9829"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v43-grouped.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v43-grouped.json",
+    "sha256": "D5E218CD5BEED1A45778FD78DC7C15A6EFF49CE07B80DA9B4DBABC54EF5AA7CA"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v44-frozen-reviewed.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v44-frozen-reviewed.json",
+    "sha256": "12D4FAF10A79BB82D2F98D529AC67C1D6E221DA089E94B3AD8D667DF415192B3"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v44-frozen.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v44-frozen.json",
+    "sha256": "79611121D28B8D9C76B8FBC50D12CF23EAB73E420D82F49D6210F1369DBF13C9"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v44-grouped.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v44-grouped.json",
+    "sha256": "84945ADDB227ECCDC7E42ED53887DA486451AB099EDAF2A8E93431D9AEF3F61B"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v44-live-reviewed.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v44-live-reviewed.json",
+    "sha256": "57AC5EA749485F579DB13DFA8C72D9728FEE55358E918040D006B05A5C93C169"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v44-live.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v44-live.json",
+    "sha256": "013B0690C963BE79220273C1D4DA6C8DC717892FC7E79762F9823B1EBDAB3947"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v44-reviewed-shard-0.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v44-reviewed-shard-0.json",
+    "sha256": "0D378B109A47C3F7ACEE200E01C4A37F6C0262A4CC42BC4E5AB86BD8C866BC18"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v44-reviewed-shard-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v44-reviewed-shard-1.json",
+    "sha256": "440D27AE450703C535FB8E4B9296F024D8ED9C9200ECC4254F6EA07942E63872"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v44-reviewed-shard-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v44-reviewed-shard-2.json",
+    "sha256": "1BBA0C91CEFAA8EE8EA86DC9EA07CCAE4EB25B23DF81EF66A48EAF2CCE81BBF5"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v44-summary.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v44-summary.json",
+    "sha256": "B96F260128393379B279A16C74C14B17D508CBBAF387B29465A5BFE22DACFF18"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v45-frozen.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v45-frozen.json",
+    "sha256": "982C510D87D75CD7C5250ED525A70DD881F7C83C868B87BA581565474CB5EBCA"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v46-frozen.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v46-frozen.json",
+    "sha256": "4F9C47085C7B8C03D7FADA0C36142B212F813E153D05F2176B84DB2381A10CF5"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v47-frozen.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v47-frozen.json",
+    "sha256": "389236966C5A98CC4676C001FF27BE5480D537C8724C4C665CA11F7DD83FC2D3"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-cylogy-v47-revised-frozen.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-cylogy-v47-revised-frozen.json",
+    "sha256": "A64BB049F1C5334AC15A0D53B430BFF85323709666F14240B9294E73931614BE"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-endesa-snapshot.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-endesa-snapshot.json",
+    "sha256": "3764CAC1DC984C1BCC1FD46E7FEB0E047D92991C7EB0C52975CAA489A384BCA9"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-bufete-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-bufete-results.json",
+    "sha256": "FE143FF6997F88EE40F59C5F57FC1BBB473E87A0D3C618528003395379DB5829"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-contract-regression-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-contract-regression-results.json",
+    "sha256": "C625C093F359248C2DAC6E296E87893B56AE1698BA57A98D832AEA3AD21DEE3B"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-controls-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-controls-results.json",
+    "sha256": "8D9D9F6263561E20C0A9CC53EB57F3404AAD829AF923154B716265E88D7644D8"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-google-title-contract-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-google-title-contract-results.json",
+    "sha256": "C6C550B66C839173A1CD3DF93EBF23388C8FB3FD31A77CF03EFD034971CD77ED"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-new-issues-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-new-issues-results.json",
+    "sha256": "36678F8572FFAD2D3828C368570E51886C30332385A04439919EAB1FA9EB43E0"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-outline-regression-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-outline-regression-results.json",
+    "sha256": "59516A0F44974BEEE5DA057B1BCB7452FA5768C2904D36B5D56CCE44521D834F"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-post-a-c-d-r2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-post-a-c-d-r2.json",
+    "sha256": "3A72156B3AF1A2EAFF9019C1D306F1737BBC88101835E6873B916CA665BEDE90"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-post-a-c-d-r3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-post-a-c-d-r3.json",
+    "sha256": "576E8C1ABC62F2885A9F3653B09FB13CD92C7F45FCE57C94B2433DDA11A04EAE"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-post-a-c-d.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-post-a-c-d.json",
+    "sha256": "D24972D5998FDB9349FD0D566101E4B302479AFF1CC59E208902F8E4AF3BF949"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-regression-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-regression-results.json",
+    "sha256": "58B332BCCF24F71164E5C05E6E72DFDC5948A880A2CAFAF37934DF6B2BF1E364"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-results.json",
+    "sha256": "5F86760797651A4E3B19E12ECE8D30D7EE9662588CB4DA5CA488EA5E4EE04028"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-sensitive-control-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-sensitive-control-results.json",
+    "sha256": "85BF5CCC8787D0AB4E6820C7767B561FF19F7AFB6008620B39B0B221980A8292"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-sensor-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-sensor-results.json",
+    "sha256": "3261A5BDBDCBC543987E0E0AC7CA0C38F13DBA41C10DBCA9EEDC7439313BDA15"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-stability-r4.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-stability-r4.json",
+    "sha256": "21DB3538074D7AF6774B316633BA20E0C0C9CBDFE6D9D236417708854ADB1F3A"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-stability-r5.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-stability-r5.json",
+    "sha256": "730F1E2E7A0BEAD1BC2482C6FD29CC9373F2B5F9BCDAEB908550F3EB9DA0B909"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-targeted-v6-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-targeted-v6-results.json",
+    "sha256": "4B9201E2B6E07B687B8CB694A95A554F1236CA8679AE832F2E8BBB19195414A2"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-title-contract-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-title-contract-results.json",
+    "sha256": "21DF60E027841953309D8E1152AD4EB9833BBE7BF6BD7E9C41D198C61860A586"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v10-run1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v10-run1.json",
+    "sha256": "C32636840ABF9E250F0EF075136ADCB33AB2F4E9BB6E5B75BFE5EB3D467941DF"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v10-run2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v10-run2.json",
+    "sha256": "8E84C6AF187D4379D68739F1EDAB231BC3B4BDD5651C2E35AEB85DBEAA521B5F"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v10-run3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v10-run3.json",
+    "sha256": "576E8C1ABC62F2885A9F3653B09FB13CD92C7F45FCE57C94B2433DDA11A04EAE"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v10-taxonomy-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v10-taxonomy-results.json",
+    "sha256": "20117FA83D5685444AD103B73F9F26F964CB5FD693B5649A4356415A4046D479"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v10-writing-rule-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v10-writing-rule-results.json",
+    "sha256": "869AC9C83F9E8695B2C9658BA75691B3AC227965AB5F44CA23BCF1098609E2B3"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v11-review-suggestions.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v11-review-suggestions.json",
+    "sha256": "B8029792D2576D01B99FB49B150266EC75B12A7DF4C4C2FBDBE96F46810C130C"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v11-writing-pair.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v11-writing-pair.json",
+    "sha256": "17189AE29E5B00980FE7544AD6FA431305A06679413481D585A10DA91630E134"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v11-writing-suggestions.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v11-writing-suggestions.json",
+    "sha256": "754E3C1168B7228440E605C5D0BEE720B6DF53A1ECF9CD84FB352C8DC91EF6DD"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v12-capitalization-r3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v12-capitalization-r3.json",
+    "sha256": "17189AE29E5B00980FE7544AD6FA431305A06679413481D585A10DA91630E134"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v12-contextual-writing-r2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v12-contextual-writing-r2.json",
+    "sha256": "17189AE29E5B00980FE7544AD6FA431305A06679413481D585A10DA91630E134"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v12-contextual-writing.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v12-contextual-writing.json",
+    "sha256": "17189AE29E5B00980FE7544AD6FA431305A06679413481D585A10DA91630E134"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v12-language-boundary.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v12-language-boundary.json",
+    "sha256": "17189AE29E5B00980FE7544AD6FA431305A06679413481D585A10DA91630E134"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v13-bufete-decision.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v13-bufete-decision.json",
+    "sha256": "554DE3A3DAA833897F52893C665B78FBC10B4447D98E8CD39C836706D4EFCDEF"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v13-cylogy-smoke.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v13-cylogy-smoke.json",
+    "sha256": "C6ADE1990DE7CFBDAAD5A3AE36604A55D2AA7DA4007AA560F95C5295B4AD5754"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v13-smoke.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v13-smoke.json",
+    "sha256": "98D6F90ABE5E61072E201C3EBD116823401885EE53E218815B5FCFE960F2AB05"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v13-writing-decision.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v13-writing-decision.json",
+    "sha256": "924F366865D661C3BFEEC8A0D068D74F70ABE869CF6979273E0E64FBACA6BD23"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v13-writing-enforced.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v13-writing-enforced.json",
+    "sha256": "19D853E9181A40507877555867CB6DC4658CB5469F41EBB116CDFCC656FCC46E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v14-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v14-full.json",
+    "sha256": "E71A40E6A44717357D16854D19CC738788B6413A4CBFD591EEEF29F8B76B0DA8"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v14-full.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-intrinsic-v14-full.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v14-full.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-intrinsic-v14-full.stdout.log",
+    "sha256": "153D0427B024BBB7524948FA3DD2A3D210B0A5D09D5DBE42526ED4F0C94D5BBD"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v14-mixed-live.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v14-mixed-live.json",
+    "sha256": "30B496AECBE6E724916C04038F2ED80B0E94CF9A92619EF5902CE5D9E9BD2213"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v14-mixed.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v14-mixed.json",
+    "sha256": "271F7464C8E9508C48D3B7F58CC42D7AE685CBF5F44D415E1BDCE7D87AED40DB"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v14-suspected-fact-test.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v14-suspected-fact-test.json",
+    "sha256": "F87E3C8B614B320E4835BFB75AD33F205E7EFD812763D6453973AFD53E236D70"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-contradiction-r3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v15-contradiction-r3.json",
+    "sha256": "5A07E436E32A5D50DE2B0DC8AFD1FA975FF1A6BB118C72F3CA9AB1E46E0812E3"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v15-full.json",
+    "sha256": "576E8C1ABC62F2885A9F3653B09FB13CD92C7F45FCE57C94B2433DDA11A04EAE"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-full.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-intrinsic-v15-full.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-full.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-intrinsic-v15-full.stdout.log",
+    "sha256": "2F9ADA0A5C6AA8639B3D506BFC4606CFB80BE88C74CFD70E45CA382F370FD31C"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-placeholder-r1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v15-placeholder-r1.json",
+    "sha256": "ADBCF531D6AEF71A0B5869BC2CDC549939D2B6FBD74CCB7A3E20A1392278277E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-placeholder-r2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v15-placeholder-r2.json",
+    "sha256": "3F9B81FDB76D887DF3515F0E4226E8BE0BCC28EB6BDCBEDE1672CC1C9C48D139"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-post-placeholder-b2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v15-post-placeholder-b2.json",
+    "sha256": "A9BEC49555F91BE9AB78C824C61062AC42F2764EBBAAEA502347B4F0D516E9D1"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-post-placeholder-brand.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v15-post-placeholder-brand.json",
+    "sha256": "50C277D3DDC03CCBFEEF0AA4DD676D9DE7031F9F3A6ECF377B25DB075B3A5038"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-post-placeholder-bufete.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v15-post-placeholder-bufete.json",
+    "sha256": "FE143FF6997F88EE40F59C5F57FC1BBB473E87A0D3C618528003395379DB5829"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-post-placeholder-contradiction.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v15-post-placeholder-contradiction.json",
+    "sha256": "90CC4A61047BEC8E3443CAE0C8E49FD3F4C6CCA4151DE6CCC7C5C3A9C59F3E5D"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-post-placeholder-cylogy-title.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v15-post-placeholder-cylogy-title.json",
+    "sha256": "7DB8E33CC75A0D89BCB7FA2A41C85986F325EDEAFDA33B4E5A34CC51EEE5527E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-post-placeholder-placeholder.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v15-post-placeholder-placeholder.json",
+    "sha256": "A459D88E00FFCB17284E4086113F20140700884ECF7BEDB5E6EA52F9796BA3C4"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-post-placeholder-sensitive.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v15-post-placeholder-sensitive.json",
+    "sha256": "10BAB969E6C92AC90F0AD7C3F037D3438F52CA15C199DA98125C1AA726F25381"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-post-placeholder-title-fixture.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v15-post-placeholder-title-fixture.json",
+    "sha256": "3FFAFE3A534A4051C6FDFF8FE32C951BD06F50573FFE21D9CA3391F139E798B2"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-post-placeholder-unprofessional.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v15-post-placeholder-unprofessional.json",
+    "sha256": "88CACCE01A2D3C4D3B21565523C4CFBC2B342310A211A5EE885CF55C123A9428"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-post-placeholder.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v15-post-placeholder.json",
+    "sha256": "108B3712D67DFD44CF49BCFB8D92E0526A2CB15838E34AB71169D81ABE9619C7"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-repeat-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v15-repeat-1.json",
+    "sha256": "F4D9D6288AA0B38B65FCA07FC4B1BB876FD41E6E5C964E6E0DB24BEB5765C524"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-repeat-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v15-repeat-2.json",
+    "sha256": "576E8C1ABC62F2885A9F3653B09FB13CD92C7F45FCE57C94B2433DDA11A04EAE"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-repeat-3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v15-repeat-3.json",
+    "sha256": "3A72156B3AF1A2EAFF9019C1D306F1737BBC88101835E6873B916CA665BEDE90"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-repeats.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-intrinsic-v15-repeats.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-repeats.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-intrinsic-v15-repeats.stdout.log",
+    "sha256": "7B810E508C5DBF6B8D6ACFE0388EA99E839CB86DC9A393089036AE67251F45B3"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-targeted-r2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v15-targeted-r2.json",
+    "sha256": "29B1470A01A828E67F4D3E5330EB42C23DEC8C9331E36C4E4D0B495F53F4F21D"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v15-targeted.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v15-targeted.json",
+    "sha256": "7B148A8031D374F67985EBC2979770E1EADE11D581FE07A62A22EBC00939F461"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v6-real-smoke-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v6-real-smoke-results.json",
+    "sha256": "A07E6BD9423464E33F9365C2F9D4F79960E8051AEB02E402520B83420FC03BDA"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v6-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v6-results.json",
+    "sha256": "F850E8139A52A7EEEB3B39FA8481BDA2286CB716586421D4621A55024D54D2D9"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v6-run1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v6-run1.json",
+    "sha256": "60D58D6217EE428118328BC5779448ED35FB3849F7C629AC9E40DC5ED97D6757"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v6-run2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v6-run2.json",
+    "sha256": "02240ACAC7705135740FC5CE94BAA6AEA6BD5FBA90D1219E2C3A548184FCD8D0"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v6-run3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v6-run3.json",
+    "sha256": "60D58D6217EE428118328BC5779448ED35FB3849F7C629AC9E40DC5ED97D6757"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v7-outline-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v7-outline-results.json",
+    "sha256": "70F292D3C3960FDB812034AEE9B1D1F9B81DED25974E4683EC0AD6469B450FE2"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v8-contract-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v8-contract-results.json",
+    "sha256": "4F546251D47B16FDD19F155B9B7F25083C3DA577386A04A4096F13F73E0F1595"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v8-google-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v8-google-results.json",
+    "sha256": "2D12F8A9B89A1EA8CD9D0B0FCD9D62506F76D2F2FE9F031B225B8EFA1B3839D9"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-intrinsic-v9-writing-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-intrinsic-v9-writing-results.json",
+    "sha256": "C6AC13D0A3953B90493C4B0F689CC4DB07D9CD73DC30CBD6FC39E2E6C36C7FC3"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-promise-stability-r1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-promise-stability-r1.json",
+    "sha256": "B03333A1347D3F08D545AA6F1050C75845C381FAFB048F648DE33239B1390439"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-promise-stability-r2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-promise-stability-r2.json",
+    "sha256": "B03333A1347D3F08D545AA6F1050C75845C381FAFB048F648DE33239B1390439"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-promise-stability-r3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-promise-stability-r3.json",
+    "sha256": "78E2C1FEE39A2A3048F180CA777076F91CA39E2FD0C7AA046270AA4CCCBD760C"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-results-20260817-cta-contract.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-results-20260817-cta-contract.json",
+    "sha256": "457C8C02921088B66A3B1380634A630F0460EC78AE52133469A270801BDFF9F4"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-results.json",
+    "sha256": "457C8C02921088B66A3B1380634A630F0460EC78AE52133469A270801BDFF9F4"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-run.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-run.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-run.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-run.stdout.log",
+    "sha256": "DF4A46459BA1BCF1BE234D94F9AEAD27B6470D9EF8E2B59FAFF3890882E4D597"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-anchor-external-validation-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-anchor-external-validation-results.json",
+    "sha256": "B21AEE02705B57EB95B2129F1D2777BB56495D4773EE26DB4B7CCEE4D0742E47"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-anchor-recap-v4-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-anchor-recap-v4-results.json",
+    "sha256": "61769532414D89F08D9FA00E0C49DA2F37D0E693BF20C7EC5363E6DE8E3515B7"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-anchor-recap-v5-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-anchor-recap-v5-results.json",
+    "sha256": "8AEF043D491E83F4DAB7258F08E98BE50FC3A5ADAB1368963A6C46F7BF92C57C"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-anchor-resolution-smoke-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-anchor-resolution-smoke-results.json",
+    "sha256": "C14579FAA46B6C04FFF9AD899F34B54F21CA4AA5D68AE03B6F3697B24D3B8CAB"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-anchor-resolution-smoke-v2-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-anchor-resolution-smoke-v2-results.json",
+    "sha256": "C769F582E4583F67995D5F96A8348C2F3AEDBE60470856E0742EEDA7D9D16676"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-anchor-resolution-smoke-v3-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-anchor-resolution-smoke-v3-results.json",
+    "sha256": "1DDC3AEAFB5C7769B0A6181C6020A9D9FCFDD3F630CCC5002455BAB90E1342B1"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-bufete-isolated-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-bufete-isolated-results.json",
+    "sha256": "13F677477603342F811072A5720DBB9A2BB592A91ED83804F263DC57F34D8AD8"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-cylogy-symposium-2020-operational-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-cylogy-symposium-2020-operational-results.json",
+    "sha256": "2915A0A9769F005674767BC3C9221C1828E85A7A32C4F52A0E41787BC9E6AC5D"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-cylogy-symposium-2020-temporal-references-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-cylogy-symposium-2020-temporal-references-results.json",
+    "sha256": "2915A0A9769F005674767BC3C9221C1828E85A7A32C4F52A0E41787BC9E6AC5D"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-cylogy-symposium-intent-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-cylogy-symposium-intent-results.json",
+    "sha256": "4C694D0DBEE2EC47859131F4730EC5ED3DDE8F61A66DCACD910B9EF635CC4C1F"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-cylogy-symposium-split-cta-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-cylogy-symposium-split-cta-results.json",
+    "sha256": "4C694D0DBEE2EC47859131F4730EC5ED3DDE8F61A66DCACD910B9EF635CC4C1F"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-cylogy-symposium-split-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-cylogy-symposium-split-results.json",
+    "sha256": "6DD3D14B48EE468A9A6F6D7D9CF6E72E3D3364E30638D2A199F262851921EEFC"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-cylogy-symposium-split-temporal-simplified-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-cylogy-symposium-split-temporal-simplified-results.json",
+    "sha256": "6DD3D14B48EE468A9A6F6D7D9CF6E72E3D3364E30638D2A199F262851921EEFC"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-cylogy-symposium-temporal-contract-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-cylogy-symposium-temporal-contract-results.json",
+    "sha256": "4C694D0DBEE2EC47859131F4730EC5ED3DDE8F61A66DCACD910B9EF635CC4C1F"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-cylogy-symposium-temporal-contract-v2-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-cylogy-symposium-temporal-contract-v2-results.json",
+    "sha256": "4C694D0DBEE2EC47859131F4730EC5ED3DDE8F61A66DCACD910B9EF635CC4C1F"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-cylogy-symposium-temporal-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-cylogy-symposium-temporal-results.json",
+    "sha256": "4C694D0DBEE2EC47859131F4730EC5ED3DDE8F61A66DCACD910B9EF635CC4C1F"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-declared-period-cylogy-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-declared-period-cylogy-results.json",
+    "sha256": "6DD3D14B48EE468A9A6F6D7D9CF6E72E3D3364E30638D2A199F262851921EEFC"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-declared-period-recap-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-declared-period-recap-results.json",
+    "sha256": "8AEF043D491E83F4DAB7258F08E98BE50FC3A5ADAB1368963A6C46F7BF92C57C"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-declared-period-validation-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-declared-period-validation-results.json",
+    "sha256": "933570E479FCDCF5C249A2147A5F972589A703F88C2559AC15DBA12D8EA33185"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-ethisys-hiring-consistency-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-ethisys-hiring-consistency-results.json",
+    "sha256": "24CE2D2631697ECDF2E0AD05963B6F0DF471B0CF11C7B1A618124A69069B4753"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-ethisys-hiring-isolated-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-ethisys-hiring-isolated-results.json",
+    "sha256": "9B4B0543F95EE140D2817F8E5C2E9967A9F55D5CF51DB3E0DCFF9063636B6BF8"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-ethisys-hiring-pagequotes-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-ethisys-hiring-pagequotes-results.json",
+    "sha256": "24CE2D2631697ECDF2E0AD05963B6F0DF471B0CF11C7B1A618124A69069B4753"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-ethisys-hiring-split-temporal-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-ethisys-hiring-split-temporal-results.json",
+    "sha256": "3B697C951D9D4FAAA8CB0C0FBF70C3BC3DC5BAF44670EE88BED33309CA033AF9"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-ethisys-hiring-temporal-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-ethisys-hiring-temporal-results.json",
+    "sha256": "9B4B0543F95EE140D2817F8E5C2E9967A9F55D5CF51DB3E0DCFF9063636B6BF8"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-ethisys-publication-guard-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-ethisys-publication-guard-results.json",
+    "sha256": "6276F4A3DE8CD53558B412C17E15B2BD4E5B9710703B5D96F1BDDCE56776ADB1"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-ethisys-stale-risk-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-ethisys-stale-risk-results.json",
+    "sha256": "2D1D373E4DF430F123917B077DCD78EB54974C900BC02CE2B1E60B40DAA4A4AA"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-eurodicas-anchor-v2-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-eurodicas-anchor-v2-results.json",
+    "sha256": "5453B0E8E391D0A6069DF5931EC7FA641956BEC7D8B683EF15F20C95FDEF5992"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-eurodicas-no-content-date-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-eurodicas-no-content-date-results.json",
+    "sha256": "A9E98AAF319BD2AAAB564BBF5895E9DC9D1C62A1F38FC5C7211455AFF44522DE"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-eurodicas-pagequotes-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-eurodicas-pagequotes-results.json",
+    "sha256": "AAB46B83F02EA63C72C132D72691EA641DA2FE85F63A317A0655E4DCB451A83E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-eurodicas-temporal-references-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-eurodicas-temporal-references-results.json",
+    "sha256": "CE2CFDC7DB1BE79218EEEC64DED92ADD1C34CEBFCCC8BCE5C36A03731F80F515"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-full-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-full-results.json",
+    "sha256": "EE9CFAE147E946065953A72377DCF3D8090FA07955259CBD70A809801C70CA49"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-last4-literal-quotes-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-last4-literal-quotes-results.json",
+    "sha256": "FD663ED70EE720D72709531786E0DBBC9C227FD7454E3E2B0EFA4C0BEB00205A"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-last4-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-last4-results.json",
+    "sha256": "64C19AC54ECEAD007B7917DC03B7DF51E164EF2C3BFB9DCDC130D0325E782C83"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-last4-taxonomy-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-last4-taxonomy-results.json",
+    "sha256": "9AFFF85FCA2A29DD19C4336046D4287DD84D35D1DD80F8AED67F27460B2E5A8F"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-legalteam-temporal-references-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-legalteam-temporal-references-results.json",
+    "sha256": "CAE8AC07B439A9774B05936E2C41B6F638BF2D7A7B6552C861F3B765F7111127"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-marshall-isolated-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-marshall-isolated-results.json",
+    "sha256": "AEEAAA83B71278F3D6C4BD61E04D4B171A90F3620528777EC83F6B4A8FF999C2"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-operational-temporal-references-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-operational-temporal-references-results.json",
+    "sha256": "B67ECC4AD984DF3DDB3A316BD3C9D6C0F1DC9A7C0213BED94FAACACC7A53AC3F"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-temporal-date-authority-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-temporal-date-authority-results.json",
+    "sha256": "8F9106D9836FB5D6339970664319FA45CE3CDED61D0BA0CD0BF4CF5A77A4739C"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-temporal-in-diagnosis-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-temporal-in-diagnosis-results.json",
+    "sha256": "B4CFA274C221E9A6364A38DAC57DD10E75D78BB33B0AD429C496C3CCC8F1F754"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-temporal-references-prior-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-temporal-references-prior-results.json",
+    "sha256": "7A3D6BA190F5E80F64EDAB461D6688D993381DD1A7BCDD46154C30A60BC50700"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-volkswagen-isolated-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-volkswagen-isolated-results.json",
+    "sha256": "5E0BBAD276D3C16D861EAB569815077358CF32158FD615309C792356815DA6F3"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-vw-troc-isolated-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-vw-troc-isolated-results.json",
+    "sha256": "1A40C8A6FD5DF653FB07D5B9D170C6D5EAC70316EBCDA1B663D4B431DC46D918"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-western-isolated-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-western-isolated-results.json",
+    "sha256": "274B29840F45F3A48756D7EA95B0E7FCFBB0ED5A731AD6C089173A9D9AF12F45"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-secondary-western-tavily-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-secondary-western-tavily-results.json",
+    "sha256": "7225C76D9191EAB6A93CEC3C38E3EA3A7E5E470E4E5FFBA220AF799B94CB24F2"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-taxonomy-discovery-real-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-taxonomy-discovery-real-results.json",
+    "sha256": "28F12B5919DA6E37A89E2F3DFFBEEE319C5A338BA44182DDC0F7D5FF65ACBE65"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-taxonomy-discovery-results.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-taxonomy-discovery-results.json",
+    "sha256": "724B29E7326AB75FB604BAC76C7D854AB49A953B9EDC0F9EA4C63142AFB034A3"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-title-promise-cylogy-r2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-title-promise-cylogy-r2.json",
+    "sha256": "FF3BFB8E0A9FD7073A0056F49D2DC4A27521E0F50E46F7F7BBE9D4F7CA6411D0"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-title-promise-cylogy-r3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-title-promise-cylogy-r3.json",
+    "sha256": "7DB8E33CC75A0D89BCB7FA2A41C85986F325EDEAFDA33B4E5A34CC51EEE5527E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-title-promise-cylogy.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-title-promise-cylogy.json",
+    "sha256": "FF3BFB8E0A9FD7073A0056F49D2DC4A27521E0F50E46F7F7BBE9D4F7CA6411D0"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-title-promise-fixture.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-title-promise-fixture.json",
+    "sha256": "3FFAFE3A534A4051C6FDFF8FE32C951BD06F50573FFE21D9CA3391F139E798B2"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-title-promise-smoke-r2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-title-promise-smoke-r2.json",
+    "sha256": "848FF3A6C6D5C9B2783235F05161BA1A35084C1E932B71EBBB01B35EF9EFADDE"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-title-promise-smoke.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-title-promise-smoke.json",
+    "sha256": "D04B041876BF342A82CA5C37EADB4080612E7E09BD1662954555B24849F27EAE"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-title-v16-final-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-title-v16-final-full.json",
+    "sha256": "7B67A25DFBFD21130FE203B636899F279F6C9EF021F7C3E491A34B6895EE8AC3"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-title-v16-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-title-v16-full.json",
+    "sha256": "5CAE7942C589B3EF671CED01E3B5EE4D5151FCA05297D9AAF91C0395F4849B09"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-title-v16-repeat-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-title-v16-repeat-1.json",
+    "sha256": "3B09B807E42338AC2DA5328E06895084B0502119CEC8A80D25185BA598D1F441"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-title-v16-repeat-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-title-v16-repeat-2.json",
+    "sha256": "14046631E8DE2A2E3EB40ABC52D9A76FA9E586A1FAAED4CB24B375BD1103B071"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v17-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v17-full.json",
+    "sha256": "F95158FFF1F7C1ABE26377DE41705AC004A25D34A5775906F704579237A9097B"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v17-targeted.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v17-targeted.json",
+    "sha256": "2324CDCF6DB204C79DEC1E2F4E44DEAE275F6747EEC9AB55A18364692E6321D0"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v18-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v18-full.json",
+    "sha256": "D935B19C7E9E5C51DE0A84DC4DD83D540FCF5327261E60802D1DDF35A671CF29"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v18-reading-order.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v18-reading-order.json",
+    "sha256": "8C65B8626F10C6FDA032201994BD77FA9CA845FBA5F05EB378B30117DEBDB034"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v18-repeat-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v18-repeat-1.json",
+    "sha256": "D5FCA7E9324F0BEC33EE15449ED67EB05E49628782F5AF1DFB98E317800B01A2"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v18-repeat-1.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v18-repeat-1.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v18-repeat-1.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v18-repeat-1.stdout.log",
+    "sha256": "289C6EC3A719A6D1260F68F61F362857ABEA9600870348D8333F9E7AA9BC4BEF"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v18-repeat-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v18-repeat-2.json",
+    "sha256": "179E8317E592CD51E8B3530039A0248DFE8C764FB4B63FE09C290F7AD674AD3E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v18-repeat-2.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v18-repeat-2.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v18-repeat-2.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v18-repeat-2.stdout.log",
+    "sha256": "289C6EC3A719A6D1260F68F61F362857ABEA9600870348D8333F9E7AA9BC4BEF"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v18-repeat-3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v18-repeat-3.json",
+    "sha256": "BB2C2EBEB92555F1029434820AD1FD5A38FB8CC74F7BC0500381FF21B90ACCA5"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v18-repeat-3.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v18-repeat-3.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v18-repeat-3.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v18-repeat-3.stdout.log",
+    "sha256": "BBEF3C342E7DBC2081A8D83F801266F5FD36B17A75AD1F23C876B0F576AFC177"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v19-bufete-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v19-bufete-1.json",
+    "sha256": "72D4584DB5C07039F3B4244F5A868F9F6707AD37F42158D35A3A2E345FEA9668"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v19-bufete-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v19-bufete-2.json",
+    "sha256": "8CD913E1D2F0C8E57637F06FDBCF8E6CC0F25589DC8B36DC56B9B0374E6F9B82"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v19-bufete-3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v19-bufete-3.json",
+    "sha256": "3FD6C691A7177C305DDD658E9F4179028F25C20A3DC20193BEB17AED95DEC022"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v19-bufete-4.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v19-bufete-4.json",
+    "sha256": "A08E2BA9FA068EEBE4A67B1BF06032994BBD27F0DA74257C5FF661AD19C538A1"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v19-bufete-5.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v19-bufete-5.json",
+    "sha256": "81B7C135281AFBFC2E5AD369A1AB8BF1A48BE8DBF67C83EAC15DA4E369D4E5B5"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v19-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v19-full.json",
+    "sha256": "FE8D38F8F7CD5A42FB2E75A3153F3367437FB07819EBCF42827724279359F7F4"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v19-full.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v19-full.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v19-full.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v19-full.stdout.log",
+    "sha256": "5759BA535CD719B68215094E811404314561F9E643B0BDB77031407BF882B6FC"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v20-bufete-restored.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v20-bufete-restored.json",
+    "sha256": "48C580E7967E77EB8437862E312D302FCCCD38D5DC210D6CBDD8306B16B60D47"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v20-contradiction-controls-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v20-contradiction-controls-1.json",
+    "sha256": "8596F88C5BF79A72FED7E9655EDB3967862A24946A1B805E5857FF6D552DD229"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v20-contradiction-controls-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v20-contradiction-controls-2.json",
+    "sha256": "26D154FDC0A809BDAE38C7290D79BD10C92EBA13A5C4AA7EB0C49884A2497B5E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v20-contradiction-controls-3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v20-contradiction-controls-3.json",
+    "sha256": "F82C45C3643E30BACFC794129F1BA62C06E1D88D99E6F9B8A65D4D55DCC36ABE"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v20-contradiction-restored-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v20-contradiction-restored-1.json",
+    "sha256": "D20256AA379F5C979BDCAF19B12332DD0CAC51B348D685257869CBE7BAF4A948"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v20-contradiction-restored-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v20-contradiction-restored-2.json",
+    "sha256": "B180843E74589EC76E747B6CFDA615802FE3BB153D881EF29ED1892EEFA8DE92"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v20-contradiction-restored-3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v20-contradiction-restored-3.json",
+    "sha256": "0917860906134571AC8151400BF80EF6CA13E6CA7981AF0356E9C861CB00EC21"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v20-endesa-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v20-endesa-1.json",
+    "sha256": "13FC336FD0781D2490C41E601FE39C6E6D9DAF8F273DA91E29793423731011AE"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v20-endesa-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v20-endesa-2.json",
+    "sha256": "F8AAD4BCCAA962FC0C32A11DA32D6F47B2F46C1477CA64BD8512ADB0617F46CA"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v20-endesa-3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v20-endesa-3.json",
+    "sha256": "FCC1E29DC1876A3C7F2F21809AC7E6698D345252E468E322507A2CBCF7596055"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v20-endesa-restored-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v20-endesa-restored-1.json",
+    "sha256": "306B888D552087627B0ECC249436916B19E2AE1E94DEDDA3303DD2489133D457"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v20-endesa-restored-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v20-endesa-restored-2.json",
+    "sha256": "1FFCCA244526C249D886A206501AE5E7EA086EDDF5ADD421A3CA2B9F68711C8C"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v20-endesa-restored-3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v20-endesa-restored-3.json",
+    "sha256": "8419270DCBFEA056CA33E67DCF6CD5D62C9E83BA2D7AE6FFE3867EDAC4B963A3"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v20-full-restored.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v20-full-restored.json",
+    "sha256": "09E6A5282F49E41E3CEAD99033E0582CB27614FD0B5A40E930B945F353927ADD"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v20-full-restored.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v20-full-restored.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v20-full-restored.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v20-full-restored.stdout.log",
+    "sha256": "BBEF3C342E7DBC2081A8D83F801266F5FD36B17A75AD1F23C876B0F576AFC177"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v20-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v20-full.json",
+    "sha256": "8F299F265E84842FDE4211662630A1F32A033BB9284D58893300AA363563F0F8"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v20-full.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v20-full.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v20-full.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v20-full.stdout.log",
+    "sha256": "C18AFACE20CF4E4FC73B2C8EEAF7C1A68E931BC0B9A5E864645C96171F69762C"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v21-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v21-full.json",
+    "sha256": "1414FF13F0D61A165E411455E38DAF20D65A3F0C0271B62843379B259C58858D"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v21-full.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v21-full.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v21-full.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v21-full.stdout.log",
+    "sha256": "289C6EC3A719A6D1260F68F61F362857ABEA9600870348D8333F9E7AA9BC4BEF"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v21-output-contract.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v21-output-contract.json",
+    "sha256": "5D9C88A5BB5FA260622FC9FF333D680A81DE3F86C30903950C982D94E22B6739"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v21-repeat-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v21-repeat-1.json",
+    "sha256": "E39B8BF5DD66B1B347D728888E61D8557B3E2736FA5510ED9D1E5BBCC7D4EE58"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v21-repeat-1.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v21-repeat-1.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v21-repeat-1.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v21-repeat-1.stdout.log",
+    "sha256": "289C6EC3A719A6D1260F68F61F362857ABEA9600870348D8333F9E7AA9BC4BEF"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v21-repeat-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v21-repeat-2.json",
+    "sha256": "F788AD7178A5BFA4F60C37A08384ECFDAB79D0DD01BF346401CED7253D9C085F"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v21-repeat-2.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v21-repeat-2.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v21-repeat-2.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v21-repeat-2.stdout.log",
+    "sha256": "289C6EC3A719A6D1260F68F61F362857ABEA9600870348D8333F9E7AA9BC4BEF"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v21-repeat-3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v21-repeat-3.json",
+    "sha256": "49DBEF90584E9DB50A48DC9FBD6A000112BB5BA59D166E97991A0F38FB5F8869"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v21-repeat-3.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v21-repeat-3.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v21-repeat-3.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v21-repeat-3.stdout.log",
+    "sha256": "289C6EC3A719A6D1260F68F61F362857ABEA9600870348D8333F9E7AA9BC4BEF"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v21-repeat-4.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v21-repeat-4.json",
+    "sha256": "B799CBA853413640A3F86C5551C50C834A7A9ACF0AA8F8304311045253668AC7"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v21-repeat-4.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v21-repeat-4.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v21-repeat-4.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v21-repeat-4.stdout.log",
+    "sha256": "263FC6139C04FCAC5B943B3BBD7601FBA4C862445A351151BC3ACDD18C8F8A8D"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v22-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v22-full.json",
+    "sha256": "4EB537CF6ACA21332C59AE3448EB6D5587722DD761B18C17593C68E7E651241E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v22-full.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v22-full.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v22-full.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v22-full.stdout.log",
+    "sha256": "C1C6D83681C314D4F3DBA90C0EC29A05B27A909795D569703CC59D68D916A926"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v22-recommendation-contract.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v22-recommendation-contract.json",
+    "sha256": "3AAD36D845B8A2849B9A1330E52E8D004CA148F2C00E668BB093267F5281AC74"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v23-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v23-full.json",
+    "sha256": "0E0EC2E34BE830D63684353C8352D8FF8683E52E703B07920E48F4786DD4EBB0"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v23-full.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v23-full.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v23-full.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v23-full.stdout.log",
+    "sha256": "27D2AECCE58F1D23D61ED48D4B69C054D4033A0809E7DDB3B02D21A9CBB11DCA"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v23-unprofessional-controls-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v23-unprofessional-controls-1.json",
+    "sha256": "35678C0AACE178A8367C8015206A34DBE07AFF5A6FB62F2519E8C3F5B8B34793"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v23-unprofessional-controls-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v23-unprofessional-controls-2.json",
+    "sha256": "83EC44B4AF27384A3740D09B6F730D295661B3835EA2D6EE8915BE944141E7D6"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v23-unprofessional-controls-3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v23-unprofessional-controls-3.json",
+    "sha256": "8CE13A7EDB5DC44B97EA4ACD7F394E61B31C4D9640CB00249DC24D6EC032E0D3"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v24-contradiction-controls-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v24-contradiction-controls-1.json",
+    "sha256": "516AEE77FFD87D7E57CB77F55703F80BE7EE4E3BCFE43AB91B907AD58B1635C6"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v24-contradiction-controls-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v24-contradiction-controls-2.json",
+    "sha256": "60B766D9047A882DFAF3FC0CDD4194BD1D7B29E3B9B2899F9A2B4ABC191E8ABA"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v24-contradiction-controls-3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v24-contradiction-controls-3.json",
+    "sha256": "F8331D622A173CB854092EA61027BA9E5C0EADF50D4A3978881561DB4CC8ECA0"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v24-contradiction-controls-4.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v24-contradiction-controls-4.json",
+    "sha256": "67D3C7F777A45CA8A6C93B258B5C38F093234654EC67CE09262D97FD03EFFF0F"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v24-contradiction-controls-5.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v24-contradiction-controls-5.json",
+    "sha256": "E37B43EFB870D99369E36845C6E52EE76E68206862DE83BF3A7B4A836C01A8B8"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v24-endesa-recheck.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v24-endesa-recheck.json",
+    "sha256": "4619411A0E660C5D864412E6ED22BB7F1DF30817F82A17289BA1CECF227A6D14"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v24-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v24-full.json",
+    "sha256": "A51EF9BB6C7CD7063965DFA486FDB1AAF9BBC53B51EB519E4B3AA0DEE941EFA0"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v24-full.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v24-full.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v24-full.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\benchmark-v24-full.stdout.log",
+    "sha256": "289C6EC3A719A6D1260F68F61F362857ABEA9600870348D8333F9E7AA9BC4BEF"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v24-stability-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v24-stability-1.json",
+    "sha256": "DC9DCC04C826071AF8EAE805AC8DD14E3BAC922AEF348BE762F9ED4C4DC26740"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v24-stability-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v24-stability-2.json",
+    "sha256": "A6424EBAEB01BCF8546DB38CF4772032D3E81E1DDB3D87C23AC4DEF953C41220"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v25-endesa-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v25-endesa-1.json",
+    "sha256": "7A2A305F86390B07EF278A810AC9A1BE890931C2F8992852B0EEC076C62BE638"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v25-endesa-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v25-endesa-2.json",
+    "sha256": "414C34F091033BFCE737D54A3A05D79F2210096CE65A2062671A3E37F1F82FBB"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v25-endesa-3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v25-endesa-3.json",
+    "sha256": "4660EC55D61B4DECC4CDD125E45AC155296DC5AF884136B8593B1BD272A39098"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v25-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v25-full.json",
+    "sha256": "B2F9208DD95B90BB67D214713962659AC4F3A857E5D206711B0003EF9B4B43F0"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v25-isolated-title-validity.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v25-isolated-title-validity.json",
+    "sha256": "65E7DC5EB658AC9E428C2E57EEF3181A52CE6D8D5921BEBE2A3F6428E757190E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v25-repeat-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v25-repeat-1.json",
+    "sha256": "86EB9FB98C6B7ECECB13E3200CE516DD94A1E435ADCA7EA07F03DF897116D218"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v25-repeat-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v25-repeat-2.json",
+    "sha256": "463BB9AD6A4CFFC21810C02E3724DD26573498AAA69C09BD7DF6028C09BD019B"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v27-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v27-full.json",
+    "sha256": "22DE055B2992183B81E45615D31F9CD8D98C21276EB469792F727298406488E6"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v28-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v28-full.json",
+    "sha256": "6FE0F1EAB48581596E8AF0E7551E2A7490D69426E68E06366D32B3F845912136"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v29-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v29-full.json",
+    "sha256": "3D6CA3B7E155DF6157A5A52A8ECB31F7DC35E010BF81E17992F227B878E53C87"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v30-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v30-full.json",
+    "sha256": "FE2F956A41D09CB8341A9A9EBCB7CB6F6F9ACB9A79F9E10A307C6E97F2FADA9F"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v31-contradiction-controls.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v31-contradiction-controls.json",
+    "sha256": "DF584D563FFC698971553E7D691A6BA2D8467FF70AE993A1D3FAEDA98673BBED"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v32-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v32-full.json",
+    "sha256": "21CC1AA8B3C735DD4D7FB6C06632F9AEE5E2F515416B059042F9FE49B2A771E6"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v33-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v33-full.json",
+    "sha256": "42B530310514A2766DDF3A759D37BBDD2C5F7EF811CC6CF8466FEA5E88ED24B4"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v33-writing-proof-controls.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v33-writing-proof-controls.json",
+    "sha256": "A010B6EC286F52F2A37D619F160577D625C55D4F33CC04E5017B1404F164A49B"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v34-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v34-full.json",
+    "sha256": "2F79CAC87030A3618D7C048D56F4BD7EEE69DC3ACD37A374C59084316DFF53B8"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v35-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v35-full.json",
+    "sha256": "4EDF035DC5C72A49AD7E8E9709F2C372E4508D036C8E55968CA284539277A23D"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v35-regression-controls.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v35-regression-controls.json",
+    "sha256": "9CED683187518F647A1D0C4D50851C8BD34617A963CBA2D7E146FCA420EE03C9"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v36-outline-control.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v36-outline-control.json",
+    "sha256": "033C3FD051E7D462E1483862055256098ABF7C682048DEB7CE86A2F9B6B628D7"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v36-regression-controls.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v36-regression-controls.json",
+    "sha256": "1619DDF5C51A8A440097F39D3A7D1D4F64DE1EC1DC8FEBE0D6C212898D0691E2"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v37-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v37-full.json",
+    "sha256": "E6F961CD51269592B3ED21F7366CCAE9C2F66B9CA675D0F7C5BB7BDCF641EB67"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v37-unverified-control.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v37-unverified-control.json",
+    "sha256": "2ED4D2AA2F991D398930F3E519F4A4803566366181BA1B45E2BA621CC95CED4C"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v38-final-controls.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v38-final-controls.json",
+    "sha256": "9F2BAC75C518C4D701E776D745026008DE1FD37FD70B5D2BF0FE8A57720AA548"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v39-endesa-control.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v39-endesa-control.json",
+    "sha256": "E56DA5A625C30D192A88124256AAB774B17DD9F572E588D9E546155E1B47C5C3"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v39-gpt54-stability-1-main.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v39-gpt54-stability-1-main.json",
+    "sha256": "A57CC15A20390CF01988D433DFE901084D23247B0BB6917CF0174A2B22B4C0EC"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v39-gpt54-stability-1-marketo.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v39-gpt54-stability-1-marketo.json",
+    "sha256": "FE07E70AC71E846BC0088B0F0C20DA6120814084F859008F6F4B70D43BDCF8F0"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v39-gpt54-stability-2-main.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v39-gpt54-stability-2-main.json",
+    "sha256": "0D6ECBE6F130C47B3B12E59D81F4A676777B7BCA1858D7C09017FBF923D4B961"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v39-gpt54-stability-2-marketo.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v39-gpt54-stability-2-marketo.json",
+    "sha256": "2BB8D23B0687B3263AEEB69A2552E0924D8AD1B461CDD61F7BEFC3439115F272"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v39-gpt54-stability-3-main.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v39-gpt54-stability-3-main.json",
+    "sha256": "81347732410C12966ADBEB988ABF5DAE8BFEBF084E8B2CF24AB628A3968D667D"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v39-gpt54-stability-3-marketo.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v39-gpt54-stability-3-marketo.json",
+    "sha256": "C449965E56088A4136BB7FE1B06B3DE8609F5A676E58FC993966A5BAF6F25DF0"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v39-stability-1-main.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v39-stability-1-main.json",
+    "sha256": "9BA13B383F754A179E80FC5BBE369E4DE9586D28C36E054AC96F56DFE04CFB35"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v39-stability-1-marketo.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v39-stability-1-marketo.json",
+    "sha256": "9E821E235472AA84C7F227DAA65093FA5155AA21D31567D1B8D4D651A4D4AB0D"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v39-stability-2-main.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v39-stability-2-main.json",
+    "sha256": "D37C275F6AA1C5D4D5FF4294127F2EFAA893EBD9FF81C6E35F43E7F8B5F769BF"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v39-stability-2-marketo.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v39-stability-2-marketo.json",
+    "sha256": "518981AE5B79175D995B726A01BAA6B3B6B553EF1C31D524CEA1BC32A573330F"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v39-stability-3-main.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v39-stability-3-main.json",
+    "sha256": "51CC3C6E8C55696DF62FD2723DFD7B087BAADA86037088FD4CC41F4F561F8319"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v39-stability-3-marketo.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v39-stability-3-marketo.json",
+    "sha256": "ACFD3288B7734A80BCEC2FD5AE183C324CE10250F34F2AA96FBD38931EA4AD9E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v40-split-contradiction-r2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v40-split-contradiction-r2.json",
+    "sha256": "6B2C66AEF9A9C72A04DD5CA04B75C2FA0C9F7AA4997EA708B64D6AC3572754C4"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v40-split-endesa-exhaustive-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v40-split-endesa-exhaustive-1.json",
+    "sha256": "1334F010FC2B99167617AB6A4010B6D531D9AE1BAF1F6152AC986521B18FDDC6"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v40-split-endesa-exhaustive-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v40-split-endesa-exhaustive-2.json",
+    "sha256": "4745D1CE2D028F39D0F3F0E33FBC47CE64B033675BFBFB6541D03837104B7392"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v40-split-endesa-exhaustive-3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v40-split-endesa-exhaustive-3.json",
+    "sha256": "2E66FE3A75CBBFACBEE4F072F149AA54C37122443B27F7903C82428F21D50BD7"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v40-split-endesa-filler-fix-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v40-split-endesa-filler-fix-1.json",
+    "sha256": "CF444516AF0D3BF27A4633C45ECF8FBA73D3C185971AFE3B426700D322D32D54"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v40-split-endesa-filler-fix-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v40-split-endesa-filler-fix-2.json",
+    "sha256": "5B4CD12176D917DC49FA390A6640AF343807A2C3B0CA6985527277DEE333272C"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v40-split-endesa-filler-fix-3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v40-split-endesa-filler-fix-3.json",
+    "sha256": "7C4A998554E612A20720AA7153EB5D732439FDF847F884EA3C02CDFA70A4F588"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v40-split-full-r2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v40-split-full-r2.json",
+    "sha256": "47E86DC8D8A645EADC681D9919F0E37CE74B07D1D3A708FBD2AB277BA6CBC78D"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v40-split-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v40-split-full.json",
+    "sha256": "329EC0C094913A162AFA4A82D415A30D4B68090FE7B3283DAF09AEF4E201E646"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v40-split-smoke-r2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v40-split-smoke-r2.json",
+    "sha256": "51800583FFB89E3C89803B1242C66DDAEDD45EB5995604A82B4D19A12946B283"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v40-split-smoke.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v40-split-smoke.json",
+    "sha256": "4173D0C936C1219A0B4FF2CB01B27493169BDC0999C132754FFA8005792BB726"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v40-split-stability-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v40-split-stability-1.json",
+    "sha256": "0222BABA19B1658D503670DB21D8A5E19DB0DB43F8B654CB24ECAB357A5DC27E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v40-split-stability-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v40-split-stability-2.json",
+    "sha256": "F9C6950D90D8AF8A3087281F385943284FFD5382417F0B1F1B94223B5B3552F9"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v40-split-stability-3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v40-split-stability-3.json",
+    "sha256": "57F7B3FD23C84AB9CBF3E175A8935608C07650526128C07EEC32135D66BD3C15"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v41-cognitive-split-final-smoke.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v41-cognitive-split-final-smoke.json",
+    "sha256": "ECDFB67CFE6FC212500490B593E1AB80A48A538CD8BBBD553B66243691FA80AB"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v41-cognitive-split-full-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v41-cognitive-split-full-1.json",
+    "sha256": "D3057F4094E5651F8A4C3411D1A157A227A43860540C8CD61D41FC40FD07674E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v41-cognitive-split-full-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v41-cognitive-split-full-2.json",
+    "sha256": "507AA4ACFB4079525E5AD7AC0B462CAE9A61F34CACF73E5A34A5082D77CADFDB"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v41-cognitive-split-full-3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v41-cognitive-split-full-3.json",
+    "sha256": "BDCEFEB46EA86CA22E297E407814F54F0AC55042BD7FCC713301EE063DDA1EE3"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v41-cognitive-split-smoke.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v41-cognitive-split-smoke.json",
+    "sha256": "80CE61809FEBA002B5300734A32AD5308816E0BC382176E614CE14D0A0AA0377"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v41-cognitive-split-stability-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v41-cognitive-split-stability-1.json",
+    "sha256": "8193872646ECE56E543A3685BEF863FB22D648BACEE16926BE92C5877538A306"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v41-cognitive-split-stability-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v41-cognitive-split-stability-2.json",
+    "sha256": "0985AD9DB2E8AD09AACAC36079186316577850248450A8BF9771451A4C970953"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v41-cognitive-split-stability-3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v41-cognitive-split-stability-3.json",
+    "sha256": "1DC53156AF98FDEF5F5BCDF0870BAECBC4047D716A64F158A73B4DCDE247DEBE"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v41-sensitive-boundary-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v41-sensitive-boundary-1.json",
+    "sha256": "F48FC9204F57E7EBD1DCF2DCAB60BF10DB6B440A1C3166DA7E249CF0446259AC"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v41-sensitive-boundary-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v41-sensitive-boundary-2.json",
+    "sha256": "C5BA31C6D3C3272E04BCEBCC0BD505352AFEA9EBEDFA9EB981E250BB8C7CAC83"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v41-sensitive-boundary-3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v41-sensitive-boundary-3.json",
+    "sha256": "0851CDD824F6D1D71A9E8BB995F822CBECE4A773C36588130F5FF161ACF22CAD"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v42-cognitive-split-full-repeat-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v42-cognitive-split-full-repeat-1.json",
+    "sha256": "F00128989D170E200D73E426934299EBD175094BBD8C83660569992DDC0E75D0"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v42-cognitive-split-full-repeat-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v42-cognitive-split-full-repeat-2.json",
+    "sha256": "24223A689E70CEE5B4581852AA52EB38F4B94DC3FC33DCBC9C7DDCE695886F1C"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v42-cognitive-split-full-repeat-3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v42-cognitive-split-full-repeat-3.json",
+    "sha256": "88B55C9A23D7D4D6CACE80AD94F6C8B3D55A26A63DB0108A79841D873DE69422"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v42-cognitive-split-full-repeat-4.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v42-cognitive-split-full-repeat-4.json",
+    "sha256": "DE7508CB3BA6F9874E310180C64EB34A40813364B3736F40006565AA7607C02F"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v42-cognitive-split-full-repeat-5.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v42-cognitive-split-full-repeat-5.json",
+    "sha256": "FF902253C8CE1C29315DF002318AF9C7D3A96CB5637284D671B8BC18805376C4"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v42-cognitive-split-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v42-cognitive-split-full.json",
+    "sha256": "6975311AFB85A784F1514796413488B4E289B271F3A08BF607BDCC13C56769C3"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v43-contextual-evidence-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v43-contextual-evidence-full.json",
+    "sha256": "6F18C7EC845F9361A7D32BB55B1F8D0617D601DF889101C6FBD62E4D984CE14A"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v44-controls-r2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v44-controls-r2.json",
+    "sha256": "BEC0D115EF426DB7FD526B8263DDF9777E73AA77109C5D34F618677DC833458C"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v44-controls-verified.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v44-controls-verified.json",
+    "sha256": "B0034BA010B2F633A0BC8ACE4F1286BAD94ED3C686ACFA1E1B0B3B1D6BBAD68E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v44-endesa-final.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v44-endesa-final.json",
+    "sha256": "9F1FB075A6D35949AE8EF05CC62D4D380E321E93A0D7551D68C61AB8A4CC5934"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v44-endesa-repeat.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v44-endesa-repeat.json",
+    "sha256": "CF76636C45F8271DEBBB1AC2C7B4C6724344719BBB57B46EEDAD437B09A87D91"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v44-final-reviewed.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v44-final-reviewed.json",
+    "sha256": "F71527A2C6C584A7ADCA4C121CD838EEEBA21EFE5EFBC25C58479CBEAAD4F768"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v44-final.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v44-final.json",
+    "sha256": "F32D2AC6D48B4EF04EC75E2831441A7AA17B0902333E88005AF6FA604DAEB0DB"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v44-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v44-full.json",
+    "sha256": "34EC4449ADDAEC8C769F2117D62B56D0CBA3197869E91A99BF81EDFD63A25CE6"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v45-dedicated-writing-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v45-dedicated-writing-full.json",
+    "sha256": "710603E6594D54FE1B1A71156E4D0B9740FC10E51313CC2FC355F0E36DEAF15F"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v45-validation-summary.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v45-validation-summary.json",
+    "sha256": "D8636CC2F0BA1AF4FE2EDCEC208A8DDAB33663714C018D19C69AC640FD051E3C"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v45-writing-repeat-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v45-writing-repeat-1.json",
+    "sha256": "584E98803C05FC000A21F05A013E8696640AF499BEE52D515C64C616ADB28ACC"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v45-writing-repeat-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v45-writing-repeat-2.json",
+    "sha256": "C2E392C1AB9FBC8650EA7124AC93D35C6F8ACBBB80DF59AB87B542C6D287F36E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v46-baseline-medium-repeat.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v46-baseline-medium-repeat.json",
+    "sha256": "0CB61C35CF225ECF4D3673EC027219FF9D004499262BA0267D38C8424602A043"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v46-baseline-medium.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v46-baseline-medium.json",
+    "sha256": "8BF6D4DE00606E6AAA70AB6B1DC26CBE7E8BAA2874BCCC79F99B1018AF3D4BAD"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v46-baseline-none-repeat.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v46-baseline-none-repeat.json",
+    "sha256": "D6A7F78566A9590232952C142F2F61F165356033B28B47896877AF64C1A60C91"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v46-baseline-none.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v46-baseline-none.json",
+    "sha256": "69067CA604B31150117D12F92FEC318EF56A82E159D33189D9D8A19EDB5C8C99"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v46-controls-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v46-controls-1.json",
+    "sha256": "0E6A2963C59430F417B753AA2866D0ECDC3F2D3101A9979BF1917EA98B968EA9"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v46-controls-2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v46-controls-2.json",
+    "sha256": "368F8214D59AFF7E613DDB2BB44BC27915E51AA82A6FB2E2DE1DC41140D6E6E3"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v46-frozen-repeat-0.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v46-frozen-repeat-0.json",
+    "sha256": "89F5D4BA01F56804F07B1FBE3DC4551E3304EEE20232F2020DB4C9DD7F079100"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v46-frozen-repeat-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v46-frozen-repeat-1.json",
+    "sha256": "A675CE20CD9AE90D2C12E63F9420954A5A6F4B8187C692CFFA38DBF72223D299"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v46-frozen-repeat-bufete.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v46-frozen-repeat-bufete.json",
+    "sha256": "F8185A8F0CCB253FEAE2D4318BDCB613BF295C5A614E865C5B6B0BA3BD625E8D"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v46-frozen-repeat-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v46-frozen-repeat-full.json",
+    "sha256": "A853A74BC13754E58E3B9F03BBD1C838FA14BCC3E88EBD737D19763D4B45736A"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v46-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v46-full.json",
+    "sha256": "A548BBDF450272E59D5241C850AD66EF339742AB73EDA780866ED5E6E9F393F6"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v46-validation-summary.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v46-validation-summary.json",
+    "sha256": "D438FD5AD7C3F3CB1F9B0470CF52A68F9DF73465750CB3FC800C55C399A09123"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v47-context-baseline.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v47-context-baseline.json",
+    "sha256": "EF5C2FB34DEC65416B869B6E1EE7B14F7B23798E9930880E575DC34C937BF9E5"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v47-context-final.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v47-context-final.json",
+    "sha256": "6C73E00830EDBB05F54B25B2161B1E806AC6B0B82A30E5766996E35EA4B31608"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v47-context-revised.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v47-context-revised.json",
+    "sha256": "BC1EB2F9776A0AAB05BEA9B7429348F7B17479443EBA3426FAFFB2A3AFD30CFA"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v47-controls-repeat.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v47-controls-repeat.json",
+    "sha256": "0FC81EE4A1986FEFEC18162760B261F70FDC81F17E1E9FC14EB3AE6E94C0B4CC"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v47-full-0.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v47-full-0.json",
+    "sha256": "3C5A2E59DD33F9F14F6E585DFCF3C4ACB352C91EA40C4BC2CCF1C4CDA4458B4B"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v47-full-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v47-full-1.json",
+    "sha256": "F9D45F97D2C6CEE95E6A904FC6FE5465D30BE331E3A92E1600DEF99FB5358125"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v47-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v47-full.json",
+    "sha256": "82A3C3EFB287E8ED334FA517152CDB8FDCC80C8DB11F76166B6A7B5268B38895"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v47-revised-controls-repeat.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v47-revised-controls-repeat.json",
+    "sha256": "9AF092E1D73B7855BFBB8DEC80665637DEF5E37DFEDF52A9B48D99D60AE50AE1"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v47-revised-full-0.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v47-revised-full-0.json",
+    "sha256": "959FC56F8453E35AE80564702FFEFA15D516ACEB45E6FA615940594C2CFB4011"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v47-revised-full-1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v47-revised-full-1.json",
+    "sha256": "682AB91AFA9F616E5056470861BA69B7D9773A0411DAB7389BB0D013797918E3"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v47-revised-full.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v47-revised-full.json",
+    "sha256": "F87E0FD36DF69E0D952E4B9776ACED80BAB5ED966F3AB750C0A1CDC157EA615F"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\benchmark-v47-validation-summary.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\benchmark-v47-validation-summary.json",
+    "sha256": "B234D252274A4699393CEFF33232EE34B62F122E0552A6C3EAF9761A9EF56F16"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\cylogy-hosting-after-title-examples.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\cylogy-hosting-after-title-examples.json",
+    "sha256": "6F0C707A29434B2355EB321A34BA235A559690E97B511EDAE85E4E5B37580F23"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\cylogy-live-run.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\cylogy-live-run.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\cylogy-live-run.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\cylogy-live-run.stdout.log",
+    "sha256": "30B6F576B86A06753D77D3D18A419BDA3FE35ABEF7646D9EBC1F2B7C11FE78B2"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\cylogy-training-review.stderr.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\cylogy-training-review.stderr.log",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\cylogy-training-review.stdout.log",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\logs\\cylogy-training-review.stdout.log",
+    "sha256": "AB78917671DEC0AF1AA802CE49347F3338BC4DF1D4C630BE2C59AFA4E064AB80"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\cylogy-unprofessional-post-contract.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\cylogy-unprofessional-post-contract.json",
+    "sha256": "FCC3B64AD4947EDFB35F275242F7E0250479F1DBD10AC706899D53A9E3A7EDE6"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\post-gate-01.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\post-gate-01.json",
+    "sha256": "5450C1356D4651DA22561E6B3B480EDF90D59CFD909626327919EBF82793E520"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\post-gate-02.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\post-gate-02.json",
+    "sha256": "BDA6F263E15C30D0D99C53C0792B3B353F90FF0358664F3B9E61AA7BB5CF2933"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\post-gate-03.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\post-gate-03.json",
+    "sha256": "B079046EB772B7E43F60821EEC203825CFBB3EDDF8FCB7A12EF3F501E212F10C"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\post-gate-05.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\post-gate-05.json",
+    "sha256": "0BB46DA7D5E013B8AD598C38A3B7F993ACDCE84F8F4435C15BBC40132BC52109"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\post-gate-06.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\post-gate-06.json",
+    "sha256": "6AFE30E8753562868EA5E4CDDE1AA18139522B72232F61207984B9DD58DF840E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\post-gate-07.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\post-gate-07.json",
+    "sha256": "D22F24542A4C6EA9E7345DC6904D05E293867D8D1005851647F5E7BA601AC51E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\post-gate-08.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\post-gate-08.json",
+    "sha256": "88CACCE01A2D3C4D3B21565523C4CFBC2B342310A211A5EE885CF55C123A9428"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\post-gate-09.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\post-gate-09.json",
+    "sha256": "A459D88E00FFCB17284E4086113F20140700884ECF7BEDB5E6EA52F9796BA3C4"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\post-gate-10.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\post-gate-10.json",
+    "sha256": "90CC4A61047BEC8E3443CAE0C8E49FD3F4C6CCA4151DE6CCC7C5C3A9C59F3E5D"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\post-gate-11.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\post-gate-11.json",
+    "sha256": "3FFAFE3A534A4051C6FDFF8FE32C951BD06F50573FFE21D9CA3391F139E798B2"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\post-gate-12.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\post-gate-12.json",
+    "sha256": "7DB8E33CC75A0D89BCB7FA2A41C85986F325EDEAFDA33B4E5A34CC51EEE5527E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\post-gate-13.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\post-gate-13.json",
+    "sha256": "50C277D3DDC03CCBFEEF0AA4DD676D9DE7031F9F3A6ECF377B25DB075B3A5038"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\post-gate-15.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\post-gate-15.json",
+    "sha256": "FE143FF6997F88EE40F59C5F57FC1BBB473E87A0D3C618528003395379DB5829"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\run-benchmark.ps1",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\run-benchmark.ps1",
+    "sha256": "C8EC1087D6B26C6AC0D32FD26ACEF5C19547900532BC4BCE7746DED0F31F55DC"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\run-local-checks.ps1",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\run-local-checks.ps1",
+    "sha256": "51037B359154D529FEBA66D5132B6797CCB4560A70B3A0118AE17063F79031DD"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\sensitive-good-post-gate-r1.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\sensitive-good-post-gate-r1.json",
+    "sha256": "85BF5CCC8787D0AB4E6820C7767B561FF19F7AFB6008620B39B0B221980A8292"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\sensitive-good-post-gate-r2.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\sensitive-good-post-gate-r2.json",
+    "sha256": "85BF5CCC8787D0AB4E6820C7767B561FF19F7AFB6008620B39B0B221980A8292"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\sensitive-good-post-gate-r3.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\sensitive-good-post-gate-r3.json",
+    "sha256": "85BF5CCC8787D0AB4E6820C7767B561FF19F7AFB6008620B39B0B221980A8292"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\sensitive-unsafe-post-gate.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\sensitive-unsafe-post-gate.json",
+    "sha256": "10BAB969E6C92AC90F0AD7C3F037D3438F52CA15C199DA98125C1AA726F25381"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r1-01.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r1-01.json",
+    "sha256": "5450C1356D4651DA22561E6B3B480EDF90D59CFD909626327919EBF82793E520"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r1-02.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r1-02.json",
+    "sha256": "BDA6F263E15C30D0D99C53C0792B3B353F90FF0358664F3B9E61AA7BB5CF2933"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r1-03.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r1-03.json",
+    "sha256": "B079046EB772B7E43F60821EEC203825CFBB3EDDF8FCB7A12EF3F501E212F10C"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r1-04.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r1-04.json",
+    "sha256": "85BF5CCC8787D0AB4E6820C7767B561FF19F7AFB6008620B39B0B221980A8292"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r1-05.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r1-05.json",
+    "sha256": "0BB46DA7D5E013B8AD598C38A3B7F993ACDCE84F8F4435C15BBC40132BC52109"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r1-06.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r1-06.json",
+    "sha256": "6AFE30E8753562868EA5E4CDDE1AA18139522B72232F61207984B9DD58DF840E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r1-07.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r1-07.json",
+    "sha256": "D22F24542A4C6EA9E7345DC6904D05E293867D8D1005851647F5E7BA601AC51E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r1-08.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r1-08.json",
+    "sha256": "88CACCE01A2D3C4D3B21565523C4CFBC2B342310A211A5EE885CF55C123A9428"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r1-09.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r1-09.json",
+    "sha256": "A459D88E00FFCB17284E4086113F20140700884ECF7BEDB5E6EA52F9796BA3C4"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r1-10.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r1-10.json",
+    "sha256": "90CC4A61047BEC8E3443CAE0C8E49FD3F4C6CCA4151DE6CCC7C5C3A9C59F3E5D"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r1-11.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r1-11.json",
+    "sha256": "3FFAFE3A534A4051C6FDFF8FE32C951BD06F50573FFE21D9CA3391F139E798B2"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r1-12.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r1-12.json",
+    "sha256": "7DB8E33CC75A0D89BCB7FA2A41C85986F325EDEAFDA33B4E5A34CC51EEE5527E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r1-13.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r1-13.json",
+    "sha256": "50C277D3DDC03CCBFEEF0AA4DD676D9DE7031F9F3A6ECF377B25DB075B3A5038"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r1-14.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r1-14.json",
+    "sha256": "10BAB969E6C92AC90F0AD7C3F037D3438F52CA15C199DA98125C1AA726F25381"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r1-15.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r1-15.json",
+    "sha256": "FE143FF6997F88EE40F59C5F57FC1BBB473E87A0D3C618528003395379DB5829"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r2-01.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r2-01.json",
+    "sha256": "5450C1356D4651DA22561E6B3B480EDF90D59CFD909626327919EBF82793E520"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r2-02.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r2-02.json",
+    "sha256": "BDA6F263E15C30D0D99C53C0792B3B353F90FF0358664F3B9E61AA7BB5CF2933"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r2-03.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r2-03.json",
+    "sha256": "B079046EB772B7E43F60821EEC203825CFBB3EDDF8FCB7A12EF3F501E212F10C"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r2-04.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r2-04.json",
+    "sha256": "994DB9B5D0C770334C772D3ABA480F5D164B293CC6EDE58030DCBB8DCE281F67"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r2-05.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r2-05.json",
+    "sha256": "0BB46DA7D5E013B8AD598C38A3B7F993ACDCE84F8F4435C15BBC40132BC52109"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r2-06.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r2-06.json",
+    "sha256": "6AFE30E8753562868EA5E4CDDE1AA18139522B72232F61207984B9DD58DF840E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r2-07.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r2-07.json",
+    "sha256": "D22F24542A4C6EA9E7345DC6904D05E293867D8D1005851647F5E7BA601AC51E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r2-08.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r2-08.json",
+    "sha256": "88CACCE01A2D3C4D3B21565523C4CFBC2B342310A211A5EE885CF55C123A9428"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r2-09.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r2-09.json",
+    "sha256": "A459D88E00FFCB17284E4086113F20140700884ECF7BEDB5E6EA52F9796BA3C4"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r2-10.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r2-10.json",
+    "sha256": "90CC4A61047BEC8E3443CAE0C8E49FD3F4C6CCA4151DE6CCC7C5C3A9C59F3E5D"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r2-11.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r2-11.json",
+    "sha256": "3FFAFE3A534A4051C6FDFF8FE32C951BD06F50573FFE21D9CA3391F139E798B2"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r2-12.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r2-12.json",
+    "sha256": "7DB8E33CC75A0D89BCB7FA2A41C85986F325EDEAFDA33B4E5A34CC51EEE5527E"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r2-13.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r2-13.json",
+    "sha256": "50C277D3DDC03CCBFEEF0AA4DD676D9DE7031F9F3A6ECF377B25DB075B3A5038"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r2-14.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r2-14.json",
+    "sha256": "10BAB969E6C92AC90F0AD7C3F037D3438F52CA15C199DA98125C1AA726F25381"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\stability-r2-15.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\stability-r2-15.json",
+    "sha256": "FE143FF6997F88EE40F59C5F57FC1BBB473E87A0D3C618528003395379DB5829"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\summarize-writing-findings.ps1",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\summarize-writing-findings.ps1",
+    "sha256": "08282D047EF8DC99277B06313C0880C462E7109A0F9517731CB66B1D4E45B459"
+  },
+  {
+    "source": "C:\\Dev\\versa\\versa-core\\unprofessional-post-contract-fixture.json",
+    "destination": "C:\\Dev\\versa\\versa-core\\benchmarks\\results\\unprofessional-post-contract-fixture.json",
+    "sha256": "88CACCE01A2D3C4D3B21565523C4CFBC2B342310A211A5EE885CF55C123A9428"
+  }
+]

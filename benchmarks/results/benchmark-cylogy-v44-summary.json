@@ -1,0 +1,12 @@
+{
+  "pages": 30,
+  "healthy": 14,
+  "unhealthy": 16,
+  "technicalFailures": 0,
+  "writingOccurrences": 32,
+  "uniqueQuotes": 23,
+  "requiresReview": 6,
+  "safeSuggestions": 26,
+  "modelCalls": 78.0,
+  "titleMismatch": 1
+}

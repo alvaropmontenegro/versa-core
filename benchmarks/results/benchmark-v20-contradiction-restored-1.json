@@ -1,0 +1,33 @@
+{
+  "label": "Directly contradictory guidance",
+  "source": "artificial",
+  "url": "http://127.0.0.1:8088/pages/contradictory-guidance.html",
+  "expectedClassification": "unhealthy",
+  "classification": "unhealthy",
+  "insufficientEvidence": false,
+  "assessmentInvalid": false,
+  "model": "gpt-5.4-mini",
+  "titlePromiseAssessment": {
+    "titleQuote": "Invoice Submission Guide",
+    "titlePromise": "A guide about how to submit invoices.",
+    "fulfillment": "fulfilled",
+    "reason": "The body explains invoice submission and review steps, matching the title's promise of invoice-submission guidance.",
+    "bodyEvidenceQuote": "This guide explains how customers should submit invoices for manual review."
+  },
+  "titlePromiseValidation": {
+    "status": "valid",
+    "reason": "literal_evidence_valid",
+    "normalizedBodyEvidenceQuote": "This guide explains how customers should submit invoices for manual review."
+  },
+  "requiredIssues": [
+    "direct_statement_contradiction"
+  ],
+  "allowedIssues": [],
+  "forbiddenIssues": [],
+  "issues": [
+    "direct_statement_contradiction"
+  ],
+  "scored": true,
+  "passed": true,
+  "error": null
+}

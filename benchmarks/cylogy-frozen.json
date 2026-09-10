@@ -1,0 +1,37 @@
+[
+  {
+    "source": "frozen",
+    "scored": false,
+    "label": "20260908-095540-www-cylogy-com-services-optimizely-development",
+    "url": "https://www.cylogy.com/services/optimizely-development/",
+    "captureArtifact": "benchmarks/frozen/20260908-095540-www-cylogy-com-services-optimizely-development.json"
+  },
+  {
+    "source": "frozen",
+    "scored": false,
+    "label": "20260908-095831-www-cylogy-com-company",
+    "url": "https://www.cylogy.com/company/",
+    "captureArtifact": "benchmarks/frozen/20260908-095831-www-cylogy-com-company.json"
+  },
+  {
+    "source": "frozen",
+    "scored": false,
+    "label": "20260908-095941-www-cylogy-com-insights-5-takeaways-from-the-2020-sitecore-symposium",
+    "url": "https://www.cylogy.com/insights/5-takeaways-from-the-2020-sitecore-symposium/",
+    "captureArtifact": "benchmarks/frozen/20260908-095941-www-cylogy-com-insights-5-takeaways-from-the-2020-sitecore-symposium.json"
+  },
+  {
+    "source": "frozen",
+    "scored": false,
+    "label": "20260908-100015-www-cylogy-com-insights-7-essential-ingredients-of-a-successful-content-migration",
+    "url": "https://www.cylogy.com/insights/7-essential-ingredients-of-a-successful-content-migration/",
+    "captureArtifact": "benchmarks/frozen/20260908-100015-www-cylogy-com-insights-7-essential-ingredients-of-a-successful-content-migration.json"
+  },
+  {
+    "source": "frozen",
+    "scored": false,
+    "label": "20260908-095718-www-cylogy-com-technologies-sitecore",
+    "url": "https://www.cylogy.com/technologies/sitecore/",
+    "captureArtifact": "benchmarks/frozen/20260908-095718-www-cylogy-com-technologies-sitecore.json"
+  }
+]

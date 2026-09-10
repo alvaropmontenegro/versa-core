@@ -1,0 +1,74 @@
+[
+  {
+    "label": "Objective spelling and grammar errors",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/writing-errors.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "requiredIssues": [
+      "writing_errors"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Persistently unprofessional writing",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/unprofessional-writing.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "requiredIssues": [
+      "unprofessional_writing"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "unprofessional_writing"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Published placeholder content",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/incomplete-placeholder-content.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "requiredIssues": [
+      "incomplete_or_placeholder_content"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "incomplete_or_placeholder_content"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Promised eligibility requirements omitted",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/missing-essential-information.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "requiredIssues": [
+      "missing_essential_information"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "missing_essential_information"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  }
+]

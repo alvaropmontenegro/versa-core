@@ -1,0 +1,54 @@
+[
+  {
+    "label": "Unverified claims are outside intrinsic scope",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/unverified-claims.html",
+    "expectedClassification": "healthy",
+    "classification": "unhealthy",
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "incomplete_or_placeholder_content"
+    ],
+    "scored": true,
+    "passed": false,
+    "error": null
+  },
+  {
+    "label": "Objective spelling and grammar errors",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/writing-errors.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "requiredIssues": [
+      "writing_errors"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Cylogy Google Analytics content mismatch",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/cylogy-google-analytics-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "requiredIssues": [
+      "title_body_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "title_body_mismatch"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  }
+]

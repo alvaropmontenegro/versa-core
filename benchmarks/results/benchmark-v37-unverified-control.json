@@ -1,0 +1,31 @@
+{
+  "label": "Unverified claims are outside intrinsic scope",
+  "source": "artificial",
+  "url": "http://127.0.0.1:8088/pages/unverified-claims.html",
+  "expectedClassification": "healthy",
+  "classification": "healthy",
+  "insufficientEvidence": false,
+  "assessmentInvalid": false,
+  "model": "gpt-5.4-mini",
+  "pageSummary": "This is a promotional page for Meridian Digital, presented as a project-management platform for teams that coordinate delivery work. It highlights reliability, financial impact, European compliance, enterprise use, and faster delivery. The page also includes a call to start a free trial.",
+  "recommendationsComplete": true,
+  "titlePromiseAssessment": {
+    "titleQuote": "Why Teams Choose Meridian",
+    "titlePromise": "The page will explain why teams choose Meridian and present supporting reasons or benefits for selecting it.",
+    "fulfillment": "fulfilled",
+    "reason": "The body develops multiple reasons for choosing Meridian, including reliability, financial impact, compliance, enterprise suitability, and faster delivery.",
+    "bodyEvidenceQuote": "Reliability You Can Count On"
+  },
+  "titlePromiseValidation": {
+    "status": "valid",
+    "reason": "literal_evidence_valid",
+    "normalizedBodyEvidenceQuote": "Reliability You Can Count On"
+  },
+  "requiredIssues": [],
+  "allowedIssues": [],
+  "forbiddenIssues": [],
+  "issues": [],
+  "scored": true,
+  "passed": true,
+  "error": null
+}

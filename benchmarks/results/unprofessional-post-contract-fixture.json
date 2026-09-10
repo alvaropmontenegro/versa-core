@@ -1,0 +1,18 @@
+{
+  "label": "Persistently unprofessional writing",
+  "source": "artificial",
+  "url": "http://127.0.0.1:8088/pages/unprofessional-writing.html",
+  "expectedClassification": "unhealthy",
+  "classification": "unhealthy",
+  "requiredIssues": [
+    "unprofessional_writing"
+  ],
+  "allowedIssues": [],
+  "forbiddenIssues": [],
+  "issues": [
+    "unprofessional_writing"
+  ],
+  "scored": true,
+  "passed": true,
+  "error": null
+}

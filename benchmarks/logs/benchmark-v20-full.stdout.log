@@ -1,0 +1,25 @@
+
+source     label                                              classification issues                            scored p
+                                                                                                                      a
+                                                                                                                      s
+                                                                                                                      s
+                                                                                                                      e
+                                                                                                                      d
+------     -----                                              -------------- ------                            ------ -
+artificial Healthy article                                    healthy        {}                                  True e
+artificial Healthy product                                    healthy        {}                                  True e
+artificial Healthy support guide                              healthy        {}                                  True e
+artificial Sensitive topic handled responsibly                healthy        {}                                  True e
+artificial Historical event recap                             healthy        {}                                  True e
+artificial Unverified claims are outside intrinsic scope      healthy        {}                                  True e
+artificial Objective spelling and grammar errors              unhealthy      {writing_errors}                    True e
+artificial Persistently unprofessional writing                unhealthy      {unprofessional_writing}            True e
+artificial Published placeholder content                      unhealthy      {published_placeholder_content}     True e
+artificial Directly contradictory guidance                    unhealthy      {direct_statement_contradiction}    True e
+artificial Title and body cover different subjects            unhealthy      {title_body_mismatch}               True e
+snapshot   Cylogy Google Analytics content mismatch           unhealthy      {title_body_mismatch}               True e
+artificial Abusive and coercive brand language                unhealthy      {brand_safety_risk}                 True e
+artificial Unsafe sensitive-topic guidance                    unhealthy      {sensitive_topic_without_context}   True e
+snapshot   Bufete Padilla Altea Norwegian route               unhealthy      {language_mismatch}                 True e
+snapshot   Endesa Santa Coloma placeholder and writing errors unhealthy      {published_placeholder_content}     True e
+

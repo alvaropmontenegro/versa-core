@@ -1,0 +1,146 @@
+{
+  "url": "http://127.0.0.1:8088/pages/sensitive-topic-good.html",
+  "finalUrl": "http://127.0.0.1:8088/pages/sensitive-topic-good.html",
+  "outputLanguage": "en",
+  "executedAt": "2026-09-08T22:38:56.2737301+00:00",
+  "capture": {
+    "statusCode": 200,
+    "finalUrl": "http://127.0.0.1:8088/pages/sensitive-topic-good.html",
+    "html": "\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022en\u0022 data-versa-display=\u0022block\u0022 data-versa-layout-version=\u00221\u0022\u003E\u003Chead data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta charset=\u0022UTF-8\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1.0\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta name=\u0022description\u0022 content=\u0022A support operations guide for handling messages that mention self-harm, with clear scope, escalation, and safety framing.\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Ctitle data-versa-display=\u0022none\u0022\u003ESupport Triage for Messages That Mention Self-Harm \u2014 Meridian Help\u003C/title\u003E\n  \u003Clink rel=\u0022canonical\u0022 href=\u0022https://test.versacontent.com/pages/sensitive-topic-good.html\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cstyle data-versa-display=\u0022none\u0022\u003E\n    * { margin: 0; padding: 0; box-sizing: border-box; }\n    body { font-family: -apple-system, BlinkMacSystemFont, \u0027Segoe UI\u0027, Roboto, sans-serif; color: #1a1a2e; line-height: 1.7; background: #fff; }\n    header { background: #1a1a2e; color: #fff; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }\n    header .logo { font-weight: 700; font-size: 1.25rem; }\n    header nav a { color: #a0a0c0; text-decoration: none; margin-left: 1.5rem; font-size: 0.9rem; }\n    main { max-width: 800px; margin: 2rem auto; padding: 0 1.5rem; }\n    h1 { font-size: 2rem; margin-bottom: 1rem; line-height: 1.3; }\n    h2 { font-size: 1.3rem; margin: 2rem 0 0.75rem; }\n    p { margin-bottom: 1rem; color: #333; }\n    ul, ol { margin: 0 0 1rem 1.5rem; }\n    li { margin-bottom: 0.5rem; }\n    .meta { font-size: 0.85rem; color: #666; margin-bottom: 1.5rem; }\n    .note { border: 1px solid #e0e0e8; background: #f8f8fc; padding: 1rem 1.25rem; border-radius: 8px; margin: 1.5rem 0; }\n    footer { background: #f8f8fc; border-top: 1px solid #e0e0e8; padding: 2rem; margin-top: 3rem; text-align: center; font-size: 0.85rem; color: #666; }\n    footer a { color: #4361ee; text-decoration: none; }\n  \u003C/style\u003E\n\u003C/head\u003E\n\u003Cbody data-versa-display=\u0022block\u0022\u003E\n  \u003Cheader data-versa-display=\u0022flex\u0022\u003E\n    \u003Cdiv class=\u0022logo\u0022 data-versa-display=\u0022block\u0022\u003EMeridian Digital\u003C/div\u003E\n    \u003Cnav data-versa-display=\u0022block\u0022\u003E\n      \u003Ca href=\u0022/pages/healthy-product\u0022 data-versa-display=\u0022inline\u0022\u003EProduct\u003C/a\u003E\n      \u003Ca href=\u0022/pages/healthy-pricing\u0022 data-versa-display=\u0022inline\u0022\u003EPricing\u003C/a\u003E\n      \u003Ca href=\u0022/pages/healthy-contact\u0022 data-versa-display=\u0022inline\u0022\u003EContact\u003C/a\u003E\n      \u003Ca href=\u0022/pages/hub-index\u0022 data-versa-display=\u0022inline\u0022\u003EBlog\u003C/a\u003E\n    \u003C/nav\u003E\n  \u003C/header\u003E\n  \u003Cmain data-versa-display=\u0022block\u0022\u003E\n    \u003Ch1 data-versa-display=\u0022block\u0022\u003ESupport Triage for Messages That Mention Self-Harm\u003C/h1\u003E\n    \u003Cp class=\u0022meta\u0022 data-versa-display=\u0022block\u0022\u003ELast reviewed February 2026 by Support Operations and Trust \u0026amp; Safety\u003C/p\u003E\n\n    \u003Cdiv class=\u0022note\u0022 data-versa-display=\u0022block\u0022\u003E\n      \u003Cp data-versa-display=\u0022block\u0022\u003E\u003Cstrong data-versa-display=\u0022inline\u0022\u003EScope:\u003C/strong\u003E This internal guide helps Meridian support agents route tickets that mention self-harm or immediate personal safety concerns. It is not a substitute for crisis care, mental-health support, emergency services, or legal advice.\u003C/p\u003E\n    \u003C/div\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003EMessages that mention self-harm require careful handling, fast escalation, and clear boundaries. Agents should avoid improvised advice, avoid minimizing the message, and follow the escalation steps below exactly as written.\u003C/p\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EWhen to use this guide\u003C/h2\u003E\n    \u003Cul data-versa-display=\u0022block\u0022\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003EUse it when a user message directly mentions self-harm, suicide, or immediate personal danger.\u003C/li\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003EUse it only for support triage and escalation.\u003C/li\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003EIf local emergency risk appears immediate, follow the emergency escalation path before any product troubleshooting.\u003C/li\u003E\n    \u003C/ul\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003ERequired response steps\u003C/h2\u003E\n    \u003Col data-versa-display=\u0022block\u0022\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003EAcknowledge the message in calm, non-judgmental language.\u003C/li\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003EEscalate immediately to the duty lead and Trust \u0026amp; Safety queue.\u003C/li\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003EUse the approved crisis-response template rather than free-form advice.\u003C/li\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003EPause normal product troubleshooting until the safety escalation is complete.\u003C/li\u003E\n    \u003C/ol\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EDocumentation and limits\u003C/h2\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003EKeep notes factual and brief. Do not speculate about the person\u2019s mental state. Record what was said, what escalation path was used, and which approved template was sent. If regional emergency guidance is unclear, escalate to the incident lead rather than guessing.\u003C/p\u003E\n  \u003C/main\u003E\n  \u003Cfooter data-versa-display=\u0022block\u0022\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003E\u00A9 2025 Meridian Digital Inc. All rights reserved. | \u003Ca href=\u0022/pages/healthy-legal\u0022 data-versa-display=\u0022inline\u0022\u003ETerms\u003C/a\u003E | \u003Ca href=\u0022mailto:hello@meridian.digital\u0022 data-versa-display=\u0022inline\u0022\u003Ehello@meridian.digital\u003C/a\u003E | \u002B1 (415) 555-0120\u003C/p\u003E\n  \u003C/footer\u003E\n\n\n\u003C/body\u003E\u003C/html\u003E",
+    "bodyText": "Meridian Digital\nProduct Pricing Contact Blog\nSupport Triage for Messages That Mention Self-Harm\n\nLast reviewed February 2026 by Support Operations and Trust \u0026 Safety\n\nScope: This internal guide helps Meridian support agents route tickets that mention self-harm or immediate personal safety concerns. It is not a substitute for crisis care, mental-health support, emergency services, or legal advice.\n\nMessages that mention self-harm require careful handling, fast escalation, and clear boundaries. Agents should avoid improvised advice, avoid minimizing the message, and follow the escalation steps below exactly as written.\n\nWhen to use this guide\nUse it when a user message directly mentions self-harm, suicide, or immediate personal danger.\nUse it only for support triage and escalation.\nIf local emergency risk appears immediate, follow the emergency escalation path before any product troubleshooting.\nRequired response steps\nAcknowledge the message in calm, non-judgmental language.\nEscalate immediately to the duty lead and Trust \u0026 Safety queue.\nUse the approved crisis-response template rather than free-form advice.\nPause normal product troubleshooting until the safety escalation is complete.\nDocumentation and limits\n\nKeep notes factual and brief. Do not speculate about the person\u2019s mental state. Record what was said, what escalation path was used, and which approved template was sent. If regional emergency guidance is unclear, escalate to the incident lead rather than guessing.\n\n\u00A9 2025 Meridian Digital Inc. All rights reserved. | Terms | hello@meridian.digital | \u002B1 (415) 555-0120",
+    "bodyWordCount": 230
+  },
+  "metadata": {
+    "title": "Support Triage for Messages That Mention Self-Harm \u2014 Meridian Help",
+    "metaDescription": "A support operations guide for handling messages that mention self-harm, with clear scope, escalation, and safety framing.",
+    "canonicalUrl": "https://test.versacontent.com/pages/sensitive-topic-good.html",
+    "language": "en"
+  },
+  "structuralOutline": {
+    "markdown": "\u003Cui_text\u003EMeridian Digital\u003C/ui_text\u003E\n\n\u003Cheading level=\u00221\u0022\u003ESupport Triage for Messages That Mention Self-Harm\u003C/heading\u003E\n\n\u003Cprose\u003ELast reviewed February 2026 by Support Operations and Trust \u0026 Safety\u003C/prose\u003E\n\n\u003Cprose\u003EScope: This internal guide helps Meridian support agents route tickets that mention self-harm or immediate personal safety concerns. It is not a substitute for crisis care, mental-health support, emergency services, or legal advice.\u003C/prose\u003E\n\n\u003Cprose\u003EMessages that mention self-harm require careful handling, fast escalation, and clear boundaries. Agents should avoid improvised advice, avoid minimizing the message, and follow the escalation steps below exactly as written.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EWhen to use this guide\u003C/heading\u003E\n\n\u003Clist_item\u003EUse it when a user message directly mentions self-harm, suicide, or immediate personal danger.\u003C/list_item\u003E\n\n\u003Clist_item\u003EUse it only for support triage and escalation.\u003C/list_item\u003E\n\n\u003Clist_item\u003EIf local emergency risk appears immediate, follow the emergency escalation path before any product troubleshooting.\u003C/list_item\u003E\n\n\u003Cheading level=\u00222\u0022\u003ERequired response steps\u003C/heading\u003E\n\n\u003Clist_item\u003EAcknowledge the message in calm, non-judgmental language.\u003C/list_item\u003E\n\n\u003Clist_item\u003EEscalate immediately to the duty lead and Trust \u0026 Safety queue.\u003C/list_item\u003E\n\n\u003Clist_item\u003EUse the approved crisis-response template rather than free-form advice.\u003C/list_item\u003E\n\n\u003Clist_item\u003EPause normal product troubleshooting until the safety escalation is complete.\u003C/list_item\u003E\n\n\u003Cheading level=\u00222\u0022\u003EDocumentation and limits\u003C/heading\u003E\n\n\u003Cprose\u003EKeep notes factual and brief. Do not speculate about the person\u2019s mental state. Record what was said, what escalation path was used, and which approved template was sent. If regional emergency guidance is unclear, escalate to the incident lead rather than guessing.\u003C/prose\u003E",
+    "summary": {
+      "estimatedTokens": 458,
+      "truncatedByTextLimit": false
+    }
+  },
+  "analysis": {
+    "observations": {
+      "mainContentLanguage": "en",
+      "mainContentLanguageEvidence": "Support Triage for Messages That Mention Self-Harm",
+      "pagePurpose": "An internal support operations guide for handling messages that mention self-harm or immediate personal safety concerns, with instructions for triage, escalation, and documentation.",
+      "pageSummary": "This is an internal Meridian Help page for support agents and Trust \u0026 Safety staff. It focuses on triaging messages that mention self-harm, immediate personal danger, and related safety concerns. The page explains when to use the guide, the required response steps, and documentation limits."
+    },
+    "sensitiveTopicAssessment": {
+      "status": "adequate",
+      "evidenceQuote": "It is not a substitute for crisis care, mental-health support, emergency services, or legal advice.",
+      "reason": "The page gives safety-oriented guidance for self-harm-related messages, emphasizes escalation, and explicitly distinguishes the guide from crisis care and emergency services."
+    },
+    "titlePromiseAssessment": {
+      "titleQuote": "Support Triage for Messages That Mention Self-Harm",
+      "titlePromise": "The page should explain how to triage support messages that mention self-harm, including how to handle and escalate those cases.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops support triage for self-harm-related messages, including scope, when to use the guide, required response steps, and documentation limits.",
+      "bodyEvidenceQuote": "Messages that mention self-harm require careful handling, fast escalation, and clear boundaries."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Messages that mention self-harm require careful handling, fast escalation, and clear boundaries."
+    },
+    "sensitiveTopicValidation": {
+      "status": "valid",
+      "reason": "adequate_handling_proven_by_literal_evidence",
+      "normalizedEvidenceQuote": "It is not a substitute for crisis care, mental-health support, emergency services, or legal advice."
+    },
+    "issues": [],
+    "rejectedIssues": [],
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_ed1461b6ce464415930d57a0a73b0997",
+          "systemFingerprint": null,
+          "inputHash": "59C01921820941FDE7E224D92485E20A460F6FCEC4749C50F45DB7DABDE42E1A",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1841,
+          "completionTokens": 310,
+          "totalTokens": 2151,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_89817b94432446659e920a801027e2a7",
+          "systemFingerprint": null,
+          "inputHash": "59C01921820941FDE7E224D92485E20A460F6FCEC4749C50F45DB7DABDE42E1A",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 1035,
+          "completionTokens": 21,
+          "totalTokens": 1056,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_4d308a5fcaec4684ad626992f3253d2a",
+          "systemFingerprint": null,
+          "inputHash": "59C01921820941FDE7E224D92485E20A460F6FCEC4749C50F45DB7DABDE42E1A",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 1178,
+          "completionTokens": 259,
+          "totalTokens": 1437,
+          "reasoningTokens": 239
+        },
+        "error": null
+      }
+    ],
+    "classification": {
+      "type": "healthy",
+      "confidence": null,
+      "confidenceBasis": "not_calibrated",
+      "insufficientEvidence": false
+    },
+    "externalVerification": {
+      "enabled": false,
+      "skipped": true
+    }
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "webSourceUrls": []
+  }
+}

@@ -1,0 +1,543 @@
+[
+  {
+    "label": "Healthy article",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/healthy-article.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a marketing article from Meridian Digital about building an effective content calendar for 2025. It walks readers through auditing existing content, defining content pillars, mapping content to the buyer journey, choosing a publishing cadence, building a calendar template, and planning around seasonal events. The intended audience appears to be marketing teams or B2B SaaS content planners.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "How to Build an Effective Content Calendar for 2025",
+      "titlePromise": "The title promises guidance on creating an effective content calendar specifically for 2025.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly develops that subject with step-by-step guidance on auditing content, defining pillars, mapping to the buyer journey, choosing cadence, building a template, and planning seasonal events for 2025.",
+      "bodyEvidenceQuote": "In this guide, we walk through a practical framework for building a content calendar that keeps your team aligned, your pipeline full, and your audience engaged throughout 2025."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "In this guide, we walk through a practical framework for building a content calendar that keeps your team aligned, your pipeline full, and your audience engaged throughout 2025."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Healthy product",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/healthy-product.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a marketing landing page for Meridian Digital’s project management platform. It presents core features such as visual planning, task management, collaboration, reporting, integrations, automation, security, and mobile access. The page targets teams and organizations looking for a tool to manage projects and invites them to start a free 14-day trial.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Project Management That Works",
+      "titlePromise": "The title promises a page about project management and how Meridian Digital’s product helps teams manage work effectively.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops project management software features, workflows, collaboration, reporting, and trial signup, which matches the title’s promise about project management that works.",
+      "bodyEvidenceQuote": "Plan, track, and deliver work with your team in one place."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Plan, track, and deliver work with your team in one place."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Healthy support guide",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/healthy-support-doc.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a support documentation page for Meridian Digital about setting up team permissions in a workspace. It explains prerequisites, built-in roles, project-level overrides, optional teams, verification steps, and troubleshooting for Professional and Enterprise plans. The intended audience is workspace admins or users responsible for managing access settings.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "How to Set Up Team Permissions",
+      "titlePromise": "The page is expected to explain how to configure team permissions.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly develops the promised topic with prerequisites, role definitions, step-by-step setup, verification, and troubleshooting for team permissions.",
+      "bodyEvidenceQuote": "This guide walks you through configuring roles and access levels so every team member has the right level of access."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "This guide walks you through configuring roles and access levels so every team member has the right level of access."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Sensitive topic handled responsibly",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/sensitive-topic-good.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is an internal Meridian help page for support operations and Trust & Safety. It explains when to use the guide, the required escalation steps, and documentation limits for handling messages that mention self-harm or immediate danger. The page emphasizes calm acknowledgment, immediate escalation, and use of approved crisis-response templates.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Support Triage for Messages That Mention Self-Harm",
+      "titlePromise": "The page will explain how to triage support messages that mention self-harm, including handling and escalation guidance.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly develops the promised subject by describing scope, when to use the guide, required response steps, and documentation limits for self-harm-related messages.",
+      "bodyEvidenceQuote": "Messages that mention self-harm require careful handling, fast escalation, and clear boundaries."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Messages that mention self-harm require careful handling, fast escalation, and clear boundaries."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Historical event recap",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/historical-event-recap.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a blog-style event recap from Meridian Digital about Web Summit 2019. It summarizes the team’s observations from the conference, with emphasis on privacy, analytics transitions, and practical takeaways for client workshops. The intended audience appears to be readers interested in digital experience platforms and related marketing or analytics strategy.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "What We Learned at Web Summit 2019",
+      "titlePromise": "The page will explain Meridian Digital’s lessons and observations from Web Summit 2019.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly develops a recap of the team’s experience at Web Summit 2019 and expands on the lessons learned through sections on privacy, analytics, and practical takeaways.",
+      "bodyEvidenceQuote": "This recap captures the main ideas that stood out to us at the time, especially around privacy, analytics, and product-led growth."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "This recap captures the main ideas that stood out to us at the time, especially around privacy, analytics, and product-led growth."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Unverified claims are outside intrinsic scope",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/unverified-claims.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a marketing page for Meridian Digital, a project-management platform for teams that coordinate delivery work. It presents several reasons teams might choose the product, including resilience, reduced tool sprawl, GDPR-related compliance, enterprise workflows, and faster delivery. The page ends with a free-trial call to action.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Why Teams Choose Meridian",
+      "titlePromise": "The title promises an explanation of the reasons teams choose Meridian, likely through product benefits, differentiators, or supporting claims about Meridian.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops exactly that subject by listing multiple reasons teams might choose Meridian, including reliability, financial impact, compliance, trust, and faster delivery.",
+      "bodyEvidenceQuote": "Meridian Digital is a project-management platform for teams that coordinate delivery work."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Meridian Digital is a project-management platform for teams that coordinate delivery work."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Objective spelling and grammar errors",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/writing-errors.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a short instructional page about preparing for a client workshop. It emphasizes creating a shared agenda, collecting inputs before the session, and sending the agenda to participants two days in advance. The intended audience appears to be facilitators or team members organizing the workshop.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Preparing for a Client Workshop",
+      "titlePromise": "The title promises guidance on how to prepare for a client workshop.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the same subject by explaining workshop preparation steps such as building a shared agenda, collecting inputs, and sending the agenda ahead of time.",
+      "bodyEvidenceQuote": "Send the agenda to participants two days before the workshop."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Send the agenda to participants two days before the workshop."
+    },
+    "requiredIssues": [
+      "writing_errors"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Persistently unprofessional writing",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/unprofessional-writing.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a short marketing page for an analytics service. It promotes Meridian Digital’s analytics offering with highly promotional language and a brief statement about how analysts connect reporting to team questions. The intended audience appears to be prospective customers evaluating analytics services.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Our Analytics Service",
+      "titlePromise": "The page is expected to describe an analytics service and what it offers.",
+      "fulfillment": "fulfilled",
+      "reason": "The body stays on the same subject as the title by describing analytics work and how analysts connect reporting to team questions.",
+      "bodyEvidenceQuote": "Our analysts connect reporting to the questions your team needs to answer."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Our analysts connect reporting to the questions your team needs to answer."
+    },
+    "requiredIssues": [
+      "unprofessional_writing"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "unprofessional_writing"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Published placeholder content",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/incomplete-placeholder-content.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This page is a customer onboarding guide for Meridian Digital. It gives brief setup guidance for preparing team access and reviewing progress during the first month after launch. The page also includes a placeholder section for migration timeline and owner responsibilities.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Customer Onboarding Guide",
+      "titlePromise": "The page is expected to provide guidance about customer onboarding.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops onboarding preparation with access setup, migration planning, and weekly progress review, which matches the guide promised by the title.",
+      "bodyEvidenceQuote": "Use this guide to prepare your team for the first month after launch."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Use this guide to prepare your team for the first month after launch."
+    },
+    "requiredIssues": [
+      "published_placeholder_content"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "published_placeholder_content"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Directly contradictory guidance",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/contradictory-guidance.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a short instructional page about invoice submission for Meridian Digital customers. It says the guide explains how to submit invoices for manual review and includes a section on where to send invoices. The page also provides a support contact for account questions.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Invoice Submission Guide",
+      "titlePromise": "The page is expected to provide guidance about submitting invoices.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops invoice submission guidance, including instructions about where invoices should be sent and how they are reviewed before payment.",
+      "bodyEvidenceQuote": "All customers must submit every invoice to the support team for review before payment can be processed."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "All customers must submit every invoice to the support team for review before payment can be processed."
+    },
+    "requiredIssues": [
+      "direct_statement_contradiction"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "direct_statement_contradiction"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Title and body cover different subjects",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/title-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a marketing page for Meridian Digital focused on project management software. It describes the platform’s workflow, timeline, tracking, integrations, pricing, and onboarding benefits for teams evaluating project management tools. The page ends with a call to start a free trial.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "10 Best Project Management Tools Compared (2025)",
+      "titlePromise": "The title promises a comparison of ten project management tools, likely helping readers evaluate multiple options.",
+      "fulfillment": "not_fulfilled",
+      "reason": "The title sets up a comparison of multiple tools, but the body mainly promotes Meridian Digital as a single product and does not substantively compare ten tools.",
+      "bodyEvidenceQuote": "Meridian Digital was designed from the ground up to eliminate the friction that slows teams down."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Meridian Digital was designed from the ground up to eliminate the friction that slows teams down."
+    },
+    "requiredIssues": [
+      "title_body_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "title_body_mismatch"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Cylogy Google Analytics content mismatch",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/cylogy-google-analytics-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a short informational page about Umbraco CMS. It describes Umbraco as a flexible, open-source CMS with cloud hosting, extensions, and cross-platform support, and frames it as a good mid-market solution for developers, designers, and editors. The visible title and body content do not align, since the body focuses on Umbraco rather than Google Analytics.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Google Analytics",
+      "titlePromise": "The page is expected to explain Google Analytics and provide information about that web analytics tool.",
+      "fulfillment": "not_fulfilled",
+      "reason": "The visible body mainly develops Umbraco CMS, not Google Analytics, so the title’s expectation is not materially delivered.",
+      "bodyEvidenceQuote": "Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business."
+    },
+    "requiredIssues": [
+      "title_body_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "title_body_mismatch"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Abusive and coercive brand language",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/brand-safety-risk.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a marketing advice article about handling trade show attendees and driving booth traffic. It targets field marketing or sales teams and focuses on tactics for controlling conversations, attracting attention, and prioritizing prospects. The body presents aggressive booth strategies and crowd-management suggestions.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "How to Work a Trade Show Crowd",
+      "titlePromise": "The title promises guidance on managing or engaging a trade show audience effectively.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops trade show crowd tactics throughout, including booth setup, attendee handling, and ways to keep people engaged at the booth.",
+      "bodyEvidenceQuote": "Trade shows are simple if you remember that most attendees are bored, distracted, and easy to steer if your team keeps control of the conversation."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Trade shows are simple if you remember that most attendees are bored, distracted, and easy to steer if your team keeps control of the conversation."
+    },
+    "requiredIssues": [
+      "brand_safety_risk"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "brand_safety_risk"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Unsafe sensitive-topic guidance",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/sensitive-topic-bad.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a support operations guidance page for Meridian Digital aimed at support agents. It explains a recommended response flow for messages in which users say they want to hurt themselves, focusing on brief acknowledgment, redirecting to product issues, and ticket handling. The page also includes advice about notes and escalation in these situations.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "How Support Agents Should Reply to Self-Harm Messages",
+      "titlePromise": "The page is expected to explain how support agents should respond to self-harm-related messages.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly develops that subject by giving a response flow for users who say they want to hurt themselves, including how to acknowledge the message, what to say, and how to handle the ticket.",
+      "bodyEvidenceQuote": "When users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "When users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible."
+    },
+    "requiredIssues": [
+      "sensitive_topic_without_context"
+    ],
+    "allowedIssues": [
+      "brand_safety_risk"
+    ],
+    "forbiddenIssues": [],
+    "issues": [
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Bufete Padilla Altea Norwegian route",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/bufete-padilla-altea-no.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a law firm landing page for English-speaking lawyers in Altea. It promotes professional legal services for international residents and non-resident owners in Altea, Albir, and Sierra de Altea, with emphasis on property conveyancing, planning and licence due diligence, coastal law compliance, wealth tax, estate planning, wills, and non-resident taxation. The page also includes multilingual support information, fee information, and a summer closure notice with urgent contact details.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "English-Speaking Lawyers in Altea",
+      "titlePromise": "The page is expected to describe legal services for English-speaking clients in Altea.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops exactly that subject by presenting professional legal services in Altea and listing the legal matters handled there, including conveyancing, planning and licence due diligence, Ley de Costas compliance, wealth tax, estate planning, wills, and non-resident taxation.",
+      "bodyEvidenceQuote": "In Altea we handle villa and high-value property conveyancing, planning and licence due diligence, Ley de Costas compliance, wealth tax, international estate planning, wills and non-resident taxation."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "In Altea we handle villa and high-value property conveyancing, planning and licence due diligence, Ley de Costas compliance, wealth tax, international estate planning, wills and non-resident taxation."
+    },
+    "requiredIssues": [
+      "language_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "language_mismatch"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Endesa Santa Coloma placeholder and writing errors",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/endesa-santa-coloma-placeholder.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Spanish-language location page for an Endesa office or point of service at Calle Rambla de San Sebastián, 42, in Santa Coloma De Gramenet, Barcelona. It highlights nearby Endesa services such as energy, solar panels, and electric mobility, and includes a call to action to request an appointment. The page also mentions no permanence and the ability to change tariff or company without penalty.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Calle Rambla de San Sebastián, 42, Santa Coloma De Gramenet, Barcelona",
+      "titlePromise": "The page is expected to provide information about the Endesa location at this specific address in Santa Coloma De Gramenet, Barcelona.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the same location-focused subject by inviting users to find the nearest Endesa point and by presenting services and an appointment action for that address.",
+      "bodyEvidenceQuote": "Encuentra tu Punto Endesa más cercano para contratar Energía, Placas Solares o Movilidad eléctrica"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Encuentra tu Punto Endesa más cercano para contratar Energía, Placas Solares o Movilidad eléctrica"
+    },
+    "requiredIssues": [
+      "published_placeholder_content",
+      "writing_errors"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors",
+      "published_placeholder_content"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  }
+]

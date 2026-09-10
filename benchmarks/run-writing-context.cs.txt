@@ -1,0 +1,32 @@
+using System.Reflection;
+using System.Text.Json.Nodes;
+using System.Net.Http.Headers;
+DotNetEnv.Env.TraversePath().Load();
+var assembly = Assembly.LoadFrom(args[0]);
+var pipeline = assembly.GetType("VersaCore.IntrinsicAuditPipeline")!;
+var constants = assembly.GetType("VersaCore.AppConstants")!;
+string Constant(string name) => (string)constants.GetField(name)!.GetValue(null)!;
+string Prompt(string name) => (string)pipeline.GetField(name, BindingFlags.NonPublic|BindingFlags.Static)!.GetRawConstantValue()!;
+using var client = new HttpClient { BaseAddress = new Uri(Constant("BaseUrl")), Timeout = TimeSpan.FromSeconds(120) };
+client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", Constant("ApiKey"));
+var cases = JsonNode.Parse(File.ReadAllText(args[1]))!.AsArray();
+var results = new JsonArray();
+var calls = Enumerable.Range(1, int.Parse(args[3])).SelectMany(round => cases.Select(c => (round, c: c!.AsObject()))).ToArray();
+var random = new Random(47);
+random.Shuffle(calls);
+foreach (var (round, c) in calls)
+{
+    var task = (Task)pipeline.GetMethod("CallModelAsync", BindingFlags.NonPublic|BindingFlags.Static)!.Invoke(null,
+        new object[]{client, "writing_errors_inspection", Prompt("WritingInspectionPrompt"), Prompt("WritingInspectionSchema"), c["userPrompt"]!.GetValue<string>()})!;
+    await task;
+    var result = task.GetType().GetProperty("Result")!.GetValue(task)!;
+    object? Get(string name) => result.GetType().GetProperty(name)!.GetValue(result);
+    var output = Get("Output") as JsonObject;
+    var accepted = output is null ? null : (JsonArray)pipeline.GetMethod("ConvertWritingFindings", BindingFlags.NonPublic|BindingFlags.Static)!.Invoke(null,new object[]{output})!;
+    results.Add(new JsonObject { ["case"] = c["case"]!.DeepClone(), ["context"] = c["context"]!.DeepClone(), ["target"] = c["target"]!.DeepClone(),
+        ["round"] = round, ["output"] = (Get("Output") as JsonNode)?.DeepClone(), ["usage"] = (Get("Usage") as JsonNode)?.DeepClone(),
+        ["acceptedIssues"] = accepted?.DeepClone(),
+        ["telemetry"] = (Get("Telemetry") as JsonNode)?.DeepClone(), ["error"] = Get("Error") as string, ["rawResponse"] = Get("RawResponse") as string });
+    File.WriteAllText(args[2], results.ToJsonString(new() { WriteIndented=true }));
+    Console.WriteLine($"{results.Count}/{calls.Length}: {c["case"]} {c["context"]} round {round}");
+}

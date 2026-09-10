@@ -1,0 +1,211 @@
+[
+  {
+    "label": "Unverified claims are outside intrinsic scope",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/unverified-claims.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a marketing page for Meridian Digital, presented as a project-management platform for teams that coordinate delivery work. It highlights reliability, financial impact, European compliance, enterprise use, and faster delivery. The page also includes a call to start a free trial.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Why Teams Choose Meridian",
+      "titlePromise": "The page will explain why teams choose Meridian and present supporting reasons or benefits for selecting it.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops multiple reasons for choosing Meridian, including reliability, financial impact, compliance, enterprise fit, and faster delivery.",
+      "bodyEvidenceQuote": "Meridian is designed for enterprise project workflows where quality, security, and team alignment matter."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Meridian is designed for enterprise project workflows where quality, security, and team alignment matter."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Directly contradictory guidance",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/contradictory-guidance.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a guide about invoice submission for Meridian Digital customers. It explains where invoices should be sent and includes a support contact for account questions. The page is aimed at customers who need to submit invoices for review before payment processing.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Invoice Submission Guide",
+      "titlePromise": "A guide about how to submit invoices.",
+      "fulfillment": "fulfilled",
+      "reason": "The body explains how customers should submit invoices for manual review and gives related submission guidance.",
+      "bodyEvidenceQuote": "This guide explains how customers should submit invoices for manual review."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "This guide explains how customers should submit invoices for manual review."
+    },
+    "requiredIssues": [
+      "direct_statement_contradiction"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "direct_statement_contradiction"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Title and body cover different subjects",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/title-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a marketing page for Meridian Digital focused on project management software. It presents Meridian as a project management platform, describes features, pricing, and onboarding benefits, and invites readers to start a free trial. The page is aimed at teams evaluating project management tools and considering Meridian as an option.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "10 Best Project Management Tools Compared (2025)",
+      "titlePromise": "A comparison of 10 project management tools, likely including how they stack up against each other in 2025.",
+      "fulfillment": "not_fulfilled",
+      "reason": "The title promises a comparison of 10 project management tools, but the body mainly promotes Meridian Digital itself and describes its features, pricing, and trial offer. It does not present a comparison of ten tools or a comparative roundup.",
+      "bodyEvidenceQuote": "Meridian offers transparent, per-seat pricing with no hidden fees."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Meridian offers transparent, per-seat pricing with no hidden fees."
+    },
+    "requiredIssues": [
+      "title_body_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "title_body_mismatch"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Bufete Padilla Altea Norwegian route",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/bufete-padilla-altea-no.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a law firm landing page for English-speaking clients in Altea. It presents legal services for the international community, a short FAQ about fees, practice areas, and languages spoken, and contact prompts for consultations. The page also includes seasonal closure notices and marketing copy about Altea and its property market.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "English-Speaking Lawyers in Altea",
+      "titlePromise": "The page promises information about English-speaking lawyers in Altea.",
+      "fulfillment": "fulfilled",
+      "reason": "The body presents legal services in Altea, an FAQ about fees and practice areas, and language support including English, which matches the title's subject.",
+      "bodyEvidenceQuote": "Professional legal services for the international community in Altea, Albir and Sierra de Altea."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Professional legal services for the international community in Altea, Albir and Sierra de Altea."
+    },
+    "requiredIssues": [
+      "language_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "language_mismatch"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Endesa Santa Coloma placeholder and writing errors",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/endesa-santa-coloma-placeholder.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "Esta página presenta una oficina o punto Endesa en Calle Rambla de San Sebastián, 42, en Santa Coloma de Gramenet, Barcelona. Incluye un breve texto promocional sobre contratar energía, placas solares o movilidad eléctrica, además de un botón para pedir cita. También muestra información adicional sobre servicios disponibles y una nota sobre cambio de tarifa sin permanencia.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Calle Rambla de San Sebastián, 42, Santa Coloma De Gramenet, Barcelona",
+      "titlePromise": "A page about the location at Calle Rambla de San Sebastián, 42 in Santa Coloma De Gramenet, Barcelona.",
+      "fulfillment": "fulfilled",
+      "reason": "El contenido visible desarrolla esa ubicación con un texto sobre el Punto Endesa más cercano y servicios disponibles, además de una cita para pedir cita.",
+      "bodyEvidenceQuote": "Encuentra tu Punto Endesa más cercano para contratar Energía, Placas Solares o Movilidad eléctrica"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Encuentra tu Punto Endesa más cercano para contratar Energía, Placas Solares o Movilidad eléctrica"
+    },
+    "requiredIssues": [
+      "published_placeholder_content",
+      "writing_errors"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "published_placeholder_content",
+      "writing_errors"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Bufete Padilla Altea Norwegian route",
+    "source": "live",
+    "url": "https://bufetepadillatorrevieja.com/no/lawyers-altea",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a legal services landing page for English-speaking lawyers in Altea. It promotes assistance for international residents and non-resident property owners, with information about property conveyancing, residency applications, tax planning, wills, and related matters. The page also includes contact options, office-hours WhatsApp guidance, and FAQ-style answers about fees, appointments, and languages spoken.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "English-Speaking Lawyers in Altea",
+      "titlePromise": "The page should provide information about English-speaking lawyers in Altea.",
+      "fulfillment": "fulfilled",
+      "reason": "The body content presents legal services for Altea, including property conveyancing, residency applications, tax planning, fees, appointments, and languages spoken, which matches the title's promise.",
+      "bodyEvidenceQuote": "Professional legal services for the international community in Altea, Albir and Sierra de Altea."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Professional legal services for the international community in Altea, Albir and Sierra de Altea."
+    },
+    "requiredIssues": [
+      "language_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors",
+      "language_mismatch"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  }
+]

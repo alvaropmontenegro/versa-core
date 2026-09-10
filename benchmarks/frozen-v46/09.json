@@ -1,0 +1,191 @@
+{
+  "url": "http://127.0.0.1:8088/pages/contradictory-guidance.html",
+  "finalUrl": "http://127.0.0.1:8088/pages/contradictory-guidance.html",
+  "outputLanguage": "en",
+  "executedAt": "2026-09-08T22:39:59.7681949+00:00",
+  "capture": {
+    "statusCode": 200,
+    "finalUrl": "http://127.0.0.1:8088/pages/contradictory-guidance.html",
+    "html": "\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022en\u0022 data-versa-display=\u0022block\u0022 data-versa-layout-version=\u00221\u0022\u003E\u003Chead data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta charset=\u0022UTF-8\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1.0\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Ctitle data-versa-display=\u0022none\u0022\u003EInvoice Submission Guide \u2014 Meridian Digital\u003C/title\u003E\n\u003C/head\u003E\n\u003Cbody data-versa-display=\u0022block\u0022\u003E\n  \u003Cmain data-versa-display=\u0022block\u0022\u003E\n    \u003Ch1 data-versa-display=\u0022block\u0022\u003EInvoice Submission Guide\u003C/h1\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003EThis guide explains how customers should submit invoices for manual review.\u003C/p\u003E\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EWhere to send invoices\u003C/h2\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003ECustomers must not send invoices to the support team. Support cannot accept invoice documents.\u003C/p\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003EAll customers must submit every invoice to the support team for review before payment can be processed.\u003C/p\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003EFor account questions, contact support at support@meridian.example.\u003C/p\u003E\n  \u003C/main\u003E\n\n\n\u003C/body\u003E\u003C/html\u003E",
+    "bodyText": "Invoice Submission Guide\n\nThis guide explains how customers should submit invoices for manual review.\n\nWhere to send invoices\n\nCustomers must not send invoices to the support team. Support cannot accept invoice documents.\n\nAll customers must submit every invoice to the support team for review before payment can be processed.\n\nFor account questions, contact support at support@meridian.example.",
+    "bodyWordCount": 56
+  },
+  "metadata": {
+    "title": "Invoice Submission Guide \u2014 Meridian Digital",
+    "canonicalUrl": "http://127.0.0.1:8088/pages/contradictory-guidance.html",
+    "language": "en"
+  },
+  "structuralOutline": {
+    "markdown": "\u003Cheading level=\u00221\u0022\u003EInvoice Submission Guide\u003C/heading\u003E\n\n\u003Cprose\u003EThis guide explains how customers should submit invoices for manual review.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EWhere to send invoices\u003C/heading\u003E\n\n\u003Cprose\u003ECustomers must not send invoices to the support team. Support cannot accept invoice documents.\u003C/prose\u003E\n\n\u003Cprose\u003EAll customers must submit every invoice to the support team for review before payment can be processed.\u003C/prose\u003E\n\n\u003Cprose\u003EFor account questions, contact support at support@meridian.example.\u003C/prose\u003E",
+    "summary": {
+      "estimatedTokens": 128,
+      "truncatedByTextLimit": false
+    }
+  },
+  "analysis": {
+    "observations": {
+      "mainContentLanguage": "en",
+      "mainContentLanguageEvidence": "This guide explains how customers should submit invoices for manual review.",
+      "pagePurpose": "To explain how customers should submit invoices for manual review and where invoice documents should be sent.",
+      "pageSummary": "This is an invoice submission guide for customers. It focuses on how to route invoices for manual review before payment processing and includes a support contact for account questions. The page presents instructions about where invoices should be sent."
+    },
+    "sensitiveTopicAssessment": {
+      "status": "not_applicable",
+      "evidenceQuote": "",
+      "reason": ""
+    },
+    "titlePromiseAssessment": {
+      "titleQuote": "Invoice Submission Guide",
+      "titlePromise": "A guide about how to submit invoices and the process or instructions for invoice submission.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops the invoice submission topic by explaining manual review and where invoices should be sent.",
+      "bodyEvidenceQuote": "This guide explains how customers should submit invoices for manual review."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "This guide explains how customers should submit invoices for manual review."
+    },
+    "sensitiveTopicValidation": {
+      "status": "valid",
+      "reason": "no_sensitive_guidance_detected",
+      "normalizedEvidenceQuote": ""
+    },
+    "issues": [
+      {
+        "code": "direct_statement_contradiction",
+        "reason": "The page gives two opposite instructions about whether invoices should be sent to the support team.",
+        "contradictionKind": "opposite_polarity",
+        "contradictionCondition": "sending invoices to the support team for review",
+        "claimAPolarity": "denied",
+        "claimBPolarity": "affirmed",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Customers must not send invoices to the support team.",
+            "purpose": "claim_a",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-200"
+          },
+          {
+            "quote": "All customers must submit every invoice to the support team for review before payment can be processed.",
+            "purpose": "claim_b",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-311"
+          }
+        ],
+        "pageQuotes": [
+          "Customers must not send invoices to the support team.",
+          "All customers must submit every invoice to the support team for review before payment can be processed."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Review the cited statements and retain one consistent instruction for the same situation.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_f7fea0487c354cbd9bf041f518a023eb",
+          "systemFingerprint": null,
+          "inputHash": "E6F9223A6FA480EA6141872ED8C30867C108E1A8B1BB03ECD120414E5F1B75B0",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1555,
+          "completionTokens": 310,
+          "totalTokens": 1865,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_f272d0ed96d14339a3e9f7831ff0b144",
+          "systemFingerprint": null,
+          "inputHash": "E6F9223A6FA480EA6141872ED8C30867C108E1A8B1BB03ECD120414E5F1B75B0",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 749,
+          "completionTokens": 21,
+          "totalTokens": 770,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_6faadc7443ed46e89542e4ad8dcf862b",
+          "systemFingerprint": null,
+          "inputHash": "E6F9223A6FA480EA6141872ED8C30867C108E1A8B1BB03ECD120414E5F1B75B0",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 892,
+          "completionTokens": 181,
+          "totalTokens": 1073,
+          "reasoningTokens": 161
+        },
+        "error": null
+      }
+    ],
+    "classification": {
+      "type": "unhealthy",
+      "confidence": null,
+      "confidenceBasis": "not_calibrated",
+      "insufficientEvidence": false
+    },
+    "externalVerification": {
+      "enabled": false,
+      "skipped": true
+    }
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "webSourceUrls": []
+  }
+}

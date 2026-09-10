@@ -1,0 +1,509 @@
+[
+  {
+    "label": "Healthy article",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/healthy-article.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "titlePromiseAssessment": {
+      "titleQuote": "How to Build an Effective Content Calendar for 2025",
+      "titlePromise": "An instructional guide about building an effective content calendar for 2025.",
+      "fulfillment": "fulfilled",
+      "reason": "The title promises guidance on building an effective content calendar for 2025, and the body delivers exactly that with step-by-step planning advice, template fields, cadence guidance, and seasonal planning.",
+      "bodyEvidenceQuote": "Step 5: Build Your Calendar Template"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Step 5: Build Your Calendar Template"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Healthy product",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/healthy-product.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "titlePromiseAssessment": {
+      "titleQuote": "Project Management That Works",
+      "titlePromise": "A page about project management and how Meridian Digital helps teams manage projects effectively.",
+      "fulfillment": "fulfilled",
+      "reason": "The title promises project management content, and the body develops that topic with planning, task management, collaboration, reporting, integrations, automation, security, customer quotes, and trial prompts for Meridian.",
+      "bodyEvidenceQuote": "Everything Your Team Needs"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Everything Your Team Needs"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Healthy support guide",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/healthy-support-doc.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "titlePromiseAssessment": {
+      "titleQuote": "How to Set Up Team Permissions",
+      "titlePromise": "Instructions for setting up team permissions in Meridian.",
+      "fulfillment": "fulfilled",
+      "reason": "The page title promises setup instructions for team permissions, and the body delivers a step-by-step guide covering prerequisites, role assignment, project-level permissions, team creation, and verification.",
+      "bodyEvidenceQuote": "Step 1: Open Workspace Settings"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Step 1: Open Workspace Settings"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Sensitive topic handled responsibly",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/sensitive-topic-good.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "titlePromiseAssessment": {
+      "titleQuote": "Support Triage for Messages That Mention Self-Harm",
+      "titlePromise": "An internal guide about triaging support messages that mention self-harm, including escalation and handling steps.",
+      "fulfillment": "fulfilled",
+      "reason": "The body delivers the promised triage guidance, escalation steps, and handling limits for self-harm-related messages.",
+      "bodyEvidenceQuote": "Required response steps"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Required response steps"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Historical event recap",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/historical-event-recap.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "titlePromiseAssessment": {
+      "titleQuote": "What We Learned at Web Summit 2019",
+      "titlePromise": "A recap of lessons learned at Web Summit 2019.",
+      "fulfillment": "fulfilled",
+      "reason": "The title promises a recap of lessons learned from Web Summit 2019, and the body delivers exactly that with multiple sections summarizing privacy, analytics, and practical takeaways from the event.",
+      "bodyEvidenceQuote": "This recap captures the main ideas that stood out to us at the time, especially around privacy, analytics, and product-led growth."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "This recap captures the main ideas that stood out to us at the time, especially around privacy, analytics, and product-led growth."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Unverified claims are outside intrinsic scope",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/unverified-claims.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "titlePromiseAssessment": {
+      "titleQuote": "Why Teams Choose Meridian",
+      "titlePromise": "The page will explain why teams choose Meridian, likely by presenting Meridian's benefits, strengths, or reasons to adopt it.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops multiple reasons to choose Meridian, including reliability, financial impact, compliance, enterprise workflows, and faster delivery.",
+      "bodyEvidenceQuote": "Meridian Digital is a project-management platform for teams that coordinate delivery work."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Meridian Digital is a project-management platform for teams that coordinate delivery work."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Objective spelling and grammar errors",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/writing-errors.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "titlePromiseAssessment": {
+      "titleQuote": "Preparing for a Client Workshop",
+      "titlePromise": "Content about preparing for a client workshop",
+      "fulfillment": "fulfilled",
+      "reason": "The body explains how to prepare for the workshop by discussing a shared agenda, collecting inputs, and sending the agenda in advance.",
+      "bodyEvidenceQuote": "A successful workshop begins with a shared agenda and a clear list of decisions."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "A successful workshop begins with a shared agenda and a clear list of decisions."
+    },
+    "requiredIssues": [
+      "writing_errors"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Persistently unprofessional writing",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/unprofessional-writing.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "titlePromiseAssessment": {
+      "titleQuote": "Our Analytics Service",
+      "titlePromise": "A page about the analytics service and what it offers.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the promised subject by describing the analytics service and its value, rather than switching to a different topic.",
+      "bodyEvidenceQuote": "Our analysts connect reporting to the questions your team needs to answer."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Our analysts connect reporting to the questions your team needs to answer."
+    },
+    "requiredIssues": [
+      "unprofessional_writing"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "unprofessional_writing"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Published placeholder content",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/incomplete-placeholder-content.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "titlePromiseAssessment": {
+      "titleQuote": "Customer Onboarding Guide",
+      "titlePromise": "A guide about customer onboarding and what to do during the onboarding process.",
+      "fulfillment": "fulfilled",
+      "reason": "The body delivers onboarding guidance with preparation steps, access setup, and weekly progress review, which matches the title's promise.",
+      "bodyEvidenceQuote": "Create accounts for the project owner and the people who will manage reporting."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Create accounts for the project owner and the people who will manage reporting."
+    },
+    "requiredIssues": [
+      "published_placeholder_content"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "published_placeholder_content"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Directly contradictory guidance",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/contradictory-guidance.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "titlePromiseAssessment": {
+      "titleQuote": "Invoice Submission Guide",
+      "titlePromise": "A guide about how to submit invoices.",
+      "fulfillment": "fulfilled",
+      "reason": "The body explains invoice submission and gives instructions about where invoices should be sent, which matches the title's promise.",
+      "bodyEvidenceQuote": "This guide explains how customers should submit invoices for manual review."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "This guide explains how customers should submit invoices for manual review."
+    },
+    "requiredIssues": [
+      "direct_statement_contradiction"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "direct_statement_contradiction"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Title and body cover different subjects",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/title-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "titlePromiseAssessment": {
+      "titleQuote": "10 Best Project Management Tools Compared (2025)",
+      "titlePromise": "A comparison of 10 project management tools for 2025.",
+      "fulfillment": "not_fulfilled",
+      "reason": "The title promises a comparison of 10 project management tools, but the body mainly promotes Meridian Digital and its features, pricing, and onboarding rather than comparing ten tools.",
+      "bodyEvidenceQuote": "Meridian's feature set is purpose-built for productivity. Here's what our customers rely on most:"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Meridian's feature set is purpose-built for productivity. Here's what our customers rely on most:"
+    },
+    "requiredIssues": [
+      "title_body_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "title_body_mismatch"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Cylogy Google Analytics content mismatch",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/cylogy-google-analytics-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "titlePromiseAssessment": {
+      "titleQuote": "Google Analytics",
+      "titlePromise": "The page will provide substantive content about Google Analytics.",
+      "fulfillment": "not_fulfilled",
+      "reason": "The title promises content about Google Analytics, but the main body development is about Umbraco CMS instead.",
+      "bodyEvidenceQuote": "Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business."
+    },
+    "requiredIssues": [
+      "title_body_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "title_body_mismatch"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Abusive and coercive brand language",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/brand-safety-risk.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "titlePromiseAssessment": {
+      "titleQuote": "How to Work a Trade Show Crowd",
+      "titlePromise": "Advice on how to manage and influence a trade show crowd",
+      "fulfillment": "fulfilled",
+      "reason": "The body delivers guidance on working a trade show crowd through booth tactics, lead handling, and crowd management, which matches the title's promise.",
+      "bodyEvidenceQuote": "Trade shows are simple if you remember that most attendees are bored, distracted, and easy to steer if your team keeps control of the conversation."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Trade shows are simple if you remember that most attendees are bored, distracted, and easy to steer if your team keeps control of the conversation."
+    },
+    "requiredIssues": [
+      "brand_safety_risk"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "brand_safety_risk"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Unsafe sensitive-topic guidance",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/sensitive-topic-bad.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "titlePromiseAssessment": {
+      "titleQuote": "How Support Agents Should Reply to Self-Harm Messages",
+      "titlePromise": "Guidance on how support agents should respond to self-harm messages.",
+      "fulfillment": "fulfilled",
+      "reason": "The page delivers the promised guidance by giving a response flow and specific instructions for handling self-harm messages.",
+      "bodyEvidenceQuote": "Recommended response flow"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Recommended response flow"
+    },
+    "requiredIssues": [
+      "sensitive_topic_without_context"
+    ],
+    "allowedIssues": [
+      "brand_safety_risk"
+    ],
+    "forbiddenIssues": [],
+    "issues": [
+      "sensitive_topic_without_context"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Bufete Padilla Altea Norwegian route",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/bufete-padilla-altea-no.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "titlePromiseAssessment": {
+      "titleQuote": "English-Speaking Lawyers in Altea",
+      "titlePromise": "A page about English-speaking lawyers in Altea and the legal services they offer there.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the promised Altea legal-services topic with a service description, FAQs about fees and matters handled, and language support for clients.",
+      "bodyEvidenceQuote": "Professional legal services for the international community in Altea, Albir and Sierra de Altea."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Professional legal services for the international community in Altea, Albir and Sierra de Altea."
+    },
+    "requiredIssues": [
+      "language_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "language_mismatch"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Endesa Santa Coloma placeholder and writing errors",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/endesa-santa-coloma-placeholder.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "titlePromiseAssessment": {
+      "titleQuote": "Calle Rambla de San Sebastián, 42, Santa Coloma De Gramenet, Barcelona",
+      "titlePromise": "A page about this specific office/location address in Santa Coloma De Gramenet, Barcelona.",
+      "fulfillment": "fulfilled",
+      "reason": "The body presents the same location as the page heading and adds related service information for that office, so the title's location-based expectation is met.",
+      "bodyEvidenceQuote": "Encuentra tu Punto Endesa más cercano para contratar Energía, Placas Solares o Movilidad eléctrica"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Encuentra tu Punto Endesa más cercano para contratar Energía, Placas Solares o Movilidad eléctrica"
+    },
+    "requiredIssues": [
+      "published_placeholder_content",
+      "writing_errors"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "published_placeholder_content"
+    ],
+    "scored": true,
+    "passed": false,
+    "error": null
+  }
+]

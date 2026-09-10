@@ -1,0 +1,191 @@
+{
+  "url": "http://127.0.0.1:8088/pages/unprofessional-writing.html",
+  "finalUrl": "http://127.0.0.1:8088/pages/unprofessional-writing.html",
+  "outputLanguage": "en",
+  "executedAt": "2026-09-08T22:39:37.2763148+00:00",
+  "capture": {
+    "statusCode": 200,
+    "finalUrl": "http://127.0.0.1:8088/pages/unprofessional-writing.html",
+    "html": "\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022en\u0022 data-versa-display=\u0022block\u0022 data-versa-layout-version=\u00221\u0022\u003E\u003Chead data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta charset=\u0022UTF-8\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Ctitle data-versa-display=\u0022none\u0022\u003EOur Analytics Service \u2014 Meridian Digital\u003C/title\u003E\n\u003C/head\u003E\n\u003Cbody data-versa-display=\u0022block\u0022\u003E\n  \u003Cmain data-versa-display=\u0022block\u0022\u003E\n    \u003Ch1 data-versa-display=\u0022block\u0022\u003EOur Analytics Service\u003C/h1\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003EWe deliver the most amazing analytics in the universe. Our team is absolutely incredible, unbelievably brilliant, and totally unmatched.\u003C/p\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003EChoose us now for game-changing, world-class, next-level results that will blow your mind. Nobody does analytics better. Nobody does analytics better.\u003C/p\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003EOur analysts connect reporting to the questions your team needs to answer.\u003C/p\u003E\n  \u003C/main\u003E\n\n\n\u003C/body\u003E\u003C/html\u003E",
+    "bodyText": "Our Analytics Service\n\nWe deliver the most amazing analytics in the universe. Our team is absolutely incredible, unbelievably brilliant, and totally unmatched.\n\nChoose us now for game-changing, world-class, next-level results that will blow your mind. Nobody does analytics better. Nobody does analytics better.\n\nOur analysts connect reporting to the questions your team needs to answer.",
+    "bodyWordCount": 55
+  },
+  "metadata": {
+    "title": "Our Analytics Service \u2014 Meridian Digital",
+    "canonicalUrl": "http://127.0.0.1:8088/pages/unprofessional-writing.html",
+    "language": "en"
+  },
+  "structuralOutline": {
+    "markdown": "\u003Cheading level=\u00221\u0022\u003EOur Analytics Service\u003C/heading\u003E\n\n\u003Cprose\u003EWe deliver the most amazing analytics in the universe. Our team is absolutely incredible, unbelievably brilliant, and totally unmatched.\u003C/prose\u003E\n\n\u003Cprose\u003EChoose us now for game-changing, world-class, next-level results that will blow your mind. Nobody does analytics better. Nobody does analytics better.\u003C/prose\u003E\n\n\u003Cprose\u003EOur analysts connect reporting to the questions your team needs to answer.\u003C/prose\u003E",
+    "summary": {
+      "estimatedTokens": 115,
+      "truncatedByTextLimit": false
+    }
+  },
+  "analysis": {
+    "observations": {
+      "mainContentLanguage": "en",
+      "mainContentLanguageEvidence": "Our analysts connect reporting to the questions your team needs to answer.",
+      "pagePurpose": "To present an analytics service and persuade readers to consider it for reporting and analysis support.",
+      "pageSummary": "This page is a short marketing page for an analytics service called Our Analytics Service. It targets readers who may be looking for reporting and analysis help, and it emphasizes promotional claims about the team and results. The body also briefly states that analysts connect reporting to the questions a team needs to answer."
+    },
+    "sensitiveTopicAssessment": {
+      "status": "not_applicable",
+      "evidenceQuote": "",
+      "reason": "The page is a marketing page for analytics services and does not provide guidance for a high-stakes sensitive situation."
+    },
+    "titlePromiseAssessment": {
+      "titleQuote": "Our Analytics Service",
+      "titlePromise": "The page will describe an analytics service and what it offers.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the same central subject promised by the title by describing analytics, reporting, and analysts who connect reporting to team questions.",
+      "bodyEvidenceQuote": "Our analysts connect reporting to the questions your team needs to answer."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Our analysts connect reporting to the questions your team needs to answer."
+    },
+    "sensitiveTopicValidation": {
+      "status": "valid",
+      "reason": "no_sensitive_guidance_detected",
+      "normalizedEvidenceQuote": ""
+    },
+    "issues": [
+      {
+        "code": "unprofessional_writing",
+        "reason": "Two substantive prose blocks use exaggerated, hype-heavy marketing language that undermines professional credibility.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "We deliver the most amazing analytics in the universe. Our team is absolutely incredible, unbelievably brilliant, and totally unmatched.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-52"
+          },
+          {
+            "quote": "Choose us now for game-changing, world-class, next-level results that will blow your mind. Nobody does analytics better. Nobody does analytics better.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-205"
+          }
+        ],
+        "pageQuotes": [
+          "We deliver the most amazing analytics in the universe. Our team is absolutely incredible, unbelievably brilliant, and totally unmatched.",
+          "Choose us now for game-changing, world-class, next-level results that will blow your mind. Nobody does analytics better. Nobody does analytics better."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Rewrite the cited passages using professional, specific language appropriate for the intended audience.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_ac90686e2d7e493e9abc1071055d885d",
+          "systemFingerprint": null,
+          "inputHash": "A377A22030C208AA498398718CE98E44B2AC8DC64B911C7768732711AA00BC01",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1538,
+          "completionTokens": 247,
+          "totalTokens": 1785,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_87495ab0688a4ecd951366535980fabb",
+          "systemFingerprint": null,
+          "inputHash": "A377A22030C208AA498398718CE98E44B2AC8DC64B911C7768732711AA00BC01",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 732,
+          "completionTokens": 99,
+          "totalTokens": 831,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_cc7737ff472343ed9806da7f21491ba8",
+          "systemFingerprint": null,
+          "inputHash": "A377A22030C208AA498398718CE98E44B2AC8DC64B911C7768732711AA00BC01",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 875,
+          "completionTokens": 214,
+          "totalTokens": 1089,
+          "reasoningTokens": 194
+        },
+        "error": null
+      }
+    ],
+    "classification": {
+      "type": "unhealthy",
+      "confidence": null,
+      "confidenceBasis": "not_calibrated",
+      "insufficientEvidence": false
+    },
+    "externalVerification": {
+      "enabled": false,
+      "skipped": true
+    }
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "webSourceUrls": []
+  }
+}

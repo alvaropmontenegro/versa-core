@@ -1,0 +1,140 @@
+[
+  {
+    "label": "Directly contradictory guidance",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/contradictory-guidance.html",
+    "expectedClassification": "unhealthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This page is an invoice submission guide for customers. It explains how invoices should be handled for manual review and includes a contact address for account questions. The page also states where invoices should and should not be sent.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Invoice Submission Guide",
+      "titlePromise": "A guide about how to submit invoices.",
+      "fulfillment": "fulfilled",
+      "reason": "The body explains how customers should submit invoices and includes related instructions about where invoices are sent.",
+      "bodyEvidenceQuote": "This guide explains how customers should submit invoices for manual review."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "This guide explains how customers should submit invoices for manual review."
+    },
+    "requiredIssues": [
+      "direct_statement_contradiction"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": true,
+    "passed": false,
+    "error": null
+  },
+  {
+    "label": "Cylogy Google Analytics content mismatch",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/cylogy-google-analytics-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This page is a short informational article with headings and prose blocks about Google Analytics and Umbraco CMS. It appears to introduce Google Analytics, then provides several descriptive statements about Umbraco’s features and positioning. The visible content is aimed at readers looking for basic product information about these topics.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Google Analytics",
+      "titlePromise": "The page will provide substantive content about Google Analytics.",
+      "fulfillment": "not_fulfilled",
+      "reason": "The visible body content shifts to Umbraco CMS after one introductory sentence about Google Analytics, so the page does not sustain substantive development of the title topic.",
+      "bodyEvidenceQuote": "Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business."
+    },
+    "requiredIssues": [
+      "title_body_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "title_body_mismatch"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Bufete Padilla Altea Norwegian route",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/bufete-padilla-altea-no.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a law firm landing page for English-speaking clients in Altea. It presents legal services, a summer closure notice, and FAQ-style information about fees, practice areas, and languages spoken. The page also includes calls to action for booking an appointment or consultation.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "English-Speaking Lawyers in Altea",
+      "titlePromise": "The page should present legal services for English-speaking clients in Altea.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops legal services for Altea and explicitly mentions multilingual support, FAQs about fees and matters handled, and international clients.",
+      "bodyEvidenceQuote": "Professional legal services for the international community in Altea, Albir and Sierra de Altea."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Professional legal services for the international community in Altea, Albir and Sierra de Altea."
+    },
+    "requiredIssues": [
+      "language_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "language_mismatch"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Bufete Padilla Altea Norwegian route",
+    "source": "live",
+    "url": "https://bufetepadillatorrevieja.com/no/lawyers-altea",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a law firm landing page for English-speaking legal services in Altea. It presents legal help for international residents and non-resident property owners, with sections on property, relocation, taxation, wills, and related FAQs. The page also includes contact options, office-hours WhatsApp guidance, nearby service areas, and links to property browsing and consultation booking.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "English-Speaking Lawyers in Altea",
+      "titlePromise": "A page about English-speaking lawyers and legal services in Altea.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the same subject promised by the title, describing legal services in Altea, the international client base, and related practice areas and FAQs.",
+      "bodyEvidenceQuote": "Professional legal services for the international community in Altea, Albir and Sierra de Altea."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Professional legal services for the international community in Altea, Albir and Sierra de Altea."
+    },
+    "requiredIssues": [
+      "language_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "language_mismatch"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  }
+]

@@ -1,0 +1,803 @@
+[
+  {
+    "case": "bufete",
+    "context": "page",
+    "target": "attract",
+    "round": 1,
+    "output": {
+      "writingErrors": []
+    },
+    "usage": {
+      "promptTokens": 1458,
+      "completionTokens": 1096,
+      "totalTokens": 2554,
+      "reasoningTokens": 1064
+    },
+    "telemetry": {
+      "returnedModel": "gpt-5.4-mini-2026-03-17",
+      "finishReason": "stop",
+      "reasoningEffort": "medium",
+      "requestId": "req_3135a627890e4918a74e38cef134b78b",
+      "systemFingerprint": null,
+      "inputHash": "ACE6FA65FA94A30B1D558CEF89D6139A2E00766FF8B819427928C1E1C9AAEDC5",
+      "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+    },
+    "error": null,
+    "rawResponse": "{\n  \u0022id\u0022: \u0022chatcmpl-ELz0ar4oHmN8p2Ca0IKRU4OOUCrDf\u0022,\n  \u0022object\u0022: \u0022chat.completion\u0022,\n  \u0022created\u0022: 1788908112,\n  \u0022model\u0022: \u0022gpt-5.4-mini-2026-03-17\u0022,\n  \u0022choices\u0022: [\n    {\n      \u0022index\u0022: 0,\n      \u0022message\u0022: {\n        \u0022role\u0022: \u0022assistant\u0022,\n        \u0022content\u0022: \u0022{\\\u0022writingErrors\\\u0022:[]}\u0022,\n        \u0022refusal\u0022: null,\n        \u0022annotations\u0022: []\n      },\n      \u0022finish_reason\u0022: \u0022stop\u0022\n    }\n  ],\n  \u0022usage\u0022: {\n    \u0022prompt_tokens\u0022: 1458,\n    \u0022completion_tokens\u0022: 1096,\n    \u0022total_tokens\u0022: 2554,\n    \u0022prompt_tokens_details\u0022: {\n      \u0022cached_tokens\u0022: 1280,\n      \u0022audio_tokens\u0022: 0\n    },\n    \u0022completion_tokens_details\u0022: {\n      \u0022reasoning_tokens\u0022: 1064,\n      \u0022audio_tokens\u0022: 0,\n      \u0022accepted_prediction_tokens\u0022: 0,\n      \u0022rejected_prediction_tokens\u0022: 0\n    }\n  },\n  \u0022service_tier\u0022: \u0022default\u0022,\n  \u0022system_fingerprint\u0022: null\n}\n"
+  },
+  {
+    "case": "bufete",
+    "context": "page",
+    "target": "attract",
+    "round": 2,
+    "output": {
+      "writingErrors": []
+    },
+    "usage": {
+      "promptTokens": 1458,
+      "completionTokens": 2086,
+      "totalTokens": 3544,
+      "reasoningTokens": 2048
+    },
+    "telemetry": {
+      "returnedModel": "gpt-5.4-mini-2026-03-17",
+      "finishReason": "stop",
+      "reasoningEffort": "medium",
+      "requestId": "req_54052953244a4d7b97b7ef7a911888fd",
+      "systemFingerprint": null,
+      "inputHash": "ACE6FA65FA94A30B1D558CEF89D6139A2E00766FF8B819427928C1E1C9AAEDC5",
+      "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+    },
+    "error": null,
+    "rawResponse": "{\n  \u0022id\u0022: \u0022chatcmpl-ELz0f5PCjEpJVuLLGYTvq1tpvSluf\u0022,\n  \u0022object\u0022: \u0022chat.completion\u0022,\n  \u0022created\u0022: 1788908117,\n  \u0022model\u0022: \u0022gpt-5.4-mini-2026-03-17\u0022,\n  \u0022choices\u0022: [\n    {\n      \u0022index\u0022: 0,\n      \u0022message\u0022: {\n        \u0022role\u0022: \u0022assistant\u0022,\n        \u0022content\u0022: \u0022{\\\u0022writingErrors\\\u0022:[]}\u0022,\n        \u0022refusal\u0022: null,\n        \u0022annotations\u0022: []\n      },\n      \u0022finish_reason\u0022: \u0022stop\u0022\n    }\n  ],\n  \u0022usage\u0022: {\n    \u0022prompt_tokens\u0022: 1458,\n    \u0022completion_tokens\u0022: 2086,\n    \u0022total_tokens\u0022: 3544,\n    \u0022prompt_tokens_details\u0022: {\n      \u0022cached_tokens\u0022: 1280,\n      \u0022audio_tokens\u0022: 0\n    },\n    \u0022completion_tokens_details\u0022: {\n      \u0022reasoning_tokens\u0022: 2048,\n      \u0022audio_tokens\u0022: 0,\n      \u0022accepted_prediction_tokens\u0022: 0,\n      \u0022rejected_prediction_tokens\u0022: 0\n    }\n  },\n  \u0022service_tier\u0022: \u0022default\u0022,\n  \u0022system_fingerprint\u0022: null\n}\n"
+  },
+  {
+    "case": "symposium",
+    "context": "paragraph",
+    "target": "team attend",
+    "round": 1,
+    "output": {
+      "writingErrors": [
+        {
+          "quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+          "rule": "In English subject-verb agreement, a singular collective noun like \u201Cteam\u201D normally takes a singular verb in this context.",
+          "explanation": "\u201CTeam\u201D is singular here, so \u201Cattend\u201D should agree with it; the sentence needs a singular verb form.",
+          "defectConfirmed": true,
+          "errorType": "agreement",
+          "problemSpan": "attend",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        },
+        {
+          "quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+          "rule": "In coordinated list constructions, a conjunction is required before the final item.",
+          "explanation": "The phrase should read as a list ending with \u201Ckeynotes and more\u201D; \u201Care\u201D is not the required conjunction.",
+          "defectConfirmed": true,
+          "errorType": "grammar",
+          "problemSpan": "are",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        }
+      ]
+    },
+    "usage": {
+      "promptTokens": 882,
+      "completionTokens": 1815,
+      "totalTokens": 2697,
+      "reasoningTokens": 1536
+    },
+    "telemetry": {
+      "returnedModel": "gpt-5.4-mini-2026-03-17",
+      "finishReason": "stop",
+      "reasoningEffort": "medium",
+      "requestId": "req_494d49935ef74f689d5b89f5a5975239",
+      "systemFingerprint": null,
+      "inputHash": "34830B9A0D90D0CEA24525FAF2EA93337D91C2E716DA9974C4DFE62A3B29828A",
+      "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+    },
+    "error": null,
+    "rawResponse": "{\n  \u0022id\u0022: \u0022chatcmpl-ELz0qr3S18Q6lA0PejomTUByOIbas\u0022,\n  \u0022object\u0022: \u0022chat.completion\u0022,\n  \u0022created\u0022: 1788908128,\n  \u0022model\u0022: \u0022gpt-5.4-mini-2026-03-17\u0022,\n  \u0022choices\u0022: [\n    {\n      \u0022index\u0022: 0,\n      \u0022message\u0022: {\n        \u0022role\u0022: \u0022assistant\u0022,\n        \u0022content\u0022: \u0022{\\\u0022writingErrors\\\u0022:[{\\\u0022quote\\\u0022:\\\u0022Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.\\\u0022,\\\u0022rule\\\u0022:\\\u0022In English subject-verb agreement, a singular collective noun like \u201Cteam\u201D normally takes a singular verb in this context.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022\u201CTeam\u201D is singular here, so \u201Cattend\u201D should agree with it; the sentence needs a singular verb form.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022agreement\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022attend\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null},{\\\u0022quote\\\u0022:\\\u0022Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.\\\u0022,\\\u0022rule\\\u0022:\\\u0022In coordinated list constructions, a conjunction is required before the final item.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The phrase should read as a list ending with \u201Ckeynotes and more\u201D; \u201Care\u201D is not the required conjunction.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022grammar\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022are\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null}]}\u0022,\n        \u0022refusal\u0022: null,\n        \u0022annotations\u0022: []\n      },\n      \u0022finish_reason\u0022: \u0022stop\u0022\n    }\n  ],\n  \u0022usage\u0022: {\n    \u0022prompt_tokens\u0022: 882,\n    \u0022completion_tokens\u0022: 1815,\n    \u0022total_tokens\u0022: 2697,\n    \u0022prompt_tokens_details\u0022: {\n      \u0022cached_tokens\u0022: 0,\n      \u0022audio_tokens\u0022: 0\n    },\n    \u0022completion_tokens_details\u0022: {\n      \u0022reasoning_tokens\u0022: 1536,\n      \u0022audio_tokens\u0022: 0,\n      \u0022accepted_prediction_tokens\u0022: 0,\n      \u0022rejected_prediction_tokens\u0022: 0\n    }\n  },\n  \u0022service_tier\u0022: \u0022default\u0022,\n  \u0022system_fingerprint\u0022: null\n}\n"
+  },
+  {
+    "case": "symposium",
+    "context": "page",
+    "target": "team attend",
+    "round": 1,
+    "output": {
+      "writingErrors": [
+        {
+          "quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+          "rule": "Use a coordinating conjunction to complete the list; \u0027are more\u0027 is not grammatical in this context.",
+          "explanation": "The list ends with an ungrammatical phrase. It should be completed with a form like \u0027and more\u0027 rather than \u0027are more\u0027.",
+          "defectConfirmed": true,
+          "errorType": "grammar",
+          "problemSpan": "are more",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        },
+        {
+          "quote": "\u00B7 Content \u2013 with a need for a robust content strategy to connect you to customers and demonstrates understanding and empathy",
+          "rule": "Keep the verb form parallel after the infinitive phrase.",
+          "explanation": "After \u0027to connect you to customers,\u0027 the sentence switches to the finite verb \u0027demonstrates,\u0027 which breaks the structure.",
+          "defectConfirmed": true,
+          "errorType": "grammar",
+          "problemSpan": "and demonstrates understanding and empathy",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        },
+        {
+          "quote": "This fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.",
+          "rule": "Use \u0027the fact that\u0027 rather than \u0027this fact that\u0027 before a clause.",
+          "explanation": "The opening phrase is not grammatical in standard English; the sentence needs an article before \u0027fact\u0027.",
+          "defectConfirmed": true,
+          "errorType": "grammar",
+          "problemSpan": "This fact",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        },
+        {
+          "quote": "It also makes good sense for Sitecore as effectively makes the platform a whole digital marketing and content ecosystem.",
+          "rule": "A clause introduced by \u0027as\u0027 needs a subject before the verb.",
+          "explanation": "The phrase after \u0027as\u0027 is missing a subject, so \u0027effectively makes\u0027 cannot stand on its own here.",
+          "defectConfirmed": true,
+          "errorType": "grammar",
+          "problemSpan": "as effectively",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        },
+        {
+          "quote": "Firstly, Tzikaki wasn\u2019t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency.",
+          "rule": "Standard spelling of the proper name is required here.",
+          "explanation": "The surname is misspelled; it should match the form used elsewhere in the text.",
+          "defectConfirmed": true,
+          "errorType": "spelling",
+          "problemSpan": "Tzikaki",
+          "correctionStatus": "safe",
+          "correctedQuote": "Firstly, Tzikakis wasn\u2019t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency."
+        }
+      ]
+    },
+    "usage": {
+      "promptTokens": 2405,
+      "completionTokens": 7180,
+      "totalTokens": 9585,
+      "reasoningTokens": 6531
+    },
+    "telemetry": {
+      "returnedModel": "gpt-5.4-mini-2026-03-17",
+      "finishReason": "stop",
+      "reasoningEffort": "medium",
+      "requestId": "req_f02ab19a5fe94683b628d83b4b15fc5e",
+      "systemFingerprint": null,
+      "inputHash": "89DE8DC240246EF5355444026F6F4CE6A3E83B95298104D3A671C335F33CBF3A",
+      "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+    },
+    "error": null,
+    "rawResponse": "{\n  \u0022id\u0022: \u0022chatcmpl-ELz0z3ugtGj9DbUZhji7vMmtENb7x\u0022,\n  \u0022object\u0022: \u0022chat.completion\u0022,\n  \u0022created\u0022: 1788908137,\n  \u0022model\u0022: \u0022gpt-5.4-mini-2026-03-17\u0022,\n  \u0022choices\u0022: [\n    {\n      \u0022index\u0022: 0,\n      \u0022message\u0022: {\n        \u0022role\u0022: \u0022assistant\u0022,\n        \u0022content\u0022: \u0022{\\\u0022writingErrors\\\u0022:[{\\\u0022quote\\\u0022:\\\u0022Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.\\\u0022,\\\u0022rule\\\u0022:\\\u0022Use a coordinating conjunction to complete the list; \u0027are more\u0027 is not grammatical in this context.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The list ends with an ungrammatical phrase. It should be completed with a form like \u0027and more\u0027 rather than \u0027are more\u0027.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022grammar\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022are more\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null},{\\\u0022quote\\\u0022:\\\u0022\u00B7 Content \u2013 with a need for a robust content strategy to connect you to customers and demonstrates understanding and empathy\\\u0022,\\\u0022rule\\\u0022:\\\u0022Keep the verb form parallel after the infinitive phrase.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022After \u0027to connect you to customers,\u0027 the sentence switches to the finite verb \u0027demonstrates,\u0027 which breaks the structure.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022grammar\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022and demonstrates understanding and empathy\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null},{\\\u0022quote\\\u0022:\\\u0022This fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.\\\u0022,\\\u0022rule\\\u0022:\\\u0022Use \u0027the fact that\u0027 rather than \u0027this fact that\u0027 before a clause.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The opening phrase is not grammatical in standard English; the sentence needs an article before \u0027fact\u0027.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022grammar\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022This fact\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null},{\\\u0022quote\\\u0022:\\\u0022It also makes good sense for Sitecore as effectively makes the platform a whole digital marketing and content ecosystem.\\\u0022,\\\u0022rule\\\u0022:\\\u0022A clause introduced by \u0027as\u0027 needs a subject before the verb.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The phrase after \u0027as\u0027 is missing a subject, so \u0027effectively makes\u0027 cannot stand on its own here.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022grammar\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022as effectively\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null},{\\\u0022quote\\\u0022:\\\u0022Firstly, Tzikaki wasn\u2019t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency.\\\u0022,\\\u0022rule\\\u0022:\\\u0022Standard spelling of the proper name is required here.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The surname is misspelled; it should match the form used elsewhere in the text.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022spelling\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022Tzikaki\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022safe\\\u0022,\\\u0022correctedQuote\\\u0022:\\\u0022Firstly, Tzikakis wasn\u2019t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency.\\\u0022}]}\u0022,\n        \u0022refusal\u0022: null,\n        \u0022annotations\u0022: []\n      },\n      \u0022finish_reason\u0022: \u0022stop\u0022\n    }\n  ],\n  \u0022usage\u0022: {\n    \u0022prompt_tokens\u0022: 2405,\n    \u0022completion_tokens\u0022: 7180,\n    \u0022total_tokens\u0022: 9585,\n    \u0022prompt_tokens_details\u0022: {\n      \u0022cached_tokens\u0022: 2304,\n      \u0022audio_tokens\u0022: 0\n    },\n    \u0022completion_tokens_details\u0022: {\n      \u0022reasoning_tokens\u0022: 6531,\n      \u0022audio_tokens\u0022: 0,\n      \u0022accepted_prediction_tokens\u0022: 0,\n      \u0022rejected_prediction_tokens\u0022: 0\n    }\n  },\n  \u0022service_tier\u0022: \u0022default\u0022,\n  \u0022system_fingerprint\u0022: null\n}\n"
+  },
+  {
+    "case": "bufete",
+    "context": "sentence",
+    "target": "attract",
+    "round": 2,
+    "output": {
+      "writingErrors": [
+        {
+          "quote": "Its charming old town with whitewashed houses, thriving arts scene, and elegant marina attract a sophisticated international community \u2014 particularly from Scandinavia, the Netherlands, and Germany.",
+          "rule": "Subject-verb agreement: a singular subject takes a singular verb.",
+          "explanation": "The subject \u201CIts charming old town \u2026\u201D is singular, so the verb should agree in singular form; \u201Cattract\u201D is not grammatical here.",
+          "defectConfirmed": true,
+          "errorType": "agreement",
+          "problemSpan": "attract",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        }
+      ]
+    },
+    "usage": {
+      "promptTokens": 841,
+      "completionTokens": 443,
+      "totalTokens": 1284,
+      "reasoningTokens": 309
+    },
+    "telemetry": {
+      "returnedModel": "gpt-5.4-mini-2026-03-17",
+      "finishReason": "stop",
+      "reasoningEffort": "medium",
+      "requestId": "req_2ad88907c55445d9b81ae4961a118c9a",
+      "systemFingerprint": null,
+      "inputHash": "7A5BCD80D04B5DF78049E3463C4B88BB7D3854EF9162F70DD866FB8FF7889B7E",
+      "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+    },
+    "error": null,
+    "rawResponse": "{\n  \u0022id\u0022: \u0022chatcmpl-ELz1WpfYMvnarXhVIfyZ1Zb1yCENx\u0022,\n  \u0022object\u0022: \u0022chat.completion\u0022,\n  \u0022created\u0022: 1788908170,\n  \u0022model\u0022: \u0022gpt-5.4-mini-2026-03-17\u0022,\n  \u0022choices\u0022: [\n    {\n      \u0022index\u0022: 0,\n      \u0022message\u0022: {\n        \u0022role\u0022: \u0022assistant\u0022,\n        \u0022content\u0022: \u0022{\\\u0022writingErrors\\\u0022:[{\\\u0022quote\\\u0022:\\\u0022Its charming old town with whitewashed houses, thriving arts scene, and elegant marina attract a sophisticated international community \u2014 particularly from Scandinavia, the Netherlands, and Germany.\\\u0022,\\\u0022rule\\\u0022:\\\u0022Subject-verb agreement: a singular subject takes a singular verb.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The subject \u201CIts charming old town \u2026\u201D is singular, so the verb should agree in singular form; \u201Cattract\u201D is not grammatical here.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022agreement\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022attract\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null}]}\u0022,\n        \u0022refusal\u0022: null,\n        \u0022annotations\u0022: []\n      },\n      \u0022finish_reason\u0022: \u0022stop\u0022\n    }\n  ],\n  \u0022usage\u0022: {\n    \u0022prompt_tokens\u0022: 841,\n    \u0022completion_tokens\u0022: 443,\n    \u0022total_tokens\u0022: 1284,\n    \u0022prompt_tokens_details\u0022: {\n      \u0022cached_tokens\u0022: 0,\n      \u0022audio_tokens\u0022: 0\n    },\n    \u0022completion_tokens_details\u0022: {\n      \u0022reasoning_tokens\u0022: 309,\n      \u0022audio_tokens\u0022: 0,\n      \u0022accepted_prediction_tokens\u0022: 0,\n      \u0022rejected_prediction_tokens\u0022: 0\n    }\n  },\n  \u0022service_tier\u0022: \u0022default\u0022,\n  \u0022system_fingerprint\u0022: null\n}\n"
+  },
+  {
+    "case": "symposium",
+    "context": "paragraph",
+    "target": "team attend",
+    "round": 3,
+    "output": {
+      "writingErrors": [
+        {
+          "quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more. It\u2019s an important part of our team\u2019s professional learning, an opportunity to network, and always a highlight in our professional year.",
+          "rule": "Subject\u2013verb agreement: in en-US, a collective noun used as a singular subject normally takes a singular verb.",
+          "explanation": "In this sentence, \u0022team\u0022 is the subject, so \u0022attend\u0022 should agree with it in singular form.",
+          "defectConfirmed": true,
+          "errorType": "agreement",
+          "problemSpan": "the Cylogy team attend",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        },
+        {
+          "quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more. It\u2019s an important part of our team\u2019s professional learning, an opportunity to network, and always a highlight in our professional year.",
+          "rule": "Grammar: a list ending with an open-ended item should use a coordinating phrase like \u0022and more\u0022; \u0022are more\u0022 is not grammatical here.",
+          "explanation": "At the end of the list, \u0022are more\u0022 does not form a valid continuation of the enumeration; the phrase is missing the expected coordinating wording.",
+          "defectConfirmed": true,
+          "errorType": "grammar",
+          "problemSpan": "are more",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        }
+      ]
+    },
+    "usage": {
+      "promptTokens": 882,
+      "completionTokens": 1872,
+      "totalTokens": 2754,
+      "reasoningTokens": 1515
+    },
+    "telemetry": {
+      "returnedModel": "gpt-5.4-mini-2026-03-17",
+      "finishReason": "stop",
+      "reasoningEffort": "medium",
+      "requestId": "req_29b276bb7d9542cea05004a8179f8713",
+      "systemFingerprint": null,
+      "inputHash": "34830B9A0D90D0CEA24525FAF2EA93337D91C2E716DA9974C4DFE62A3B29828A",
+      "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+    },
+    "error": null,
+    "rawResponse": "{\n  \u0022id\u0022: \u0022chatcmpl-ELz1YibrUuE6403FRnUsGZgDagxW7\u0022,\n  \u0022object\u0022: \u0022chat.completion\u0022,\n  \u0022created\u0022: 1788908172,\n  \u0022model\u0022: \u0022gpt-5.4-mini-2026-03-17\u0022,\n  \u0022choices\u0022: [\n    {\n      \u0022index\u0022: 0,\n      \u0022message\u0022: {\n        \u0022role\u0022: \u0022assistant\u0022,\n        \u0022content\u0022: \u0022{\\\u0022writingErrors\\\u0022:[{\\\u0022quote\\\u0022:\\\u0022Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more. It\u2019s an important part of our team\u2019s professional learning, an opportunity to network, and always a highlight in our professional year.\\\u0022,\\\u0022rule\\\u0022:\\\u0022Subject\u2013verb agreement: in en-US, a collective noun used as a singular subject normally takes a singular verb.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022In this sentence, \\\\\\\u0022team\\\\\\\u0022 is the subject, so \\\\\\\u0022attend\\\\\\\u0022 should agree with it in singular form.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022agreement\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022the Cylogy team attend\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null},{\\\u0022quote\\\u0022:\\\u0022Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more. It\u2019s an important part of our team\u2019s professional learning, an opportunity to network, and always a highlight in our professional year.\\\u0022,\\\u0022rule\\\u0022:\\\u0022Grammar: a list ending with an open-ended item should use a coordinating phrase like \\\\\\\u0022and more\\\\\\\u0022; \\\\\\\u0022are more\\\\\\\u0022 is not grammatical here.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022At the end of the list, \\\\\\\u0022are more\\\\\\\u0022 does not form a valid continuation of the enumeration; the phrase is missing the expected coordinating wording.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022grammar\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022are more\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null}]}\u0022,\n        \u0022refusal\u0022: null,\n        \u0022annotations\u0022: []\n      },\n      \u0022finish_reason\u0022: \u0022stop\u0022\n    }\n  ],\n  \u0022usage\u0022: {\n    \u0022prompt_tokens\u0022: 882,\n    \u0022completion_tokens\u0022: 1872,\n    \u0022total_tokens\u0022: 2754,\n    \u0022prompt_tokens_details\u0022: {\n      \u0022cached_tokens\u0022: 0,\n      \u0022audio_tokens\u0022: 0\n    },\n    \u0022completion_tokens_details\u0022: {\n      \u0022reasoning_tokens\u0022: 1515,\n      \u0022audio_tokens\u0022: 0,\n      \u0022accepted_prediction_tokens\u0022: 0,\n      \u0022rejected_prediction_tokens\u0022: 0\n    }\n  },\n  \u0022service_tier\u0022: \u0022default\u0022,\n  \u0022system_fingerprint\u0022: null\n}\n"
+  },
+  {
+    "case": "bufete",
+    "context": "page",
+    "target": "attract",
+    "round": 3,
+    "output": {
+      "writingErrors": []
+    },
+    "usage": {
+      "promptTokens": 1458,
+      "completionTokens": 771,
+      "totalTokens": 2229,
+      "reasoningTokens": 745
+    },
+    "telemetry": {
+      "returnedModel": "gpt-5.4-mini-2026-03-17",
+      "finishReason": "stop",
+      "reasoningEffort": "medium",
+      "requestId": "req_1bf7633f52014035a719764f0f2a9d10",
+      "systemFingerprint": null,
+      "inputHash": "ACE6FA65FA94A30B1D558CEF89D6139A2E00766FF8B819427928C1E1C9AAEDC5",
+      "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+    },
+    "error": null,
+    "rawResponse": "{\n  \u0022id\u0022: \u0022chatcmpl-ELz1iiqTRp95tm3dyf0XRrS27Jj3n\u0022,\n  \u0022object\u0022: \u0022chat.completion\u0022,\n  \u0022created\u0022: 1788908182,\n  \u0022model\u0022: \u0022gpt-5.4-mini-2026-03-17\u0022,\n  \u0022choices\u0022: [\n    {\n      \u0022index\u0022: 0,\n      \u0022message\u0022: {\n        \u0022role\u0022: \u0022assistant\u0022,\n        \u0022content\u0022: \u0022{\\\u0022writingErrors\\\u0022:[]}\u0022,\n        \u0022refusal\u0022: null,\n        \u0022annotations\u0022: []\n      },\n      \u0022finish_reason\u0022: \u0022stop\u0022\n    }\n  ],\n  \u0022usage\u0022: {\n    \u0022prompt_tokens\u0022: 1458,\n    \u0022completion_tokens\u0022: 771,\n    \u0022total_tokens\u0022: 2229,\n    \u0022prompt_tokens_details\u0022: {\n      \u0022cached_tokens\u0022: 1280,\n      \u0022audio_tokens\u0022: 0\n    },\n    \u0022completion_tokens_details\u0022: {\n      \u0022reasoning_tokens\u0022: 745,\n      \u0022audio_tokens\u0022: 0,\n      \u0022accepted_prediction_tokens\u0022: 0,\n      \u0022rejected_prediction_tokens\u0022: 0\n    }\n  },\n  \u0022service_tier\u0022: \u0022default\u0022,\n  \u0022system_fingerprint\u0022: null\n}\n"
+  },
+  {
+    "case": "symposium",
+    "context": "paragraph",
+    "target": "team attend",
+    "round": 2,
+    "output": {
+      "writingErrors": [
+        {
+          "quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+          "rule": "Grammar: a coordination phrase needs the conjunction \u0022and\u0022 before \u0022more\u0022; without it, the clause is ungrammatical in context.",
+          "explanation": "The phrase ends with \u0022thought-provoking keynotes are more,\u0022 but the sentence needs \u0022and more\u0022 to complete the list.",
+          "defectConfirmed": true,
+          "errorType": "grammar",
+          "problemSpan": "are more",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        }
+      ]
+    },
+    "usage": {
+      "promptTokens": 882,
+      "completionTokens": 650,
+      "totalTokens": 1532,
+      "reasoningTokens": 495
+    },
+    "telemetry": {
+      "returnedModel": "gpt-5.4-mini-2026-03-17",
+      "finishReason": "stop",
+      "reasoningEffort": "medium",
+      "requestId": "req_4bf7e9c0fc8349b8be81a4e68e5e91e8",
+      "systemFingerprint": null,
+      "inputHash": "34830B9A0D90D0CEA24525FAF2EA93337D91C2E716DA9974C4DFE62A3B29828A",
+      "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+    },
+    "error": null,
+    "rawResponse": "{\n  \u0022id\u0022: \u0022chatcmpl-ELz1mDt55VdsKKCvhDELcWHAo2T2b\u0022,\n  \u0022object\u0022: \u0022chat.completion\u0022,\n  \u0022created\u0022: 1788908186,\n  \u0022model\u0022: \u0022gpt-5.4-mini-2026-03-17\u0022,\n  \u0022choices\u0022: [\n    {\n      \u0022index\u0022: 0,\n      \u0022message\u0022: {\n        \u0022role\u0022: \u0022assistant\u0022,\n        \u0022content\u0022: \u0022{\\\u0022writingErrors\\\u0022:[{\\\u0022quote\\\u0022:\\\u0022Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.\\\u0022,\\\u0022rule\\\u0022:\\\u0022Grammar: a coordination phrase needs the conjunction \\\\\\\u0022and\\\\\\\u0022 before \\\\\\\u0022more\\\\\\\u0022; without it, the clause is ungrammatical in context.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The phrase ends with \\\\\\\u0022thought-provoking keynotes are more,\\\\\\\u0022 but the sentence needs \\\\\\\u0022and more\\\\\\\u0022 to complete the list.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022grammar\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022are more\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null}]}\u0022,\n        \u0022refusal\u0022: null,\n        \u0022annotations\u0022: []\n      },\n      \u0022finish_reason\u0022: \u0022stop\u0022\n    }\n  ],\n  \u0022usage\u0022: {\n    \u0022prompt_tokens\u0022: 882,\n    \u0022completion_tokens\u0022: 650,\n    \u0022total_tokens\u0022: 1532,\n    \u0022prompt_tokens_details\u0022: {\n      \u0022cached_tokens\u0022: 0,\n      \u0022audio_tokens\u0022: 0\n    },\n    \u0022completion_tokens_details\u0022: {\n      \u0022reasoning_tokens\u0022: 495,\n      \u0022audio_tokens\u0022: 0,\n      \u0022accepted_prediction_tokens\u0022: 0,\n      \u0022rejected_prediction_tokens\u0022: 0\n    }\n  },\n  \u0022service_tier\u0022: \u0022default\u0022,\n  \u0022system_fingerprint\u0022: null\n}\n"
+  },
+  {
+    "case": "bufete",
+    "context": "sentence",
+    "target": "attract",
+    "round": 3,
+    "output": {
+      "writingErrors": [
+        {
+          "quote": "Its charming old town with whitewashed houses, thriving arts scene, and elegant marina attract a sophisticated international community \u2014 particularly from Scandinavia, the Netherlands, and Germany.",
+          "rule": "In English, a singular subject must take a singular verb.",
+          "explanation": "The subject is singular (\u0027Its charming old town ...\u0027), so the verb should agree in number; \u0027attract\u0027 is plural here.",
+          "defectConfirmed": true,
+          "errorType": "agreement",
+          "problemSpan": "attract",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        }
+      ]
+    },
+    "usage": {
+      "promptTokens": 841,
+      "completionTokens": 1566,
+      "totalTokens": 2407,
+      "reasoningTokens": 1424
+    },
+    "telemetry": {
+      "returnedModel": "gpt-5.4-mini-2026-03-17",
+      "finishReason": "stop",
+      "reasoningEffort": "medium",
+      "requestId": "req_cba59938d8ca4e32851c14f0179b52aa",
+      "systemFingerprint": null,
+      "inputHash": "7A5BCD80D04B5DF78049E3463C4B88BB7D3854EF9162F70DD866FB8FF7889B7E",
+      "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+    },
+    "error": null,
+    "rawResponse": "{\n  \u0022id\u0022: \u0022chatcmpl-ELz1pg8Qcmndoj1LoXEuqmgBuxRNa\u0022,\n  \u0022object\u0022: \u0022chat.completion\u0022,\n  \u0022created\u0022: 1788908189,\n  \u0022model\u0022: \u0022gpt-5.4-mini-2026-03-17\u0022,\n  \u0022choices\u0022: [\n    {\n      \u0022index\u0022: 0,\n      \u0022message\u0022: {\n        \u0022role\u0022: \u0022assistant\u0022,\n        \u0022content\u0022: \u0022{\\\u0022writingErrors\\\u0022:[{\\\u0022quote\\\u0022:\\\u0022Its charming old town with whitewashed houses, thriving arts scene, and elegant marina attract a sophisticated international community \u2014 particularly from Scandinavia, the Netherlands, and Germany.\\\u0022,\\\u0022rule\\\u0022:\\\u0022In English, a singular subject must take a singular verb.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The subject is singular (\u0027Its charming old town ...\u0027), so the verb should agree in number; \u0027attract\u0027 is plural here.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022agreement\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022attract\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null}]}\u0022,\n        \u0022refusal\u0022: null,\n        \u0022annotations\u0022: []\n      },\n      \u0022finish_reason\u0022: \u0022stop\u0022\n    }\n  ],\n  \u0022usage\u0022: {\n    \u0022prompt_tokens\u0022: 841,\n    \u0022completion_tokens\u0022: 1566,\n    \u0022total_tokens\u0022: 2407,\n    \u0022prompt_tokens_details\u0022: {\n      \u0022cached_tokens\u0022: 0,\n      \u0022audio_tokens\u0022: 0\n    },\n    \u0022completion_tokens_details\u0022: {\n      \u0022reasoning_tokens\u0022: 1424,\n      \u0022audio_tokens\u0022: 0,\n      \u0022accepted_prediction_tokens\u0022: 0,\n      \u0022rejected_prediction_tokens\u0022: 0\n    }\n  },\n  \u0022service_tier\u0022: \u0022default\u0022,\n  \u0022system_fingerprint\u0022: null\n}\n"
+  },
+  {
+    "case": "symposium",
+    "context": "page",
+    "target": "team attend",
+    "round": 3,
+    "output": {
+      "writingErrors": [
+        {
+          "quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more. It\u2019s an important part of our team\u2019s professional learning, an opportunity to network, and always a highlight in our professional year.",
+          "rule": "In a list, \u0027and more\u0027 is needed here; \u0027are more\u0027 is not grammatical in this sentence.",
+          "explanation": "The conference list ends with \u0027thought-provoking keynotes are more,\u0027 which is not a grammatical way to finish the list.",
+          "defectConfirmed": true,
+          "errorType": "grammar",
+          "problemSpan": "are more",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        },
+        {
+          "quote": "Here\u2019s five key takeaways from the 2020 Sitecore Symposium.",
+          "rule": "A singular contraction like \u0027Here\u2019s\u0027 does not agree with the plural noun phrase that follows.",
+          "explanation": "\u0027Here\u2019s\u0027 means \u0027here is,\u0027 but it introduces the plural phrase \u0027five key takeaways.\u0027",
+          "defectConfirmed": true,
+          "errorType": "agreement",
+          "problemSpan": "Here\u2019s",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        },
+        {
+          "quote": "Many of us will recognise that agility and empathy have been important principles put into practice during 2020, and I\u2019m sure this will be true of 2021 too.",
+          "rule": "In en-US writing, this word is spelled with a \u0027z\u0027 rather than an \u0027s\u0027.",
+          "explanation": "The sentence uses the British spelling \u0027recognise\u0027 in a page declared as en-US.",
+          "defectConfirmed": true,
+          "errorType": "spelling",
+          "problemSpan": "recognise",
+          "correctionStatus": "safe",
+          "correctedQuote": "Many of us will recognize that agility and empathy have been important principles put into practice during 2020, and I\u2019m sure this will be true of 2021 too."
+        },
+        {
+          "quote": "This fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.",
+          "rule": "The noun phrase needs a valid \u0027that\u0027 construction; \u0027This fact that\u0027 is not grammatical here.",
+          "explanation": "\u0027This fact that sessions are showcasing...\u0027 is malformed; the sentence needs a different construction, such as a proper \u0027fact that\u0027 phrase.",
+          "defectConfirmed": true,
+          "errorType": "grammar",
+          "problemSpan": "This fact that",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        },
+        {
+          "quote": "It also makes good sense for Sitecore as effectively makes the platform a whole digital marketing and content ecosystem.",
+          "rule": "The clause after \u0027as\u0027 needs a subject; \u0027as effectively makes\u0027 is missing one.",
+          "explanation": "The sentence has an incomplete clause after \u0027as\u0027, so \u0027as effectively makes\u0027 is ungrammatical here.",
+          "defectConfirmed": true,
+          "errorType": "grammar",
+          "problemSpan": "as effectively makes",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        },
+        {
+          "quote": "Here, two things stuck out for me that bode well for the future. Firstly, Tzikaki wasn\u2019t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency. Secondly, he saw a strong continuing role for a partner ecosystem that was experienced, certified and had opportunities to upskill across all key solutions, but with some new vertical \u201Cflavor\u201D to match partner interest and focus. He also reiterated that Sitecore didn\u2019t want to compete with partners, recognizing the strength of the network.",
+          "rule": "The surname is misspelled in this sentence.",
+          "explanation": "The name \u0027Tzikaki\u0027 is missing a final \u0027s\u0027.",
+          "defectConfirmed": true,
+          "errorType": "spelling",
+          "problemSpan": "Tzikaki",
+          "correctionStatus": "safe",
+          "correctedQuote": "Here, two things stuck out for me that bode well for the future. Firstly, Tzikakis wasn\u2019t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency. Secondly, he saw a strong continuing role for a partner ecosystem that was experienced, certified and had opportunities to upskill across all key solutions, but with some new vertical \u201Cflavor\u201D to match partner interest and focus. He also reiterated that Sitecore didn\u2019t want to compete with partners, recognizing the strength of the network."
+        }
+      ]
+    },
+    "usage": {
+      "promptTokens": 2405,
+      "completionTokens": 13657,
+      "totalTokens": 16062,
+      "reasoningTokens": 12597
+    },
+    "telemetry": {
+      "returnedModel": "gpt-5.4-mini-2026-03-17",
+      "finishReason": "stop",
+      "reasoningEffort": "medium",
+      "requestId": "req_dbc6577a41504b28a4fd1e94be7cd0f7",
+      "systemFingerprint": null,
+      "inputHash": "89DE8DC240246EF5355444026F6F4CE6A3E83B95298104D3A671C335F33CBF3A",
+      "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+    },
+    "error": null,
+    "rawResponse": "{\n  \u0022id\u0022: \u0022chatcmpl-ELz1xV7HvFI9Mv7tTUJiI4f8koYip\u0022,\n  \u0022object\u0022: \u0022chat.completion\u0022,\n  \u0022created\u0022: 1788908197,\n  \u0022model\u0022: \u0022gpt-5.4-mini-2026-03-17\u0022,\n  \u0022choices\u0022: [\n    {\n      \u0022index\u0022: 0,\n      \u0022message\u0022: {\n        \u0022role\u0022: \u0022assistant\u0022,\n        \u0022content\u0022: \u0022{\\\u0022writingErrors\\\u0022:[{\\\u0022quote\\\u0022:\\\u0022Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more. It\u2019s an important part of our team\u2019s professional learning, an opportunity to network, and always a highlight in our professional year.\\\u0022,\\\u0022rule\\\u0022:\\\u0022In a list, \u0027and more\u0027 is needed here; \u0027are more\u0027 is not grammatical in this sentence.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The conference list ends with \u0027thought-provoking keynotes are more,\u0027 which is not a grammatical way to finish the list.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022grammar\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022are more\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null},{\\\u0022quote\\\u0022:\\\u0022Here\u2019s five key takeaways from the 2020 Sitecore Symposium.\\\u0022,\\\u0022rule\\\u0022:\\\u0022A singular contraction like \u0027Here\u2019s\u0027 does not agree with the plural noun phrase that follows.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022\u0027Here\u2019s\u0027 means \u0027here is,\u0027 but it introduces the plural phrase \u0027five key takeaways.\u0027\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022agreement\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022Here\u2019s\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null},{\\\u0022quote\\\u0022:\\\u0022Many of us will recognise that agility and empathy have been important principles put into practice during 2020, and I\u2019m sure this will be true of 2021 too.\\\u0022,\\\u0022rule\\\u0022:\\\u0022In en-US writing, this word is spelled with a \u0027z\u0027 rather than an \u0027s\u0027.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The sentence uses the British spelling \u0027recognise\u0027 in a page declared as en-US.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022spelling\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022recognise\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022safe\\\u0022,\\\u0022correctedQuote\\\u0022:\\\u0022Many of us will recognize that agility and empathy have been important principles put into practice during 2020, and I\u2019m sure this will be true of 2021 too.\\\u0022},{\\\u0022quote\\\u0022:\\\u0022This fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.\\\u0022,\\\u0022rule\\\u0022:\\\u0022The noun phrase needs a valid \u0027that\u0027 construction; \u0027This fact that\u0027 is not grammatical here.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022\u0027This fact that sessions are showcasing...\u0027 is malformed; the sentence needs a different construction, such as a proper \u0027fact that\u0027 phrase.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022grammar\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022This fact that\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null},{\\\u0022quote\\\u0022:\\\u0022It also makes good sense for Sitecore as effectively makes the platform a whole digital marketing and content ecosystem.\\\u0022,\\\u0022rule\\\u0022:\\\u0022The clause after \u0027as\u0027 needs a subject; \u0027as effectively makes\u0027 is missing one.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The sentence has an incomplete clause after \u0027as\u0027, so \u0027as effectively makes\u0027 is ungrammatical here.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022grammar\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022as effectively makes\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null},{\\\u0022quote\\\u0022:\\\u0022Here, two things stuck out for me that bode well for the future. Firstly, Tzikaki wasn\u2019t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency. Secondly, he saw a strong continuing role for a partner ecosystem that was experienced, certified and had opportunities to upskill across all key solutions, but with some new vertical \u201Cflavor\u201D to match partner interest and focus. He also reiterated that Sitecore didn\u2019t want to compete with partners, recognizing the strength of the network.\\\u0022,\\\u0022rule\\\u0022:\\\u0022The surname is misspelled in this sentence.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The name \u0027Tzikaki\u0027 is missing a final \u0027s\u0027.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022spelling\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022Tzikaki\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022safe\\\u0022,\\\u0022correctedQuote\\\u0022:\\\u0022Here, two things stuck out for me that bode well for the future. Firstly, Tzikakis wasn\u2019t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency. Secondly, he saw a strong continuing role for a partner ecosystem that was experienced, certified and had opportunities to upskill across all key solutions, but with some new vertical \u201Cflavor\u201D to match partner interest and focus. He also reiterated that Sitecore didn\u2019t want to compete with partners, recognizing the strength of the network.\\\u0022}]}\u0022,\n        \u0022refusal\u0022: null,\n        \u0022annotations\u0022: []\n      },\n      \u0022finish_reason\u0022: \u0022stop\u0022\n    }\n  ],\n  \u0022usage\u0022: {\n    \u0022prompt_tokens\u0022: 2405,\n    \u0022completion_tokens\u0022: 13657,\n    \u0022total_tokens\u0022: 16062,\n    \u0022prompt_tokens_details\u0022: {\n      \u0022cached_tokens\u0022: 2304,\n      \u0022audio_tokens\u0022: 0\n    },\n    \u0022completion_tokens_details\u0022: {\n      \u0022reasoning_tokens\u0022: 12597,\n      \u0022audio_tokens\u0022: 0,\n      \u0022accepted_prediction_tokens\u0022: 0,\n      \u0022rejected_prediction_tokens\u0022: 0\n    }\n  },\n  \u0022service_tier\u0022: \u0022default\u0022,\n  \u0022system_fingerprint\u0022: null\n}\n"
+  },
+  {
+    "case": "symposium",
+    "context": "sentence",
+    "target": "team attend",
+    "round": 2,
+    "output": {
+      "writingErrors": [
+        {
+          "quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+          "rule": "Subject-verb agreement: a singular collective noun takes a singular verb in this context.",
+          "explanation": "In this sentence, \u0022team\u0022 functions as a singular collective noun, so \u0022attend\u0022 should agree with it as singular.",
+          "defectConfirmed": true,
+          "errorType": "agreement",
+          "problemSpan": "team attend",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        },
+        {
+          "quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+          "rule": "Grammar: the sentence needs a grammatically complete closing phrase after the list.",
+          "explanation": "The ending \u0022thought-provoking keynotes are more\u0022 is not grammatical in this context; \u0022are more\u0022 does not form a valid continuation of the list.",
+          "defectConfirmed": true,
+          "errorType": "grammar",
+          "problemSpan": "are more",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        }
+      ]
+    },
+    "usage": {
+      "promptTokens": 856,
+      "completionTokens": 1300,
+      "totalTokens": 2156,
+      "reasoningTokens": 1024
+    },
+    "telemetry": {
+      "returnedModel": "gpt-5.4-mini-2026-03-17",
+      "finishReason": "stop",
+      "reasoningEffort": "medium",
+      "requestId": "req_e2705216e4b940a28c0466a1177dae68",
+      "systemFingerprint": null,
+      "inputHash": "857A19B301179945E2CF09C4C0FF22081EFFCA0E822137EE20E9FDF3EC517116",
+      "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+    },
+    "error": null,
+    "rawResponse": "{\n  \u0022id\u0022: \u0022chatcmpl-ELz2vU3fUoQsEnlGwObauRlEtjoRQ\u0022,\n  \u0022object\u0022: \u0022chat.completion\u0022,\n  \u0022created\u0022: 1788908257,\n  \u0022model\u0022: \u0022gpt-5.4-mini-2026-03-17\u0022,\n  \u0022choices\u0022: [\n    {\n      \u0022index\u0022: 0,\n      \u0022message\u0022: {\n        \u0022role\u0022: \u0022assistant\u0022,\n        \u0022content\u0022: \u0022{\\\u0022writingErrors\\\u0022:[{\\\u0022quote\\\u0022:\\\u0022Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.\\\u0022,\\\u0022rule\\\u0022:\\\u0022Subject-verb agreement: a singular collective noun takes a singular verb in this context.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022In this sentence, \\\\\\\u0022team\\\\\\\u0022 functions as a singular collective noun, so \\\\\\\u0022attend\\\\\\\u0022 should agree with it as singular.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022agreement\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022team attend\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null},{\\\u0022quote\\\u0022:\\\u0022Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.\\\u0022,\\\u0022rule\\\u0022:\\\u0022Grammar: the sentence needs a grammatically complete closing phrase after the list.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The ending \\\\\\\u0022thought-provoking keynotes are more\\\\\\\u0022 is not grammatical in this context; \\\\\\\u0022are more\\\\\\\u0022 does not form a valid continuation of the list.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022grammar\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022are more\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null}]}\u0022,\n        \u0022refusal\u0022: null,\n        \u0022annotations\u0022: []\n      },\n      \u0022finish_reason\u0022: \u0022stop\u0022\n    }\n  ],\n  \u0022usage\u0022: {\n    \u0022prompt_tokens\u0022: 856,\n    \u0022completion_tokens\u0022: 1300,\n    \u0022total_tokens\u0022: 2156,\n    \u0022prompt_tokens_details\u0022: {\n      \u0022cached_tokens\u0022: 0,\n      \u0022audio_tokens\u0022: 0\n    },\n    \u0022completion_tokens_details\u0022: {\n      \u0022reasoning_tokens\u0022: 1024,\n      \u0022audio_tokens\u0022: 0,\n      \u0022accepted_prediction_tokens\u0022: 0,\n      \u0022rejected_prediction_tokens\u0022: 0\n    }\n  },\n  \u0022service_tier\u0022: \u0022default\u0022,\n  \u0022system_fingerprint\u0022: null\n}\n"
+  },
+  {
+    "case": "symposium",
+    "context": "sentence",
+    "target": "team attend",
+    "round": 3,
+    "output": {
+      "writingErrors": [
+        {
+          "quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+          "rule": "Subject-verb agreement: a singular collective noun in en-US normally takes a singular verb.",
+          "explanation": "In this sentence, \u0027team\u0027 is singular, so \u0027attend\u0027 does not agree with it.",
+          "defectConfirmed": true,
+          "errorType": "agreement",
+          "problemSpan": "attend",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        },
+        {
+          "quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+          "rule": "Grammar: the list needs the conjunction \u0027and more\u0027 after the last item.",
+          "explanation": "The phrase \u0027keynotes are more\u0027 is not grammatical in this list; the ending should be \u0027keynotes and more.\u0027",
+          "defectConfirmed": true,
+          "errorType": "grammar",
+          "problemSpan": "are more",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        }
+      ]
+    },
+    "usage": {
+      "promptTokens": 856,
+      "completionTokens": 1810,
+      "totalTokens": 2666,
+      "reasoningTokens": 1536
+    },
+    "telemetry": {
+      "returnedModel": "gpt-5.4-mini-2026-03-17",
+      "finishReason": "stop",
+      "reasoningEffort": "medium",
+      "requestId": "req_e7a739490bf546458fe41fd2069c8538",
+      "systemFingerprint": null,
+      "inputHash": "857A19B301179945E2CF09C4C0FF22081EFFCA0E822137EE20E9FDF3EC517116",
+      "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+    },
+    "error": null,
+    "rawResponse": "{\n  \u0022id\u0022: \u0022chatcmpl-ELz32koE5w4u9JjRnbLqco6ioh66f\u0022,\n  \u0022object\u0022: \u0022chat.completion\u0022,\n  \u0022created\u0022: 1788908264,\n  \u0022model\u0022: \u0022gpt-5.4-mini-2026-03-17\u0022,\n  \u0022choices\u0022: [\n    {\n      \u0022index\u0022: 0,\n      \u0022message\u0022: {\n        \u0022role\u0022: \u0022assistant\u0022,\n        \u0022content\u0022: \u0022{\\\u0022writingErrors\\\u0022:[{\\\u0022quote\\\u0022:\\\u0022Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.\\\u0022,\\\u0022rule\\\u0022:\\\u0022Subject-verb agreement: a singular collective noun in en-US normally takes a singular verb.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022In this sentence, \u0027team\u0027 is singular, so \u0027attend\u0027 does not agree with it.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022agreement\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022attend\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null},{\\\u0022quote\\\u0022:\\\u0022Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.\\\u0022,\\\u0022rule\\\u0022:\\\u0022Grammar: the list needs the conjunction \u0027and more\u0027 after the last item.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The phrase \u0027keynotes are more\u0027 is not grammatical in this list; the ending should be \u0027keynotes and more.\u0027\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022grammar\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022are more\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null}]}\u0022,\n        \u0022refusal\u0022: null,\n        \u0022annotations\u0022: []\n      },\n      \u0022finish_reason\u0022: \u0022stop\u0022\n    }\n  ],\n  \u0022usage\u0022: {\n    \u0022prompt_tokens\u0022: 856,\n    \u0022completion_tokens\u0022: 1810,\n    \u0022total_tokens\u0022: 2666,\n    \u0022prompt_tokens_details\u0022: {\n      \u0022cached_tokens\u0022: 0,\n      \u0022audio_tokens\u0022: 0\n    },\n    \u0022completion_tokens_details\u0022: {\n      \u0022reasoning_tokens\u0022: 1536,\n      \u0022audio_tokens\u0022: 0,\n      \u0022accepted_prediction_tokens\u0022: 0,\n      \u0022rejected_prediction_tokens\u0022: 0\n    }\n  },\n  \u0022service_tier\u0022: \u0022default\u0022,\n  \u0022system_fingerprint\u0022: null\n}\n"
+  },
+  {
+    "case": "bufete",
+    "context": "paragraph",
+    "target": "attract",
+    "round": 2,
+    "output": {
+      "writingErrors": [
+        {
+          "quote": "Altea is widely regarded as the cultural capital of the Costa Blanca North. Its charming old town with whitewashed houses, thriving arts scene, and elegant marina attract a sophisticated international community \u2014 particularly from Scandinavia, the Netherlands, and Germany. Our multilingual team provides expert legal counsel for all aspects of life in Altea.",
+          "rule": "Subject-verb agreement: a singular subject takes a singular verb.",
+          "explanation": "In this sentence, the singular subject \u0022Its charming old town ...\u0022 is followed by the plural verb \u0022attract\u0022; the verb should agree with the singular subject.",
+          "defectConfirmed": true,
+          "errorType": "agreement",
+          "problemSpan": "attract",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        }
+      ]
+    },
+    "usage": {
+      "promptTokens": 872,
+      "completionTokens": 681,
+      "totalTokens": 1553,
+      "reasoningTokens": 512
+    },
+    "telemetry": {
+      "returnedModel": "gpt-5.4-mini-2026-03-17",
+      "finishReason": "stop",
+      "reasoningEffort": "medium",
+      "requestId": "req_dbf90c6828274d178b303bf97d7e1eb6",
+      "systemFingerprint": null,
+      "inputHash": "1251069BFA9287F49212A9B80AB014A72844C40C3AA27C337EDC19C589116112",
+      "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+    },
+    "error": null,
+    "rawResponse": "{\n  \u0022id\u0022: \u0022chatcmpl-ELz3BVcP1QaLPdGRuF9gS9TKjUmm9\u0022,\n  \u0022object\u0022: \u0022chat.completion\u0022,\n  \u0022created\u0022: 1788908273,\n  \u0022model\u0022: \u0022gpt-5.4-mini-2026-03-17\u0022,\n  \u0022choices\u0022: [\n    {\n      \u0022index\u0022: 0,\n      \u0022message\u0022: {\n        \u0022role\u0022: \u0022assistant\u0022,\n        \u0022content\u0022: \u0022{\\\u0022writingErrors\\\u0022:[{\\\u0022quote\\\u0022:\\\u0022Altea is widely regarded as the cultural capital of the Costa Blanca North. Its charming old town with whitewashed houses, thriving arts scene, and elegant marina attract a sophisticated international community \u2014 particularly from Scandinavia, the Netherlands, and Germany. Our multilingual team provides expert legal counsel for all aspects of life in Altea.\\\u0022,\\\u0022rule\\\u0022:\\\u0022Subject-verb agreement: a singular subject takes a singular verb.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022In this sentence, the singular subject \\\\\\\u0022Its charming old town ...\\\\\\\u0022 is followed by the plural verb \\\\\\\u0022attract\\\\\\\u0022; the verb should agree with the singular subject.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022agreement\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022attract\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null}]}\u0022,\n        \u0022refusal\u0022: null,\n        \u0022annotations\u0022: []\n      },\n      \u0022finish_reason\u0022: \u0022stop\u0022\n    }\n  ],\n  \u0022usage\u0022: {\n    \u0022prompt_tokens\u0022: 872,\n    \u0022completion_tokens\u0022: 681,\n    \u0022total_tokens\u0022: 1553,\n    \u0022prompt_tokens_details\u0022: {\n      \u0022cached_tokens\u0022: 0,\n      \u0022audio_tokens\u0022: 0\n    },\n    \u0022completion_tokens_details\u0022: {\n      \u0022reasoning_tokens\u0022: 512,\n      \u0022audio_tokens\u0022: 0,\n      \u0022accepted_prediction_tokens\u0022: 0,\n      \u0022rejected_prediction_tokens\u0022: 0\n    }\n  },\n  \u0022service_tier\u0022: \u0022default\u0022,\n  \u0022system_fingerprint\u0022: null\n}\n"
+  },
+  {
+    "case": "bufete",
+    "context": "sentence",
+    "target": "attract",
+    "round": 1,
+    "output": {
+      "writingErrors": [
+        {
+          "quote": "Its charming old town with whitewashed houses, thriving arts scene, and elegant marina attract a sophisticated international community \u2014 particularly from Scandinavia, the Netherlands, and Germany.",
+          "rule": "A singular subject must take a singular verb in this context.",
+          "explanation": "The subject head is singular (\u201Cold town\u201D), so the verb should agree with it; \u201Cattract\u201D is plural here.",
+          "defectConfirmed": true,
+          "errorType": "agreement",
+          "problemSpan": "attract",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        }
+      ]
+    },
+    "usage": {
+      "promptTokens": 841,
+      "completionTokens": 602,
+      "totalTokens": 1443,
+      "reasoningTokens": 474
+    },
+    "telemetry": {
+      "returnedModel": "gpt-5.4-mini-2026-03-17",
+      "finishReason": "stop",
+      "reasoningEffort": "medium",
+      "requestId": "req_77890ec8270d478b985577715d46ed37",
+      "systemFingerprint": null,
+      "inputHash": "7A5BCD80D04B5DF78049E3463C4B88BB7D3854EF9162F70DD866FB8FF7889B7E",
+      "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+    },
+    "error": null,
+    "rawResponse": "{\n  \u0022id\u0022: \u0022chatcmpl-ELz3ETOvCYq6jHH6SUqLXtrdj8fHx\u0022,\n  \u0022object\u0022: \u0022chat.completion\u0022,\n  \u0022created\u0022: 1788908276,\n  \u0022model\u0022: \u0022gpt-5.4-mini-2026-03-17\u0022,\n  \u0022choices\u0022: [\n    {\n      \u0022index\u0022: 0,\n      \u0022message\u0022: {\n        \u0022role\u0022: \u0022assistant\u0022,\n        \u0022content\u0022: \u0022{\\\u0022writingErrors\\\u0022:[{\\\u0022quote\\\u0022:\\\u0022Its charming old town with whitewashed houses, thriving arts scene, and elegant marina attract a sophisticated international community \u2014 particularly from Scandinavia, the Netherlands, and Germany.\\\u0022,\\\u0022rule\\\u0022:\\\u0022A singular subject must take a singular verb in this context.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The subject head is singular (\u201Cold town\u201D), so the verb should agree with it; \u201Cattract\u201D is plural here.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022agreement\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022attract\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null}]}\u0022,\n        \u0022refusal\u0022: null,\n        \u0022annotations\u0022: []\n      },\n      \u0022finish_reason\u0022: \u0022stop\u0022\n    }\n  ],\n  \u0022usage\u0022: {\n    \u0022prompt_tokens\u0022: 841,\n    \u0022completion_tokens\u0022: 602,\n    \u0022total_tokens\u0022: 1443,\n    \u0022prompt_tokens_details\u0022: {\n      \u0022cached_tokens\u0022: 0,\n      \u0022audio_tokens\u0022: 0\n    },\n    \u0022completion_tokens_details\u0022: {\n      \u0022reasoning_tokens\u0022: 474,\n      \u0022audio_tokens\u0022: 0,\n      \u0022accepted_prediction_tokens\u0022: 0,\n      \u0022rejected_prediction_tokens\u0022: 0\n    }\n  },\n  \u0022service_tier\u0022: \u0022default\u0022,\n  \u0022system_fingerprint\u0022: null\n}\n"
+  },
+  {
+    "case": "symposium",
+    "context": "sentence",
+    "target": "team attend",
+    "round": 1,
+    "output": {
+      "writingErrors": [
+        {
+          "quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+          "rule": "Subject-verb agreement: a singular collective noun phrase takes a singular present-tense verb when it is treated as one unit.",
+          "explanation": "In \u0027the Cylogy team attend\u0027, the singular subject \u0027team\u0027 does not agree with the plural verb \u0027attend\u0027 in standard en-US usage.",
+          "defectConfirmed": true,
+          "errorType": "agreement",
+          "problemSpan": "attend",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        },
+        {
+          "quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+          "rule": "Grammar: a list like this needs a coordinating ending before \u0027more\u0027; the verb \u0027are\u0027 cannot directly introduce \u0027more\u0027 here.",
+          "explanation": "The ending \u0027thought-provoking keynotes are more\u0027 is ungrammatical in this sentence; the list needs a conjunction or equivalent construction before \u0027more\u0027.",
+          "defectConfirmed": true,
+          "errorType": "grammar",
+          "problemSpan": "are more",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        }
+      ]
+    },
+    "usage": {
+      "promptTokens": 856,
+      "completionTokens": 1707,
+      "totalTokens": 2563,
+      "reasoningTokens": 1398
+    },
+    "telemetry": {
+      "returnedModel": "gpt-5.4-mini-2026-03-17",
+      "finishReason": "stop",
+      "reasoningEffort": "medium",
+      "requestId": "req_15cd8ad68deb481198bbea2fbb0deff0",
+      "systemFingerprint": null,
+      "inputHash": "857A19B301179945E2CF09C4C0FF22081EFFCA0E822137EE20E9FDF3EC517116",
+      "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+    },
+    "error": null,
+    "rawResponse": "{\n  \u0022id\u0022: \u0022chatcmpl-ELz3HSZkkef2qcADsP81GhUemB5o1\u0022,\n  \u0022object\u0022: \u0022chat.completion\u0022,\n  \u0022created\u0022: 1788908279,\n  \u0022model\u0022: \u0022gpt-5.4-mini-2026-03-17\u0022,\n  \u0022choices\u0022: [\n    {\n      \u0022index\u0022: 0,\n      \u0022message\u0022: {\n        \u0022role\u0022: \u0022assistant\u0022,\n        \u0022content\u0022: \u0022{\\\u0022writingErrors\\\u0022:[{\\\u0022quote\\\u0022:\\\u0022Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.\\\u0022,\\\u0022rule\\\u0022:\\\u0022Subject-verb agreement: a singular collective noun phrase takes a singular present-tense verb when it is treated as one unit.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022In \u0027the Cylogy team attend\u0027, the singular subject \u0027team\u0027 does not agree with the plural verb \u0027attend\u0027 in standard en-US usage.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022agreement\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022attend\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null},{\\\u0022quote\\\u0022:\\\u0022Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.\\\u0022,\\\u0022rule\\\u0022:\\\u0022Grammar: a list like this needs a coordinating ending before \u0027more\u0027; the verb \u0027are\u0027 cannot directly introduce \u0027more\u0027 here.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The ending \u0027thought-provoking keynotes are more\u0027 is ungrammatical in this sentence; the list needs a conjunction or equivalent construction before \u0027more\u0027.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022grammar\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022are more\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null}]}\u0022,\n        \u0022refusal\u0022: null,\n        \u0022annotations\u0022: []\n      },\n      \u0022finish_reason\u0022: \u0022stop\u0022\n    }\n  ],\n  \u0022usage\u0022: {\n    \u0022prompt_tokens\u0022: 856,\n    \u0022completion_tokens\u0022: 1707,\n    \u0022total_tokens\u0022: 2563,\n    \u0022prompt_tokens_details\u0022: {\n      \u0022cached_tokens\u0022: 0,\n      \u0022audio_tokens\u0022: 0\n    },\n    \u0022completion_tokens_details\u0022: {\n      \u0022reasoning_tokens\u0022: 1398,\n      \u0022audio_tokens\u0022: 0,\n      \u0022accepted_prediction_tokens\u0022: 0,\n      \u0022rejected_prediction_tokens\u0022: 0\n    }\n  },\n  \u0022service_tier\u0022: \u0022default\u0022,\n  \u0022system_fingerprint\u0022: null\n}\n"
+  },
+  {
+    "case": "bufete",
+    "context": "paragraph",
+    "target": "attract",
+    "round": 3,
+    "output": {
+      "writingErrors": []
+    },
+    "usage": {
+      "promptTokens": 872,
+      "completionTokens": 280,
+      "totalTokens": 1152,
+      "reasoningTokens": 260
+    },
+    "telemetry": {
+      "returnedModel": "gpt-5.4-mini-2026-03-17",
+      "finishReason": "stop",
+      "reasoningEffort": "medium",
+      "requestId": "req_f5987b79221f4700a256de520890a5c6",
+      "systemFingerprint": null,
+      "inputHash": "1251069BFA9287F49212A9B80AB014A72844C40C3AA27C337EDC19C589116112",
+      "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+    },
+    "error": null,
+    "rawResponse": "{\n  \u0022id\u0022: \u0022chatcmpl-ELz3PzzHQaMRNsDVv03rVoPieSROI\u0022,\n  \u0022object\u0022: \u0022chat.completion\u0022,\n  \u0022created\u0022: 1788908287,\n  \u0022model\u0022: \u0022gpt-5.4-mini-2026-03-17\u0022,\n  \u0022choices\u0022: [\n    {\n      \u0022index\u0022: 0,\n      \u0022message\u0022: {\n        \u0022role\u0022: \u0022assistant\u0022,\n        \u0022content\u0022: \u0022{\\\u0022writingErrors\\\u0022:[]}\u0022,\n        \u0022refusal\u0022: null,\n        \u0022annotations\u0022: []\n      },\n      \u0022finish_reason\u0022: \u0022stop\u0022\n    }\n  ],\n  \u0022usage\u0022: {\n    \u0022prompt_tokens\u0022: 872,\n    \u0022completion_tokens\u0022: 280,\n    \u0022total_tokens\u0022: 1152,\n    \u0022prompt_tokens_details\u0022: {\n      \u0022cached_tokens\u0022: 0,\n      \u0022audio_tokens\u0022: 0\n    },\n    \u0022completion_tokens_details\u0022: {\n      \u0022reasoning_tokens\u0022: 260,\n      \u0022audio_tokens\u0022: 0,\n      \u0022accepted_prediction_tokens\u0022: 0,\n      \u0022rejected_prediction_tokens\u0022: 0\n    }\n  },\n  \u0022service_tier\u0022: \u0022default\u0022,\n  \u0022system_fingerprint\u0022: null\n}\n"
+  },
+  {
+    "case": "bufete",
+    "context": "paragraph",
+    "target": "attract",
+    "round": 1,
+    "output": {
+      "writingErrors": []
+    },
+    "usage": {
+      "promptTokens": 872,
+      "completionTokens": 214,
+      "totalTokens": 1086,
+      "reasoningTokens": 194
+    },
+    "telemetry": {
+      "returnedModel": "gpt-5.4-mini-2026-03-17",
+      "finishReason": "stop",
+      "reasoningEffort": "medium",
+      "requestId": "req_72bce20be39d464589be96e72ebe0461",
+      "systemFingerprint": null,
+      "inputHash": "1251069BFA9287F49212A9B80AB014A72844C40C3AA27C337EDC19C589116112",
+      "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+    },
+    "error": null,
+    "rawResponse": "{\n  \u0022id\u0022: \u0022chatcmpl-ELz3R2nuaCphTTcaUAEOZFaplZIQv\u0022,\n  \u0022object\u0022: \u0022chat.completion\u0022,\n  \u0022created\u0022: 1788908289,\n  \u0022model\u0022: \u0022gpt-5.4-mini-2026-03-17\u0022,\n  \u0022choices\u0022: [\n    {\n      \u0022index\u0022: 0,\n      \u0022message\u0022: {\n        \u0022role\u0022: \u0022assistant\u0022,\n        \u0022content\u0022: \u0022{\\\u0022writingErrors\\\u0022:[]}\u0022,\n        \u0022refusal\u0022: null,\n        \u0022annotations\u0022: []\n      },\n      \u0022finish_reason\u0022: \u0022stop\u0022\n    }\n  ],\n  \u0022usage\u0022: {\n    \u0022prompt_tokens\u0022: 872,\n    \u0022completion_tokens\u0022: 214,\n    \u0022total_tokens\u0022: 1086,\n    \u0022prompt_tokens_details\u0022: {\n      \u0022cached_tokens\u0022: 0,\n      \u0022audio_tokens\u0022: 0\n    },\n    \u0022completion_tokens_details\u0022: {\n      \u0022reasoning_tokens\u0022: 194,\n      \u0022audio_tokens\u0022: 0,\n      \u0022accepted_prediction_tokens\u0022: 0,\n      \u0022rejected_prediction_tokens\u0022: 0\n    }\n  },\n  \u0022service_tier\u0022: \u0022default\u0022,\n  \u0022system_fingerprint\u0022: null\n}\n"
+  },
+  {
+    "case": "symposium",
+    "context": "page",
+    "target": "team attend",
+    "round": 2,
+    "output": {
+      "writingErrors": [
+        {
+          "quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+          "rule": "In a list, the final item must be joined with a conjunction; \u0027are more\u0027 is not a valid continuation after the listed nouns.",
+          "explanation": "The sentence lists several things attendees hear, but it ends with \u0027thought-provoking keynotes are more\u0027 instead of a valid ending such as \u0027and more\u0027.",
+          "defectConfirmed": true,
+          "errorType": "grammar",
+          "problemSpan": "are more",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        },
+        {
+          "quote": "Here\u2019s five key takeaways from the 2020 Sitecore Symposium.",
+          "rule": "In English, \u0027here\u0027s\u0027 is singular; it does not agree with a plural noun phrase.",
+          "explanation": "The plural noun phrase \u0027five key takeaways\u0027 requires a plural verb form, not \u0027Here\u2019s\u0027.",
+          "defectConfirmed": true,
+          "errorType": "agreement",
+          "problemSpan": "Here\u2019s",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        },
+        {
+          "quote": "\u00B7 Content \u2013 with a need for a robust content strategy to connect you to customers and demonstrates understanding and empathy",
+          "rule": "In a coordinated verb phrase after \u0027to\u0027, the verbs must be parallel; an infinitive cannot be followed by a finite verb in the same chain.",
+          "explanation": "The phrase should keep the verbs parallel, but \u0027to connect ... and demonstrates\u0027 mixes an infinitive with a finite verb.",
+          "defectConfirmed": true,
+          "errorType": "grammar",
+          "problemSpan": "demonstrates",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        },
+        {
+          "quote": "This fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.",
+          "rule": "The fixed noun phrase is \u0027the fact that ...\u0027; \u0027this fact that ...\u0027 is not grammatical here.",
+          "explanation": "The sentence needs \u0027The fact that ...\u0027 instead of \u0027This fact that ...\u0027.",
+          "defectConfirmed": true,
+          "errorType": "grammar",
+          "problemSpan": "This",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        },
+        {
+          "quote": "It also makes good sense for Sitecore as effectively makes the platform a whole digital marketing and content ecosystem.",
+          "rule": "After \u0027as\u0027, the clause needs a subject; a subject is missing before \u0027effectively makes\u0027.",
+          "explanation": "The sentence skips the subject after \u0027as\u0027, so the clause is incomplete as written.",
+          "defectConfirmed": true,
+          "errorType": "grammar",
+          "problemSpan": "as effectively",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null
+        },
+        {
+          "quote": "Firstly, Tzikaki wasn\u2019t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency.",
+          "rule": "A proper name must be spelled consistently.",
+          "explanation": "The name is misspelled here; it should match \u0027Tzikakis\u0027 used elsewhere in the text.",
+          "defectConfirmed": true,
+          "errorType": "spelling",
+          "problemSpan": "Tzikaki",
+          "correctionStatus": "safe",
+          "correctedQuote": "Firstly, Tzikakis wasn\u2019t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency."
+        }
+      ]
+    },
+    "usage": {
+      "promptTokens": 2405,
+      "completionTokens": 7176,
+      "totalTokens": 9581,
+      "reasoningTokens": 6404
+    },
+    "telemetry": {
+      "returnedModel": "gpt-5.4-mini-2026-03-17",
+      "finishReason": "stop",
+      "reasoningEffort": "medium",
+      "requestId": "req_25180763666c4824945b5199350391db",
+      "systemFingerprint": null,
+      "inputHash": "89DE8DC240246EF5355444026F6F4CE6A3E83B95298104D3A671C335F33CBF3A",
+      "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+    },
+    "error": null,
+    "rawResponse": "{\n  \u0022id\u0022: \u0022chatcmpl-ELz3TfBEdvOJrnVEvQQKcsEBcPYnx\u0022,\n  \u0022object\u0022: \u0022chat.completion\u0022,\n  \u0022created\u0022: 1788908291,\n  \u0022model\u0022: \u0022gpt-5.4-mini-2026-03-17\u0022,\n  \u0022choices\u0022: [\n    {\n      \u0022index\u0022: 0,\n      \u0022message\u0022: {\n        \u0022role\u0022: \u0022assistant\u0022,\n        \u0022content\u0022: \u0022{\\\u0022writingErrors\\\u0022:[{\\\u0022quote\\\u0022:\\\u0022Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.\\\u0022,\\\u0022rule\\\u0022:\\\u0022In a list, the final item must be joined with a conjunction; \u0027are more\u0027 is not a valid continuation after the listed nouns.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The sentence lists several things attendees hear, but it ends with \u0027thought-provoking keynotes are more\u0027 instead of a valid ending such as \u0027and more\u0027.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022grammar\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022are more\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null},{\\\u0022quote\\\u0022:\\\u0022Here\u2019s five key takeaways from the 2020 Sitecore Symposium.\\\u0022,\\\u0022rule\\\u0022:\\\u0022In English, \u0027here\u0027s\u0027 is singular; it does not agree with a plural noun phrase.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The plural noun phrase \u0027five key takeaways\u0027 requires a plural verb form, not \u0027Here\u2019s\u0027.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022agreement\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022Here\u2019s\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null},{\\\u0022quote\\\u0022:\\\u0022\u00B7 Content \u2013 with a need for a robust content strategy to connect you to customers and demonstrates understanding and empathy\\\u0022,\\\u0022rule\\\u0022:\\\u0022In a coordinated verb phrase after \u0027to\u0027, the verbs must be parallel; an infinitive cannot be followed by a finite verb in the same chain.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The phrase should keep the verbs parallel, but \u0027to connect ... and demonstrates\u0027 mixes an infinitive with a finite verb.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022grammar\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022demonstrates\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null},{\\\u0022quote\\\u0022:\\\u0022This fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.\\\u0022,\\\u0022rule\\\u0022:\\\u0022The fixed noun phrase is \u0027the fact that ...\u0027; \u0027this fact that ...\u0027 is not grammatical here.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The sentence needs \u0027The fact that ...\u0027 instead of \u0027This fact that ...\u0027.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022grammar\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022This\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null},{\\\u0022quote\\\u0022:\\\u0022It also makes good sense for Sitecore as effectively makes the platform a whole digital marketing and content ecosystem.\\\u0022,\\\u0022rule\\\u0022:\\\u0022After \u0027as\u0027, the clause needs a subject; a subject is missing before \u0027effectively makes\u0027.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The sentence skips the subject after \u0027as\u0027, so the clause is incomplete as written.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022grammar\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022as effectively\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022requires_review\\\u0022,\\\u0022correctedQuote\\\u0022:null},{\\\u0022quote\\\u0022:\\\u0022Firstly, Tzikaki wasn\u2019t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency.\\\u0022,\\\u0022rule\\\u0022:\\\u0022A proper name must be spelled consistently.\\\u0022,\\\u0022explanation\\\u0022:\\\u0022The name is misspelled here; it should match \u0027Tzikakis\u0027 used elsewhere in the text.\\\u0022,\\\u0022defectConfirmed\\\u0022:true,\\\u0022errorType\\\u0022:\\\u0022spelling\\\u0022,\\\u0022problemSpan\\\u0022:\\\u0022Tzikaki\\\u0022,\\\u0022correctionStatus\\\u0022:\\\u0022safe\\\u0022,\\\u0022correctedQuote\\\u0022:\\\u0022Firstly, Tzikakis wasn\u2019t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency.\\\u0022}]}\u0022,\n        \u0022refusal\u0022: null,\n        \u0022annotations\u0022: []\n      },\n      \u0022finish_reason\u0022: \u0022stop\u0022\n    }\n  ],\n  \u0022usage\u0022: {\n    \u0022prompt_tokens\u0022: 2405,\n    \u0022completion_tokens\u0022: 7176,\n    \u0022total_tokens\u0022: 9581,\n    \u0022prompt_tokens_details\u0022: {\n      \u0022cached_tokens\u0022: 2304,\n      \u0022audio_tokens\u0022: 0\n    },\n    \u0022completion_tokens_details\u0022: {\n      \u0022reasoning_tokens\u0022: 6404,\n      \u0022audio_tokens\u0022: 0,\n      \u0022accepted_prediction_tokens\u0022: 0,\n      \u0022rejected_prediction_tokens\u0022: 0\n    }\n  },\n  \u0022service_tier\u0022: \u0022default\u0022,\n  \u0022system_fingerprint\u0022: null\n}\n"
+  }
+]

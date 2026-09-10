@@ -1,0 +1,18 @@
+{
+  "label": "Cylogy Google Analytics technology",
+  "source": "live",
+  "url": "https://www.cylogy.com/technologies/google-analytics/",
+  "expectedClassification": "unreviewed",
+  "classification": "unhealthy",
+  "requiredIssues": [],
+  "allowedIssues": [],
+  "forbiddenIssues": [],
+  "issues": [
+    "writing_errors",
+    "unprofessional_writing",
+    "title_body_mismatch"
+  ],
+  "scored": false,
+  "passed": null,
+  "error": null
+}

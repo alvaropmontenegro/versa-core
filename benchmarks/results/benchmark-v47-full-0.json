@@ -1,0 +1,1576 @@
+[
+  {
+    "label": "Healthy article",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8088/pages/healthy-article.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is a marketing strategy article from Meridian Digital about building an effective content calendar for 2025. It explains why content calendars matter and walks through steps such as auditing existing content, defining pillars, mapping to the buyer journey, setting cadence, creating a template, and planning around seasonal events. The intended audience appears to be marketers or content teams managing publishing plans.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "How to Build an Effective Content Calendar for 2025",
+      "titlePromise": "The title promises guidance on creating an effective content calendar for the year 2025.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantially develops exactly that subject by explaining the purpose of a content calendar and giving a step-by-step framework for building and managing one throughout 2025.",
+      "bodyEvidenceQuote": "In this guide, we walk through a practical framework for building a content calendar that keeps your team aligned, your pipeline full, and your audience engaged throughout 2025."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "In this guide, we walk through a practical framework for building a content calendar that keeps your team aligned, your pipeline full, and your audience engaged throughout 2025."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v47-writing-evidence",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_c473d3afe08943fa9c1080f9629fbdd2",
+          "systemFingerprint": null,
+          "inputHash": "18111D69274AD93FE81E3AB27A39855AEC819A1E104D8611AD2390EA2CC59615",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 2841,
+          "completionTokens": 278,
+          "totalTokens": 3119,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_104272b8d90745cc8b86bd9388dde035",
+          "systemFingerprint": null,
+          "inputHash": "18111D69274AD93FE81E3AB27A39855AEC819A1E104D8611AD2390EA2CC59615",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 2035,
+          "completionTokens": 21,
+          "totalTokens": 2056,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_4c6fcda4d0e04527a8bf500c6c20372d",
+          "systemFingerprint": null,
+          "inputHash": "18111D69274AD93FE81E3AB27A39855AEC819A1E104D8611AD2390EA2CC59615",
+          "promptHash": "86090A302E5D22B612CA477B19ECE8F7911530BA52D741399B832963CA3A60D4"
+        },
+        "usage": {
+          "promptTokens": 2584,
+          "completionTokens": 140,
+          "totalTokens": 2724,
+          "reasoningTokens": 120
+        },
+        "error": null
+      }
+    ],
+    "writingAssessment": {
+      "status": "completed",
+      "classificationBasis": "confirmed_defects_only"
+    },
+    "writingCandidates": [],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Healthy support guide",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8088/pages/healthy-support-doc.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This page is a help article from Meridian Digital about setting up team permissions in a workspace. It explains prerequisites, built-in roles, project-level overrides, optional teams, verification steps, and troubleshooting. The intended audience appears to be admins on Professional or Enterprise plans who manage access control.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "How to Set Up Team Permissions",
+      "titlePromise": "The title promises instructions for configuring team permissions in Meridian.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly explains how to manage roles, access levels, project permissions, and teams within a Meridian workspace, which matches the title’s instruction-focused expectation.",
+      "bodyEvidenceQuote": "This guide walks you through configuring roles and access levels so every team member has the right level of access."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "This guide walks you through configuring roles and access levels so every team member has the right level of access."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v47-writing-evidence",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_7e5652e9f0aa48fd918c2dfc14b3e462",
+          "systemFingerprint": null,
+          "inputHash": "10D19CF7CEDB0DFB42EDFF0B2152FF4BBF60377AD467C7E17A2BEB6642DB8EEC",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 2463,
+          "completionTokens": 256,
+          "totalTokens": 2719,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_fbd101f5e17842909d8c4c4cac45fe51",
+          "systemFingerprint": null,
+          "inputHash": "10D19CF7CEDB0DFB42EDFF0B2152FF4BBF60377AD467C7E17A2BEB6642DB8EEC",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 1657,
+          "completionTokens": 21,
+          "totalTokens": 1678,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_49a4f324cab74d5e9d889e8138b2ac1b",
+          "systemFingerprint": null,
+          "inputHash": "10D19CF7CEDB0DFB42EDFF0B2152FF4BBF60377AD467C7E17A2BEB6642DB8EEC",
+          "promptHash": "86090A302E5D22B612CA477B19ECE8F7911530BA52D741399B832963CA3A60D4"
+        },
+        "usage": {
+          "promptTokens": 2206,
+          "completionTokens": 1221,
+          "totalTokens": 3427,
+          "reasoningTokens": 1189
+        },
+        "error": null
+      }
+    ],
+    "writingAssessment": {
+      "status": "completed",
+      "classificationBasis": "confirmed_defects_only"
+    },
+    "writingCandidates": [],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Historical event recap",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8088/pages/historical-event-recap.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is a company blog recap from Meridian Digital about Web Summit 2019 in Lisbon. It summarizes the main themes the team observed at the conference, including privacy, analytics, and product-led growth, and it presents a few practical takeaways. The page is aimed at readers interested in digital experience platforms and marketing/analytics trends.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "What We Learned at Web Summit 2019",
+      "titlePromise": "The page will explain Meridian Digital’s learnings and key takeaways from Web Summit 2019.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly recaps the event and develops the promised learnings with discussion of privacy, analytics, and practical takeaways from the conference.",
+      "bodyEvidenceQuote": "This recap captures the main ideas that stood out to us at the time, especially around privacy, analytics, and product-led growth."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "This recap captures the main ideas that stood out to us at the time, especially around privacy, analytics, and product-led growth."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v47-writing-evidence",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_5e95b6faa3144df8a548c7c2a036df04",
+          "systemFingerprint": null,
+          "inputHash": "26269F81B3ED33E8840EFA94388672CD64852CE33B03DB946C5F25F0601F13F6",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1838,
+          "completionTokens": 299,
+          "totalTokens": 2137,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_8fc61b74bbb34e749bcb14b748f6d5f6",
+          "systemFingerprint": null,
+          "inputHash": "26269F81B3ED33E8840EFA94388672CD64852CE33B03DB946C5F25F0601F13F6",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 1032,
+          "completionTokens": 21,
+          "totalTokens": 1053,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_9b535c51f03c4ac6ba3e1b2cb9c49897",
+          "systemFingerprint": null,
+          "inputHash": "26269F81B3ED33E8840EFA94388672CD64852CE33B03DB946C5F25F0601F13F6",
+          "promptHash": "86090A302E5D22B612CA477B19ECE8F7911530BA52D741399B832963CA3A60D4"
+        },
+        "usage": {
+          "promptTokens": 1581,
+          "completionTokens": 123,
+          "totalTokens": 1704,
+          "reasoningTokens": 103
+        },
+        "error": null
+      }
+    ],
+    "writingAssessment": {
+      "status": "completed",
+      "classificationBasis": "confirmed_defects_only"
+    },
+    "writingCandidates": [],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Objective spelling and grammar errors",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8088/pages/writing-errors.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is a short instructional page about preparing for a client workshop. It focuses on building a shared agenda, collecting inputs, and sending the agenda to participants in advance. The intended audience appears to be facilitators or team members organizing the workshop.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Preparing for a Client Workshop",
+      "titlePromise": "The title promises guidance about how to prepare for a client workshop.",
+      "fulfillment": "fulfilled",
+      "reason": "The body stays on the same subject and gives related preparation guidance, including agenda creation, facilitator responsibilities, and advance distribution.",
+      "bodyEvidenceQuote": "Send the agenda to participants two days before the workshop."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Send the agenda to participants two days before the workshop."
+    },
+    "requiredIssues": [
+      "writing_errors"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "\"Each facilitator\" is singular in this context, so it must take a singular verb; \"are\" is not grammatical here. \"Definately\" is a misspelling in the second sentence; the standard form is \"definitely\".",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "defectConfirmed": true,
+            "rule": "Subject-verb agreement: the determiner \"Each\" with a singular count noun takes singular verb agreement.",
+            "evidenceBasis": "mandatory_linguistic_rule",
+            "acceptedAlternative": "",
+            "agreementAnalysis": {
+              "subjectQuote": "Each facilitator",
+              "verbQuote": "are",
+              "subjectReading": "singular"
+            },
+            "quote": "Each facilitator are responsible for collecting inputs before the session.",
+            "purpose": "writing_error",
+            "errorType": "agreement",
+            "problemSpan": "are",
+            "explanation": "\"Each facilitator\" is singular in this context, so it must take a singular verb; \"are\" is not grammatical here.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "correctionPolicy": "grammar_requires_human_review",
+            "blockRole": "prose",
+            "blockId": "block-159"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "Spelling: standard English spelling of the adverb is \"definitely\".",
+            "evidenceBasis": "mandatory_linguistic_rule",
+            "acceptedAlternative": "",
+            "agreementAnalysis": null,
+            "quote": "Each facilitator are responsible for collecting inputs before the session. The final agenda definately includes time for questions and next steps.",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "definately",
+            "explanation": "\"Definately\" is a misspelling in the second sentence; the standard form is \"definitely\".",
+            "correctionStatus": "safe",
+            "correctedQuote": "Each facilitator are responsible for collecting inputs before the session. The final agenda definitely includes time for questions and next steps.",
+            "blockRole": "prose",
+            "blockId": "block-159",
+            "edit": {
+              "start": 92,
+              "length": 10,
+              "replacement": "definitely"
+            },
+            "editValidation": "localized_only_not_linguistic_verification"
+          }
+        ],
+        "pageQuotes": [
+          "Each facilitator are responsible for collecting inputs before the session.",
+          "Each facilitator are responsible for collecting inputs before the session. The final agenda definately includes time for questions and next steps."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Apply safe corrections and review errors without an unambiguous correction.",
+          "suggestedCorrections": [
+            {
+              "original": "Each facilitator are responsible for collecting inputs before the session. The final agenda definately includes time for questions and next steps.",
+              "suggestion": "Each facilitator are responsible for collecting inputs before the session. The final agenda definitely includes time for questions and next steps.",
+              "pageQuote": "Each facilitator are responsible for collecting inputs before the session. The final agenda definately includes time for questions and next steps.",
+              "problemSpan": "definately",
+              "edit": {
+                "start": 92,
+                "length": 10,
+                "replacement": "definitely"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v47-writing-evidence",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_8b883a6d01f54d89abf77b127b7a7250",
+          "systemFingerprint": null,
+          "inputHash": "292DCBF8F81A2D9CB62C68FE1306F05D1BB81D75018A7F2C957196F45A797D4E",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1527,
+          "completionTokens": 225,
+          "totalTokens": 1752,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_7b48dde4057e4b03b27d77ea701c9fce",
+          "systemFingerprint": null,
+          "inputHash": "292DCBF8F81A2D9CB62C68FE1306F05D1BB81D75018A7F2C957196F45A797D4E",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 721,
+          "completionTokens": 21,
+          "totalTokens": 742,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_e686c350b8df423c9ffe4692b6400d70",
+          "systemFingerprint": null,
+          "inputHash": "292DCBF8F81A2D9CB62C68FE1306F05D1BB81D75018A7F2C957196F45A797D4E",
+          "promptHash": "86090A302E5D22B612CA477B19ECE8F7911530BA52D741399B832963CA3A60D4"
+        },
+        "usage": {
+          "promptTokens": 1270,
+          "completionTokens": 662,
+          "totalTokens": 1932,
+          "reasoningTokens": 372
+        },
+        "error": null
+      }
+    ],
+    "writingAssessment": {
+      "status": "completed",
+      "classificationBasis": "confirmed_defects_only"
+    },
+    "writingCandidates": [],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Published placeholder content",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8088/pages/incomplete-placeholder-content.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This page is a customer onboarding guide for Meridian Digital. It is aimed at a team preparing for the first month after launch and includes brief sections on preparing access, planning migration, and reviewing progress with an implementation lead. One section still contains a placeholder for migration timeline and owner responsibilities.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Customer Onboarding Guide",
+      "titlePromise": "The page is expected to provide guidance about customer onboarding.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops onboarding-related preparation, access setup, migration planning, and progress review, which match the guide promised by the title.",
+      "bodyEvidenceQuote": "Use this guide to prepare your team for the first month after launch."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Use this guide to prepare your team for the first month after launch."
+    },
+    "requiredIssues": [
+      "published_placeholder_content"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "published_placeholder_content"
+    ],
+    "issueDetails": [
+      {
+        "code": "published_placeholder_content",
+        "reason": "Reader-facing content includes an explicit placeholder marker indicating unfinished filler that needs replacement.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "[Insert migration timeline and owner responsibilities here.]",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-332"
+          }
+        ],
+        "pageQuotes": [
+          "[Insert migration timeline and owner responsibilities here.]"
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Replace the cited placeholder content with reviewed final copy before keeping the page published.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v47-writing-evidence",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_8023a78f3146423d949500e014265e04",
+          "systemFingerprint": null,
+          "inputHash": "94321B8683D6E80AE7039BDD8484D6C250B4836620498B1123B73A52C7D6EFA1",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1551,
+          "completionTokens": 255,
+          "totalTokens": 1806,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_76353fc8379c48b58a0e2c169ea11329",
+          "systemFingerprint": null,
+          "inputHash": "94321B8683D6E80AE7039BDD8484D6C250B4836620498B1123B73A52C7D6EFA1",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 745,
+          "completionTokens": 53,
+          "totalTokens": 798,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_21affe0d5ffa4b698f695c69ca1ac8d3",
+          "systemFingerprint": null,
+          "inputHash": "94321B8683D6E80AE7039BDD8484D6C250B4836620498B1123B73A52C7D6EFA1",
+          "promptHash": "86090A302E5D22B612CA477B19ECE8F7911530BA52D741399B832963CA3A60D4"
+        },
+        "usage": {
+          "promptTokens": 1294,
+          "completionTokens": 71,
+          "totalTokens": 1365,
+          "reasoningTokens": 51
+        },
+        "error": null
+      }
+    ],
+    "writingAssessment": {
+      "status": "completed",
+      "classificationBasis": "confirmed_defects_only"
+    },
+    "writingCandidates": [],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Title and body cover different subjects",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8088/pages/title-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is a marketing page for Meridian Digital’s project management platform. It presents the product as a tool for team collaboration and project tracking, highlighting features like timelines, resource allocation, time tracking, workflows, integrations, and dashboards. It also summarizes pricing tiers and invites visitors to start a free trial.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "10 Best Project Management Tools Compared (2025)",
+      "titlePromise": "The title promises a comparison of ten project management tools, likely helping readers evaluate multiple options side by side.",
+      "fulfillment": "not_fulfilled",
+      "reason": "The body does not compare ten tools or discuss multiple alternatives; it mainly markets Meridian Digital as the solution and describes its features, pricing, and trial offer.",
+      "bodyEvidenceQuote": "Meridian Digital was designed from the ground up to eliminate the friction that slows teams down."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Meridian Digital was designed from the ground up to eliminate the friction that slows teams down."
+    },
+    "requiredIssues": [
+      "title_body_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "title_body_mismatch"
+    ],
+    "issueDetails": [
+      {
+        "code": "title_body_mismatch",
+        "reason": "The body does not compare ten tools or discuss multiple alternatives; it mainly markets Meridian Digital as the solution and describes its features, pricing, and trial offer.",
+        "pageQuotes": [
+          "10 Best Project Management Tools Compared (2025)",
+          "Meridian Digital was designed from the ground up to eliminate the friction that slows teams down."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Align the title with the main content or revise the body so it clearly delivers the title's promise.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v47-writing-evidence",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_cbda914d6c4242858c982efa43618471",
+          "systemFingerprint": null,
+          "inputHash": "BCA76D237CCA3A74972C58AE7F664F2D5BE04F3F4D549B4F8A66FA1FB56E4FD8",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 2184,
+          "completionTokens": 261,
+          "totalTokens": 2445,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_5488fe5f40224f079c85dd5d245752dc",
+          "systemFingerprint": null,
+          "inputHash": "BCA76D237CCA3A74972C58AE7F664F2D5BE04F3F4D549B4F8A66FA1FB56E4FD8",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 1378,
+          "completionTokens": 21,
+          "totalTokens": 1399,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_d4df96c361fd4eeb891aeda3c76f810c",
+          "systemFingerprint": null,
+          "inputHash": "BCA76D237CCA3A74972C58AE7F664F2D5BE04F3F4D549B4F8A66FA1FB56E4FD8",
+          "promptHash": "86090A302E5D22B612CA477B19ECE8F7911530BA52D741399B832963CA3A60D4"
+        },
+        "usage": {
+          "promptTokens": 1927,
+          "completionTokens": 465,
+          "totalTokens": 2392,
+          "reasoningTokens": 445
+        },
+        "error": null
+      }
+    ],
+    "writingAssessment": {
+      "status": "completed",
+      "classificationBasis": "confirmed_defects_only"
+    },
+    "writingCandidates": [],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Abusive and coercive brand language",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8088/pages/brand-safety-risk.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is an English marketing article from Meridian Digital about how to handle a trade show booth crowd. It focuses on tactics for attracting attention, steering conversations, and pushing demos to prospects. The intended audience is field marketing or sales staff working events.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "How to Work a Trade Show Crowd",
+      "titlePromise": "The title promises advice on managing, engaging, and influencing a trade show audience.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops trade show crowd tactics, including booth setup, visitor handling, and event-floor engagement, which matches the title’s expectation.",
+      "bodyEvidenceQuote": "Trade shows are simple if you remember that most attendees are bored, distracted, and easy to steer if your team keeps control of the conversation."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Trade shows are simple if you remember that most attendees are bored, distracted, and easy to steer if your team keeps control of the conversation."
+    },
+    "requiredIssues": [
+      "brand_safety_risk"
+    ],
+    "allowedIssues": [
+      "unprofessional_writing"
+    ],
+    "forbiddenIssues": [],
+    "issues": [
+      "brand_safety_risk"
+    ],
+    "issueDetails": [
+      {
+        "code": "brand_safety_risk",
+        "reason": "The page explicitly instructs readers to use sexist, objectifying language toward women in order to attract attention at a trade show.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Use booth girls to stop traffic",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "heading",
+            "blockId": "block-453"
+          },
+          {
+            "quote": "hire booth girls who know how to flirt, smile on command, and keep the men hanging around while your sales team works the serious leads.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-515"
+          },
+          {
+            "quote": "Some prospects from smaller markets need hand-holding and will waste your team’s time if you let them ramble.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-880"
+          },
+          {
+            "quote": "Cut them off early, move them through the script, and focus your energy on buyers who look polished enough to close inside the quarter.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-880"
+          },
+          {
+            "quote": "Keep the music loud enough that people feel awkward leaving without talking.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "list_item",
+            "blockId": "block-1208"
+          },
+          {
+            "quote": "Make jokes about indecisive visitors so the rest of the crowd stays engaged.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "list_item",
+            "blockId": "block-1309"
+          }
+        ],
+        "pageQuotes": [
+          "Use booth girls to stop traffic",
+          "hire booth girls who know how to flirt, smile on command, and keep the men hanging around while your sales team works the serious leads.",
+          "Some prospects from smaller markets need hand-holding and will waste your team’s time if you let them ramble.",
+          "Cut them off early, move them through the script, and focus your energy on buyers who look polished enough to close inside the quarter.",
+          "Keep the music loud enough that people feel awkward leaving without talking.",
+          "Make jokes about indecisive visitors so the rest of the crowd stays engaged."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Remove or rewrite the cited language to avoid abusive, discriminatory, humiliating, or coercive treatment.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [
+      {
+        "code": "unprofessional_writing",
+        "reason": "Persistent editorial pattern across substantive prose blocks uses demeaning, manipulative, and amateurish event-marketing advice that undermines professional credibility.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Trade shows are simple if you remember that most attendees are bored, distracted, and easy to steer if your team keeps control of the conversation.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-161"
+          },
+          {
+            "quote": "If you really want a crowd, hire booth girls who know how to flirt, smile on command, and keep the men hanging around while your sales team works the serious leads.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-515"
+          },
+          {
+            "quote": "Some prospects from smaller markets need hand-holding and will waste your team’s time if you let them ramble.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-880"
+          },
+          {
+            "quote": "Keep the music loud enough that people feel awkward leaving without talking.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "list_item",
+            "blockId": "block-1208"
+          }
+        ],
+        "rejectionReason": "invalid_issue_evidence_contract"
+      }
+    ],
+    "taxonomyVersion": "intrinsic-v47-writing-evidence",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_e1c45b7080d040a3a9c1d73074563425",
+          "systemFingerprint": null,
+          "inputHash": "B2F98D8EE918952C4AF86A9AC09FDF66CA1964E012E3AF6D6CA1AC67FE0AC646",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1823,
+          "completionTokens": 475,
+          "totalTokens": 2298,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_2662ded27d1b4563830ce2c2e72859eb",
+          "systemFingerprint": null,
+          "inputHash": "B2F98D8EE918952C4AF86A9AC09FDF66CA1964E012E3AF6D6CA1AC67FE0AC646",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 1017,
+          "completionTokens": 156,
+          "totalTokens": 1173,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_079bde519e3a4da8a816538c65c3b377",
+          "systemFingerprint": null,
+          "inputHash": "B2F98D8EE918952C4AF86A9AC09FDF66CA1964E012E3AF6D6CA1AC67FE0AC646",
+          "promptHash": "86090A302E5D22B612CA477B19ECE8F7911530BA52D741399B832963CA3A60D4"
+        },
+        "usage": {
+          "promptTokens": 1566,
+          "completionTokens": 99,
+          "totalTokens": 1665,
+          "reasoningTokens": 79
+        },
+        "error": null
+      }
+    ],
+    "writingAssessment": {
+      "status": "completed",
+      "classificationBasis": "confirmed_defects_only"
+    },
+    "writingCandidates": [],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Bufete Padilla Altea Norwegian route",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8089/bufete-padilla-altea-no.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is a law firm service page for English-speaking lawyers in Altea. It targets international residents and non-resident property owners in Altea, Albir, and Sierra de Altea, and describes legal services such as conveyancing, planning due diligence, coastal law compliance, wealth tax, wills, and non-resident taxation. The page also includes FAQ-style information, office closure notices, and calls to book a consultation.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "English-Speaking Lawyers in Altea",
+      "titlePromise": "The page should describe lawyers or legal services in Altea for English-speaking clients.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops legal services in Altea for an international audience, including fees, handled matters, and language support, which matches the title’s promise.",
+      "bodyEvidenceQuote": "In Altea we handle villa and high-value property conveyancing, planning and licence due diligence, Ley de Costas compliance, wealth tax, international estate planning, wills and non-resident taxation."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "In Altea we handle villa and high-value property conveyancing, planning and licence due diligence, Ley de Costas compliance, wealth tax, international estate planning, wills and non-resident taxation."
+    },
+    "requiredIssues": [
+      "language_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "language_mismatch"
+    ],
+    "issueDetails": [
+      {
+        "code": "language_mismatch",
+        "reason": "The page declares language 'no', while its main reader-facing content is 'en'.",
+        "pageQuotes": [
+          "English-Speaking Lawyers in Altea"
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Align the declared language, route, and metadata with the page's main language, or translate the main content into the declared language.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v47-writing-evidence",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_3eaebbd132de47ff8a063cda20430822",
+          "systemFingerprint": null,
+          "inputHash": "ACE6FA65FA94A30B1D558CEF89D6139A2E00766FF8B819427928C1E1C9AAEDC5",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 2121,
+          "completionTokens": 340,
+          "totalTokens": 2461,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_06b3c691c50d4e0991ee6626b1c5de85",
+          "systemFingerprint": null,
+          "inputHash": "ACE6FA65FA94A30B1D558CEF89D6139A2E00766FF8B819427928C1E1C9AAEDC5",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 1315,
+          "completionTokens": 21,
+          "totalTokens": 1336,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_80c4400446824c6a8c5a7a28a2dc6fc7",
+          "systemFingerprint": null,
+          "inputHash": "ACE6FA65FA94A30B1D558CEF89D6139A2E00766FF8B819427928C1E1C9AAEDC5",
+          "promptHash": "86090A302E5D22B612CA477B19ECE8F7911530BA52D741399B832963CA3A60D4"
+        },
+        "usage": {
+          "promptTokens": 1864,
+          "completionTokens": 3113,
+          "totalTokens": 4977,
+          "reasoningTokens": 3063
+        },
+        "error": null
+      }
+    ],
+    "writingAssessment": {
+      "status": "completed",
+      "classificationBasis": "confirmed_defects_only"
+    },
+    "writingCandidates": [],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "regional-controls",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8089/regional-controls.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is a short notes-style page titled \"Team notes.\" It contains a few standalone statements about a visit, conference attendance, a café drive-thru window, and a business offering design, development, and support. The page appears aimed at readers looking for concise internal or informational notes.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Team notes",
+      "titlePromise": "The page is expected to contain notes or remarks from a team, likely summarizing observations or updates.",
+      "fulfillment": "fulfilled",
+      "reason": "The body consists of several brief note-like statements that fit the general expectation of team notes and related observations.",
+      "bodyEvidenceQuote": "Several details stuck out during the visit."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Several details stuck out during the visit."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [
+      "writing_errors"
+    ],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v47-writing-evidence",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_afc3c4df06ac468f85479aece0108932",
+          "systemFingerprint": null,
+          "inputHash": "5481CEA853A60E728AB07992B3C36BD80D46B432CE71D63060EFD004F9D9D67F",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1510,
+          "completionTokens": 231,
+          "totalTokens": 1741,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_d9e9408107784094aac30fc16f39a3b5",
+          "systemFingerprint": null,
+          "inputHash": "5481CEA853A60E728AB07992B3C36BD80D46B432CE71D63060EFD004F9D9D67F",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 704,
+          "completionTokens": 21,
+          "totalTokens": 725,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_8affc9ba14f042bca25ac837a4cc8510",
+          "systemFingerprint": null,
+          "inputHash": "5481CEA853A60E728AB07992B3C36BD80D46B432CE71D63060EFD004F9D9D67F",
+          "promptHash": "86090A302E5D22B612CA477B19ECE8F7911530BA52D741399B832963CA3A60D4"
+        },
+        "usage": {
+          "promptTokens": 1253,
+          "completionTokens": 179,
+          "totalTokens": 1432,
+          "reasoningTokens": 159
+        },
+        "error": null
+      }
+    ],
+    "writingAssessment": {
+      "status": "completed",
+      "classificationBasis": "confirmed_defects_only"
+    },
+    "writingCandidates": [],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "writing-positive-controls",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8089/writing-positive-controls.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is a short English page titled \"Team notes.\" It contains a couple of terse prose statements about working in small teams and a developer reviewing changes. The page appears aimed at readers looking for brief internal status or team-related notes.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Team notes",
+      "titlePromise": "The page will provide notes or updates related to a team.",
+      "fulfillment": "fulfilled",
+      "reason": "The body gives brief team-related statements, including working in small teams and a developer reviewing changes, which matches the expectation of team notes.",
+      "bodyEvidenceQuote": "We work in in small teams."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "We work in in small teams."
+    },
+    "requiredIssues": [
+      "writing_errors"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "The phrase repeats the preposition \"in\" twice in a row, which makes the sentence ungrammatical in context. \"developmer\" is a misspelling of the noun needed in this sentence.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "defectConfirmed": true,
+            "rule": "A duplicated word or accidental repeated preposition is a spelling/grammar error when the repetition is not intended.",
+            "evidenceBasis": "mandatory_linguistic_rule",
+            "acceptedAlternative": "",
+            "agreementAnalysis": null,
+            "quote": "We work in in small teams.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "in in",
+            "explanation": "The phrase repeats the preposition \"in\" twice in a row, which makes the sentence ungrammatical in context.",
+            "correctionStatus": "safe",
+            "correctedQuote": "We work in small teams.",
+            "blockRole": "prose",
+            "blockId": "block-41",
+            "edit": {
+              "start": 8,
+              "length": 5,
+              "replacement": "in"
+            },
+            "editValidation": "localized_only_not_linguistic_verification"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "Words must be spelled according to the standard orthography of the language in context.",
+            "evidenceBasis": "mandatory_linguistic_rule",
+            "acceptedAlternative": "",
+            "agreementAnalysis": null,
+            "quote": "The developmer reviewed the changes.",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "developmer",
+            "explanation": "\"developmer\" is a misspelling of the noun needed in this sentence.",
+            "correctionStatus": "safe",
+            "correctedQuote": "The developer reviewed the changes.",
+            "blockRole": "prose",
+            "blockId": "block-84",
+            "edit": {
+              "start": 4,
+              "length": 10,
+              "replacement": "developer"
+            },
+            "editValidation": "localized_only_not_linguistic_verification"
+          }
+        ],
+        "pageQuotes": [
+          "We work in in small teams.",
+          "The developmer reviewed the changes."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Correct the objective writing errors identified in the cited sentences.",
+          "suggestedCorrections": [
+            {
+              "original": "We work in in small teams.",
+              "suggestion": "We work in small teams.",
+              "pageQuote": "We work in in small teams.",
+              "problemSpan": "in in",
+              "edit": {
+                "start": 8,
+                "length": 5,
+                "replacement": "in"
+              }
+            },
+            {
+              "original": "The developmer reviewed the changes.",
+              "suggestion": "The developer reviewed the changes.",
+              "pageQuote": "The developmer reviewed the changes.",
+              "problemSpan": "developmer",
+              "edit": {
+                "start": 4,
+                "length": 10,
+                "replacement": "developer"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v47-writing-evidence",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_239a6b910e3348d28f7de50b424d9ef6",
+          "systemFingerprint": null,
+          "inputHash": "8F09C2F85D9369E788399DA88633344EC70D91F8E4297CFE1A77AA9C1DAE4D36",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1473,
+          "completionTokens": 214,
+          "totalTokens": 1687,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_33e1d632cf914d06bcfb86fe5bbe57bd",
+          "systemFingerprint": null,
+          "inputHash": "8F09C2F85D9369E788399DA88633344EC70D91F8E4297CFE1A77AA9C1DAE4D36",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 667,
+          "completionTokens": 21,
+          "totalTokens": 688,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_4df6731a63b64751a4175c1295a4164e",
+          "systemFingerprint": null,
+          "inputHash": "8F09C2F85D9369E788399DA88633344EC70D91F8E4297CFE1A77AA9C1DAE4D36",
+          "promptHash": "86090A302E5D22B612CA477B19ECE8F7911530BA52D741399B832963CA3A60D4"
+        },
+        "usage": {
+          "promptTokens": 1216,
+          "completionTokens": 593,
+          "totalTokens": 1809,
+          "reasoningTokens": 360
+        },
+        "error": null
+      }
+    ],
+    "writingAssessment": {
+      "status": "completed",
+      "classificationBasis": "confirmed_defects_only"
+    },
+    "writingCandidates": [],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  }
+]

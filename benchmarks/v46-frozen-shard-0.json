@@ -1,0 +1,168 @@
+[
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "control",
+      "writing"
+    ],
+    "label": "Healthy article",
+    "artifact": "healthy-article.html",
+    "expectedClassification": "healthy",
+    "expectedFindings": [],
+    "url": "http://127.0.0.1:8088/pages/healthy-article.html",
+    "captureArtifact": "benchmarks/frozen-v46/00.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "control",
+      "guide"
+    ],
+    "label": "Healthy support guide",
+    "artifact": "healthy-support-doc.html",
+    "expectedClassification": "healthy",
+    "expectedFindings": [],
+    "url": "http://127.0.0.1:8088/pages/healthy-support-doc.html",
+    "captureArtifact": "benchmarks/frozen-v46/02.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "scope-guard",
+      "historical"
+    ],
+    "label": "Historical event recap",
+    "artifact": "historical-event-recap.html",
+    "expectedClassification": "healthy",
+    "expectedFindings": [],
+    "url": "http://127.0.0.1:8088/pages/historical-event-recap.html",
+    "captureArtifact": "benchmarks/frozen-v46/04.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "writing_errors"
+    ],
+    "label": "Objective spelling and grammar errors",
+    "artifact": "writing-errors.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "writing_errors"
+    ],
+    "url": "http://127.0.0.1:8088/pages/writing-errors.html",
+    "captureArtifact": "benchmarks/frozen-v46/06.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "published_placeholder_content"
+    ],
+    "label": "Published placeholder content",
+    "artifact": "incomplete-placeholder-content.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "published_placeholder_content"
+    ],
+    "url": "http://127.0.0.1:8088/pages/incomplete-placeholder-content.html",
+    "captureArtifact": "benchmarks/frozen-v46/08.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "title_body_mismatch"
+    ],
+    "label": "Title and body cover different subjects",
+    "artifact": "title-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "title_body_mismatch"
+    ],
+    "url": "http://127.0.0.1:8088/pages/title-mismatch.html",
+    "captureArtifact": "benchmarks/frozen-v46/10.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "brand_safety_risk"
+    ],
+    "label": "Abusive and coercive brand language",
+    "artifact": "brand-safety-risk.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "brand_safety_risk"
+    ],
+    "allowedFindings": [
+      "unprofessional_writing"
+    ],
+    "url": "http://127.0.0.1:8088/pages/brand-safety-risk.html",
+    "captureArtifact": "benchmarks/frozen-v46/12.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "language_mismatch",
+      "real-world"
+    ],
+    "label": "Bufete Padilla Altea Norwegian route",
+    "artifact": "bufete-padilla-altea-no.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "language_mismatch"
+    ],
+    "url": "http://127.0.0.1:8089/bufete-padilla-altea-no.html",
+    "captureArtifact": "benchmarks/frozen-v46/14.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "label": "regional-controls",
+    "artifact": "regional-controls.html",
+    "expectedClassification": "healthy",
+    "expectedFindings": [],
+    "forbiddenIssues": [
+      "writing_errors"
+    ],
+    "exactWritingCorrections": true,
+    "expectedWritingCorrections": [],
+    "url": "http://127.0.0.1:8089/regional-controls.html",
+    "captureArtifact": "benchmarks/frozen-v46/16.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "label": "writing-positive-controls",
+    "artifact": "writing-positive-controls.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "writing_errors"
+    ],
+    "forbiddenIssues": [],
+    "exactWritingCorrections": true,
+    "expectedWritingCorrections": [
+      {
+        "quote": "We work in in small teams.",
+        "problemSpan": "in in",
+        "errorType": "grammar",
+        "correctionStatus": "safe",
+        "correctedQuote": "We work in small teams."
+      },
+      {
+        "quote": "The developmer reviewed the changes.",
+        "problemSpan": "developmer",
+        "errorType": "spelling",
+        "correctionStatus": "safe",
+        "correctedQuote": "The developer reviewed the changes."
+      }
+    ],
+    "url": "http://127.0.0.1:8089/writing-positive-controls.html",
+    "captureArtifact": "benchmarks/frozen-v46/18.json"
+  }
+]

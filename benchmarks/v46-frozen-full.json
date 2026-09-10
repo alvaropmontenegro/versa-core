@@ -1,0 +1,324 @@
+[
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "control",
+      "writing"
+    ],
+    "label": "Healthy article",
+    "artifact": "healthy-article.html",
+    "expectedClassification": "healthy",
+    "expectedFindings": [],
+    "url": "http://127.0.0.1:8088/pages/healthy-article.html",
+    "captureArtifact": "benchmarks/frozen-v46/00.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "control",
+      "commercial"
+    ],
+    "label": "Healthy product",
+    "artifact": "healthy-product.html",
+    "expectedClassification": "healthy",
+    "expectedFindings": [],
+    "url": "http://127.0.0.1:8088/pages/healthy-product.html",
+    "captureArtifact": "benchmarks/frozen-v46/01.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "control",
+      "guide"
+    ],
+    "label": "Healthy support guide",
+    "artifact": "healthy-support-doc.html",
+    "expectedClassification": "healthy",
+    "expectedFindings": [],
+    "url": "http://127.0.0.1:8088/pages/healthy-support-doc.html",
+    "captureArtifact": "benchmarks/frozen-v46/02.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "control",
+      "sensitive"
+    ],
+    "label": "Sensitive topic handled responsibly",
+    "artifact": "sensitive-topic-good.html",
+    "expectedClassification": "healthy",
+    "expectedFindings": [],
+    "url": "http://127.0.0.1:8088/pages/sensitive-topic-good.html",
+    "captureArtifact": "benchmarks/frozen-v46/03.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "scope-guard",
+      "historical"
+    ],
+    "label": "Historical event recap",
+    "artifact": "historical-event-recap.html",
+    "expectedClassification": "healthy",
+    "expectedFindings": [],
+    "url": "http://127.0.0.1:8088/pages/historical-event-recap.html",
+    "captureArtifact": "benchmarks/frozen-v46/04.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "scope-guard",
+      "fact-check"
+    ],
+    "label": "Unverified claims are outside intrinsic scope",
+    "artifact": "unverified-claims.html",
+    "expectedClassification": "healthy",
+    "expectedFindings": [],
+    "url": "http://127.0.0.1:8088/pages/unverified-claims.html",
+    "captureArtifact": "benchmarks/frozen-v46/05.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "writing_errors"
+    ],
+    "label": "Objective spelling and grammar errors",
+    "artifact": "writing-errors.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "writing_errors"
+    ],
+    "url": "http://127.0.0.1:8088/pages/writing-errors.html",
+    "captureArtifact": "benchmarks/frozen-v46/06.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "unprofessional_writing"
+    ],
+    "label": "Persistently unprofessional writing",
+    "artifact": "unprofessional-writing.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "unprofessional_writing"
+    ],
+    "url": "http://127.0.0.1:8088/pages/unprofessional-writing.html",
+    "captureArtifact": "benchmarks/frozen-v46/07.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "published_placeholder_content"
+    ],
+    "label": "Published placeholder content",
+    "artifact": "incomplete-placeholder-content.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "published_placeholder_content"
+    ],
+    "url": "http://127.0.0.1:8088/pages/incomplete-placeholder-content.html",
+    "captureArtifact": "benchmarks/frozen-v46/08.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "direct_statement_contradiction"
+    ],
+    "label": "Directly contradictory guidance",
+    "artifact": "contradictory-guidance.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "direct_statement_contradiction"
+    ],
+    "url": "http://127.0.0.1:8088/pages/contradictory-guidance.html",
+    "captureArtifact": "benchmarks/frozen-v46/09.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "title_body_mismatch"
+    ],
+    "label": "Title and body cover different subjects",
+    "artifact": "title-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "title_body_mismatch"
+    ],
+    "url": "http://127.0.0.1:8088/pages/title-mismatch.html",
+    "captureArtifact": "benchmarks/frozen-v46/10.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "title_body_mismatch",
+      "real-world"
+    ],
+    "label": "Cylogy Google Analytics content mismatch",
+    "artifact": "cylogy-google-analytics-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "title_body_mismatch"
+    ],
+    "url": "http://127.0.0.1:8089/cylogy-google-analytics-mismatch.html",
+    "captureArtifact": "benchmarks/frozen-v46/11.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "brand_safety_risk"
+    ],
+    "label": "Abusive and coercive brand language",
+    "artifact": "brand-safety-risk.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "brand_safety_risk"
+    ],
+    "allowedFindings": [
+      "unprofessional_writing"
+    ],
+    "url": "http://127.0.0.1:8088/pages/brand-safety-risk.html",
+    "captureArtifact": "benchmarks/frozen-v46/12.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "sensitive_topic_without_context"
+    ],
+    "label": "Unsafe sensitive-topic guidance",
+    "artifact": "sensitive-topic-bad.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "sensitive_topic_without_context"
+    ],
+    "allowedFindings": [
+      "brand_safety_risk"
+    ],
+    "url": "http://127.0.0.1:8088/pages/sensitive-topic-bad.html",
+    "captureArtifact": "benchmarks/frozen-v46/13.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "language_mismatch",
+      "real-world"
+    ],
+    "label": "Bufete Padilla Altea Norwegian route",
+    "artifact": "bufete-padilla-altea-no.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "language_mismatch"
+    ],
+    "url": "http://127.0.0.1:8089/bufete-padilla-altea-no.html",
+    "captureArtifact": "benchmarks/frozen-v46/14.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "published_placeholder_content",
+      "writing_errors",
+      "real-world"
+    ],
+    "label": "Endesa Santa Coloma placeholder and writing errors",
+    "artifact": "endesa-santa-coloma-placeholder.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "published_placeholder_content",
+      "writing_errors"
+    ],
+    "exactWritingCorrections": true,
+    "expectedWritingCorrections": [
+      {
+        "quote": "Toma una decision formidable",
+        "problemSpan": "decision",
+        "errorType": "spelling",
+        "correctionStatus": "safe",
+        "correctedQuote": "Toma una decisión formidable"
+      },
+      {
+        "quote": "Sin permanencia: puedes cambiarte de tarifa (o de compañia) sin penalización.",
+        "problemSpan": "compañia",
+        "errorType": "spelling",
+        "correctionStatus": "safe",
+        "correctedQuote": "Sin permanencia: puedes cambiarte de tarifa (o de compañía) sin penalización."
+      }
+    ],
+    "url": "http://127.0.0.1:8089/endesa-santa-coloma-placeholder.html",
+    "captureArtifact": "benchmarks/frozen-v46/15.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "label": "regional-controls",
+    "artifact": "regional-controls.html",
+    "expectedClassification": "healthy",
+    "expectedFindings": [],
+    "forbiddenIssues": [
+      "writing_errors"
+    ],
+    "exactWritingCorrections": true,
+    "expectedWritingCorrections": [],
+    "url": "http://127.0.0.1:8089/regional-controls.html",
+    "captureArtifact": "benchmarks/frozen-v46/16.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "label": "inline-author",
+    "artifact": "inline-author.html",
+    "expectedClassification": "healthy",
+    "expectedFindings": [],
+    "forbiddenIssues": [
+      "writing_errors"
+    ],
+    "exactWritingCorrections": true,
+    "expectedWritingCorrections": [],
+    "url": "http://127.0.0.1:8089/inline-author.html",
+    "captureArtifact": "benchmarks/frozen-v46/17.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "label": "writing-positive-controls",
+    "artifact": "writing-positive-controls.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "writing_errors"
+    ],
+    "forbiddenIssues": [],
+    "exactWritingCorrections": true,
+    "expectedWritingCorrections": [
+      {
+        "quote": "We work in in small teams.",
+        "problemSpan": "in in",
+        "errorType": "grammar",
+        "correctionStatus": "safe",
+        "correctedQuote": "We work in small teams."
+      },
+      {
+        "quote": "The developmer reviewed the changes.",
+        "problemSpan": "developmer",
+        "errorType": "spelling",
+        "correctionStatus": "safe",
+        "correctedQuote": "The developer reviewed the changes."
+      }
+    ],
+    "url": "http://127.0.0.1:8089/writing-positive-controls.html",
+    "captureArtifact": "benchmarks/frozen-v46/18.json"
+  }
+]

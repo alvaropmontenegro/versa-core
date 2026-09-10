@@ -1,0 +1,146 @@
+{
+  "url": "http://127.0.0.1:8088/pages/healthy-product.html",
+  "finalUrl": "http://127.0.0.1:8088/pages/healthy-product.html",
+  "outputLanguage": "en",
+  "executedAt": "2026-09-08T22:38:27.9962877+00:00",
+  "capture": {
+    "statusCode": 200,
+    "finalUrl": "http://127.0.0.1:8088/pages/healthy-product.html",
+    "html": "\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022en\u0022 data-versa-display=\u0022block\u0022 data-versa-layout-version=\u00221\u0022\u003E\u003Chead data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta charset=\u0022UTF-8\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1.0\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta name=\u0022description\u0022 content=\u0022Meridian Digital is a project management platform built for modern teams. Plan, track, and deliver work with clarity. Trusted by 500\u002B teams worldwide.\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Ctitle data-versa-display=\u0022none\u0022\u003EProject Management That Works \u2014 Meridian Digital\u003C/title\u003E\n  \u003Clink rel=\u0022canonical\u0022 href=\u0022https://test.versacontent.com/pages/healthy-product.html\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cstyle data-versa-display=\u0022none\u0022\u003E\n    * { margin: 0; padding: 0; box-sizing: border-box; }\n    body { font-family: -apple-system, BlinkMacSystemFont, \u0027Segoe UI\u0027, Roboto, sans-serif; color: #1a1a2e; line-height: 1.7; background: #fff; }\n    header { background: #1a1a2e; color: #fff; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }\n    header .logo { font-weight: 700; font-size: 1.25rem; }\n    header nav a { color: #a0a0c0; text-decoration: none; margin-left: 1.5rem; font-size: 0.9rem; }\n    header nav a:hover { color: #fff; }\n    main { max-width: 800px; margin: 2rem auto; padding: 0 1.5rem; }\n    h1 { font-size: 2rem; margin-bottom: 1rem; line-height: 1.3; }\n    h2 { font-size: 1.4rem; margin: 2rem 0 0.75rem; color: #1a1a2e; }\n    h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; }\n    p { margin-bottom: 1rem; color: #333; }\n    ul, ol { margin: 0 0 1rem 1.5rem; }\n    li { margin-bottom: 0.4rem; }\n    a { color: #4361ee; }\n    .meta { font-size: 0.85rem; color: #666; margin-bottom: 1.5rem; }\n    .cta { display: inline-block; background: #4361ee; color: #fff; padding: 0.75rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: 600; margin: 1rem 0; }\n    .cta:hover { background: #3a56d4; }\n    .tags { margin-top: 2rem; }\n    .tags span { background: #f0f0f5; padding: 0.25rem 0.75rem; border-radius: 99px; font-size: 0.8rem; margin-right: 0.5rem; color: #555; }\n    footer { background: #f8f8fc; border-top: 1px solid #e0e0e8; padding: 2rem; margin-top: 3rem; text-align: center; font-size: 0.85rem; color: #666; }\n    footer a { color: #4361ee; text-decoration: none; }\n    .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin: 1.5rem 0; }\n    .card { border: 1px solid #e0e0e8; border-radius: 8px; padding: 1.5rem; }\n    .card h3 { margin-top: 0; }\n    .price { font-size: 2rem; font-weight: 700; color: #4361ee; }\n    blockquote { border-left: 3px solid #4361ee; padding: 1rem 1.5rem; background: #f8f8fc; margin: 1.5rem 0; font-style: italic; }\n    table { width: 100%; border-collapse: collapse; margin: 1rem 0; }\n    th, td { padding: 0.75rem; text-align: left; border-bottom: 1px solid #e0e0e8; }\n    th { background: #f8f8fc; font-weight: 600; }\n    img { max-width: 100%; height: auto; border-radius: 8px; margin: 1rem 0; }\n    .hero { text-align: center; padding: 2rem 0 1rem; }\n    .hero h1 { font-size: 2.4rem; }\n    .hero p { font-size: 1.15rem; color: #555; max-width: 600px; margin: 0 auto 1.5rem; }\n    .social-proof { text-align: center; padding: 1.5rem 0; color: #666; font-size: 0.95rem; }\n  \u003C/style\u003E\n\u003C/head\u003E\n\u003Cbody data-versa-display=\u0022block\u0022\u003E\n  \u003Cheader data-versa-display=\u0022flex\u0022\u003E\n    \u003Cdiv class=\u0022logo\u0022 data-versa-display=\u0022block\u0022\u003EMeridian Digital\u003C/div\u003E\n    \u003Cnav data-versa-display=\u0022block\u0022\u003E\n      \u003Ca href=\u0022/pages/healthy-product\u0022 data-versa-display=\u0022inline\u0022\u003EProduct\u003C/a\u003E\n      \u003Ca href=\u0022/pages/healthy-pricing\u0022 data-versa-display=\u0022inline\u0022\u003EPricing\u003C/a\u003E\n      \u003Ca href=\u0022/pages/healthy-contact\u0022 data-versa-display=\u0022inline\u0022\u003EContact\u003C/a\u003E\n      \u003Ca href=\u0022/pages/hub-index\u0022 data-versa-display=\u0022inline\u0022\u003EBlog\u003C/a\u003E\n    \u003C/nav\u003E\n  \u003C/header\u003E\n  \u003Cmain data-versa-display=\u0022block\u0022\u003E\n    \u003Cdiv class=\u0022hero\u0022 data-versa-display=\u0022block\u0022\u003E\n      \u003Ch1 data-versa-display=\u0022block\u0022\u003EProject Management That Works\u003C/h1\u003E\n      \u003Cp data-versa-display=\u0022block\u0022\u003EPlan, track, and deliver work with your team in one place. Meridian brings clarity to complex projects so your team can focus on what matters.\u003C/p\u003E\n      \u003Ca href=\u0022#\u0022 class=\u0022cta\u0022 style=\u0022font-size: 1.1rem; padding: 0.85rem 2rem;\u0022 data-versa-display=\u0022inline-block\u0022\u003EStart Free Trial\u003C/a\u003E\n      \u003Cp style=\u0022font-size: 0.85rem; color: #888; margin-top: 0.5rem;\u0022 data-versa-display=\u0022block\u0022\u003ENo credit card required. Free for 14 days.\u003C/p\u003E\n    \u003C/div\u003E\n\n    \u003Cdiv class=\u0022social-proof\u0022 data-versa-display=\u0022block\u0022\u003E\n      \u003Cp data-versa-display=\u0022block\u0022\u003E\u003Cstrong data-versa-display=\u0022inline\u0022\u003ETrusted by 500\u002B teams\u003C/strong\u003E including engineering, marketing, and operations departments at companies of every size.\u003C/p\u003E\n    \u003C/div\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EEverything Your Team Needs\u003C/h2\u003E\n\n    \u003Cdiv class=\u0022card-grid\u0022 data-versa-display=\u0022grid\u0022\u003E\n      \u003Cdiv class=\u0022card\u0022 data-versa-display=\u0022block\u0022\u003E\n        \u003Ch3 data-versa-display=\u0022block\u0022\u003EVisual Project Planning\u003C/h3\u003E\n        \u003Cp data-versa-display=\u0022block\u0022\u003EMap out your entire project with Gantt charts, Kanban boards, and timeline views. Drag and drop tasks to adjust plans in real time. See the big picture without losing sight of the details.\u003C/p\u003E\n      \u003C/div\u003E\n      \u003Cdiv class=\u0022card\u0022 data-versa-display=\u0022block\u0022\u003E\n        \u003Ch3 data-versa-display=\u0022block\u0022\u003ESmart Task Management\u003C/h3\u003E\n        \u003Cp data-versa-display=\u0022block\u0022\u003ECreate tasks with custom fields, dependencies, and priority levels. Set due dates, assign owners, and track progress with automated status updates. Never let a task slip through the cracks.\u003C/p\u003E\n      \u003C/div\u003E\n      \u003Cdiv class=\u0022card\u0022 data-versa-display=\u0022block\u0022\u003E\n        \u003Ch3 data-versa-display=\u0022block\u0022\u003ETeam Collaboration\u003C/h3\u003E\n        \u003Cp data-versa-display=\u0022block\u0022\u003EComment on tasks, share files, and tag teammates directly within your projects. Real-time notifications keep everyone aligned without the noise of endless email chains.\u003C/p\u003E\n      \u003C/div\u003E\n      \u003Cdiv class=\u0022card\u0022 data-versa-display=\u0022block\u0022\u003E\n        \u003Ch3 data-versa-display=\u0022block\u0022\u003EReporting and Insights\u003C/h3\u003E\n        \u003Cp data-versa-display=\u0022block\u0022\u003ETrack velocity, workload balance, and project health with customizable dashboards. Generate reports for stakeholders in one click. Data-driven decisions replace gut feelings.\u003C/p\u003E\n      \u003C/div\u003E\n    \u003C/div\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EBuilt for the Way You Work\u003C/h2\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003EMeridian adapts to your workflow, not the other way around. Whether your team follows Agile sprints, Waterfall milestones, or a hybrid approach, our platform supports your methodology with flexible templates and configurable workflows.\u003C/p\u003E\n\n    \u003Cul data-versa-display=\u0022block\u0022\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003E\u003Cstrong data-versa-display=\u0022inline\u0022\u003EIntegrations:\u003C/strong\u003E Connect with Slack, GitHub, Jira, Google Workspace, Microsoft 365, and 40\u002B other tools your team already uses.\u003C/li\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003E\u003Cstrong data-versa-display=\u0022inline\u0022\u003EAutomation:\u003C/strong\u003E Eliminate repetitive work with rule-based triggers. Automatically assign tasks, update statuses, and send notifications when conditions are met.\u003C/li\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003E\u003Cstrong data-versa-display=\u0022inline\u0022\u003ESecurity:\u003C/strong\u003E Enterprise-grade security with SOC 2 Type II compliance, SAML SSO, and granular role-based permissions.\u003C/li\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003E\u003Cstrong data-versa-display=\u0022inline\u0022\u003EMobile:\u003C/strong\u003E Full-featured iOS and Android apps so your team stays connected on the go.\u003C/li\u003E\n    \u003C/ul\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EWhat Our Customers Say\u003C/h2\u003E\n\n    \u003Cblockquote data-versa-display=\u0022block\u0022\u003E\n      \u0022Meridian transformed how our engineering team plans sprints. We cut our planning meetings in half and everyone has clear visibility into what is being worked on. It is the most intuitive PM tool we have used.\u0022\n      \u003Cbr data-versa-display=\u0022inline\u0022\u003E\u003Cbr data-versa-display=\u0022inline\u0022\u003E\n      \u003Cstrong data-versa-display=\u0022inline\u0022\u003E\u2014 Rachel Torres, VP of Engineering at CloudFirst\u003C/strong\u003E\n    \u003C/blockquote\u003E\n\n    \u003Cblockquote data-versa-display=\u0022block\u0022\u003E\n      \u0022We evaluated six project management platforms before choosing Meridian. The combination of powerful features and a clean interface made the decision easy. Our team was fully onboarded within a week.\u0022\n      \u003Cbr data-versa-display=\u0022inline\u0022\u003E\u003Cbr data-versa-display=\u0022inline\u0022\u003E\n      \u003Cstrong data-versa-display=\u0022inline\u0022\u003E\u2014 David Kim, Operations Director at DataPeak\u003C/strong\u003E\n    \u003C/blockquote\u003E\n\n    \u003Cdiv style=\u0022text-align: center; padding: 2rem 0;\u0022 data-versa-display=\u0022block\u0022\u003E\n      \u003Ch2 data-versa-display=\u0022block\u0022\u003EReady to Get Started?\u003C/h2\u003E\n      \u003Cp data-versa-display=\u0022block\u0022\u003EJoin 500\u002B teams that use Meridian to ship faster and stay aligned.\u003C/p\u003E\n      \u003Ca href=\u0022#\u0022 class=\u0022cta\u0022 style=\u0022font-size: 1.1rem; padding: 0.85rem 2rem;\u0022 data-versa-display=\u0022inline-block\u0022\u003EStart Your Free Trial\u003C/a\u003E\n      \u003Cp style=\u0022font-size: 0.85rem; color: #888; margin-top: 0.5rem;\u0022 data-versa-display=\u0022block\u0022\u003E14-day free trial. No credit card required.\u003C/p\u003E\n    \u003C/div\u003E\n  \u003C/main\u003E\n  \u003Cfooter data-versa-display=\u0022block\u0022\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003E\u00A9 2025 Meridian Digital Inc. All rights reserved. | \u003Ca href=\u0022/pages/healthy-legal\u0022 data-versa-display=\u0022inline\u0022\u003ETerms\u003C/a\u003E | \u003Ca href=\u0022mailto:hello@meridian.digital\u0022 data-versa-display=\u0022inline\u0022\u003Ehello@meridian.digital\u003C/a\u003E | \u002B1 (415) 555-0120\u003C/p\u003E\n  \u003C/footer\u003E\n\n\u003C/body\u003E\u003C/html\u003E",
+    "bodyText": "Meridian Digital\nProduct Pricing Contact Blog\nProject Management That Works\n\nPlan, track, and deliver work with your team in one place. Meridian brings clarity to complex projects so your team can focus on what matters.\n\nStart Free Trial\n\nNo credit card required. Free for 14 days.\n\nTrusted by 500\u002B teams including engineering, marketing, and operations departments at companies of every size.\n\nEverything Your Team Needs\nVisual Project Planning\n\nMap out your entire project with Gantt charts, Kanban boards, and timeline views. Drag and drop tasks to adjust plans in real time. See the big picture without losing sight of the details.\n\nSmart Task Management\n\nCreate tasks with custom fields, dependencies, and priority levels. Set due dates, assign owners, and track progress with automated status updates. Never let a task slip through the cracks.\n\nTeam Collaboration\n\nComment on tasks, share files, and tag teammates directly within your projects. Real-time notifications keep everyone aligned without the noise of endless email chains.\n\nReporting and Insights\n\nTrack velocity, workload balance, and project health with customizable dashboards. Generate reports for stakeholders in one click. Data-driven decisions replace gut feelings.\n\nBuilt for the Way You Work\n\nMeridian adapts to your workflow, not the other way around. Whether your team follows Agile sprints, Waterfall milestones, or a hybrid approach, our platform supports your methodology with flexible templates and configurable workflows.\n\nIntegrations: Connect with Slack, GitHub, Jira, Google Workspace, Microsoft 365, and 40\u002B other tools your team already uses.\nAutomation: Eliminate repetitive work with rule-based triggers. Automatically assign tasks, update statuses, and send notifications when conditions are met.\nSecurity: Enterprise-grade security with SOC 2 Type II compliance, SAML SSO, and granular role-based permissions.\nMobile: Full-featured iOS and Android apps so your team stays connected on the go.\nWhat Our Customers Say\n\u0022Meridian transformed how our engineering team plans sprints. We cut our planning meetings in half and everyone has clear visibility into what is being worked on. It is the most intuitive PM tool we have used.\u0022\n\n\u2014 Rachel Torres, VP of Engineering at CloudFirst\n\u0022We evaluated six project management platforms before choosing Meridian. The combination of powerful features and a clean interface made the decision easy. Our team was fully onboarded within a week.\u0022\n\n\u2014 David Kim, Operations Director at DataPeak\nReady to Get Started?\n\nJoin 500\u002B teams that use Meridian to ship faster and stay aligned.\n\nStart Your Free Trial\n\n14-day free trial. No credit card required.\n\n\u00A9 2025 Meridian Digital Inc. All rights reserved. | Terms | hello@meridian.digital | \u002B1 (415) 555-0120",
+    "bodyWordCount": 417
+  },
+  "metadata": {
+    "title": "Project Management That Works \u2014 Meridian Digital",
+    "metaDescription": "Meridian Digital is a project management platform built for modern teams. Plan, track, and deliver work with clarity. Trusted by 500\u002B teams worldwide.",
+    "canonicalUrl": "https://test.versacontent.com/pages/healthy-product.html",
+    "language": "en"
+  },
+  "structuralOutline": {
+    "markdown": "\u003Cui_text\u003EMeridian Digital\u003C/ui_text\u003E\n\n\u003Cheading level=\u00221\u0022\u003EProject Management That Works\u003C/heading\u003E\n\n\u003Cprose\u003EPlan, track, and deliver work with your team in one place. Meridian brings clarity to complex projects so your team can focus on what matters.\u003C/prose\u003E\n\n\u003Ccta\u003EStart Free Trial\u003C/cta\u003E\n\n\u003Cprose\u003ENo credit card required. Free for 14 days.\u003C/prose\u003E\n\n\u003Cprose\u003ETrusted by 500\u002B teams including engineering, marketing, and operations departments at companies of every size.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EEverything Your Team Needs\u003C/heading\u003E\n\n\u003Cheading level=\u00223\u0022\u003EVisual Project Planning\u003C/heading\u003E\n\n\u003Cprose\u003EMap out your entire project with Gantt charts, Kanban boards, and timeline views. Drag and drop tasks to adjust plans in real time. See the big picture without losing sight of the details.\u003C/prose\u003E\n\n\u003Cheading level=\u00223\u0022\u003ESmart Task Management\u003C/heading\u003E\n\n\u003Cprose\u003ECreate tasks with custom fields, dependencies, and priority levels. Set due dates, assign owners, and track progress with automated status updates. Never let a task slip through the cracks.\u003C/prose\u003E\n\n\u003Cheading level=\u00223\u0022\u003ETeam Collaboration\u003C/heading\u003E\n\n\u003Cprose\u003EComment on tasks, share files, and tag teammates directly within your projects. Real-time notifications keep everyone aligned without the noise of endless email chains.\u003C/prose\u003E\n\n\u003Cheading level=\u00223\u0022\u003EReporting and Insights\u003C/heading\u003E\n\n\u003Cprose\u003ETrack velocity, workload balance, and project health with customizable dashboards. Generate reports for stakeholders in one click. Data-driven decisions replace gut feelings.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EBuilt for the Way You Work\u003C/heading\u003E\n\n\u003Cprose\u003EMeridian adapts to your workflow, not the other way around. Whether your team follows Agile sprints, Waterfall milestones, or a hybrid approach, our platform supports your methodology with flexible templates and configurable workflows.\u003C/prose\u003E\n\n\u003Clist_item\u003EIntegrations: Connect with Slack, GitHub, Jira, Google Workspace, Microsoft 365, and 40\u002B other tools your team already uses.\u003C/list_item\u003E\n\n\u003Clist_item\u003EAutomation: Eliminate repetitive work with rule-based triggers. Automatically assign tasks, update statuses, and send notifications when conditions are met.\u003C/list_item\u003E\n\n\u003Clist_item\u003ESecurity: Enterprise-grade security with SOC 2 Type II compliance, SAML SSO, and granular role-based permissions.\u003C/list_item\u003E\n\n\u003Clist_item\u003EMobile: Full-featured iOS and Android apps so your team stays connected on the go.\u003C/list_item\u003E\n\n\u003Cheading level=\u00222\u0022\u003EWhat Our Customers Say\u003C/heading\u003E\n\n\u003Cprose\u003E\u0022Meridian transformed how our engineering team plans sprints. We cut our planning meetings in half and everyone has clear visibility into what is being worked on. It is the most intuitive PM tool we have used.\u0022 \u2014 Rachel Torres, VP of Engineering at CloudFirst\u003C/prose\u003E\n\n\u003Cprose\u003E\u0022We evaluated six project management platforms before choosing Meridian. The combination of powerful features and a clean interface made the decision easy. Our team was fully onboarded within a week.\u0022 \u2014 David Kim, Operations Director at DataPeak\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EReady to Get Started?\u003C/heading\u003E\n\n\u003Cprose\u003EJoin 500\u002B teams that use Meridian to ship faster and stay aligned.\u003C/prose\u003E\n\n\u003Ccta\u003EStart Your Free Trial\u003C/cta\u003E\n\n\u003Cprose\u003E14-day free trial. No credit card required.\u003C/prose\u003E",
+    "summary": {
+      "estimatedTokens": 806,
+      "truncatedByTextLimit": false
+    }
+  },
+  "analysis": {
+    "observations": {
+      "mainContentLanguage": "en",
+      "mainContentLanguageEvidence": "Plan, track, and deliver work with your team in one place.",
+      "pagePurpose": "Help teams evaluate and start a project management software trial.",
+      "pageSummary": "This is a marketing landing page for Meridian Digital\u2019s project management product, Meridian. It presents collaboration, planning, task management, reporting, integrations, automation, security, and mobile app features for teams considering project management software. The page primarily encourages visitors to start a free 14-day trial."
+    },
+    "sensitiveTopicAssessment": {
+      "status": "not_applicable",
+      "evidenceQuote": "",
+      "reason": "The page is a product marketing page and does not give guidance for responding to or managing a high-stakes sensitive situation."
+    },
+    "titlePromiseAssessment": {
+      "titleQuote": "Project Management That Works",
+      "titlePromise": "The page promises a project management solution that helps teams plan, track, and deliver work effectively.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops project management capabilities such as planning, task tracking, collaboration, reporting, integrations, automation, and team workflows, which matches the title\u2019s promise.",
+      "bodyEvidenceQuote": "Plan, track, and deliver work with your team in one place."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Plan, track, and deliver work with your team in one place."
+    },
+    "sensitiveTopicValidation": {
+      "status": "valid",
+      "reason": "no_sensitive_guidance_detected",
+      "normalizedEvidenceQuote": ""
+    },
+    "issues": [],
+    "rejectedIssues": [],
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_c1d4691cdac6467b897fef291cdffbbb",
+          "systemFingerprint": null,
+          "inputHash": "DEC702FF65AB5089937F6CCC82CB92F5A79ABD739092791C0387CE2A15947B51",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 2152,
+          "completionTokens": 261,
+          "totalTokens": 2413,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_a4b4aa99c9ad4291ba7273265b7b994d",
+          "systemFingerprint": null,
+          "inputHash": "DEC702FF65AB5089937F6CCC82CB92F5A79ABD739092791C0387CE2A15947B51",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 1346,
+          "completionTokens": 21,
+          "totalTokens": 1367,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_79dfb66cd95840318fc58d22399991f8",
+          "systemFingerprint": null,
+          "inputHash": "DEC702FF65AB5089937F6CCC82CB92F5A79ABD739092791C0387CE2A15947B51",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 1489,
+          "completionTokens": 50,
+          "totalTokens": 1539,
+          "reasoningTokens": 30
+        },
+        "error": null
+      }
+    ],
+    "classification": {
+      "type": "healthy",
+      "confidence": null,
+      "confidenceBasis": "not_calibrated",
+      "insufficientEvidence": false
+    },
+    "externalVerification": {
+      "enabled": false,
+      "skipped": true
+    }
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "webSourceUrls": []
+  }
+}

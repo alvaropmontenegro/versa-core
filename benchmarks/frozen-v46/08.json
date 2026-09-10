@@ -1,0 +1,178 @@
+{
+  "url": "http://127.0.0.1:8088/pages/incomplete-placeholder-content.html",
+  "finalUrl": "http://127.0.0.1:8088/pages/incomplete-placeholder-content.html",
+  "outputLanguage": "en",
+  "executedAt": "2026-09-08T22:39:48.3675846+00:00",
+  "capture": {
+    "statusCode": 200,
+    "finalUrl": "http://127.0.0.1:8088/pages/incomplete-placeholder-content.html",
+    "html": "\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022en\u0022 data-versa-display=\u0022block\u0022 data-versa-layout-version=\u00221\u0022\u003E\u003Chead data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta charset=\u0022UTF-8\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Ctitle data-versa-display=\u0022none\u0022\u003ECustomer Onboarding Guide \u2014 Meridian Digital\u003C/title\u003E\n\u003C/head\u003E\n\u003Cbody data-versa-display=\u0022block\u0022\u003E\n  \u003Cmain data-versa-display=\u0022block\u0022\u003E\n    \u003Ch1 data-versa-display=\u0022block\u0022\u003ECustomer Onboarding Guide\u003C/h1\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003EUse this guide to prepare your team for the first month after launch.\u003C/p\u003E\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EPrepare access\u003C/h2\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003ECreate accounts for the project owner and the people who will manage reporting.\u003C/p\u003E\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EMigration timeline\u003C/h2\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003E[Insert migration timeline and owner responsibilities here.]\u003C/p\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003EReview progress with your implementation lead each week.\u003C/p\u003E\n  \u003C/main\u003E\n\n\n\u003C/body\u003E\u003C/html\u003E",
+    "bodyText": "Customer Onboarding Guide\n\nUse this guide to prepare your team for the first month after launch.\n\nPrepare access\n\nCreate accounts for the project owner and the people who will manage reporting.\n\nMigration timeline\n\n[Insert migration timeline and owner responsibilities here.]\n\nReview progress with your implementation lead each week.",
+    "bodyWordCount": 48
+  },
+  "metadata": {
+    "title": "Customer Onboarding Guide \u2014 Meridian Digital",
+    "canonicalUrl": "http://127.0.0.1:8088/pages/incomplete-placeholder-content.html",
+    "language": "en"
+  },
+  "structuralOutline": {
+    "markdown": "\u003Cheading level=\u00221\u0022\u003ECustomer Onboarding Guide\u003C/heading\u003E\n\n\u003Cprose\u003EUse this guide to prepare your team for the first month after launch.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EPrepare access\u003C/heading\u003E\n\n\u003Cprose\u003ECreate accounts for the project owner and the people who will manage reporting.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EMigration timeline\u003C/heading\u003E\n\n\u003Cprose\u003E[Insert migration timeline and owner responsibilities here.]\u003C/prose\u003E\n\n\u003Cprose\u003EReview progress with your implementation lead each week.\u003C/prose\u003E",
+    "summary": {
+      "estimatedTokens": 120,
+      "truncatedByTextLimit": false
+    }
+  },
+  "analysis": {
+    "observations": {
+      "mainContentLanguage": "en",
+      "mainContentLanguageEvidence": "Customer Onboarding Guide",
+      "pagePurpose": "Help the reader prepare a team for the first month after launch by outlining onboarding setup steps, access preparation, migration planning, and weekly progress review.",
+      "pageSummary": "This page is an onboarding guide for customers working with Meridian Digital. It focuses on preparing access, planning a migration timeline, and reviewing progress during the first month after launch. The intended audience appears to be a project owner and team members responsible for reporting and implementation."
+    },
+    "sensitiveTopicAssessment": {
+      "status": "not_applicable",
+      "evidenceQuote": "",
+      "reason": "No reader-facing guidance about a high-stakes sensitive situation is visible on the page."
+    },
+    "titlePromiseAssessment": {
+      "titleQuote": "Customer Onboarding Guide",
+      "titlePromise": "The page will provide guidance for customer onboarding, including steps and information relevant to getting started after launch.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops onboarding preparation, access setup, migration planning, and weekly review, which matches the expectation created by the title.",
+      "bodyEvidenceQuote": "Use this guide to prepare your team for the first month after launch."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Use this guide to prepare your team for the first month after launch."
+    },
+    "sensitiveTopicValidation": {
+      "status": "valid",
+      "reason": "no_sensitive_guidance_detected",
+      "normalizedEvidenceQuote": ""
+    },
+    "issues": [
+      {
+        "code": "published_placeholder_content",
+        "reason": "Reader-facing content is published with an explicit placeholder marker instead of finished copy.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "[Insert migration timeline and owner responsibilities here.]",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-332"
+          }
+        ],
+        "pageQuotes": [
+          "[Insert migration timeline and owner responsibilities here.]"
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Replace the cited placeholder content with reviewed final copy before keeping the page published.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_77803724ba3f4190bf82fb6845b17c4f",
+          "systemFingerprint": null,
+          "inputHash": "94321B8683D6E80AE7039BDD8484D6C250B4836620498B1123B73A52C7D6EFA1",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1551,
+          "completionTokens": 249,
+          "totalTokens": 1800,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_cd3159c2e9234127889a7857f5b95ee2",
+          "systemFingerprint": null,
+          "inputHash": "94321B8683D6E80AE7039BDD8484D6C250B4836620498B1123B73A52C7D6EFA1",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 745,
+          "completionTokens": 53,
+          "totalTokens": 798,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_5b8c9685058a486e8f0b5ff7ae493dda",
+          "systemFingerprint": null,
+          "inputHash": "94321B8683D6E80AE7039BDD8484D6C250B4836620498B1123B73A52C7D6EFA1",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 888,
+          "completionTokens": 81,
+          "totalTokens": 969,
+          "reasoningTokens": 61
+        },
+        "error": null
+      }
+    ],
+    "classification": {
+      "type": "unhealthy",
+      "confidence": null,
+      "confidenceBasis": "not_calibrated",
+      "insufficientEvidence": false
+    },
+    "externalVerification": {
+      "enabled": false,
+      "skipped": true
+    }
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "webSourceUrls": []
+  }
+}

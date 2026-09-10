@@ -22,6 +22,7 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+!benchmarks/logs/
 
 # .NET Core
 project.lock.json
@@ -40,7 +41,7 @@ ScaffoldingReadMe.txt
 .env
 
 # Generated benchmark output can contain request diagnostics.
-benchmark-parallel/
+benchmarks/results/parallel/
 
 # Others
 ~$*

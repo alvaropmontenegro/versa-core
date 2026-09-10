@@ -1,0 +1,31 @@
+{
+  "label": "Cylogy containerization",
+  "source": "live",
+  "url": "https://www.cylogy.com/services/hosting-infrastructure/sitecore-containerization/",
+  "expectedClassification": "unreviewed",
+  "classification": "healthy",
+  "insufficientEvidence": false,
+  "assessmentInvalid": false,
+  "model": "gpt-5.4-mini",
+  "pageSummary": "This is a Cylogy service page about Sitecore containerization within hosting and infrastructure. It explains benefits of container-based architecture for Sitecore implementations and describes how it can simplify local environments, deployments, and monitoring. The page also includes a set of customer success stories and calls to view more case studies or contact the company.",
+  "recommendationsComplete": true,
+  "titlePromiseAssessment": {
+    "titleQuote": "Sitecore Containerization",
+    "titlePromise": "A page about Sitecore containerization.",
+    "fulfillment": "fulfilled",
+    "reason": "The body develops Sitecore containerization as the main subject, including benefits, backend implications, local environments, deployments, and monitoring.",
+    "bodyEvidenceQuote": "Does Containerization Make Sense for My Organization?"
+  },
+  "titlePromiseValidation": {
+    "status": "valid",
+    "reason": "literal_evidence_valid",
+    "normalizedBodyEvidenceQuote": "Does Containerization Make Sense for My Organization?"
+  },
+  "requiredIssues": [],
+  "allowedIssues": [],
+  "forbiddenIssues": [],
+  "issues": [],
+  "scored": false,
+  "passed": null,
+  "error": null
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "published_placeholder_content",
+      "writing_errors",
+      "real-world"
+    ],
+    "label": "Endesa Santa Coloma placeholder and writing errors",
+    "artifact": "endesa-santa-coloma-placeholder.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "published_placeholder_content",
+      "writing_errors"
+    ],
+    "exactWritingCorrections": true,
+    "expectedWritingCorrections": [
+      {
+        "quote": "Toma una decision formidable",
+        "problemSpan": "decision",
+        "errorType": "spelling",
+        "correctionStatus": "safe",
+        "correctedQuote": "Toma una decisión formidable"
+      },
+      {
+        "quote": "Sin permanencia: puedes cambiarte de tarifa (o de compañia) sin penalización.",
+        "problemSpan": "compañia",
+        "errorType": "spelling",
+        "correctionStatus": "safe",
+        "correctedQuote": "Sin permanencia: puedes cambiarte de tarifa (o de compañía) sin penalización."
+      }
+    ],
+    "url": "http://127.0.0.1:8089/endesa-santa-coloma-placeholder.html",
+    "captureArtifact": "benchmarks/frozen-writing-controls/endesa-santa-coloma-placeholder.html.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "label": "regional-controls",
+    "artifact": "regional-controls.html",
+    "expectedClassification": "healthy",
+    "expectedFindings": [],
+    "forbiddenIssues": [
+      "writing_errors"
+    ],
+    "exactWritingCorrections": true,
+    "expectedWritingCorrections": [],
+    "url": "http://127.0.0.1:8089/regional-controls.html",
+    "captureArtifact": "benchmarks/frozen-writing-controls/regional-controls.html.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "label": "inline-author",
+    "artifact": "inline-author.html",
+    "expectedClassification": "healthy",
+    "expectedFindings": [],
+    "forbiddenIssues": [
+      "writing_errors"
+    ],
+    "exactWritingCorrections": true,
+    "expectedWritingCorrections": [],
+    "url": "http://127.0.0.1:8089/inline-author.html",
+    "captureArtifact": "benchmarks/frozen-writing-controls/inline-author.html.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "label": "writing-positive-controls",
+    "artifact": "writing-positive-controls.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "writing_errors"
+    ],
+    "forbiddenIssues": [],
+    "exactWritingCorrections": true,
+    "expectedWritingCorrections": [
+      {
+        "quote": "We work in in small teams.",
+        "problemSpan": "in in",
+        "errorType": "grammar",
+        "correctionStatus": "safe",
+        "correctedQuote": "We work in small teams."
+      },
+      {
+        "quote": "The developmer reviewed the changes.",
+        "problemSpan": "developmer",
+        "errorType": "spelling",
+        "correctionStatus": "safe",
+        "correctedQuote": "The developer reviewed the changes."
+      }
+    ],
+    "url": "http://127.0.0.1:8089/writing-positive-controls.html",
+    "captureArtifact": "benchmarks/frozen-writing-controls/writing-positive-controls.html.json"
+  }
+]

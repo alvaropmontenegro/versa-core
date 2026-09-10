@@ -1,0 +1,72 @@
+[
+  {
+    "label": "Objective spelling and grammar errors",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/writing-errors.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This page gives brief guidance for preparing for a client workshop. It focuses on creating a shared agenda, collecting inputs before the session, and sending the agenda to participants two days in advance. The intended audience appears to be facilitators or organizers planning the workshop.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Preparing for a Client Workshop",
+      "titlePromise": "The page should provide substantive guidance about preparing for a client workshop.",
+      "fulfillment": "fulfilled",
+      "reason": "The body gives direct preparation guidance for a client workshop, including agenda planning, collecting inputs, and sending the agenda in advance.",
+      "bodyEvidenceQuote": "A successful workshop begins with a shared agenda and a clear list of decisions."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "A successful workshop begins with a shared agenda and a clear list of decisions."
+    },
+    "requiredIssues": [
+      "writing_errors"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Title and body cover different subjects",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/title-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a promotional landing page for Meridian Digital, presented as a project management platform. It describes features such as timeline planning, dependency tracking, dashboards, time tracking, workflows, integrations, and pricing tiers. The page is aimed at teams evaluating project management software and includes a free-trial call to action.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "10 Best Project Management Tools Compared (2025)",
+      "titlePromise": "A comparison of ten project management tools, likely including how they differ or rank in 2025.",
+      "fulfillment": "not_fulfilled",
+      "reason": "The title promises a comparison of 10 project management tools, but the body mainly presents Meridian Digital as a single product with features, pricing, and a trial offer rather than comparing multiple tools.",
+      "bodyEvidenceQuote": "Meridian Digital was designed from the ground up to eliminate the friction that slows teams down. Unlike legacy tools that force you into predefined workflows, Meridian adapts to your process."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Meridian Digital was designed from the ground up to eliminate the friction that slows teams down. Unlike legacy tools that force you into predefined workflows, Meridian adapts to your process."
+    },
+    "requiredIssues": [
+      "title_body_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "title_body_mismatch"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  }
+]

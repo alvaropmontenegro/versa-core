@@ -1,0 +1,57 @@
+
+source     label                                         classification issues
+------     -----                                         -------------- ------                                         
+artificial Healthy article                               healthy        {}                                             
+artificial Healthy product                               healthy        {}                                             
+artificial Healthy support guide                         healthy        {}                                             
+artificial Sensitive topic handled responsibly           healthy        {}                                             
+artificial Historical event recap                        healthy        {}                                             
+artificial Unverified claims are outside intrinsic scope healthy        {}                                             
+artificial Objective spelling and grammar errors         unhealthy      {writing_errors}                               
+artificial Persistently unprofessional writing           unhealthy      {unprofessional_writing}                       
+artificial Published placeholder content                 unhealthy      {published_placeholder_content}                
+artificial Directly contradictory guidance               unhealthy      {direct_statement_contradiction}               
+artificial Title and body cover different subjects       unhealthy      {title_body_mismatch}                          
+snapshot   Cylogy Google Analytics content mismatch      unhealthy      {title_body_mismatch}                          
+artificial Abusive and coercive brand language           unhealthy      {brand_safety_risk}                            
+artificial Unsafe sensitive-topic guidance               unhealthy      {sensitive_topic_without_context}              
+snapshot   Bufete Padilla Altea Norwegian route          unhealthy      {published_placeholder_content, language_misma.
+
+
+source     label                                         classification issues                            scored passed
+------     -----                                         -------------- ------                            ------ ------
+artificial Healthy article                               healthy        {}                                  True   True
+artificial Healthy product                               healthy        {}                                  True   True
+artificial Healthy support guide                         healthy        {}                                  True   True
+artificial Sensitive topic handled responsibly           healthy        {}                                  True   True
+artificial Historical event recap                        healthy        {}                                  True   True
+artificial Unverified claims are outside intrinsic scope healthy        {}                                  True   True
+artificial Objective spelling and grammar errors         unhealthy      {writing_errors}                    True   True
+artificial Persistently unprofessional writing           unhealthy      {unprofessional_writing}            True   True
+artificial Published placeholder content                 unhealthy      {published_placeholder_content}     True   True
+artificial Directly contradictory guidance               unhealthy      {direct_statement_contradiction}    True   True
+artificial Title and body cover different subjects       unhealthy      {title_body_mismatch}               True   True
+snapshot   Cylogy Google Analytics content mismatch      unhealthy      {title_body_mismatch}               True   True
+artificial Abusive and coercive brand language           unhealthy      {brand_safety_risk}                 True   True
+artificial Unsafe sensitive-topic guidance               unhealthy      {sensitive_topic_without_context}   True   True
+snapshot   Bufete Padilla Altea Norwegian route          unhealthy      {language_mismatch}                 True   True
+
+
+source     label                                         classification issues                            scored passed
+------     -----                                         -------------- ------                            ------ ------
+artificial Healthy article                               healthy        {}                                  True   True
+artificial Healthy product                               healthy        {}                                  True   True
+artificial Healthy support guide                         healthy        {}                                  True   True
+artificial Sensitive topic handled responsibly           healthy        {}                                  True   True
+artificial Historical event recap                        healthy        {}                                  True   True
+artificial Unverified claims are outside intrinsic scope healthy        {}                                  True   True
+artificial Objective spelling and grammar errors         unhealthy      {writing_errors}                    True   True
+artificial Persistently unprofessional writing           unhealthy      {unprofessional_writing}            True   True
+artificial Published placeholder content                 unhealthy      {published_placeholder_content}     True   True
+artificial Directly contradictory guidance               unhealthy      {direct_statement_contradiction}    True   True
+artificial Title and body cover different subjects       healthy        {}                                  True  False
+snapshot   Cylogy Google Analytics content mismatch      unhealthy      {title_body_mismatch}               True   True
+artificial Abusive and coercive brand language           unhealthy      {brand_safety_risk}                 True   True
+artificial Unsafe sensitive-topic guidance               unhealthy      {sensitive_topic_without_context}   True   True
+snapshot   Bufete Padilla Altea Norwegian route          unhealthy      {language_mismatch}                 True   True
+

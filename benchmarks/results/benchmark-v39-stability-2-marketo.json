@@ -1,0 +1,33 @@
+{
+  "label": "Cylogy Marketo technology",
+  "source": "live",
+  "url": "https://www.cylogy.com/technologies/marketo/",
+  "expectedClassification": "unreviewed",
+  "classification": "unhealthy",
+  "insufficientEvidence": false,
+  "assessmentInvalid": false,
+  "model": "gpt-5.4-mini",
+  "pageSummary": "This is a Cylogy Technologies page about Adobe/Marketo Engage. It describes Marketo as a marketing automation platform and outlines related technology offerings and services. The page also includes a series of customer success story teasers with links to view each story.",
+  "recommendationsComplete": true,
+  "titlePromiseAssessment": {
+    "titleQuote": "Adobe/Marketo Engage",
+    "titlePromise": "A page about Adobe/Marketo Engage, likely describing the product and related services or information about it.",
+    "fulfillment": "fulfilled",
+    "reason": "The body discusses Marketo/Adobe Marketo Engage as a marketing automation platform and includes related technology and service content, so the page delivers the subject promised by the title.",
+    "bodyEvidenceQuote": "Marketo is a comprehensive marketing automation software built to help organizations automate and measure marketing engagement, tasks and workflows and centralize all materials, templates and reports for every kind of campaign from email to ABM to social media."
+  },
+  "titlePromiseValidation": {
+    "status": "valid",
+    "reason": "literal_evidence_valid",
+    "normalizedBodyEvidenceQuote": "Marketo is a comprehensive marketing automation software built to help organizations automate and measure marketing engagement, tasks and workflows and centralize all materials, templates and reports for every kind of campaign from email to ABM to social media."
+  },
+  "requiredIssues": [],
+  "allowedIssues": [],
+  "forbiddenIssues": [],
+  "issues": [
+    "writing_errors"
+  ],
+  "scored": false,
+  "passed": null,
+  "error": null
+}

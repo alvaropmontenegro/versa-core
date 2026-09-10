@@ -1,0 +1,14 @@
+{
+  "label": "Historical event recap",
+  "source": "artificial",
+  "url": "http://127.0.0.1:8088/pages/historical-event-recap.html",
+  "expectedClassification": "healthy",
+  "classification": "healthy",
+  "requiredIssues": [],
+  "allowedIssues": [],
+  "forbiddenIssues": [],
+  "issues": [],
+  "scored": true,
+  "passed": true,
+  "error": null
+}

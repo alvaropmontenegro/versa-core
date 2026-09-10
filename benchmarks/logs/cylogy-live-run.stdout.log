@@ -1,0 +1,34 @@
+
+source label                              classification issues                                           scored passed
+------ -----                              -------------- ------                                           ------ ------
+live   Cylogy home                        healthy        {}                                                False       
+live   Cylogy site health                 healthy        {}                                                False       
+live   Cylogy hosting infrastructure      healthy        {}                                                False       
+live   Cylogy containerization            healthy        {}                                                False       
+live   Cylogy Optimizely development      healthy        {}                                                False       
+live   Cylogy DevOps                      healthy        {}                                                False       
+live   Cylogy enterprise WordPress        healthy        {}                                                False       
+live   Cylogy digital strategy            healthy        {}                                                False       
+live   Cylogy Sitecore training           unhealthy      {unclear_value_proposition, brand_safety_risk}    False       
+live   Cylogy SEO and analytics           healthy        {}                                                False       
+live   Cylogy Sitecore development        healthy        {}                                                False       
+live   Cylogy Sitecore headless           healthy        {}                                                False       
+live   Cylogy mobile apps                 unhealthy      {unclear_value_proposition}                       False       
+live   Cylogy Sitecore technology         unhealthy      {unclear_value_proposition, brand_safety_risk}    False       
+live   Cylogy Marketo technology          unhealthy      {unclear_value_proposition}                       False       
+live   Cylogy Salesforce technology       healthy        {}                                                False       
+live   Cylogy Google Analytics technology unhealthy      {unclear_value_proposition}                       False       
+live   Cylogy Contentful technology       unhealthy      {title_body_mismatch, unclear_value_proposition}  False       
+live   Cylogy Sitecore CDP technology     healthy        {}                                                False       
+live   Cylogy company                     healthy        {}                                                False       
+live   Cylogy partners                    healthy        {}                                                False       
+live   Cylogy careers                     unhealthy      {unclear_value_proposition}                       False       
+live   Cylogy contact                     healthy        {}                                                False       
+live   Cylogy Pelion project              healthy        {}                                                False       
+live   Cylogy Qlik project                healthy        {}                                                False       
+live   Cylogy Sabre project               healthy        {}                                                False       
+live   Cylogy Symposium 2020 recap        healthy        {}                                                False       
+live   Cylogy Symposium 2024 preview      healthy        {}                                                False       
+live   Cylogy Sitecore SaaS               healthy        {}                                                False       
+live   Cylogy content migration           healthy        {}                                                False       
+

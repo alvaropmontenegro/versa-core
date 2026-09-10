@@ -1,0 +1,158 @@
+[
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "control",
+      "commercial"
+    ],
+    "label": "Healthy product",
+    "artifact": "healthy-product.html",
+    "expectedClassification": "healthy",
+    "expectedFindings": [],
+    "url": "http://127.0.0.1:8088/pages/healthy-product.html",
+    "captureArtifact": "benchmarks/frozen-v46/01.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "control",
+      "sensitive"
+    ],
+    "label": "Sensitive topic handled responsibly",
+    "artifact": "sensitive-topic-good.html",
+    "expectedClassification": "healthy",
+    "expectedFindings": [],
+    "url": "http://127.0.0.1:8088/pages/sensitive-topic-good.html",
+    "captureArtifact": "benchmarks/frozen-v46/03.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "scope-guard",
+      "fact-check"
+    ],
+    "label": "Unverified claims are outside intrinsic scope",
+    "artifact": "unverified-claims.html",
+    "expectedClassification": "healthy",
+    "expectedFindings": [],
+    "url": "http://127.0.0.1:8088/pages/unverified-claims.html",
+    "captureArtifact": "benchmarks/frozen-v46/05.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "unprofessional_writing"
+    ],
+    "label": "Persistently unprofessional writing",
+    "artifact": "unprofessional-writing.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "unprofessional_writing"
+    ],
+    "url": "http://127.0.0.1:8088/pages/unprofessional-writing.html",
+    "captureArtifact": "benchmarks/frozen-v46/07.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "direct_statement_contradiction"
+    ],
+    "label": "Directly contradictory guidance",
+    "artifact": "contradictory-guidance.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "direct_statement_contradiction"
+    ],
+    "url": "http://127.0.0.1:8088/pages/contradictory-guidance.html",
+    "captureArtifact": "benchmarks/frozen-v46/09.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "title_body_mismatch",
+      "real-world"
+    ],
+    "label": "Cylogy Google Analytics content mismatch",
+    "artifact": "cylogy-google-analytics-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "title_body_mismatch"
+    ],
+    "url": "http://127.0.0.1:8089/cylogy-google-analytics-mismatch.html",
+    "captureArtifact": "benchmarks/frozen-v46/11.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "sensitive_topic_without_context"
+    ],
+    "label": "Unsafe sensitive-topic guidance",
+    "artifact": "sensitive-topic-bad.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "sensitive_topic_without_context"
+    ],
+    "allowedFindings": [
+      "brand_safety_risk"
+    ],
+    "url": "http://127.0.0.1:8088/pages/sensitive-topic-bad.html",
+    "captureArtifact": "benchmarks/frozen-v46/13.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "tags": [
+      "published_placeholder_content",
+      "writing_errors",
+      "real-world"
+    ],
+    "label": "Endesa Santa Coloma placeholder and writing errors",
+    "artifact": "endesa-santa-coloma-placeholder.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "published_placeholder_content",
+      "writing_errors"
+    ],
+    "exactWritingCorrections": true,
+    "expectedWritingCorrections": [
+      {
+        "quote": "Toma una decision formidable",
+        "problemSpan": "decision",
+        "errorType": "spelling",
+        "correctionStatus": "safe",
+        "correctedQuote": "Toma una decisión formidable"
+      },
+      {
+        "quote": "Sin permanencia: puedes cambiarte de tarifa (o de compañia) sin penalización.",
+        "problemSpan": "compañia",
+        "errorType": "spelling",
+        "correctionStatus": "safe",
+        "correctedQuote": "Sin permanencia: puedes cambiarte de tarifa (o de compañía) sin penalización."
+      }
+    ],
+    "url": "http://127.0.0.1:8089/endesa-santa-coloma-placeholder.html",
+    "captureArtifact": "benchmarks/frozen-v46/15.json"
+  },
+  {
+    "source": "frozen",
+    "scored": true,
+    "label": "inline-author",
+    "artifact": "inline-author.html",
+    "expectedClassification": "healthy",
+    "expectedFindings": [],
+    "forbiddenIssues": [
+      "writing_errors"
+    ],
+    "exactWritingCorrections": true,
+    "expectedWritingCorrections": [],
+    "url": "http://127.0.0.1:8089/inline-author.html",
+    "captureArtifact": "benchmarks/frozen-v46/17.json"
+  }
+]

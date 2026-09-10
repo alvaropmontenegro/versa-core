@@ -1,0 +1,33 @@
+{
+  "label": "Cylogy Marketo technology",
+  "source": "live",
+  "url": "https://www.cylogy.com/technologies/marketo/",
+  "expectedClassification": "unreviewed",
+  "classification": "unhealthy",
+  "insufficientEvidence": false,
+  "assessmentInvalid": false,
+  "model": "gpt-5.4-mini",
+  "pageSummary": "This is a Cylogy Technologies page about Adobe/Marketo Engage. It describes Marketo as a marketing automation platform and outlines related capabilities such as lead management, email marketing, ABM, personalization, and Salesforce integration. The page also includes related technologies, customer success stories, and calls to view more stories or contact the company.",
+  "recommendationsComplete": true,
+  "titlePromiseAssessment": {
+    "titleQuote": "Adobe/Marketo Engage",
+    "titlePromise": "A page about Adobe/Marketo Engage and related information on that product or service.",
+    "fulfillment": "fulfilled",
+    "reason": "The body develops Marketo/Adobe Marketo Engage with descriptions of marketing automation, lead management, email marketing, ABM, personalization, and Salesforce integration, which matches the subject promised by the title.",
+    "bodyEvidenceQuote": "Marketo is a comprehensive marketing automation software built to help organizations automate and measure marketing engagement, tasks and workflows and centralize all materials, templates and reports for every kind of campaign from email to ABM to social media."
+  },
+  "titlePromiseValidation": {
+    "status": "valid",
+    "reason": "literal_evidence_valid",
+    "normalizedBodyEvidenceQuote": "Marketo is a comprehensive marketing automation software built to help organizations automate and measure marketing engagement, tasks and workflows and centralize all materials, templates and reports for every kind of campaign from email to ABM to social media."
+  },
+  "requiredIssues": [],
+  "allowedIssues": [],
+  "forbiddenIssues": [],
+  "issues": [
+    "writing_errors"
+  ],
+  "scored": false,
+  "passed": null,
+  "error": null
+}

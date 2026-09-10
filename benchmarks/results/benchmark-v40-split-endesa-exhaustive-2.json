@@ -1,0 +1,36 @@
+{
+  "label": "Endesa Santa Coloma placeholder and writing errors",
+  "source": "snapshot",
+  "url": "http://127.0.0.1:8089/endesa-santa-coloma-placeholder.html",
+  "expectedClassification": "unhealthy",
+  "classification": "unhealthy",
+  "insufficientEvidence": false,
+  "assessmentInvalid": false,
+  "model": "gpt-5.4-mini",
+  "pageSummary": "La página parece ser una ficha de ubicación de Endesa para la dirección Calle Rambla de San Sebastián, 42, en Santa Coloma de Gramenet, Barcelona. Presenta una breve invitación a encontrar el Punto Endesa más cercano para contratar energía, placas solares o movilidad eléctrica, junto con un botón para pedir cita. También incluye texto promocional sobre cambio de tarifa sin permanencia.",
+  "recommendationsComplete": true,
+  "titlePromiseAssessment": {
+    "titleQuote": "Calle Rambla de San Sebastián, 42, Santa Coloma De Gramenet, Barcelona",
+    "titlePromise": "The title promises a page about the specific Endesa office or point at the named address in Santa Coloma de Gramenet, Barcelona.",
+    "fulfillment": "fulfilled",
+    "reason": "The body develops that location-based expectation by inviting the reader to find the nearest Punto Endesa and by presenting appointment and service information tied to the same Endesa context.",
+    "bodyEvidenceQuote": "Encuentra tu Punto Endesa más cercano para contratar Energía, Placas Solares o Movilidad eléctrica"
+  },
+  "titlePromiseValidation": {
+    "status": "valid",
+    "reason": "literal_evidence_valid",
+    "normalizedBodyEvidenceQuote": "Encuentra tu Punto Endesa más cercano para contratar Energía, Placas Solares o Movilidad eléctrica"
+  },
+  "requiredIssues": [
+    "published_placeholder_content",
+    "writing_errors"
+  ],
+  "allowedIssues": [],
+  "forbiddenIssues": [],
+  "issues": [
+    "published_placeholder_content"
+  ],
+  "scored": true,
+  "passed": false,
+  "error": null
+}

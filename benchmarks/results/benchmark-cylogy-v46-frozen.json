@@ -1,0 +1,1142 @@
+[
+  {
+    "label": "20260908-095540-www-cylogy-com-services-optimizely-development",
+    "source": "frozen",
+    "url": "https://www.cylogy.com/services/optimizely-development/",
+    "expectedClassification": null,
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is a service landing page for Cylogy focused on Optimizely development. It describes implementation strategy, headless development, migration from Episerver or other platforms, integrations, and process/best-practices support. The page also includes additional services and multiple customer success story teasers.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Optimizely Development",
+      "titlePromise": "The page is expected to explain or advertise development services for the Optimizely platform.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantially develops Optimizely-related development services, including implementation strategy, headless development, upgrades or migration, integrations, and process best practices.",
+      "bodyEvidenceQuote": "Optimizely’s Content Delivery API is designed to support headless operation. There are many benefits to implementing a headless approach."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Optimizely’s Content Delivery API is designed to support headless operation. There are many benefits to implementing a headless approach."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "“you users” is missing the possessive determiner; the sentence should say “your users.” A comma is missing after “Episerver” before “our team can help.” “Oprimizely” should be spelled “Optimizely.” The sentence needs a comma after “integration” before “we can build.” The comma after “redesign” breaks the subject-verb connection; it should be removed.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "defectConfirmed": true,
+            "rule": "English possessive determiners must be used before a noun when referring to ownership or association.",
+            "quote": "Are you looking to create a world-class digital experience for you users on the Optimizely DXP platform? We’ll help you plan & execute your Optimizely project, whether it’s a new project, an upgrade or help with new feature development.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "you users",
+            "explanation": "“you users” is missing the possessive determiner; the sentence should say “your users.”",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "correctionPolicy": "grammar_requires_human_review",
+            "blockRole": "prose",
+            "blockId": "block-53"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "A comma is required after an introductory conditional clause before the main clause.",
+            "quote": "As you may know, Optimizely was formerly Episerver. If you’re currently using Episerver our team can help you migrate to Optimizely safely and seamlessly. If you’re using a different platform and are looking to move to Optimizely, we can help plan and execute a solid, comprehensive migration.",
+            "purpose": "writing_error",
+            "errorType": "punctuation",
+            "problemSpan": "Episerver our team",
+            "explanation": "A comma is missing after “Episerver” before “our team can help.”",
+            "correctionStatus": "safe",
+            "correctedQuote": "As you may know, Optimizely was formerly Episerver. If you’re currently using Episerver, our team can help you migrate to Optimizely safely and seamlessly. If you’re using a different platform and are looking to move to Optimizely, we can help plan and execute a solid, comprehensive migration.",
+            "blockRole": "ui_text",
+            "blockId": "block-1318",
+            "edit": {
+              "start": 78,
+              "length": 18,
+              "replacement": "Episerver, our team"
+            },
+            "editValidation": "localized_only_not_linguistic_verification"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "The brand name is misspelled.",
+            "quote": "Oprimizely & Integration",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "Oprimizely",
+            "explanation": "“Oprimizely” should be spelled “Optimizely.”",
+            "correctionStatus": "safe",
+            "correctedQuote": "Optimizely & Integration",
+            "blockRole": "heading",
+            "blockId": "block-1632",
+            "edit": {
+              "start": 0,
+              "length": 10,
+              "replacement": "Optimizely"
+            },
+            "editValidation": "localized_only_not_linguistic_verification"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "A comma is required before the main clause when it follows an introductory dependent clause beginning with “Whether.”",
+            "quote": "Cylogy has wide experience with integrations. Whether you’re integrating with other internal systems, 3rd parties, data integration or marketing tool integration we can build an organized, well-documented and stable integration with Optimizely that will connect you with the things you need.",
+            "purpose": "writing_error",
+            "errorType": "punctuation",
+            "problemSpan": "marketing tool integration we can",
+            "explanation": "The sentence needs a comma after “integration” before “we can build.”",
+            "correctionStatus": "safe",
+            "correctedQuote": "Cylogy has wide experience with integrations. Whether you’re integrating with other internal systems, 3rd parties, data integration or marketing tool integration, we can build an organized, well-documented and stable integration with Optimizely that will connect you with the things you need.",
+            "blockRole": "ui_text",
+            "blockId": "block-1687",
+            "edit": {
+              "start": 135,
+              "length": 33,
+              "replacement": "marketing tool integration, we can"
+            },
+            "editValidation": "localized_only_not_linguistic_verification"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "A comma must not separate a subject from its verb.",
+            "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors. Discover how we optimized the user experience!",
+            "purpose": "writing_error",
+            "errorType": "punctuation",
+            "problemSpan": "redesign,",
+            "explanation": "The comma after “redesign” breaks the subject-verb connection; it should be removed.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors. Discover how we optimized the user experience!",
+            "blockRole": "ui_text",
+            "blockId": "block-4196",
+            "edit": {
+              "start": 24,
+              "length": 9,
+              "replacement": "redesign"
+            },
+            "editValidation": "localized_only_not_linguistic_verification"
+          }
+        ],
+        "pageQuotes": [
+          "Are you looking to create a world-class digital experience for you users on the Optimizely DXP platform? We’ll help you plan & execute your Optimizely project, whether it’s a new project, an upgrade or help with new feature development.",
+          "As you may know, Optimizely was formerly Episerver. If you’re currently using Episerver our team can help you migrate to Optimizely safely and seamlessly. If you’re using a different platform and are looking to move to Optimizely, we can help plan and execute a solid, comprehensive migration.",
+          "Oprimizely & Integration",
+          "Cylogy has wide experience with integrations. Whether you’re integrating with other internal systems, 3rd parties, data integration or marketing tool integration we can build an organized, well-documented and stable integration with Optimizely that will connect you with the things you need.",
+          "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors. Discover how we optimized the user experience!"
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Apply safe corrections and review errors without an unambiguous correction.",
+          "suggestedCorrections": [
+            {
+              "original": "As you may know, Optimizely was formerly Episerver. If you’re currently using Episerver our team can help you migrate to Optimizely safely and seamlessly. If you’re using a different platform and are looking to move to Optimizely, we can help plan and execute a solid, comprehensive migration.",
+              "suggestion": "As you may know, Optimizely was formerly Episerver. If you’re currently using Episerver, our team can help you migrate to Optimizely safely and seamlessly. If you’re using a different platform and are looking to move to Optimizely, we can help plan and execute a solid, comprehensive migration.",
+              "pageQuote": "As you may know, Optimizely was formerly Episerver. If you’re currently using Episerver our team can help you migrate to Optimizely safely and seamlessly. If you’re using a different platform and are looking to move to Optimizely, we can help plan and execute a solid, comprehensive migration.",
+              "problemSpan": "Episerver our team",
+              "edit": {
+                "start": 78,
+                "length": 18,
+                "replacement": "Episerver, our team"
+              }
+            },
+            {
+              "original": "Oprimizely & Integration",
+              "suggestion": "Optimizely & Integration",
+              "pageQuote": "Oprimizely & Integration",
+              "problemSpan": "Oprimizely",
+              "edit": {
+                "start": 0,
+                "length": 10,
+                "replacement": "Optimizely"
+              }
+            },
+            {
+              "original": "Cylogy has wide experience with integrations. Whether you’re integrating with other internal systems, 3rd parties, data integration or marketing tool integration we can build an organized, well-documented and stable integration with Optimizely that will connect you with the things you need.",
+              "suggestion": "Cylogy has wide experience with integrations. Whether you’re integrating with other internal systems, 3rd parties, data integration or marketing tool integration, we can build an organized, well-documented and stable integration with Optimizely that will connect you with the things you need.",
+              "pageQuote": "Cylogy has wide experience with integrations. Whether you’re integrating with other internal systems, 3rd parties, data integration or marketing tool integration we can build an organized, well-documented and stable integration with Optimizely that will connect you with the things you need.",
+              "problemSpan": "marketing tool integration we can",
+              "edit": {
+                "start": 135,
+                "length": 33,
+                "replacement": "marketing tool integration, we can"
+              }
+            },
+            {
+              "original": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors. Discover how we optimized the user experience!",
+              "suggestion": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors. Discover how we optimized the user experience!",
+              "pageQuote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors. Discover how we optimized the user experience!",
+              "problemSpan": "redesign,",
+              "edit": {
+                "start": 24,
+                "length": 9,
+                "replacement": "redesign"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_f2319dc932374b9aa201fcf5bcd45b84",
+          "systemFingerprint": null,
+          "inputHash": "91837E5A8B051CE5234499178F428055112DF0CD7BBCB71A41DE0BA6019ADF07",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 2532,
+          "completionTokens": 263,
+          "totalTokens": 2795,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_45bf29802e744d79b5232da332f58bb0",
+          "systemFingerprint": null,
+          "inputHash": "91837E5A8B051CE5234499178F428055112DF0CD7BBCB71A41DE0BA6019ADF07",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 1726,
+          "completionTokens": 21,
+          "totalTokens": 1747,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_c5771864e2a54a7cac785fcf3e20a82a",
+          "systemFingerprint": null,
+          "inputHash": "91837E5A8B051CE5234499178F428055112DF0CD7BBCB71A41DE0BA6019ADF07",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 1869,
+          "completionTokens": 4339,
+          "totalTokens": 6208,
+          "reasoningTokens": 3546
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "20260908-095831-www-cylogy-com-company",
+    "source": "frozen",
+    "url": "https://www.cylogy.com/company/",
+    "expectedClassification": null,
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is a company/about page for Cylogy, a San Francisco-based digital agency focused on digital experience consulting. It highlights the firm’s strategy, training, development, web management, support, leadership team, partnerships, and customer success stories. The page is aimed at potential clients evaluating the company’s capabilities and approach.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Who We Are",
+      "titlePromise": "The page should introduce the company and describe its identity, people, and what it does.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively presents the company’s role, mission, services, leadership team, partnerships, and client success stories, which matches an about-us style title.",
+      "bodyEvidenceQuote": "We’re Your Trusted Advisor."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "We’re Your Trusted Advisor."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "As written, the sentence begins with a setup but then lists two noun phrases without the grammar needed to link them cleanly to the rest of the sentence. The phrase should be 'a superior level of quality'; without 'of,' the sentence is ungrammatical. '90’s' is an incorrect punctuation form for the decade; the standard form is '90s'. The comma after 'redesign' breaks the sentence; the verb should follow directly.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "defectConfirmed": true,
+            "rule": "A sentence needs a complete grammatical structure; this clause is missing the wording that makes the alternatives parallel and fully connected.",
+            "quote": "No matter where you are in your journey, a rescue mission to get you back on your feet or a blank canvas with no direction, Cylogy is here to bring your digital goals to fruition.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "a rescue mission to get you back on your feet or a blank canvas with no direction",
+            "explanation": "As written, the sentence begins with a setup but then lists two noun phrases without the grammar needed to link them cleanly to the rest of the sentence.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "correctionPolicy": "grammar_requires_human_review",
+            "blockRole": "ui_text",
+            "blockId": "block-796"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "A noun phrase needs the required preposition in this construction.",
+            "quote": "Our mission is to be a trusted advisor, relentlessly advancing our clients’ top digital business priorities through strategy and a superior level quality.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "a superior level quality",
+            "explanation": "The phrase should be 'a superior level of quality'; without 'of,' the sentence is ungrammatical.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "correctionPolicy": "grammar_requires_human_review",
+            "blockRole": "ui_text",
+            "blockId": "block-1768"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "An apostrophe must not be used to form a plural decade reference.",
+            "quote": "In the late 90’s he moved on to focus on digital experience technologies, with a focus on personalization and digital analytics at Macromedia.",
+            "purpose": "writing_error",
+            "errorType": "punctuation",
+            "problemSpan": "90’s",
+            "explanation": "'90’s' is an incorrect punctuation form for the decade; the standard form is '90s'.",
+            "correctionStatus": "safe",
+            "correctedQuote": "In the late 90s he moved on to focus on digital experience technologies, with a focus on personalization and digital analytics at Macromedia.",
+            "blockRole": "ui_text",
+            "blockId": "block-2756",
+            "edit": {
+              "start": 12,
+              "length": 4,
+              "replacement": "90s"
+            },
+            "editValidation": "localized_only_not_linguistic_verification"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "A comma must not separate a subject from its main verb.",
+            "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+            "purpose": "writing_error",
+            "errorType": "punctuation",
+            "problemSpan": "redesign, features",
+            "explanation": "The comma after 'redesign' breaks the sentence; the verb should follow directly.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+            "blockRole": "ui_text",
+            "blockId": "block-5534",
+            "edit": {
+              "start": 24,
+              "length": 18,
+              "replacement": "redesign features"
+            },
+            "editValidation": "localized_only_not_linguistic_verification"
+          }
+        ],
+        "pageQuotes": [
+          "No matter where you are in your journey, a rescue mission to get you back on your feet or a blank canvas with no direction, Cylogy is here to bring your digital goals to fruition.",
+          "Our mission is to be a trusted advisor, relentlessly advancing our clients’ top digital business priorities through strategy and a superior level quality.",
+          "In the late 90’s he moved on to focus on digital experience technologies, with a focus on personalization and digital analytics at Macromedia.",
+          "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Apply safe corrections and review errors without an unambiguous correction.",
+          "suggestedCorrections": [
+            {
+              "original": "In the late 90’s he moved on to focus on digital experience technologies, with a focus on personalization and digital analytics at Macromedia.",
+              "suggestion": "In the late 90s he moved on to focus on digital experience technologies, with a focus on personalization and digital analytics at Macromedia.",
+              "pageQuote": "In the late 90’s he moved on to focus on digital experience technologies, with a focus on personalization and digital analytics at Macromedia.",
+              "problemSpan": "90’s",
+              "edit": {
+                "start": 12,
+                "length": 4,
+                "replacement": "90s"
+              }
+            },
+            {
+              "original": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+              "suggestion": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+              "pageQuote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+              "problemSpan": "redesign, features",
+              "edit": {
+                "start": 24,
+                "length": 18,
+                "replacement": "redesign features"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_0568d47de4e0460d8f06736908c6f680",
+          "systemFingerprint": null,
+          "inputHash": "CAB8C65A1D6D143A3B34EB148E012BA089799337A57F446599C8C6210B5416AB",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 2798,
+          "completionTokens": 265,
+          "totalTokens": 3063,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_2b99d79683d2421694263473d6e8f546",
+          "systemFingerprint": null,
+          "inputHash": "CAB8C65A1D6D143A3B34EB148E012BA089799337A57F446599C8C6210B5416AB",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 1992,
+          "completionTokens": 21,
+          "totalTokens": 2013,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_a2f34ed84d9d42c1bd65fc6d43fd3d6e",
+          "systemFingerprint": null,
+          "inputHash": "CAB8C65A1D6D143A3B34EB148E012BA089799337A57F446599C8C6210B5416AB",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 2135,
+          "completionTokens": 4073,
+          "totalTokens": 6208,
+          "reasoningTokens": 3508
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "20260908-095941-www-cylogy-com-insights-5-takeaways-from-the-2020-sitecore-symposium",
+    "source": "frozen",
+    "url": "https://www.cylogy.com/insights/5-takeaways-from-the-2020-sitecore-symposium/",
+    "expectedClassification": null,
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is a blog-style Insights article from Cylogy about the 2020 Sitecore Symposium. It presents five takeaways covering customer-centric approaches, Content Hub, automation and personalization, SaaS plans, and leadership ambitions for Sitecore. The page is aimed at readers following Sitecore, digital marketing, and platform strategy topics.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "5 takeaways from the 2020 Sitecore Symposium",
+      "titlePromise": "The page should present five takeaways or key points drawn from the 2020 Sitecore Symposium.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly develops five numbered takeaways from the symposium and expands on each one with related discussion.",
+      "bodyEvidenceQuote": "Here’s five key takeaways from the 2020 Sitecore Symposium."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Here’s five key takeaways from the 2020 Sitecore Symposium."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "In this sentence, \"team\" is the subject, so \"attend\" does not agree with it in en-US writing. The sentence ends with \"thought-provoking keynotes are more,\" which is not grammatical in context; it should end with a form equivalent to \"and more.\" \"Here’s\" is singular, but it introduces the plural noun phrase \"five key takeaways.\" The phrase mixes the infinitive \"to connect\" with the finite verb \"demonstrates,\" which breaks the grammar of the coordinated structure. The sentence needs \"the fact that\" rather than \"This fact that\"; the current wording is ungrammatical. After \"as,\" the sentence needs a subject such as \"it\"; \"as effectively makes\" is not grammatical. The surname is misspelled here; it should match the earlier \"Tzikakis.\"",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "defectConfirmed": true,
+            "rule": "In standard subject-verb agreement, the collective noun here takes a singular verb.",
+            "quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+            "purpose": "writing_error",
+            "errorType": "agreement",
+            "problemSpan": "team attend",
+            "explanation": "In this sentence, \"team\" is the subject, so \"attend\" does not agree with it in en-US writing.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "correctionPolicy": "grammar_requires_human_review",
+            "blockRole": "prose",
+            "blockId": "block-239"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "A list needs a grammatically complete ending; the final item should be introduced with a conjunction, not a verb phrase.",
+            "quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "are more",
+            "explanation": "The sentence ends with \"thought-provoking keynotes are more,\" which is not grammatical in context; it should end with a form equivalent to \"and more.\"",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "correctionPolicy": "grammar_requires_human_review",
+            "blockRole": "prose",
+            "blockId": "block-239"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "In standard subject-verb agreement, a singular contraction does not take a plural complement.",
+            "quote": "Here’s five key takeaways from the 2020 Sitecore Symposium.",
+            "purpose": "writing_error",
+            "errorType": "agreement",
+            "problemSpan": "Here’s five",
+            "explanation": "\"Here’s\" is singular, but it introduces the plural noun phrase \"five key takeaways.\"",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "correctionPolicy": "grammar_requires_human_review",
+            "blockRole": "prose",
+            "blockId": "block-929"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "Parallel elements in a coordinated phrase need matching verb forms.",
+            "quote": "· Content – with a need for a robust content strategy to connect you to customers and demonstrates understanding and empathy",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "demonstrates",
+            "explanation": "The phrase mixes the infinitive \"to connect\" with the finite verb \"demonstrates,\" which breaks the grammar of the coordinated structure.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "correctionPolicy": "grammar_requires_human_review",
+            "blockRole": "prose",
+            "blockId": "block-1793"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "A noun phrase introduced by a determiner must be grammatically formed; \"this fact that\" is not valid here.",
+            "quote": "This fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "This fact",
+            "explanation": "The sentence needs \"the fact that\" rather than \"This fact that\"; the current wording is ungrammatical.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "correctionPolicy": "grammar_requires_human_review",
+            "blockRole": "prose",
+            "blockId": "block-2628"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "A clause must have an explicit subject; the subordinate clause here is missing one.",
+            "quote": "It also makes good sense for Sitecore as effectively makes the platform a whole digital marketing and content ecosystem.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "as effectively makes",
+            "explanation": "After \"as,\" the sentence needs a subject such as \"it\"; \"as effectively makes\" is not grammatical.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "correctionPolicy": "grammar_requires_human_review",
+            "blockRole": "prose",
+            "blockId": "block-2628"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "A proper name must be spelled consistently.",
+            "quote": "Firstly, Tzikaki wasn’t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency.",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "Tzikaki",
+            "explanation": "The surname is misspelled here; it should match the earlier \"Tzikakis.\"",
+            "correctionStatus": "safe",
+            "correctedQuote": "Firstly, Tzikakis wasn’t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency.",
+            "blockRole": "prose",
+            "blockId": "block-5692",
+            "edit": {
+              "start": 9,
+              "length": 7,
+              "replacement": "Tzikakis"
+            },
+            "editValidation": "localized_only_not_linguistic_verification"
+          }
+        ],
+        "pageQuotes": [
+          "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+          "Here’s five key takeaways from the 2020 Sitecore Symposium.",
+          "· Content – with a need for a robust content strategy to connect you to customers and demonstrates understanding and empathy",
+          "This fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.",
+          "It also makes good sense for Sitecore as effectively makes the platform a whole digital marketing and content ecosystem.",
+          "Firstly, Tzikaki wasn’t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Apply safe corrections and review errors without an unambiguous correction.",
+          "suggestedCorrections": [
+            {
+              "original": "Firstly, Tzikaki wasn’t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency.",
+              "suggestion": "Firstly, Tzikakis wasn’t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency.",
+              "pageQuote": "Firstly, Tzikaki wasn’t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency.",
+              "problemSpan": "Tzikaki",
+              "edit": {
+                "start": 9,
+                "length": 7,
+                "replacement": "Tzikakis"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_da5076fb4a2a467c9d16ebe91e230b75",
+          "systemFingerprint": null,
+          "inputHash": "89DE8DC240246EF5355444026F6F4CE6A3E83B95298104D3A671C335F33CBF3A",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 3068,
+          "completionTokens": 278,
+          "totalTokens": 3346,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_68b8d225574140b089d3a48901744b86",
+          "systemFingerprint": null,
+          "inputHash": "89DE8DC240246EF5355444026F6F4CE6A3E83B95298104D3A671C335F33CBF3A",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 2262,
+          "completionTokens": 21,
+          "totalTokens": 2283,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_7e240e3a0cc14ea3b7df634cf7e4dc43",
+          "systemFingerprint": null,
+          "inputHash": "89DE8DC240246EF5355444026F6F4CE6A3E83B95298104D3A671C335F33CBF3A",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 2405,
+          "completionTokens": 9114,
+          "totalTokens": 11519,
+          "reasoningTokens": 8206
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "20260908-100015-www-cylogy-com-insights-7-essential-ingredients-of-a-successful-content-migration",
+    "source": "frozen",
+    "url": "https://www.cylogy.com/insights/7-essential-ingredients-of-a-successful-content-migration/",
+    "expectedClassification": null,
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is a Cylogy Insights blog article about content migration for website projects. It presents seven best-practice ingredients for deciding what content to keep, audit, rewrite, redirect, and automate when moving to a new site. The page also includes related-post links and a contact form for readers who want help with content migration or content strategy.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "7 essential ingredients of a successful content migration",
+      "titlePromise": "The title promises a discussion of seven key components or best practices that contribute to a successful content migration.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops exactly that subject by presenting seven numbered sections on migration planning, including audits, strategy, redirects, media cleanup, and automation.",
+      "bodyEvidenceQuote": "In this post, we’re going to explore what we see as seven essential ingredients of a successful content migration."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "In this post, we’re going to explore what we see as seven essential ingredients of a successful content migration."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "In this sentence, \"can influence on what to take over\" is ungrammatical because \"influence\" should be followed directly by the thing being influenced, not by \"on\".",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "defectConfirmed": true,
+            "rule": "A verb like \"influence\" should take a direct object here; it should not be followed by the preposition \"on\" in this construction.",
+            "quote": "Planning out high-value redirects is therefore an integral part of the planning for content migration, and can influence on what to take over and what pages to merge.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "influence on",
+            "explanation": "In this sentence, \"can influence on what to take over\" is ungrammatical because \"influence\" should be followed directly by the thing being influenced, not by \"on\".",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "correctionPolicy": "grammar_requires_human_review",
+            "blockRole": "prose",
+            "blockId": "block-5492"
+          }
+        ],
+        "pageQuotes": [
+          "Planning out high-value redirects is therefore an integral part of the planning for content migration, and can influence on what to take over and what pages to merge."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Apply safe corrections and review errors without an unambiguous correction.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_f6fea1ee94b54e9d91488951b11dfef2",
+          "systemFingerprint": null,
+          "inputHash": "D059AC7855B38644E3733C3F71D1891F8704F527F2604524373E9814E1EAB1D8",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 3252,
+          "completionTokens": 285,
+          "totalTokens": 3537,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_1dde48b897734f91915288aa3e9d1e68",
+          "systemFingerprint": null,
+          "inputHash": "D059AC7855B38644E3733C3F71D1891F8704F527F2604524373E9814E1EAB1D8",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 2446,
+          "completionTokens": 21,
+          "totalTokens": 2467,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_138a87d2c3e6477ebe01defe4e2dec8d",
+          "systemFingerprint": null,
+          "inputHash": "D059AC7855B38644E3733C3F71D1891F8704F527F2604524373E9814E1EAB1D8",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 2589,
+          "completionTokens": 1564,
+          "totalTokens": 4153,
+          "reasoningTokens": 1393
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "20260908-095718-www-cylogy-com-technologies-sitecore",
+    "source": "frozen",
+    "url": "https://www.cylogy.com/technologies/sitecore/",
+    "expectedClassification": null,
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is a technology services page about Sitecore DXP/CMS from Cylogy. It describes Sitecore’s content management, personalization, analytics, and marketing automation capabilities, then highlights enterprise features and related technologies. The page also includes customer success story teasers and calls to explore Cylogy’s services.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Sitecore DXP | What is sitecore",
+      "titlePromise": "The page should explain what Sitecore DXP is and describe Sitecore-related content or solutions.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops the topic promised by the title by explaining Sitecore’s Experience Platform, CMS capabilities, personalization, analytics, marketing automation, and enterprise features.",
+      "bodyEvidenceQuote": "Sitecore’s Experience Platform combines CMS with customer data, analytics, and marketing automation capabilities to nurture customers throughout their journey with personalized content in real-time, across any channel."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Sitecore’s Experience Platform combines CMS with customer data, analytics, and marketing automation capabilities to nurture customers throughout their journey with personalized content in real-time, across any channel."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "The subject is a coordination of two nouns, so the verb should be plural. Here, 'delivers' is singular and does not agree with 'core competency and future technology'. The same plural subject also requires a plural verb here. 'Lend' does not agree with 'core competency and future technology'. The phrase uses the noun 'engagement' where a verb form is needed to match 'connect'. The comma after 'industries' breaks the flow of the modifier; the phrase should run directly into 'connect'. The comma after 'redesign' incorrectly separates the subject from the verb 'features'.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "defectConfirmed": true,
+            "rule": "Agreement: a plural compound subject takes a plural verb.",
+            "quote": "Sitecore’s core competency and future technology delivers unparalleled leadership in the industry, and lend the flexibility and reliability needed to support our enterprise organizations now and in the future.",
+            "purpose": "writing_error",
+            "errorType": "agreement",
+            "problemSpan": "delivers",
+            "explanation": "The subject is a coordination of two nouns, so the verb should be plural. Here, 'delivers' is singular and does not agree with 'core competency and future technology'.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "correctionPolicy": "grammar_requires_human_review",
+            "blockRole": "ui_text",
+            "blockId": "block-1155"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "Agreement: a plural compound subject takes a plural verb.",
+            "quote": "Sitecore’s core competency and future technology delivers unparalleled leadership in the industry, and lend the flexibility and reliability needed to support our enterprise organizations now and in the future.",
+            "purpose": "writing_error",
+            "errorType": "agreement",
+            "problemSpan": "lend",
+            "explanation": "The same plural subject also requires a plural verb here. 'Lend' does not agree with 'core competency and future technology'.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "correctionPolicy": "grammar_requires_human_review",
+            "blockRole": "ui_text",
+            "blockId": "block-1155"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "Grammar: coordinated verb forms should stay parallel.",
+            "quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "engagement",
+            "explanation": "The phrase uses the noun 'engagement' where a verb form is needed to match 'connect'.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "correctionPolicy": "grammar_requires_human_review",
+            "blockRole": "ui_text",
+            "blockId": "block-2906"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "Punctuation: a comma should not split the participial phrase from its object.",
+            "quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+            "purpose": "writing_error",
+            "errorType": "punctuation",
+            "problemSpan": "industries,",
+            "explanation": "The comma after 'industries' breaks the flow of the modifier; the phrase should run directly into 'connect'.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries connect and engagement with their customers more effectively.",
+            "blockRole": "ui_text",
+            "blockId": "block-2906",
+            "edit": {
+              "start": 100,
+              "length": 11,
+              "replacement": "industries"
+            },
+            "editValidation": "localized_only_not_linguistic_verification"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "Punctuation: do not separate the subject from its verb with a comma.",
+            "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+            "purpose": "writing_error",
+            "errorType": "punctuation",
+            "problemSpan": "redesign,",
+            "explanation": "The comma after 'redesign' incorrectly separates the subject from the verb 'features'.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+            "blockRole": "ui_text",
+            "blockId": "block-4079",
+            "edit": {
+              "start": 24,
+              "length": 9,
+              "replacement": "redesign"
+            },
+            "editValidation": "localized_only_not_linguistic_verification"
+          }
+        ],
+        "pageQuotes": [
+          "Sitecore’s core competency and future technology delivers unparalleled leadership in the industry, and lend the flexibility and reliability needed to support our enterprise organizations now and in the future.",
+          "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+          "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Apply safe corrections and review errors without an unambiguous correction.",
+          "suggestedCorrections": [
+            {
+              "original": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+              "suggestion": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries connect and engagement with their customers more effectively.",
+              "pageQuote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+              "problemSpan": "industries,",
+              "edit": {
+                "start": 100,
+                "length": 11,
+                "replacement": "industries"
+              }
+            },
+            {
+              "original": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+              "suggestion": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+              "pageQuote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+              "problemSpan": "redesign,",
+              "edit": {
+                "start": 24,
+                "length": 9,
+                "replacement": "redesign"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_14dcfd492851483ba355ba830a4aa759",
+          "systemFingerprint": null,
+          "inputHash": "35E06E9E70DBA3E0917914F4B07A1CEA81BBAEB7FCB8DD410A72A1BE68BAAEF7",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 2472,
+          "completionTokens": 295,
+          "totalTokens": 2767,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_eea7d2d9f96846149aa1504257bbd197",
+          "systemFingerprint": null,
+          "inputHash": "35E06E9E70DBA3E0917914F4B07A1CEA81BBAEB7FCB8DD410A72A1BE68BAAEF7",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 1666,
+          "completionTokens": 21,
+          "totalTokens": 1687,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_624039c8ea094105af3f210737852999",
+          "systemFingerprint": null,
+          "inputHash": "35E06E9E70DBA3E0917914F4B07A1CEA81BBAEB7FCB8DD410A72A1BE68BAAEF7",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 1809,
+          "completionTokens": 9099,
+          "totalTokens": 10908,
+          "reasoningTokens": 8394
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  }
+]

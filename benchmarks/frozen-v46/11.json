@@ -1,0 +1,160 @@
+{
+  "url": "http://127.0.0.1:8089/cylogy-google-analytics-mismatch.html",
+  "finalUrl": "http://127.0.0.1:8089/cylogy-google-analytics-mismatch.html",
+  "outputLanguage": "en",
+  "executedAt": "2026-09-08T22:40:20.8483911+00:00",
+  "capture": {
+    "statusCode": 200,
+    "finalUrl": "http://127.0.0.1:8089/cylogy-google-analytics-mismatch.html",
+    "html": "\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022en-US\u0022 data-versa-display=\u0022block\u0022 data-versa-layout-version=\u00221\u0022\u003E\u003Chead data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta charset=\u0022utf-8\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Ctitle data-versa-display=\u0022none\u0022\u003EWhat is Umbraco CMS? | Cylogy\u003C/title\u003E\n  \u003Cmeta name=\u0022description\u0022 content=\u0022Google Analytics technology page captured from Cylogy.\u0022 data-versa-display=\u0022none\u0022\u003E\n\u003C/head\u003E\n\u003Cbody data-versa-display=\u0022block\u0022\u003E\n  \u003Cmain data-versa-display=\u0022block\u0022\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003EGoogle Analytics is a powerful web analytics tool that provides comprehensive insights and data about website traffic, user behavior, and performance metrics.\u003C/p\u003E\n    \u003Ch1 data-versa-display=\u0022block\u0022\u003EGoogle Analytics\u003C/h1\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003EUmbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business.\u003C/p\u003E\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EWhat is Umbraco?\u003C/h2\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003EUmbraco is a fast-growing CMS with flexible content management, an intuitive editing experience, cloud hosting, extensions, and cross-platform support.\u003C/p\u003E\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EWhy Umbraco is a Great Mid-Market Solution\u003C/h2\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003EUmbraco provides product versions tailored to major client use cases and is a configurable platform for developers, designers, and editors.\u003C/p\u003E\n  \u003C/main\u003E\n\n\n\u003C/body\u003E\u003C/html\u003E",
+    "bodyText": "Google Analytics is a powerful web analytics tool that provides comprehensive insights and data about website traffic, user behavior, and performance metrics.\n\nGoogle Analytics\n\nUmbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business.\n\nWhat is Umbraco?\n\nUmbraco is a fast-growing CMS with flexible content management, an intuitive editing experience, cloud hosting, extensions, and cross-platform support.\n\nWhy Umbraco is a Great Mid-Market Solution\n\nUmbraco provides product versions tailored to major client use cases and is a configurable platform for developers, designers, and editors.",
+    "bodyWordCount": 92
+  },
+  "metadata": {
+    "title": "What is Umbraco CMS? | Cylogy",
+    "metaDescription": "Google Analytics technology page captured from Cylogy.",
+    "canonicalUrl": "http://127.0.0.1:8089/cylogy-google-analytics-mismatch.html",
+    "language": "en-US"
+  },
+  "structuralOutline": {
+    "markdown": "\u003Cprose\u003EGoogle Analytics is a powerful web analytics tool that provides comprehensive insights and data about website traffic, user behavior, and performance metrics.\u003C/prose\u003E\n\n\u003Cheading level=\u00221\u0022\u003EGoogle Analytics\u003C/heading\u003E\n\n\u003Cprose\u003EUmbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EWhat is Umbraco?\u003C/heading\u003E\n\n\u003Cprose\u003EUmbraco is a fast-growing CMS with flexible content management, an intuitive editing experience, cloud hosting, extensions, and cross-platform support.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EWhy Umbraco is a Great Mid-Market Solution\u003C/heading\u003E\n\n\u003Cprose\u003EUmbraco provides product versions tailored to major client use cases and is a configurable platform for developers, designers, and editors.\u003C/prose\u003E",
+    "summary": {
+      "estimatedTokens": 201,
+      "truncatedByTextLimit": false
+    }
+  },
+  "analysis": {
+    "observations": {
+      "mainContentLanguage": "en",
+      "mainContentLanguageEvidence": "Google Analytics is a powerful web analytics tool that provides comprehensive insights and data about website traffic, user behavior, and performance metrics.",
+      "pagePurpose": "Explain what Umbraco CMS is and why it may be a suitable mid-market content management solution.",
+      "pageSummary": "This page is a short informational article about Umbraco CMS. It describes Umbraco as a flexible, open-source content management system and highlights features such as editing experience, cloud hosting, extensions, and cross-platform support. The visible audience appears to be people evaluating CMS options, especially developers, designers, and editors."
+    },
+    "sensitiveTopicAssessment": {
+      "status": "not_applicable",
+      "evidenceQuote": "",
+      "reason": ""
+    },
+    "titlePromiseAssessment": {
+      "titleQuote": "Google Analytics",
+      "titlePromise": "The title promises information about Google Analytics, a web analytics tool and related analytics concepts.",
+      "fulfillment": "not_fulfilled",
+      "reason": "The body mainly develops Umbraco CMS rather than Google Analytics, so the title\u2019s central expectation is not delivered by the substantive content.",
+      "bodyEvidenceQuote": "Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business."
+    },
+    "sensitiveTopicValidation": {
+      "status": "valid",
+      "reason": "no_sensitive_guidance_detected",
+      "normalizedEvidenceQuote": ""
+    },
+    "issues": [
+      {
+        "code": "title_body_mismatch",
+        "reason": "The body mainly develops Umbraco CMS rather than Google Analytics, so the title\u2019s central expectation is not delivered by the substantive content.",
+        "pageQuotes": [
+          "Google Analytics",
+          "Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Align the title with the main content or revise the body so it clearly delivers the title\u0027s promise.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_dde2db4d74a64cd49ce7af31d722664c",
+          "systemFingerprint": null,
+          "inputHash": "4C3D6B7E0153A1AB83BA9004DFBA680BDDFB9B5DF63AB9C8C947F26281DDFA45",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1626,
+          "completionTokens": 267,
+          "totalTokens": 1893,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_bd209d5f0d784e968264eaa5db433755",
+          "systemFingerprint": null,
+          "inputHash": "4C3D6B7E0153A1AB83BA9004DFBA680BDDFB9B5DF63AB9C8C947F26281DDFA45",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 820,
+          "completionTokens": 21,
+          "totalTokens": 841,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_7a292f2592b443fe83e153448810a2ef",
+          "systemFingerprint": null,
+          "inputHash": "4C3D6B7E0153A1AB83BA9004DFBA680BDDFB9B5DF63AB9C8C947F26281DDFA45",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 963,
+          "completionTokens": 341,
+          "totalTokens": 1304,
+          "reasoningTokens": 321
+        },
+        "error": null
+      }
+    ],
+    "classification": {
+      "type": "unhealthy",
+      "confidence": null,
+      "confidenceBasis": "not_calibrated",
+      "insufficientEvidence": false
+    },
+    "externalVerification": {
+      "enabled": false,
+      "skipped": true
+    }
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "webSourceUrls": []
+  }
+}

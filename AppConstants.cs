@@ -8,6 +8,10 @@ internal static class AppConstants
     // OpenAI
     public static readonly string IntentModel = Environment.GetEnvironmentVariable("VERSA_INTENT_MODEL") ?? "gpt-4.1-mini";
     public static readonly string DiagnosisModel = Environment.GetEnvironmentVariable("VERSA_DIAGNOSIS_MODEL") ?? "gpt-4.1-mini";
+    // The intrinsic auditor is one local-only model call over the page snapshot.
+    public static readonly string IntrinsicAuditModel = Environment.GetEnvironmentVariable("VERSA_INTRINSIC_AUDIT_MODEL") ?? "gpt-5.4-mini";
+    public static readonly string SensorIntrinsicAuditModel = Environment.GetEnvironmentVariable("VERSA_SENSOR_INTRINSIC_AUDIT_MODEL") ?? "gpt-5.4-mini";
+    public static readonly string TaxonomyDiscoveryModel = Environment.GetEnvironmentVariable("VERSA_TAXONOMY_DISCOVERY_MODEL") ?? "gpt-5.4-mini";
     public static readonly string VerificationSelectionModel = Environment.GetEnvironmentVariable("VERSA_VERIFICATION_SELECTION_MODEL") ?? "gpt-5.4-mini";
     public static readonly string FactCheckModel = Environment.GetEnvironmentVariable("VERSA_FACT_CHECK_MODEL") ?? "gpt-5.4-mini";
     public static readonly string RecommendationModel = Environment.GetEnvironmentVariable("VERSA_RECOMMENDATION_MODEL") ?? "gpt-4.1-mini";
@@ -21,6 +25,13 @@ internal static class AppConstants
         && useExternalEvidenceSearch;
     public static readonly string TavilyApiKey = Environment.GetEnvironmentVariable("TAVILY_API_KEY") ?? string.Empty;
     public static readonly string TavilyBaseUrl = "https://api.tavily.com/";
+
+    // The secondary pipeline can use OpenAI Web Search as its evidence provider.
+    // Keep Tavily selectable while we compare quality and cost on the benchmark.
+    public static readonly string SecondaryEvidenceProvider =
+        Environment.GetEnvironmentVariable("VERSA_SECONDARY_EVIDENCE_PROVIDER") ?? "openai_web";
+    public static readonly string SecondaryWebSearchModel =
+        Environment.GetEnvironmentVariable("VERSA_SECONDARY_WEB_SEARCH_MODEL") ?? "gpt-5.6-terra";
 
     // Anthropic — set Provider = "anthropic" and fill AnthropicApiKey to use Claude
     public static readonly string AnthropicModel = Environment.GetEnvironmentVariable("VERSA_ANTHROPIC_MODEL") ?? "claude-haiku-4-5-20251001";

@@ -1,0 +1,230 @@
+{
+  "url": "http://127.0.0.1:8088/pages/sensitive-topic-bad.html",
+  "finalUrl": "http://127.0.0.1:8088/pages/sensitive-topic-bad.html",
+  "outputLanguage": "en",
+  "executedAt": "2026-09-08T22:40:36.809921+00:00",
+  "capture": {
+    "statusCode": 200,
+    "finalUrl": "http://127.0.0.1:8088/pages/sensitive-topic-bad.html",
+    "html": "\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022en\u0022 data-versa-display=\u0022block\u0022 data-versa-layout-version=\u00221\u0022\u003E\u003Chead data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta charset=\u0022UTF-8\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1.0\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta name=\u0022description\u0022 content=\u0022A support note on handling user messages about self-harm, written without warning or escalation context.\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Ctitle data-versa-display=\u0022none\u0022\u003EHow Support Agents Should Reply to Self-Harm Messages \u2014 Meridian Help\u003C/title\u003E\n  \u003Clink rel=\u0022canonical\u0022 href=\u0022https://test.versacontent.com/pages/sensitive-topic-bad.html\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cstyle data-versa-display=\u0022none\u0022\u003E\n    * { margin: 0; padding: 0; box-sizing: border-box; }\n    body { font-family: -apple-system, BlinkMacSystemFont, \u0027Segoe UI\u0027, Roboto, sans-serif; color: #1a1a2e; line-height: 1.7; background: #fff; }\n    header { background: #1a1a2e; color: #fff; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }\n    header .logo { font-weight: 700; font-size: 1.25rem; }\n    header nav a { color: #a0a0c0; text-decoration: none; margin-left: 1.5rem; font-size: 0.9rem; }\n    main { max-width: 780px; margin: 2rem auto; padding: 0 1.5rem; }\n    h1 { font-size: 2rem; margin-bottom: 1rem; line-height: 1.3; }\n    h2 { font-size: 1.3rem; margin: 2rem 0 0.75rem; }\n    p { margin-bottom: 1rem; color: #333; }\n    ol { margin: 0 0 1rem 1.5rem; }\n    li { margin-bottom: 0.5rem; }\n    .meta { font-size: 0.85rem; color: #666; margin-bottom: 1.5rem; }\n    footer { background: #f8f8fc; border-top: 1px solid #e0e0e8; padding: 2rem; margin-top: 3rem; text-align: center; font-size: 0.85rem; color: #666; }\n    footer a { color: #4361ee; text-decoration: none; }\n  \u003C/style\u003E\n\u003C/head\u003E\n\u003Cbody data-versa-display=\u0022block\u0022\u003E\n  \u003Cheader data-versa-display=\u0022flex\u0022\u003E\n    \u003Cdiv class=\u0022logo\u0022 data-versa-display=\u0022block\u0022\u003EMeridian Digital\u003C/div\u003E\n    \u003Cnav data-versa-display=\u0022block\u0022\u003E\n      \u003Ca href=\u0022/pages/healthy-product\u0022 data-versa-display=\u0022inline\u0022\u003EProduct\u003C/a\u003E\n      \u003Ca href=\u0022/pages/healthy-pricing\u0022 data-versa-display=\u0022inline\u0022\u003EPricing\u003C/a\u003E\n      \u003Ca href=\u0022/pages/healthy-contact\u0022 data-versa-display=\u0022inline\u0022\u003EContact\u003C/a\u003E\n      \u003Ca href=\u0022/pages/hub-index\u0022 data-versa-display=\u0022inline\u0022\u003EBlog\u003C/a\u003E\n    \u003C/nav\u003E\n  \u003C/header\u003E\n  \u003Cmain data-versa-display=\u0022block\u0022\u003E\n    \u003Ch1 data-versa-display=\u0022block\u0022\u003EHow Support Agents Should Reply to Self-Harm Messages\u003C/h1\u003E\n    \u003Cp class=\u0022meta\u0022 data-versa-display=\u0022block\u0022\u003ELast updated March 2022 by Support Operations\u003C/p\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003EWhen users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible. Long emotional exchanges slow queue time and usually do not change the outcome.\u003C/p\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003ERecommended response flow\u003C/h2\u003E\n    \u003Col data-versa-display=\u0022block\u0022\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003EAcknowledge the message with one short line.\u003C/li\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003ETell the user support cannot help with personal crises.\u003C/li\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003EClose the ticket if the user keeps repeating the same statements.\u003C/li\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003EReturn to any unresolved billing or login issue in the next reply.\u003C/li\u003E\n    \u003C/ol\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003EIf the language becomes graphic, do not copy any of it into internal notes. Just mention that the user was unstable and move on. Escalation is optional unless the user is blocking other queue work.\u003C/p\u003E\n  \u003C/main\u003E\n  \u003Cfooter data-versa-display=\u0022block\u0022\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003E\u00A9 2025 Meridian Digital Inc. All rights reserved. | \u003Ca href=\u0022/pages/healthy-legal\u0022 data-versa-display=\u0022inline\u0022\u003ETerms\u003C/a\u003E | \u003Ca href=\u0022mailto:hello@meridian.digital\u0022 data-versa-display=\u0022inline\u0022\u003Ehello@meridian.digital\u003C/a\u003E | \u002B1 (415) 555-0120\u003C/p\u003E\n  \u003C/footer\u003E\n\n\n\u003C/body\u003E\u003C/html\u003E",
+    "bodyText": "Meridian Digital\nProduct Pricing Contact Blog\nHow Support Agents Should Reply to Self-Harm Messages\n\nLast updated March 2022 by Support Operations\n\nWhen users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible. Long emotional exchanges slow queue time and usually do not change the outcome.\n\nRecommended response flow\nAcknowledge the message with one short line.\nTell the user support cannot help with personal crises.\nClose the ticket if the user keeps repeating the same statements.\nReturn to any unresolved billing or login issue in the next reply.\n\nIf the language becomes graphic, do not copy any of it into internal notes. Just mention that the user was unstable and move on. Escalation is optional unless the user is blocking other queue work.\n\n\u00A9 2025 Meridian Digital Inc. All rights reserved. | Terms | hello@meridian.digital | \u002B1 (415) 555-0120",
+    "bodyWordCount": 156
+  },
+  "metadata": {
+    "title": "How Support Agents Should Reply to Self-Harm Messages \u2014 Meridian Help",
+    "metaDescription": "A support note on handling user messages about self-harm, written without warning or escalation context.",
+    "canonicalUrl": "https://test.versacontent.com/pages/sensitive-topic-bad.html",
+    "language": "en"
+  },
+  "structuralOutline": {
+    "markdown": "\u003Cui_text\u003EMeridian Digital\u003C/ui_text\u003E\n\n\u003Cheading level=\u00221\u0022\u003EHow Support Agents Should Reply to Self-Harm Messages\u003C/heading\u003E\n\n\u003Cprose\u003ELast updated March 2022 by Support Operations\u003C/prose\u003E\n\n\u003Cprose\u003EWhen users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible. Long emotional exchanges slow queue time and usually do not change the outcome.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003ERecommended response flow\u003C/heading\u003E\n\n\u003Clist_item\u003EAcknowledge the message with one short line.\u003C/list_item\u003E\n\n\u003Clist_item\u003ETell the user support cannot help with personal crises.\u003C/list_item\u003E\n\n\u003Clist_item\u003EClose the ticket if the user keeps repeating the same statements.\u003C/list_item\u003E\n\n\u003Clist_item\u003EReturn to any unresolved billing or login issue in the next reply.\u003C/list_item\u003E\n\n\u003Cprose\u003EIf the language becomes graphic, do not copy any of it into internal notes. Just mention that the user was unstable and move on. Escalation is optional unless the user is blocking other queue work.\u003C/prose\u003E",
+    "summary": {
+      "estimatedTokens": 265,
+      "truncatedByTextLimit": false
+    }
+  },
+  "analysis": {
+    "observations": {
+      "mainContentLanguage": "en",
+      "mainContentLanguageEvidence": "When users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible.",
+      "pagePurpose": "The page explains how support agents are expected to respond to self-harm-related messages from users.",
+      "pageSummary": "This is an internal support guidance page for Meridian Digital. It addresses how support agents should reply when users send self-harm messages and outlines a response flow for handling those conversations while redirecting back to product issues. The intended audience is support agents or support operations staff."
+    },
+    "sensitiveTopicAssessment": {
+      "status": "deficient",
+      "evidenceQuote": "When users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible.",
+      "reason": "The page provides reader-facing guidance for responding to self-harm messages, and this guidance prioritizes redirecting away from the crisis and minimizing escalation rather than offering appropriate safety handling."
+    },
+    "titlePromiseAssessment": {
+      "titleQuote": "How Support Agents Should Reply to Self-Harm Messages",
+      "titlePromise": "The page should explain how support agents should respond to messages about self-harm.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly develops the same subject by giving guidance on handling self-harm messages, including what agents should say and how they should proceed.",
+      "bodyEvidenceQuote": "When users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "When users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible."
+    },
+    "sensitiveTopicValidation": {
+      "status": "valid",
+      "reason": "deficiency_proven_by_literal_evidence",
+      "normalizedEvidenceQuote": "When users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible."
+    },
+    "issues": [
+      {
+        "code": "brand_safety_risk",
+        "reason": "The page instructs agents to minimize and redirect self-harm disclosures rather than respond with appropriate crisis handling, which is unsafe guidance in a sensitive context.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "When users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-183"
+          },
+          {
+            "quote": "Tell the user support cannot help with personal crises.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "list_item",
+            "blockId": "block-588"
+          },
+          {
+            "quote": "Close the ticket if the user keeps repeating the same statements.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "list_item",
+            "blockId": "block-668"
+          },
+          {
+            "quote": "If the language becomes graphic, do not copy any of it into internal notes. Just mention that the user was unstable and move on. Escalation is optional unless the user is blocking other queue work.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-849"
+          }
+        ],
+        "pageQuotes": [
+          "When users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible.",
+          "Tell the user support cannot help with personal crises.",
+          "Close the ticket if the user keeps repeating the same statements.",
+          "If the language becomes graphic, do not copy any of it into internal notes. Just mention that the user was unstable and move on. Escalation is optional unless the user is blocking other queue work."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Remove or rewrite the cited language to avoid abusive, discriminatory, humiliating, or coercive treatment.",
+          "suggestedCorrections": []
+        }
+      },
+      {
+        "code": "sensitive_topic_without_context",
+        "reason": "The page provides reader-facing guidance for responding to self-harm messages, and this guidance prioritizes redirecting away from the crisis and minimizing escalation rather than offering appropriate safety handling.",
+        "pageQuotes": [
+          "When users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Revise the cited guidance to include appropriate boundaries, safety context, and escalation.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_ac5e1d66fa6c4f008067f7d37b8981af",
+          "systemFingerprint": null,
+          "inputHash": "7F63C490B78BD7F0F8012DDA23073DC9DBD5F7D06F72B27BBC174AA63C1A2417",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1690,
+          "completionTokens": 485,
+          "totalTokens": 2175,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_c9d0b797e0294ee694e8c4414283215c",
+          "systemFingerprint": null,
+          "inputHash": "7F63C490B78BD7F0F8012DDA23073DC9DBD5F7D06F72B27BBC174AA63C1A2417",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 884,
+          "completionTokens": 21,
+          "totalTokens": 905,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_43ef390e1d274b6fb3ed0841e4daad09",
+          "systemFingerprint": null,
+          "inputHash": "7F63C490B78BD7F0F8012DDA23073DC9DBD5F7D06F72B27BBC174AA63C1A2417",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 1027,
+          "completionTokens": 389,
+          "totalTokens": 1416,
+          "reasoningTokens": 369
+        },
+        "error": null
+      }
+    ],
+    "classification": {
+      "type": "unhealthy",
+      "confidence": null,
+      "confidenceBasis": "not_calibrated",
+      "insufficientEvidence": false
+    },
+    "externalVerification": {
+      "enabled": false,
+      "skipped": true
+    }
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "webSourceUrls": []
+  }
+}

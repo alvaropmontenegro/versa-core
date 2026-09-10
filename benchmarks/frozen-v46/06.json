@@ -1,0 +1,212 @@
+{
+  "url": "http://127.0.0.1:8088/pages/writing-errors.html",
+  "finalUrl": "http://127.0.0.1:8088/pages/writing-errors.html",
+  "outputLanguage": "en",
+  "executedAt": "2026-09-08T22:39:26.0298139+00:00",
+  "capture": {
+    "statusCode": 200,
+    "finalUrl": "http://127.0.0.1:8088/pages/writing-errors.html",
+    "html": "\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022en\u0022 data-versa-display=\u0022block\u0022 data-versa-layout-version=\u00221\u0022\u003E\u003Chead data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta charset=\u0022UTF-8\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Ctitle data-versa-display=\u0022none\u0022\u003EPreparing for a Client Workshop \u2014 Meridian Digital\u003C/title\u003E\n\u003C/head\u003E\n\u003Cbody data-versa-display=\u0022block\u0022\u003E\n  \u003Cmain data-versa-display=\u0022block\u0022\u003E\n    \u003Ch1 data-versa-display=\u0022block\u0022\u003EPreparing for a Client Workshop\u003C/h1\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003EA successful workshop begins with a shared agenda and a clear list of decisions.\u003C/p\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003EEach facilitator are responsible for collecting inputs before the session. The final agenda definately includes time for questions and next steps.\u003C/p\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003ESend the agenda to participants two days before the workshop.\u003C/p\u003E\n  \u003C/main\u003E\n\n\n\u003C/body\u003E\u003C/html\u003E",
+    "bodyText": "Preparing for a Client Workshop\n\nA successful workshop begins with a shared agenda and a clear list of decisions.\n\nEach facilitator are responsible for collecting inputs before the session. The final agenda definately includes time for questions and next steps.\n\nSend the agenda to participants two days before the workshop.",
+    "bodyWordCount": 50
+  },
+  "metadata": {
+    "title": "Preparing for a Client Workshop \u2014 Meridian Digital",
+    "canonicalUrl": "http://127.0.0.1:8088/pages/writing-errors.html",
+    "language": "en"
+  },
+  "structuralOutline": {
+    "markdown": "\u003Cheading level=\u00221\u0022\u003EPreparing for a Client Workshop\u003C/heading\u003E\n\n\u003Cprose\u003EA successful workshop begins with a shared agenda and a clear list of decisions.\u003C/prose\u003E\n\n\u003Cprose\u003EEach facilitator are responsible for collecting inputs before the session. The final agenda definately includes time for questions and next steps.\u003C/prose\u003E\n\n\u003Cprose\u003ESend the agenda to participants two days before the workshop.\u003C/prose\u003E",
+    "summary": {
+      "estimatedTokens": 99,
+      "truncatedByTextLimit": false
+    }
+  },
+  "analysis": {
+    "observations": {
+      "mainContentLanguage": "en",
+      "mainContentLanguageEvidence": "A successful workshop begins with a shared agenda and a clear list of decisions.",
+      "pagePurpose": "Help readers prepare for and run a client workshop by outlining agenda planning, facilitator responsibilities, and timing for sending materials.",
+      "pageSummary": "This page is a short instructional piece about preparing for a client workshop. It focuses on creating a shared agenda, assigning facilitator tasks, and sending the agenda to participants before the session. The intended audience appears to be people organizing or facilitating client workshops."
+    },
+    "sensitiveTopicAssessment": {
+      "status": "not_applicable",
+      "evidenceQuote": "",
+      "reason": ""
+    },
+    "titlePromiseAssessment": {
+      "titleQuote": "Preparing for a Client Workshop",
+      "titlePromise": "The page is expected to explain how to prepare for a client workshop.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the same subject with practical preparation guidance, including agenda planning, facilitator responsibilities, and timing for sharing the agenda.",
+      "bodyEvidenceQuote": "A successful workshop begins with a shared agenda and a clear list of decisions."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "A successful workshop begins with a shared agenda and a clear list of decisions."
+    },
+    "sensitiveTopicValidation": {
+      "status": "valid",
+      "reason": "no_sensitive_guidance_detected",
+      "normalizedEvidenceQuote": ""
+    },
+    "issues": [
+      {
+        "code": "writing_errors",
+        "reason": "\u0022Each facilitator\u0022 is singular, so it requires the singular verb \u0022is\u0022 rather than \u0022are\u0022. \u0022definately\u0022 is a misspelling of \u0022definitely\u0022 in this sentence.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "defectConfirmed": true,
+            "rule": "Subject-verb agreement: a singular subject takes a singular verb.",
+            "quote": "Each facilitator are responsible for collecting inputs before the session.",
+            "purpose": "writing_error",
+            "errorType": "agreement",
+            "problemSpan": "are",
+            "explanation": "\u0022Each facilitator\u0022 is singular, so it requires the singular verb \u0022is\u0022 rather than \u0022are\u0022.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "correctionPolicy": "grammar_requires_human_review",
+            "blockRole": "prose",
+            "blockId": "block-159"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "Standard spelling of the word \u0022definitely\u0022.",
+            "quote": "The final agenda definately includes time for questions and next steps.",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "definately",
+            "explanation": "\u0022definately\u0022 is a misspelling of \u0022definitely\u0022 in this sentence.",
+            "correctionStatus": "safe",
+            "correctedQuote": "The final agenda definitely includes time for questions and next steps.",
+            "blockRole": "prose",
+            "blockId": "block-159",
+            "edit": {
+              "start": 17,
+              "length": 10,
+              "replacement": "definitely"
+            },
+            "editValidation": "localized_only_not_linguistic_verification"
+          }
+        ],
+        "pageQuotes": [
+          "Each facilitator are responsible for collecting inputs before the session.",
+          "The final agenda definately includes time for questions and next steps."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Apply safe corrections and review errors without an unambiguous correction.",
+          "suggestedCorrections": [
+            {
+              "original": "The final agenda definately includes time for questions and next steps.",
+              "suggestion": "The final agenda definitely includes time for questions and next steps.",
+              "pageQuote": "The final agenda definately includes time for questions and next steps.",
+              "problemSpan": "definately",
+              "edit": {
+                "start": 17,
+                "length": 10,
+                "replacement": "definitely"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_ba3710c712d34b57b37f37df7034da09",
+          "systemFingerprint": null,
+          "inputHash": "292DCBF8F81A2D9CB62C68FE1306F05D1BB81D75018A7F2C957196F45A797D4E",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1527,
+          "completionTokens": 230,
+          "totalTokens": 1757,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_ed9d45d93b3b4d0dbd2317278f8d0fa6",
+          "systemFingerprint": null,
+          "inputHash": "292DCBF8F81A2D9CB62C68FE1306F05D1BB81D75018A7F2C957196F45A797D4E",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 721,
+          "completionTokens": 21,
+          "totalTokens": 742,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_cf4e6e8fdc4e460d9c83dc97471bd4e5",
+          "systemFingerprint": null,
+          "inputHash": "292DCBF8F81A2D9CB62C68FE1306F05D1BB81D75018A7F2C957196F45A797D4E",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 864,
+          "completionTokens": 523,
+          "totalTokens": 1387,
+          "reasoningTokens": 330
+        },
+        "error": null
+      }
+    ],
+    "classification": {
+      "type": "unhealthy",
+      "confidence": null,
+      "confidenceBasis": "not_calibrated",
+      "insufficientEvidence": false
+    },
+    "externalVerification": {
+      "enabled": false,
+      "skipped": true
+    }
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "webSourceUrls": []
+  }
+}

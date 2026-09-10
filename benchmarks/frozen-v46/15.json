@@ -1,0 +1,363 @@
+{
+  "url": "http://127.0.0.1:8089/endesa-santa-coloma-placeholder.html",
+  "finalUrl": "http://127.0.0.1:8089/endesa-santa-coloma-placeholder.html",
+  "outputLanguage": "en",
+  "executedAt": "2026-09-08T22:41:40.7894352+00:00",
+  "capture": {
+    "statusCode": 200,
+    "finalUrl": "http://127.0.0.1:8089/endesa-santa-coloma-placeholder.html",
+    "html": "\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022es\u0022 data-versa-display=\u0022block\u0022 data-versa-layout-version=\u00221\u0022\u003E\u003Chead data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta charset=\u0022utf-8\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Ctitle data-versa-display=\u0022none\u0022\u003EOficina Endesa Energuia Web\u003C/title\u003E\n\u003C/head\u003E\n\u003Cbody data-versa-display=\u0022block\u0022\u003E\n  \u003Cmain data-versa-display=\u0022block\u0022\u003E\n    \u003Ch1 data-versa-display=\u0022block\u0022\u003ECalle Rambla de San Sebasti\u00E1n, 42, Santa Coloma De Gramenet, Barcelona\u003C/h1\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003EEncuentra tu Punto Endesa m\u00E1s cercano para contratar Energ\u00EDa, Placas Solares o Movilidad el\u00E9ctrica\u003C/p\u003E\n    \u003Csection data-versa-display=\u0022block\u0022\u003E\n      \u003Cdiv data-versa-display=\u0022block\u0022\u003EServicios disponibles\u003C/div\u003E\n      \u003Cdiv data-versa-display=\u0022block\u0022\u003ELoresm imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl.\u003C/div\u003E\n      \u003Ca href=\u0022#cita\u0022 data-versa-display=\u0022inline\u0022\u003EPedir cita\u003C/a\u003E\n    \u003C/section\u003E\n    \u003Csection data-versa-display=\u0022block\u0022\u003E\n      \u003Cp data-versa-display=\u0022block\u0022\u003EToma una decision formidable\u003C/p\u003E\n      \u003Cp data-versa-display=\u0022block\u0022\u003ESin permanencia: puedes cambiarte de tarifa (o de compa\u00F1ia) sin penalizaci\u00F3n.\u003C/p\u003E\n    \u003C/section\u003E\n  \u003C/main\u003E\n\n\n\u003C/body\u003E\u003C/html\u003E",
+    "bodyText": "Calle Rambla de San Sebasti\u00E1n, 42, Santa Coloma De Gramenet, Barcelona\n\nEncuentra tu Punto Endesa m\u00E1s cercano para contratar Energ\u00EDa, Placas Solares o Movilidad el\u00E9ctrica\n\nServicios disponibles\nLoresm imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl.\nPedir cita\n\nToma una decision formidable\n\nSin permanencia: puedes cambiarte de tarifa (o de compa\u00F1ia) sin penalizaci\u00F3n.",
+    "bodyWordCount": 76
+  },
+  "metadata": {
+    "title": "Oficina Endesa Energuia Web",
+    "canonicalUrl": "http://127.0.0.1:8089/endesa-santa-coloma-placeholder.html",
+    "language": "es"
+  },
+  "structuralOutline": {
+    "markdown": "\u003Cheading level=\u00221\u0022\u003ECalle Rambla de San Sebasti\u00E1n, 42, Santa Coloma De Gramenet, Barcelona\u003C/heading\u003E\n\n\u003Cprose\u003EEncuentra tu Punto Endesa m\u00E1s cercano para contratar Energ\u00EDa, Placas Solares o Movilidad el\u00E9ctrica\u003C/prose\u003E\n\n\u003Cui_text\u003EServicios disponibles\u003C/ui_text\u003E\n\n\u003Cui_text\u003ELoresm imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl.\u003C/ui_text\u003E\n\n\u003Ccta\u003EPedir cita\u003C/cta\u003E\n\n\u003Cprose\u003EToma una decision formidable\u003C/prose\u003E\n\n\u003Cprose\u003ESin permanencia: puedes cambiarte de tarifa (o de compa\u00F1ia) sin penalizaci\u00F3n.\u003C/prose\u003E",
+    "summary": {
+      "estimatedTokens": 166,
+      "truncatedByTextLimit": false
+    }
+  },
+  "analysis": {
+    "observations": {
+      "mainContentLanguage": "es",
+      "mainContentLanguageEvidence": "Encuentra tu Punto Endesa m\u00E1s cercano para contratar Energ\u00EDa, Placas Solares o Movilidad el\u00E9ctrica",
+      "pagePurpose": "Help visitors understand a specific Endesa location in Santa Coloma de Gramenet and the services available there, with a call to book an appointment.",
+      "pageSummary": "This is a Spanish-language location page for an Endesa office at Calle Rambla de San Sebasti\u00E1n, 42, in Santa Coloma de Gramenet, Barcelona. It promotes nearby Endesa services such as energy, solar panels, and electric mobility, and includes a call to action to request an appointment. The page also notes that there is no permanence and that users can change tariff or company without penalty."
+    },
+    "sensitiveTopicAssessment": {
+      "status": "not_applicable",
+      "evidenceQuote": "",
+      "reason": "The page does not provide guidance for a high-stakes sensitive situation."
+    },
+    "titlePromiseAssessment": {
+      "titleQuote": "Calle Rambla de San Sebasti\u00E1n, 42, Santa Coloma De Gramenet, Barcelona",
+      "titlePromise": "The page is expected to provide information about the office or location at this specific street address in Santa Coloma de Gramenet, Barcelona.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively matches the title by presenting the same address and then describing Endesa services and appointment booking at that location.",
+      "bodyEvidenceQuote": "Encuentra tu Punto Endesa m\u00E1s cercano para contratar Energ\u00EDa, Placas Solares o Movilidad el\u00E9ctrica"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Encuentra tu Punto Endesa m\u00E1s cercano para contratar Energ\u00EDa, Placas Solares o Movilidad el\u00E9ctrica"
+    },
+    "sensitiveTopicValidation": {
+      "status": "valid",
+      "reason": "no_sensitive_guidance_detected",
+      "normalizedEvidenceQuote": ""
+    },
+    "issues": [
+      {
+        "code": "published_placeholder_content",
+        "reason": "Reader-facing content is visibly published as placeholder filler and contains the explicit marker \u0022Lorem ipsum\u0022.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Loresm imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "ui_text",
+            "blockId": "block-258"
+          }
+        ],
+        "pageQuotes": [
+          "Loresm imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Replace the cited placeholder content with reviewed final copy before keeping the page published.",
+          "suggestedCorrections": []
+        }
+      },
+      {
+        "code": "writing_errors",
+        "reason": "In this sentence, \u0022decision\u0022 is missing the required accent; it should be \u0022decisi\u00F3n\u0022. In this sentence, \u0022compa\u00F1ia\u0022 is missing the required accent; it should be \u0022compa\u00F1\u00EDa\u0022.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "defectConfirmed": true,
+            "rule": "Spanish spelling rule: the word needs an accent mark.",
+            "quote": "Toma una decision formidable",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "decision",
+            "explanation": "In this sentence, \u0022decision\u0022 is missing the required accent; it should be \u0022decisi\u00F3n\u0022.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Toma una decisi\u00F3n formidable",
+            "blockRole": "prose",
+            "blockId": "block-527",
+            "edit": {
+              "start": 9,
+              "length": 8,
+              "replacement": "decisi\u00F3n"
+            },
+            "editValidation": "localized_only_not_linguistic_verification"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "Spanish spelling rule: the word needs an accent mark.",
+            "quote": "Sin permanencia: puedes cambiarte de tarifa (o de compa\u00F1ia) sin penalizaci\u00F3n.",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "compa\u00F1ia",
+            "explanation": "In this sentence, \u0022compa\u00F1ia\u0022 is missing the required accent; it should be \u0022compa\u00F1\u00EDa\u0022.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Sin permanencia: puedes cambiarte de tarifa (o de compa\u00F1\u00EDa) sin penalizaci\u00F3n.",
+            "blockRole": "prose",
+            "blockId": "block-572",
+            "edit": {
+              "start": 50,
+              "length": 8,
+              "replacement": "compa\u00F1\u00EDa"
+            },
+            "editValidation": "localized_only_not_linguistic_verification"
+          }
+        ],
+        "pageQuotes": [
+          "Toma una decision formidable",
+          "Sin permanencia: puedes cambiarte de tarifa (o de compa\u00F1ia) sin penalizaci\u00F3n."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Correct the objective writing errors identified in the cited sentences.",
+          "suggestedCorrections": [
+            {
+              "original": "Toma una decision formidable",
+              "suggestion": "Toma una decisi\u00F3n formidable",
+              "pageQuote": "Toma una decision formidable",
+              "problemSpan": "decision",
+              "edit": {
+                "start": 9,
+                "length": 8,
+                "replacement": "decisi\u00F3n"
+              }
+            },
+            {
+              "original": "Sin permanencia: puedes cambiarte de tarifa (o de compa\u00F1ia) sin penalizaci\u00F3n.",
+              "suggestion": "Sin permanencia: puedes cambiarte de tarifa (o de compa\u00F1\u00EDa) sin penalizaci\u00F3n.",
+              "pageQuote": "Sin permanencia: puedes cambiarte de tarifa (o de compa\u00F1ia) sin penalizaci\u00F3n.",
+              "problemSpan": "compa\u00F1ia",
+              "edit": {
+                "start": 50,
+                "length": 8,
+                "replacement": "compa\u00F1\u00EDa"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [
+      {
+        "code": "writing_errors",
+        "reason": "In this title, \u0022Energuia\u0022 is not the standard Spanish spelling; it should be \u0022Energ\u00EDa\u0022.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "defectConfirmed": true,
+            "rule": "Spanish spelling rule: the word is misspelled.",
+            "quote": "Oficina Endesa Energuia Web",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "Energuia",
+            "explanation": "In this title, \u0022Energuia\u0022 is not the standard Spanish spelling; it should be \u0022Energ\u00EDa\u0022.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Oficina Endesa Energ\u00EDa Web"
+          }
+        ],
+        "rejectionReason": "invalid_writing_evidence_contract"
+      },
+      {
+        "code": "writing_errors",
+        "reason": "In this sentence, \u0022Loresm\u0022 is a misspelling of the placeholder word \u0022Lorem\u0022.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "defectConfirmed": true,
+            "rule": "Spanish spelling rule: the word is misspelled.",
+            "quote": "Loresm imsum dolor sit amet consectetur.",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "Loresm",
+            "explanation": "In this sentence, \u0022Loresm\u0022 is a misspelling of the placeholder word \u0022Lorem\u0022.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Lorem imsum dolor sit amet consectetur.",
+            "blockRole": "ui_text",
+            "blockId": "block-258"
+          }
+        ],
+        "rejectionReason": "writing_evidence_is_a_published_placeholder_block"
+      },
+      {
+        "code": "writing_errors",
+        "reason": "In this sentence, \u0022imsum\u0022 is a misspelling of the placeholder word \u0022ipsum\u0022.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "defectConfirmed": true,
+            "rule": "Spanish spelling rule: the word is misspelled.",
+            "quote": "Loresm imsum dolor sit amet consectetur.",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "imsum",
+            "explanation": "In this sentence, \u0022imsum\u0022 is a misspelling of the placeholder word \u0022ipsum\u0022.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Loresm ipsum dolor sit amet consectetur.",
+            "blockRole": "ui_text",
+            "blockId": "block-258"
+          }
+        ],
+        "rejectionReason": "writing_evidence_is_a_published_placeholder_block"
+      },
+      {
+        "code": "writing_errors",
+        "reason": "In this sentence, \u0022ultirices\u0022 is misspelled; the standard form is \u0022ultrices\u0022.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "defectConfirmed": true,
+            "rule": "Spanish spelling rule: the word is misspelled.",
+            "quote": "Viverra ultirices congue nisi nisl.",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "ultirices",
+            "explanation": "In this sentence, \u0022ultirices\u0022 is misspelled; the standard form is \u0022ultrices\u0022.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Viverra ultrices congue nisi nisl.",
+            "blockRole": "ui_text",
+            "blockId": "block-258"
+          }
+        ],
+        "rejectionReason": "writing_evidence_is_a_published_placeholder_block"
+      }
+    ],
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_b25712ae41ba4dc39336c66cee033bd2",
+          "systemFingerprint": null,
+          "inputHash": "B8D286F14DC2FEEA456A6525144F8D2B71E8FFBC05D35E0F9D0C73CACEC2C2CF",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1634,
+          "completionTokens": 328,
+          "totalTokens": 1962,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_10411a41f3654915a427f76e1dc6b7b3",
+          "systemFingerprint": null,
+          "inputHash": "B8D286F14DC2FEEA456A6525144F8D2B71E8FFBC05D35E0F9D0C73CACEC2C2CF",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 828,
+          "completionTokens": 101,
+          "totalTokens": 929,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_3d553fcd98004472a6783fdb0f73d679",
+          "systemFingerprint": null,
+          "inputHash": "B8D286F14DC2FEEA456A6525144F8D2B71E8FFBC05D35E0F9D0C73CACEC2C2CF",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 971,
+          "completionTokens": 5420,
+          "totalTokens": 6391,
+          "reasoningTokens": 4800
+        },
+        "error": null
+      }
+    ],
+    "classification": {
+      "type": "unhealthy",
+      "confidence": null,
+      "confidenceBasis": "not_calibrated",
+      "insufficientEvidence": false
+    },
+    "externalVerification": {
+      "enabled": false,
+      "skipped": true
+    }
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "webSourceUrls": []
+  }
+}

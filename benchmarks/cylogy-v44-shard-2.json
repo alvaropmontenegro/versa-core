@@ -1,0 +1,116 @@
+[
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "company"
+    ],
+    "label": "Cylogy partners",
+    "url": "https://www.cylogy.com/company/partners/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "company"
+    ],
+    "label": "Cylogy careers",
+    "url": "https://www.cylogy.com/company/careers/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "transactional"
+    ],
+    "label": "Cylogy contact",
+    "url": "https://www.cylogy.com/contact-us/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "project"
+    ],
+    "label": "Cylogy Pelion project",
+    "url": "https://www.cylogy.com/project/pelion/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "project"
+    ],
+    "label": "Cylogy Qlik project",
+    "url": "https://www.cylogy.com/project/qlik-change-management/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "project"
+    ],
+    "label": "Cylogy Sabre project",
+    "url": "https://www.cylogy.com/project/sabre/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "insight",
+      "historical"
+    ],
+    "label": "Cylogy Symposium 2020 recap",
+    "url": "https://www.cylogy.com/insights/5-takeaways-from-the-2020-sitecore-symposium/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "insight",
+      "historical"
+    ],
+    "label": "Cylogy Symposium 2024 preview",
+    "url": "https://www.cylogy.com/insights/what-to-look-forward-to-at-the-sitecore-symposium/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "insight",
+      "technical"
+    ],
+    "label": "Cylogy Sitecore SaaS",
+    "url": "https://www.cylogy.com/insights/sitecores-move-to-a-saas-model-key-questions-for-new-and-existing-customers/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "insight",
+      "editorial"
+    ],
+    "label": "Cylogy content migration",
+    "url": "https://www.cylogy.com/insights/7-essential-ingredients-of-a-successful-content-migration/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  }
+]

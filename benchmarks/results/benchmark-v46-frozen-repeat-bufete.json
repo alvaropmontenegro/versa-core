@@ -1,0 +1,163 @@
+{
+  "label": "Bufete Padilla Altea Norwegian route",
+  "source": "frozen",
+  "url": "http://127.0.0.1:8089/bufete-padilla-altea-no.html",
+  "expectedClassification": "unhealthy",
+  "classification": "unhealthy",
+  "insufficientEvidence": false,
+  "assessmentInvalid": false,
+  "model": "gpt-5.4-mini-2026-03-17",
+  "pageSummary": "This is a law firm landing page for Bufete Padilla focused on English-speaking legal services in Altea and nearby areas. It highlights property, planning, tax, wills, and estate-planning matters for international residents and non-resident owners, and includes consultation and contact prompts. The page also contains a summer closure notice and emphasizes multilingual support.",
+  "recommendationsComplete": true,
+  "titlePromiseAssessment": {
+    "titleQuote": "English-Speaking Lawyers in Altea",
+    "titlePromise": "The page is expected to describe lawyers in Altea who provide English-speaking legal services.",
+    "fulfillment": "fulfilled",
+    "reason": "The body substantively develops legal services in Altea, including fees, property conveyancing, planning and licence due diligence, tax, wills, estate planning, and multilingual support including English.",
+    "bodyEvidenceQuote": "In Altea we handle villa and high-value property conveyancing, planning and licence due diligence, Ley de Costas compliance, wealth tax, international estate planning, wills and non-resident taxation."
+  },
+  "titlePromiseValidation": {
+    "status": "valid",
+    "reason": "literal_evidence_valid",
+    "normalizedBodyEvidenceQuote": "In Altea we handle villa and high-value property conveyancing, planning and licence due diligence, Ley de Costas compliance, wealth tax, international estate planning, wills and non-resident taxation."
+  },
+  "requiredIssues": [
+    "language_mismatch"
+  ],
+  "allowedIssues": [],
+  "forbiddenIssues": [],
+  "issues": [
+    "writing_errors",
+    "language_mismatch"
+  ],
+  "issueDetails": [
+    {
+      "code": "writing_errors",
+      "reason": "El sujeto principal es singular (“Its charming old town…”), así que el verbo debe ir en singular; “attract” no concuerda aquí.",
+      "contradictionKind": "none",
+      "contradictionCondition": "",
+      "claimAPolarity": "none",
+      "claimBPolarity": "none",
+      "claimAValue": "",
+      "claimBValue": "",
+      "evidence": [
+        {
+          "defectConfirmed": true,
+          "rule": "En inglés, el verbo debe concordar en número con el sujeto singular.",
+          "quote": "Its charming old town with whitewashed houses, thriving arts scene, and elegant marina attract a sophisticated international community — particularly from Scandinavia, the Netherlands, and Germany.",
+          "purpose": "writing_error",
+          "errorType": "agreement",
+          "problemSpan": "attract",
+          "explanation": "El sujeto principal es singular (“Its charming old town…”), así que el verbo debe ir en singular; “attract” no concuerda aquí.",
+          "correctionStatus": "requires_review",
+          "correctedQuote": null,
+          "correctionPolicy": "grammar_requires_human_review",
+          "blockRole": "prose",
+          "blockId": "block-652"
+        }
+      ],
+      "pageQuotes": [
+        "Its charming old town with whitewashed houses, thriving arts scene, and elegant marina attract a sophisticated international community — particularly from Scandinavia, the Netherlands, and Germany."
+      ],
+      "source": "page",
+      "recommendation": {
+        "summary": "Apply safe corrections and review errors without an unambiguous correction.",
+        "suggestedCorrections": []
+      }
+    },
+    {
+      "code": "language_mismatch",
+      "reason": "The page declares language 'no', while its main reader-facing content is 'es'.",
+      "pageQuotes": [
+        "Vacaciones de verano: Cerramos oficinas el viernes 7 de agosto a las 14:00 y reabrimos el 1 de septiembre."
+      ],
+      "source": "page",
+      "recommendation": {
+        "summary": "Align the declared language, route, and metadata with the page's main language, or translate the main content into the declared language.",
+        "suggestedCorrections": []
+      }
+    }
+  ],
+  "rejectedIssues": [],
+  "taxonomyVersion": "intrinsic-v46-grounded-writing",
+  "auditScope": {
+    "content": "eligible_snapshot_blocks",
+    "includesRecurringContent": true,
+    "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+    "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+    "recurrence": "unknown_within_single_page"
+  },
+  "pipelineStages": [
+    {
+      "stage": "page_understanding",
+      "status": "completed",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "telemetry": {
+        "returnedModel": "gpt-5.4-mini-2026-03-17",
+        "finishReason": "stop",
+        "reasoningEffort": "none",
+        "requestId": "req_70a3b12a90ee41949a4afba48b046cde",
+        "systemFingerprint": null,
+        "inputHash": "ACE6FA65FA94A30B1D558CEF89D6139A2E00766FF8B819427928C1E1C9AAEDC5",
+        "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+      },
+      "usage": {
+        "promptTokens": 2121,
+        "completionTokens": 334,
+        "totalTokens": 2455,
+        "reasoningTokens": 0
+      },
+      "error": null
+    },
+    {
+      "stage": "editorial_quality_inspection",
+      "status": "completed",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "telemetry": {
+        "returnedModel": "gpt-5.4-mini-2026-03-17",
+        "finishReason": "stop",
+        "reasoningEffort": "none",
+        "requestId": "req_faa50cfbd5d44b4085efdc190d7ca865",
+        "systemFingerprint": null,
+        "inputHash": "ACE6FA65FA94A30B1D558CEF89D6139A2E00766FF8B819427928C1E1C9AAEDC5",
+        "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+      },
+      "usage": {
+        "promptTokens": 1315,
+        "completionTokens": 21,
+        "totalTokens": 1336,
+        "reasoningTokens": 0
+      },
+      "error": null
+    },
+    {
+      "stage": "writing_errors_inspection",
+      "status": "completed",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "telemetry": {
+        "returnedModel": "gpt-5.4-mini-2026-03-17",
+        "finishReason": "stop",
+        "reasoningEffort": "medium",
+        "requestId": "req_46ce40cd77b94feb878559c8b6c93e52",
+        "systemFingerprint": null,
+        "inputHash": "ACE6FA65FA94A30B1D558CEF89D6139A2E00766FF8B819427928C1E1C9AAEDC5",
+        "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+      },
+      "usage": {
+        "promptTokens": 1458,
+        "completionTokens": 2079,
+        "totalTokens": 3537,
+        "reasoningTokens": 1925
+      },
+      "error": null
+    }
+  ],
+  "evidencePassed": true,
+  "forbiddenWritingEvidence": [],
+  "duplicateWritingEvidence": [],
+  "missingCorrections": [],
+  "unexpectedCorrections": [],
+  "scored": true,
+  "passed": false,
+  "error": null
+}

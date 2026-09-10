@@ -1,0 +1,108 @@
+[
+  {
+    "label": "Sensitive topic handled responsibly",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/sensitive-topic-good.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is an internal Meridian help page for support operations and Trust & Safety. It explains how agents should handle tickets that mention self-harm, including when to use the guide, required escalation steps, and documentation limits. The page emphasizes calm acknowledgment, immediate escalation, and using approved crisis-response templates.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Support Triage for Messages That Mention Self-Harm",
+      "titlePromise": "The title promises guidance for support triage of messages that mention self-harm, including how to handle and escalate such cases.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly develops that subject with scope, when to use the guide, required response steps, and documentation limits for self-harm-related messages.",
+      "bodyEvidenceQuote": "This internal guide helps Meridian support agents route tickets that mention self-harm or immediate personal safety concerns."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "This internal guide helps Meridian support agents route tickets that mention self-harm or immediate personal safety concerns."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Abusive and coercive brand language",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/brand-safety-risk.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a marketing advice article about handling trade show attendees and driving booth traffic. It targets field marketing or sales teams and focuses on tactics for attracting attention, steering conversations, and prioritizing leads. The page presents aggressive booth strategies and crowd-management suggestions.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "How to Work a Trade Show Crowd",
+      "titlePromise": "The title promises guidance on managing or engaging a trade show crowd.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops trade show crowd tactics, booth attention strategies, and lead-handling advice, which matches the promised subject.",
+      "bodyEvidenceQuote": "Trade shows are simple if you remember that most attendees are bored, distracted, and easy to steer if your team keeps control of the conversation."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Trade shows are simple if you remember that most attendees are bored, distracted, and easy to steer if your team keeps control of the conversation."
+    },
+    "requiredIssues": [
+      "brand_safety_risk"
+    ],
+    "allowedIssues": [
+      "unprofessional_writing"
+    ],
+    "forbiddenIssues": [],
+    "issues": [
+      "brand_safety_risk"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Unsafe sensitive-topic guidance",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/sensitive-topic-bad.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is an internal guidance page for support operations about how agents should reply when users send self-harm messages. It outlines a response flow that prioritizes brief acknowledgment, redirecting to product issues, and closing tickets if the user repeats themselves. The page is aimed at support agents and discusses handling these messages within queue management and escalation practices.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "How Support Agents Should Reply to Self-Harm Messages",
+      "titlePromise": "The title promises guidance on how support agents should respond to self-harm messages.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly develops that subject by giving a recommended response flow for messages saying users want to hurt themselves, including how to acknowledge, redirect, close tickets, and handle escalation.",
+      "bodyEvidenceQuote": "When users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "When users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible."
+    },
+    "requiredIssues": [
+      "sensitive_topic_without_context"
+    ],
+    "allowedIssues": [
+      "brand_safety_risk"
+    ],
+    "forbiddenIssues": [],
+    "issues": [
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "scored": true,
+    "passed": true,
+    "error": null
+  }
+]

@@ -1,0 +1,1340 @@
+[
+  {
+    "label": "Healthy product",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8088/pages/healthy-product.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is a marketing landing page for Meridian Digital’s project management platform. It presents features for planning, task management, collaboration, reporting, integrations, automation, security, and mobile access. The page is aimed at teams considering project management software and invites them to start a free trial.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Project Management That Works",
+      "titlePromise": "The page promises a project management solution and expects content about how the product helps teams manage projects effectively.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops project management software capabilities such as planning, task tracking, collaboration, reporting, integrations, and workflow support, which matches the title’s expectation.",
+      "bodyEvidenceQuote": "Plan, track, and deliver work with your team in one place."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Plan, track, and deliver work with your team in one place."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_08a651a6119a498086d104fd938e462b",
+          "systemFingerprint": null,
+          "inputHash": "DEC702FF65AB5089937F6CCC82CB92F5A79ABD739092791C0387CE2A15947B51",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 2152,
+          "completionTokens": 259,
+          "totalTokens": 2411,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_f5feb6d6450e495da9f2a1f73f7651b0",
+          "systemFingerprint": null,
+          "inputHash": "DEC702FF65AB5089937F6CCC82CB92F5A79ABD739092791C0387CE2A15947B51",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 1346,
+          "completionTokens": 21,
+          "totalTokens": 1367,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_474b1cfcb4e143388f4de510c7639287",
+          "systemFingerprint": null,
+          "inputHash": "DEC702FF65AB5089937F6CCC82CB92F5A79ABD739092791C0387CE2A15947B51",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 1489,
+          "completionTokens": 242,
+          "totalTokens": 1731,
+          "reasoningTokens": 222
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Sensitive topic handled responsibly",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8088/pages/sensitive-topic-good.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is an internal Meridian help page aimed at support operations and trust-and-safety staff. It explains how to handle tickets that mention self-harm, including when to escalate, what response steps to use, and how to document the case. The page emphasizes calm, non-judgmental acknowledgment, immediate escalation, and following approved crisis-response procedures.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Support Triage for Messages That Mention Self-Harm",
+      "titlePromise": "The page will explain how to triage and respond to messages that mention self-harm.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly develops that subject by describing scope, when to use the guide, required response steps, and documentation limits for self-harm-related messages.",
+      "bodyEvidenceQuote": "Messages that mention self-harm require careful handling, fast escalation, and clear boundaries."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Messages that mention self-harm require careful handling, fast escalation, and clear boundaries."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_f9331ef202f84cbeb0f8feca82e1304a",
+          "systemFingerprint": null,
+          "inputHash": "59C01921820941FDE7E224D92485E20A460F6FCEC4749C50F45DB7DABDE42E1A",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1841,
+          "completionTokens": 316,
+          "totalTokens": 2157,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_c9aecb5f633f48cab79d89347a99f232",
+          "systemFingerprint": null,
+          "inputHash": "59C01921820941FDE7E224D92485E20A460F6FCEC4749C50F45DB7DABDE42E1A",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 1035,
+          "completionTokens": 21,
+          "totalTokens": 1056,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_b4e09122abfb43f7a479595ec1758d43",
+          "systemFingerprint": null,
+          "inputHash": "59C01921820941FDE7E224D92485E20A460F6FCEC4749C50F45DB7DABDE42E1A",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 1178,
+          "completionTokens": 59,
+          "totalTokens": 1237,
+          "reasoningTokens": 39
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Unverified claims are outside intrinsic scope",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8088/pages/unverified-claims.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is a marketing page for Meridian Digital, a project-management platform aimed at teams that coordinate delivery work. It highlights claims about reliability, financial impact, European compliance, enterprise trust, and faster delivery. The page ends with a free-trial call to action.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Why Teams Choose Meridian",
+      "titlePromise": "The page will explain reasons teams choose Meridian, including the product’s benefits, features, or value for team workflows.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the promised subject by presenting Meridian Digital’s positioning and multiple reasons to choose it, including reliability, financial impact, compliance, trust, and faster delivery.",
+      "bodyEvidenceQuote": "Meridian Digital is a project-management platform for teams that coordinate delivery work."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Meridian Digital is a project-management platform for teams that coordinate delivery work."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_215e239a98c0491186da1a9a87107a2d",
+          "systemFingerprint": null,
+          "inputHash": "8F85AA55B648DE0116C1A8A4725EAFD6115B12B165A87A1DCE203C7E7E22E05B",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1819,
+          "completionTokens": 265,
+          "totalTokens": 2084,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_a026f4798f3d4300b837fe3a0739ec8b",
+          "systemFingerprint": null,
+          "inputHash": "8F85AA55B648DE0116C1A8A4725EAFD6115B12B165A87A1DCE203C7E7E22E05B",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 1013,
+          "completionTokens": 21,
+          "totalTokens": 1034,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_c7216222011d4ae6b2a72512c8eefae1",
+          "systemFingerprint": null,
+          "inputHash": "8F85AA55B648DE0116C1A8A4725EAFD6115B12B165A87A1DCE203C7E7E22E05B",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 1156,
+          "completionTokens": 256,
+          "totalTokens": 1412,
+          "reasoningTokens": 236
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Persistently unprofessional writing",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8088/pages/unprofessional-writing.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This page is a short marketing page for an analytics service called \"Our Analytics Service.\" It targets readers evaluating analytics support and emphasizes promotional claims about the service and team. The body also briefly states that analysts connect reporting to the questions a team needs to answer.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Our Analytics Service",
+      "titlePromise": "The page will describe or promote an analytics service.",
+      "fulfillment": "fulfilled",
+      "reason": "The body does present and promote an analytics service, including a brief description of what the analysts do.",
+      "bodyEvidenceQuote": "Our analysts connect reporting to the questions your team needs to answer."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Our analysts connect reporting to the questions your team needs to answer."
+    },
+    "requiredIssues": [
+      "unprofessional_writing"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "unprofessional_writing"
+    ],
+    "issueDetails": [
+      {
+        "code": "unprofessional_writing",
+        "reason": "Two substantive prose blocks rely on exaggerated, hype-driven marketing language and empty superlatives rather than professional service description.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "We deliver the most amazing analytics in the universe. Our team is absolutely incredible, unbelievably brilliant, and totally unmatched.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-52"
+          },
+          {
+            "quote": "Choose us now for game-changing, world-class, next-level results that will blow your mind. Nobody does analytics better. Nobody does analytics better.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-205"
+          }
+        ],
+        "pageQuotes": [
+          "We deliver the most amazing analytics in the universe. Our team is absolutely incredible, unbelievably brilliant, and totally unmatched.",
+          "Choose us now for game-changing, world-class, next-level results that will blow your mind. Nobody does analytics better. Nobody does analytics better."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Rewrite the cited passages using professional, specific language appropriate for the intended audience.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_2e627858d4c246e2a26f38d5135ee85a",
+          "systemFingerprint": null,
+          "inputHash": "A377A22030C208AA498398718CE98E44B2AC8DC64B911C7768732711AA00BC01",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1538,
+          "completionTokens": 219,
+          "totalTokens": 1757,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_628488ebc5394c00a2e2b3d1aa665043",
+          "systemFingerprint": null,
+          "inputHash": "A377A22030C208AA498398718CE98E44B2AC8DC64B911C7768732711AA00BC01",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 732,
+          "completionTokens": 105,
+          "totalTokens": 837,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_8b8bcbb88b1f4985b35caf13f5a3bbbc",
+          "systemFingerprint": null,
+          "inputHash": "A377A22030C208AA498398718CE98E44B2AC8DC64B911C7768732711AA00BC01",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 875,
+          "completionTokens": 101,
+          "totalTokens": 976,
+          "reasoningTokens": 81
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Directly contradictory guidance",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8088/pages/contradictory-guidance.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is an invoice submission guide for Meridian Digital customers. It describes where invoices should be sent and includes a support contact for account questions. The page is intended to help customers submit invoices for review before payment is processed.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Invoice Submission Guide",
+      "titlePromise": "The page will explain how to submit invoices for review or processing.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops invoice submission instructions, including where to send invoices and how they are handled before payment processing.",
+      "bodyEvidenceQuote": "All customers must submit every invoice to the support team for review before payment can be processed."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "All customers must submit every invoice to the support team for review before payment can be processed."
+    },
+    "requiredIssues": [
+      "direct_statement_contradiction"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "direct_statement_contradiction"
+    ],
+    "issueDetails": [
+      {
+        "code": "direct_statement_contradiction",
+        "reason": "The two statements give opposite instructions about whether invoices should be sent to support.",
+        "contradictionKind": "opposite_polarity",
+        "contradictionCondition": "when customers submit invoices for review",
+        "claimAPolarity": "denied",
+        "claimBPolarity": "affirmed",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Customers must not send invoices to the support team.",
+            "purpose": "claim_a",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-200"
+          },
+          {
+            "quote": "All customers must submit every invoice to the support team for review before payment can be processed.",
+            "purpose": "claim_b",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-311"
+          }
+        ],
+        "pageQuotes": [
+          "Customers must not send invoices to the support team.",
+          "All customers must submit every invoice to the support team for review before payment can be processed."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Review the cited statements and retain one consistent instruction for the same situation.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_11be5637df7a4203912e6a65715d04a6",
+          "systemFingerprint": null,
+          "inputHash": "E6F9223A6FA480EA6141872ED8C30867C108E1A8B1BB03ECD120414E5F1B75B0",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1555,
+          "completionTokens": 312,
+          "totalTokens": 1867,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_0ba78e8d944543ad84b9a9696b91e5a1",
+          "systemFingerprint": null,
+          "inputHash": "E6F9223A6FA480EA6141872ED8C30867C108E1A8B1BB03ECD120414E5F1B75B0",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 749,
+          "completionTokens": 21,
+          "totalTokens": 770,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_c11190459df84cf3bc2daaddf044b100",
+          "systemFingerprint": null,
+          "inputHash": "E6F9223A6FA480EA6141872ED8C30867C108E1A8B1BB03ECD120414E5F1B75B0",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 892,
+          "completionTokens": 74,
+          "totalTokens": 966,
+          "reasoningTokens": 54
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Cylogy Google Analytics content mismatch",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8089/cylogy-google-analytics-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This page is an English-language marketing/information page about Umbraco CMS. It describes Umbraco as a flexible, cost-effective open-source CMS with features like intuitive editing, cloud hosting, extensions, and cross-platform support, and frames it as a mid-market solution for developers, designers, and editors. The visible content also includes a standalone Google Analytics introduction near the top.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Google Analytics",
+      "titlePromise": "The title creates an expectation that the page will discuss Google Analytics, likely its purpose, features, or related usage information.",
+      "fulfillment": "not_fulfilled",
+      "reason": "The visible body mainly develops Umbraco CMS, not Google Analytics. The Google Analytics text is only a brief opening sentence, while the substantive headings and paragraphs focus on Umbraco as a CMS and mid-market solution.",
+      "bodyEvidenceQuote": "Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business."
+    },
+    "requiredIssues": [
+      "title_body_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "title_body_mismatch"
+    ],
+    "issueDetails": [
+      {
+        "code": "title_body_mismatch",
+        "reason": "The visible body mainly develops Umbraco CMS, not Google Analytics. The Google Analytics text is only a brief opening sentence, while the substantive headings and paragraphs focus on Umbraco as a CMS and mid-market solution.",
+        "pageQuotes": [
+          "Google Analytics",
+          "Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Align the title with the main content or revise the body so it clearly delivers the title's promise.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_bb5fb6f123a94f48b6de479108146c83",
+          "systemFingerprint": null,
+          "inputHash": "4C3D6B7E0153A1AB83BA9004DFBA680BDDFB9B5DF63AB9C8C947F26281DDFA45",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1626,
+          "completionTokens": 320,
+          "totalTokens": 1946,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_ecb1dda8d2af4114ac9fa52ca6812be7",
+          "systemFingerprint": null,
+          "inputHash": "4C3D6B7E0153A1AB83BA9004DFBA680BDDFB9B5DF63AB9C8C947F26281DDFA45",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 820,
+          "completionTokens": 21,
+          "totalTokens": 841,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_aa75cd0e2aba48e6a7379d4f12c7bc26",
+          "systemFingerprint": null,
+          "inputHash": "4C3D6B7E0153A1AB83BA9004DFBA680BDDFB9B5DF63AB9C8C947F26281DDFA45",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 963,
+          "completionTokens": 328,
+          "totalTokens": 1291,
+          "reasoningTokens": 308
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Unsafe sensitive-topic guidance",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8088/pages/sensitive-topic-bad.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is an internal support guidance page aimed at support agents. It explains how to reply when users send self-harm messages and presents a recommended response flow focused on brief acknowledgment, redirecting to product issues, and handling tickets. The page frames the topic as part of support operations rather than personal crisis care.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "How Support Agents Should Reply to Self-Harm Messages",
+      "titlePromise": "The title promises guidance for support agents on how to reply to messages about self-harm.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops exactly that subject by giving instructions for handling self-harm messages, including response steps and escalation handling.",
+      "bodyEvidenceQuote": "When users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "When users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible."
+    },
+    "requiredIssues": [
+      "sensitive_topic_without_context"
+    ],
+    "allowedIssues": [
+      "brand_safety_risk"
+    ],
+    "forbiddenIssues": [],
+    "issues": [
+      "sensitive_topic_without_context"
+    ],
+    "issueDetails": [
+      {
+        "code": "sensitive_topic_without_context",
+        "reason": "The guidance prioritizes redirecting away from the crisis and minimizing response rather than providing appropriate safety-oriented handling for self-harm messages. The later instruction that escalation is optional unless the user is blocking other queue work reinforces the unsafe framing.",
+        "pageQuotes": [
+          "When users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Revise the cited guidance to include appropriate boundaries, safety context, and escalation.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_974c65376f76481da2b0aa1b545abde3",
+          "systemFingerprint": null,
+          "inputHash": "7F63C490B78BD7F0F8012DDA23073DC9DBD5F7D06F72B27BBC174AA63C1A2417",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1690,
+          "completionTokens": 337,
+          "totalTokens": 2027,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_80b075cdd70042ef8f80a89478d03767",
+          "systemFingerprint": null,
+          "inputHash": "7F63C490B78BD7F0F8012DDA23073DC9DBD5F7D06F72B27BBC174AA63C1A2417",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 884,
+          "completionTokens": 21,
+          "totalTokens": 905,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_f1c33e38a2f34b06ab1a3bfcf0448d38",
+          "systemFingerprint": null,
+          "inputHash": "7F63C490B78BD7F0F8012DDA23073DC9DBD5F7D06F72B27BBC174AA63C1A2417",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 1027,
+          "completionTokens": 359,
+          "totalTokens": 1386,
+          "reasoningTokens": 339
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Endesa Santa Coloma placeholder and writing errors",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8089/endesa-santa-coloma-placeholder.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is a Spanish-language location page for an Endesa office at Calle Rambla de San Sebastián, 42, Santa Coloma de Gramenet, Barcelona. It presents the site as a nearby Endesa point for contracting energy, solar panels, or electric mobility services and includes an appointment-booking call to action. The page also mentions that there is no permanence commitment and that users can change tariff or company without penalty.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Calle Rambla de San Sebastián, 42, Santa Coloma De Gramenet, Barcelona",
+      "titlePromise": "The title creates the expectation of a specific Endesa office or location page for the listed address in Santa Coloma de Gramenet, Barcelona.",
+      "fulfillment": "fulfilled",
+      "reason": "The body continues to develop that location-page expectation by describing a nearby Endesa point and related services for that place, rather than shifting to a different subject.",
+      "bodyEvidenceQuote": "Encuentra tu Punto Endesa más cercano para contratar Energía, Placas Solares o Movilidad eléctrica"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Encuentra tu Punto Endesa más cercano para contratar Energía, Placas Solares o Movilidad eléctrica"
+    },
+    "requiredIssues": [
+      "published_placeholder_content",
+      "writing_errors"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "published_placeholder_content",
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "published_placeholder_content",
+        "reason": "Reader-facing content contains explicit placeholder filler text that is visibly published and needs replacement.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Loresm imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "ui_text",
+            "blockId": "block-258"
+          }
+        ],
+        "pageQuotes": [
+          "Loresm imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Replace the cited placeholder content with reviewed final copy before keeping the page published.",
+          "suggestedCorrections": []
+        }
+      },
+      {
+        "code": "writing_errors",
+        "reason": "In this sentence, \"decision\" is missing the required accent mark on the stressed vowel. In this sentence, \"compañia\" is missing the accent mark on the stressed vowel.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "defectConfirmed": true,
+            "rule": "Spanish spelling requires the written accent in \"decisión\".",
+            "quote": "Toma una decision formidable",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "decision",
+            "explanation": "In this sentence, \"decision\" is missing the required accent mark on the stressed vowel.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Toma una decisión formidable",
+            "blockRole": "prose",
+            "blockId": "block-527",
+            "edit": {
+              "start": 9,
+              "length": 8,
+              "replacement": "decisión"
+            },
+            "editValidation": "localized_only_not_linguistic_verification"
+          },
+          {
+            "defectConfirmed": true,
+            "rule": "Spanish spelling requires the written accent in \"compañía\".",
+            "quote": "Sin permanencia: puedes cambiarte de tarifa (o de compañia) sin penalización.",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "compañia",
+            "explanation": "In this sentence, \"compañia\" is missing the accent mark on the stressed vowel.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Sin permanencia: puedes cambiarte de tarifa (o de compañía) sin penalización.",
+            "blockRole": "prose",
+            "blockId": "block-572",
+            "edit": {
+              "start": 50,
+              "length": 8,
+              "replacement": "compañía"
+            },
+            "editValidation": "localized_only_not_linguistic_verification"
+          }
+        ],
+        "pageQuotes": [
+          "Toma una decision formidable",
+          "Sin permanencia: puedes cambiarte de tarifa (o de compañia) sin penalización."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Correct the objective writing errors identified in the cited sentences.",
+          "suggestedCorrections": [
+            {
+              "original": "Toma una decision formidable",
+              "suggestion": "Toma una decisión formidable",
+              "pageQuote": "Toma una decision formidable",
+              "problemSpan": "decision",
+              "edit": {
+                "start": 9,
+                "length": 8,
+                "replacement": "decisión"
+              }
+            },
+            {
+              "original": "Sin permanencia: puedes cambiarte de tarifa (o de compañia) sin penalización.",
+              "suggestion": "Sin permanencia: puedes cambiarte de tarifa (o de compañía) sin penalización.",
+              "pageQuote": "Sin permanencia: puedes cambiarte de tarifa (o de compañia) sin penalización.",
+              "problemSpan": "compañia",
+              "edit": {
+                "start": 50,
+                "length": 8,
+                "replacement": "compañía"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [
+      {
+        "code": "writing_errors",
+        "reason": "\"Loresm\" is misspelled in this block; the standard spelling is \"Lorem\".",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "defectConfirmed": true,
+            "rule": "Spelling: a standard word must be spelled with the correct letters.",
+            "quote": "Loresm imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl.",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "Loresm",
+            "explanation": "\"Loresm\" is misspelled in this block; the standard spelling is \"Lorem\".",
+            "correctionStatus": "safe",
+            "correctedQuote": "Lorem imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl.",
+            "blockRole": "ui_text",
+            "blockId": "block-258"
+          }
+        ],
+        "rejectionReason": "writing_evidence_is_a_published_placeholder_block"
+      },
+      {
+        "code": "writing_errors",
+        "reason": "\"imsum\" is misspelled in this block; the standard spelling is \"ipsum\".",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "defectConfirmed": true,
+            "rule": "Spelling: a standard word must be spelled with the correct letters.",
+            "quote": "Loresm imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl.",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "imsum",
+            "explanation": "\"imsum\" is misspelled in this block; the standard spelling is \"ipsum\".",
+            "correctionStatus": "safe",
+            "correctedQuote": "Loresm ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl.",
+            "blockRole": "ui_text",
+            "blockId": "block-258"
+          }
+        ],
+        "rejectionReason": "writing_evidence_is_a_published_placeholder_block"
+      },
+      {
+        "code": "writing_errors",
+        "reason": "\"ultirices\" is misspelled in this block; the standard spelling is \"ultrices\".",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "defectConfirmed": true,
+            "rule": "Spelling: a standard word must be spelled with the correct letters.",
+            "quote": "Loresm imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl.",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "ultirices",
+            "explanation": "\"ultirices\" is misspelled in this block; the standard spelling is \"ultrices\".",
+            "correctionStatus": "safe",
+            "correctedQuote": "Loresm imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl.",
+            "blockRole": "ui_text",
+            "blockId": "block-258"
+          }
+        ],
+        "rejectionReason": "writing_evidence_is_a_published_placeholder_block"
+      }
+    ],
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_8800b00ac9ae4ff3b73aa87ac1eab80e",
+          "systemFingerprint": null,
+          "inputHash": "B8D286F14DC2FEEA456A6525144F8D2B71E8FFBC05D35E0F9D0C73CACEC2C2CF",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1634,
+          "completionTokens": 353,
+          "totalTokens": 1987,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_133c9fad4be449e2adbf00e41f249e89",
+          "systemFingerprint": null,
+          "inputHash": "B8D286F14DC2FEEA456A6525144F8D2B71E8FFBC05D35E0F9D0C73CACEC2C2CF",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 828,
+          "completionTokens": 98,
+          "totalTokens": 926,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_e0bc8043d7e24782a75b8363f8ff8aee",
+          "systemFingerprint": null,
+          "inputHash": "B8D286F14DC2FEEA456A6525144F8D2B71E8FFBC05D35E0F9D0C73CACEC2C2CF",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 971,
+          "completionTokens": 2479,
+          "totalTokens": 3450,
+          "reasoningTokens": 1729
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "inline-author",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8089/inline-author.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is a short English page titled \"Team notes.\" It identifies the author as Lindsay Sullivan and includes a brief prompt to contact the team for details. The page appears to be a minimal team note or internal-style informational page.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Team notes",
+      "titlePromise": "The page will provide notes or information from a team, likely a brief team-related informational page.",
+      "fulfillment": "fulfilled",
+      "reason": "The body presents a small set of team-related notes, including an author line and a contact prompt, which matches the title's expectation of team notes.",
+      "bodyEvidenceQuote": "Written By: Lindsay Sullivan"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Written By: Lindsay Sullivan"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [
+      "writing_errors"
+    ],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_d22b27efe12e460abc3fe0ce31f9599f",
+          "systemFingerprint": null,
+          "inputHash": "B6AF4C2F2294FB62B8A46A4A35331275E6345EA026626E2013DEFC452C4752E4",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1471,
+          "completionTokens": 218,
+          "totalTokens": 1689,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_81f77e0c477b4d2d9c1a6038350f5706",
+          "systemFingerprint": null,
+          "inputHash": "B6AF4C2F2294FB62B8A46A4A35331275E6345EA026626E2013DEFC452C4752E4",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 665,
+          "completionTokens": 21,
+          "totalTokens": 686,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_7862093325a240d3b0be72a6181786ea",
+          "systemFingerprint": null,
+          "inputHash": "B6AF4C2F2294FB62B8A46A4A35331275E6345EA026626E2013DEFC452C4752E4",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 808,
+          "completionTokens": 71,
+          "totalTokens": 879,
+          "reasoningTokens": 51
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  }
+]

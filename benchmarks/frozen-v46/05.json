@@ -1,0 +1,146 @@
+{
+  "url": "http://127.0.0.1:8088/pages/unverified-claims.html",
+  "finalUrl": "http://127.0.0.1:8088/pages/unverified-claims.html",
+  "outputLanguage": "en",
+  "executedAt": "2026-09-08T22:39:10.8786502+00:00",
+  "capture": {
+    "statusCode": 200,
+    "finalUrl": "http://127.0.0.1:8088/pages/unverified-claims.html",
+    "html": "\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022en\u0022 data-versa-display=\u0022block\u0022 data-versa-layout-version=\u00221\u0022\u003E\u003Chead data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta charset=\u0022UTF-8\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1.0\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta name=\u0022description\u0022 content=\u0022Discover why thousands of teams choose Meridian Digital for project management \u2014 real results, real impact.\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Ctitle data-versa-display=\u0022none\u0022\u003EWhy Teams Choose Meridian \u2014 Meridian Digital\u003C/title\u003E\n  \u003Clink rel=\u0022canonical\u0022 href=\u0022https://test.versacontent.com/pages/unverified-claims.html\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cstyle data-versa-display=\u0022none\u0022\u003E\n    * { margin: 0; padding: 0; box-sizing: border-box; }\n    body { font-family: -apple-system, BlinkMacSystemFont, \u0027Segoe UI\u0027, Roboto, sans-serif; color: #1a1a2e; line-height: 1.7; background: #fff; }\n    header { background: #1a1a2e; color: #fff; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }\n    header .logo { font-weight: 700; font-size: 1.25rem; }\n    header nav a { color: #a0a0c0; text-decoration: none; margin-left: 1.5rem; font-size: 0.9rem; }\n    header nav a:hover { color: #fff; }\n    main { max-width: 800px; margin: 2rem auto; padding: 0 1.5rem; }\n    h1 { font-size: 2rem; margin-bottom: 1rem; line-height: 1.3; }\n    h2 { font-size: 1.4rem; margin: 2rem 0 0.75rem; color: #1a1a2e; }\n    h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; }\n    p { margin-bottom: 1rem; color: #333; }\n    ul, ol { margin: 0 0 1rem 1.5rem; }\n    li { margin-bottom: 0.4rem; }\n    a { color: #4361ee; }\n    .meta { font-size: 0.85rem; color: #666; margin-bottom: 1.5rem; }\n    .cta { display: inline-block; background: #4361ee; color: #fff; padding: 0.75rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: 600; margin: 1rem 0; }\n    .cta:hover { background: #3a56d4; }\n    .tags { margin-top: 2rem; }\n    .tags span { background: #f0f0f5; padding: 0.25rem 0.75rem; border-radius: 99px; font-size: 0.8rem; margin-right: 0.5rem; color: #555; }\n    footer { background: #f8f8fc; border-top: 1px solid #e0e0e8; padding: 2rem; margin-top: 3rem; text-align: center; font-size: 0.85rem; color: #666; }\n    footer a { color: #4361ee; text-decoration: none; }\n    .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin: 1.5rem 0; }\n    .card { border: 1px solid #e0e0e8; border-radius: 8px; padding: 1.5rem; }\n    .card h3 { margin-top: 0; }\n    .price { font-size: 2rem; font-weight: 700; color: #4361ee; }\n    blockquote { border-left: 3px solid #4361ee; padding: 1rem 1.5rem; background: #f8f8fc; margin: 1.5rem 0; font-style: italic; }\n    table { width: 100%; border-collapse: collapse; margin: 1rem 0; }\n    th, td { padding: 0.75rem; text-align: left; border-bottom: 1px solid #e0e0e8; }\n    th { background: #f8f8fc; font-weight: 600; }\n    img { max-width: 100%; height: auto; border-radius: 8px; margin: 1rem 0; }\n    .stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin: 2rem 0; }\n    .stat-card { text-align: center; padding: 1.5rem; border: 1px solid #e0e0e8; border-radius: 8px; }\n    .stat-card .number { font-size: 2rem; font-weight: 700; color: #4361ee; display: block; margin-bottom: 0.25rem; }\n    .stat-card .label { font-size: 0.9rem; color: #666; }\n  \u003C/style\u003E\n\u003C/head\u003E\n\u003Cbody data-versa-display=\u0022block\u0022\u003E\n  \u003Cheader data-versa-display=\u0022flex\u0022\u003E\n    \u003Cdiv class=\u0022logo\u0022 data-versa-display=\u0022block\u0022\u003EMeridian Digital\u003C/div\u003E\n    \u003Cnav data-versa-display=\u0022block\u0022\u003E\n      \u003Ca href=\u0022/pages/healthy-product\u0022 data-versa-display=\u0022inline\u0022\u003EProduct\u003C/a\u003E\n      \u003Ca href=\u0022/pages/healthy-pricing\u0022 data-versa-display=\u0022inline\u0022\u003EPricing\u003C/a\u003E\n      \u003Ca href=\u0022/pages/healthy-contact\u0022 data-versa-display=\u0022inline\u0022\u003EContact\u003C/a\u003E\n      \u003Ca href=\u0022/pages/hub-index\u0022 data-versa-display=\u0022inline\u0022\u003EBlog\u003C/a\u003E\n    \u003C/nav\u003E\n  \u003C/header\u003E\n  \u003Cmain data-versa-display=\u0022block\u0022\u003E\n    \u003Ch1 data-versa-display=\u0022block\u0022\u003EWhy Teams Choose Meridian\u003C/h1\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003EMeridian Digital is a project-management platform for teams that coordinate delivery work.\u003C/p\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EReliability You Can Count On\u003C/h2\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003EDowntime kills productivity and erodes trust. That\u0027s why we\u0027ve engineered Meridian for resilience from the ground up, with infrastructure designed to keep teams connected during routine maintenance.\u003C/p\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EReal Financial Impact\u003C/h2\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003ESwitching to Meridian can also reduce tool sprawl and automate manual reporting work, helping teams spend more time on delivery.\u003C/p\u003E\n\n    \u003Cdiv class=\u0022stat-grid\u0022 data-versa-display=\u0022grid\u0022\u003E\n      \u003Cdiv class=\u0022stat-card\u0022 data-versa-display=\u0022block\u0022\u003E\n        \u003Cspan class=\u0022number\u0022 data-versa-display=\u0022block\u0022\u003EReliable\u003C/span\u003E\n        \u003Cspan class=\u0022label\u0022 data-versa-display=\u0022inline\u0022\u003EAvailability-focused architecture\u003C/span\u003E\n      \u003C/div\u003E\n      \u003Cdiv class=\u0022stat-card\u0022 data-versa-display=\u0022block\u0022\u003E\n        \u003Cspan class=\u0022number\u0022 data-versa-display=\u0022block\u0022\u003EFocused\u003C/span\u003E\n        \u003Cspan class=\u0022label\u0022 data-versa-display=\u0022inline\u0022\u003ELess tool sprawl\u003C/span\u003E\n      \u003C/div\u003E\n      \u003Cdiv class=\u0022stat-card\u0022 data-versa-display=\u0022block\u0022\u003E\n        \u003Cspan class=\u0022number\u0022 data-versa-display=\u0022block\u0022\u003EVisible\u003C/span\u003E\n        \u003Cspan class=\u0022label\u0022 data-versa-display=\u0022inline\u0022\u003EEarlier bottleneck detection\u003C/span\u003E\n      \u003C/div\u003E\n    \u003C/div\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EBuilt for European Compliance\u003C/h2\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003EThe European Union\u0027s General Data Protection Regulation (GDPR) first became applicable on 25 May 2020.\u003C/p\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003ETrusted at the Highest Levels\u003C/h2\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003EMeridian is designed for enterprise project workflows where quality, security, and team alignment matter.\u003C/p\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EMeasurably Faster Delivery\u003C/h2\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003ESpeed matters. Smarter resource allocation, automated bottleneck detection, and real-time visibility help teams identify delays earlier.\u003C/p\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003EMeridian states that customers can reduce delivery time and reporting effort after adopting the platform. Ready to see how the platform could support your organisation?\u003C/p\u003E\n\n    \u003Ca href=\u0022/pages/healthy-pricing\u0022 class=\u0022cta\u0022 data-versa-display=\u0022inline-block\u0022\u003EStart Your Free Trial\u003C/a\u003E\n  \u003C/main\u003E\n  \u003Cfooter data-versa-display=\u0022block\u0022\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003E\u00A9 2025 Meridian Digital Inc. All rights reserved. | \u003Ca href=\u0022/pages/healthy-legal\u0022 data-versa-display=\u0022inline\u0022\u003ETerms\u003C/a\u003E | \u003Ca href=\u0022mailto:hello@meridian.digital\u0022 data-versa-display=\u0022inline\u0022\u003Ehello@meridian.digital\u003C/a\u003E | \u002B1 (415) 555-0120\u003C/p\u003E\n  \u003C/footer\u003E\n\n\n\u003C/body\u003E\u003C/html\u003E",
+    "bodyText": "Meridian Digital\nProduct Pricing Contact Blog\nWhy Teams Choose Meridian\n\nMeridian Digital is a project-management platform for teams that coordinate delivery work.\n\nReliability You Can Count On\n\nDowntime kills productivity and erodes trust. That\u0027s why we\u0027ve engineered Meridian for resilience from the ground up, with infrastructure designed to keep teams connected during routine maintenance.\n\nReal Financial Impact\n\nSwitching to Meridian can also reduce tool sprawl and automate manual reporting work, helping teams spend more time on delivery.\n\nReliable\nAvailability-focused architecture\nFocused\nLess tool sprawl\nVisible\nEarlier bottleneck detection\nBuilt for European Compliance\n\nThe European Union\u0027s General Data Protection Regulation (GDPR) first became applicable on 25 May 2020.\n\nTrusted at the Highest Levels\n\nMeridian is designed for enterprise project workflows where quality, security, and team alignment matter.\n\nMeasurably Faster Delivery\n\nSpeed matters. Smarter resource allocation, automated bottleneck detection, and real-time visibility help teams identify delays earlier.\n\nMeridian states that customers can reduce delivery time and reporting effort after adopting the platform. Ready to see how the platform could support your organisation?\n\nStart Your Free Trial\n\n\u00A9 2025 Meridian Digital Inc. All rights reserved. | Terms | hello@meridian.digital | \u002B1 (415) 555-0120",
+    "bodyWordCount": 190
+  },
+  "metadata": {
+    "title": "Why Teams Choose Meridian \u2014 Meridian Digital",
+    "metaDescription": "Discover why thousands of teams choose Meridian Digital for project management \u2014 real results, real impact.",
+    "canonicalUrl": "https://test.versacontent.com/pages/unverified-claims.html",
+    "language": "en"
+  },
+  "structuralOutline": {
+    "markdown": "\u003Cui_text\u003EMeridian Digital\u003C/ui_text\u003E\n\n\u003Cheading level=\u00221\u0022\u003EWhy Teams Choose Meridian\u003C/heading\u003E\n\n\u003Cprose\u003EMeridian Digital is a project-management platform for teams that coordinate delivery work.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EReliability You Can Count On\u003C/heading\u003E\n\n\u003Cprose\u003EDowntime kills productivity and erodes trust. That\u0027s why we\u0027ve engineered Meridian for resilience from the ground up, with infrastructure designed to keep teams connected during routine maintenance.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EReal Financial Impact\u003C/heading\u003E\n\n\u003Cprose\u003ESwitching to Meridian can also reduce tool sprawl and automate manual reporting work, helping teams spend more time on delivery.\u003C/prose\u003E\n\n\u003Cui_text\u003EReliable\u003C/ui_text\u003E\n\n\u003Cui_text\u003EAvailability-focused architecture\u003C/ui_text\u003E\n\n\u003Cui_text\u003EFocused\u003C/ui_text\u003E\n\n\u003Cui_text\u003ELess tool sprawl\u003C/ui_text\u003E\n\n\u003Cui_text\u003EVisible\u003C/ui_text\u003E\n\n\u003Cui_text\u003EEarlier bottleneck detection\u003C/ui_text\u003E\n\n\u003Cheading level=\u00222\u0022\u003EBuilt for European Compliance\u003C/heading\u003E\n\n\u003Cprose\u003EThe European Union\u0027s General Data Protection Regulation (GDPR) first became applicable on 25 May 2020.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003ETrusted at the Highest Levels\u003C/heading\u003E\n\n\u003Cprose\u003EMeridian is designed for enterprise project workflows where quality, security, and team alignment matter.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EMeasurably Faster Delivery\u003C/heading\u003E\n\n\u003Cprose\u003ESpeed matters. Smarter resource allocation, automated bottleneck detection, and real-time visibility help teams identify delays earlier.\u003C/prose\u003E\n\n\u003Cprose\u003EMeridian states that customers can reduce delivery time and reporting effort after adopting the platform. Ready to see how the platform could support your organisation?\u003C/prose\u003E\n\n\u003Ccta\u003EStart Your Free Trial\u003C/cta\u003E",
+    "summary": {
+      "estimatedTokens": 421,
+      "truncatedByTextLimit": false
+    }
+  },
+  "analysis": {
+    "observations": {
+      "mainContentLanguage": "en",
+      "mainContentLanguageEvidence": "Why Teams Choose Meridian",
+      "pagePurpose": "Explain and promote Meridian Digital as a project-management platform for teams coordinating delivery work, emphasizing reliability, compliance, efficiency, and enterprise fit.",
+      "pageSummary": "This is a marketing page for Meridian Digital, a project-management platform aimed at teams that coordinate delivery work. It highlights reliability, financial impact, European compliance, enterprise trust, and faster delivery. The page ends with a free-trial call to action."
+    },
+    "sensitiveTopicAssessment": {
+      "status": "not_applicable",
+      "evidenceQuote": "",
+      "reason": "The page is promotional product content and does not provide guidance for responding to or managing a sensitive or safety-critical situation."
+    },
+    "titlePromiseAssessment": {
+      "titleQuote": "Why Teams Choose Meridian",
+      "titlePromise": "The page will explain the reasons teams choose Meridian and support that value proposition with product benefits or supporting details.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the stated theme by presenting multiple reasons teams choose Meridian, including resilience, reduced tool sprawl, GDPR-related compliance, enterprise workflow fit, and faster delivery.",
+      "bodyEvidenceQuote": "Reliability You Can Count On"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Reliability You Can Count On"
+    },
+    "sensitiveTopicValidation": {
+      "status": "valid",
+      "reason": "no_sensitive_guidance_detected",
+      "normalizedEvidenceQuote": ""
+    },
+    "issues": [],
+    "rejectedIssues": [],
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_05c2d59ba5ad49bbb12219ee2e289bf5",
+          "systemFingerprint": null,
+          "inputHash": "8F85AA55B648DE0116C1A8A4725EAFD6115B12B165A87A1DCE203C7E7E22E05B",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1819,
+          "completionTokens": 254,
+          "totalTokens": 2073,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_574c87d4b91f4935a54a3e34f02312b6",
+          "systemFingerprint": null,
+          "inputHash": "8F85AA55B648DE0116C1A8A4725EAFD6115B12B165A87A1DCE203C7E7E22E05B",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 1013,
+          "completionTokens": 21,
+          "totalTokens": 1034,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_2c9573fda485413eb8418271bcd911f8",
+          "systemFingerprint": null,
+          "inputHash": "8F85AA55B648DE0116C1A8A4725EAFD6115B12B165A87A1DCE203C7E7E22E05B",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 1156,
+          "completionTokens": 77,
+          "totalTokens": 1233,
+          "reasoningTokens": 57
+        },
+        "error": null
+      }
+    ],
+    "classification": {
+      "type": "healthy",
+      "confidence": null,
+      "confidenceBasis": "not_calibrated",
+      "insufficientEvidence": false
+    },
+    "externalVerification": {
+      "enabled": false,
+      "skipped": true
+    }
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "webSourceUrls": []
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "context": {
+    "baseline": {
+      "bufete/page": {
+        "falsePositives": 0,
+        "runs": 3
+      },
+      "symposium/paragraph": {
+        "falsePositives": 2,
+        "runs": 3
+      },
+      "symposium/page": {
+        "falsePositives": 0,
+        "runs": 3
+      },
+      "bufete/sentence": {
+        "falsePositives": 3,
+        "runs": 3
+      },
+      "symposium/sentence": {
+        "falsePositives": 3,
+        "runs": 3
+      },
+      "bufete/paragraph": {
+        "falsePositives": 1,
+        "runs": 3
+      }
+    },
+    "final": {
+      "bufete/page": {
+        "falsePositives": 2,
+        "runs": 3
+      },
+      "symposium/paragraph": {
+        "falsePositives": 0,
+        "runs": 3
+      },
+      "symposium/page": {
+        "falsePositives": 0,
+        "runs": 3
+      },
+      "bufete/sentence": {
+        "falsePositives": 2,
+        "runs": 3
+      },
+      "symposium/sentence": {
+        "falsePositives": 0,
+        "runs": 3
+      },
+      "bufete/paragraph": {
+        "falsePositives": 2,
+        "runs": 3
+      }
+    },
+    "revised": {
+      "bufete/page": {
+        "falsePositives": 1,
+        "runs": 3
+      },
+      "symposium/paragraph": {
+        "falsePositives": 0,
+        "runs": 3
+      },
+      "symposium/page": {
+        "falsePositives": 0,
+        "runs": 3
+      },
+      "bufete/sentence": {
+        "falsePositives": 3,
+        "runs": 3
+      },
+      "symposium/sentence": {
+        "falsePositives": 0,
+        "runs": 3
+      },
+      "bufete/paragraph": {
+        "falsePositives": 2,
+        "runs": 3
+      }
+    }
+  },
+  "auditReports": [
+    {
+      "file": "benchmarks/results/benchmark-v47-full.json",
+      "audits": 19,
+      "scored": 19,
+      "passed": 18,
+      "failures": [
+        "inline-author"
+      ]
+    },
+    {
+      "file": "benchmarks/results/benchmark-v47-controls-repeat.json",
+      "audits": 4,
+      "scored": 4,
+      "passed": 3,
+      "failures": [
+        "Endesa Santa Coloma placeholder and writing errors"
+      ]
+    },
+    {
+      "file": "benchmarks/results/benchmark-cylogy-v47-frozen.json",
+      "audits": 5,
+      "scored": 0,
+      "passed": 0,
+      "failures": []
+    },
+    {
+      "file": "benchmarks/results/benchmark-v47-revised-full.json",
+      "audits": 19,
+      "scored": 19,
+      "passed": 18,
+      "failures": [
+        "Bufete Padilla Altea Norwegian route"
+      ]
+    },
+    {
+      "file": "benchmarks/results/benchmark-v47-revised-controls-repeat.json",
+      "audits": 4,
+      "scored": 4,
+      "passed": 2,
+      "failures": [
+        "Endesa Santa Coloma placeholder and writing errors",
+        "inline-author"
+      ]
+    },
+    {
+      "file": "benchmarks/results/benchmark-cylogy-v47-revised-frozen.json",
+      "audits": 5,
+      "scored": 0,
+      "passed": 0,
+      "failures": []
+    }
+  ],
+  "technicalFailures": 0,
+  "modelCalls": 222,
+  "knownErrorSentinels": [
+    {
+      "label": "Objective spelling and grammar errors",
+      "needle": "are",
+      "detected": true
+    },
+    {
+      "label": "Objective spelling and grammar errors",
+      "needle": "definately",
+      "detected": true
+    },
+    {
+      "label": "writing-positive-controls",
+      "needle": "in in",
+      "detected": true
+    },
+    {
+      "label": "writing-positive-controls",
+      "needle": "developmer",
+      "detected": true
+    },
+    {
+      "label": "Endesa Santa Coloma placeholder and writing errors",
+      "needle": "decision",
+      "detected": true
+    },
+    {
+      "label": "Endesa Santa Coloma placeholder and writing errors",
+      "needle": "compañia",
+      "detected": true
+    },
+    {
+      "label": "20260908-095540-www-cylogy-com-services-optimizely-development",
+      "needle": "you users",
+      "detected": true
+    },
+    {
+      "label": "20260908-095540-www-cylogy-com-services-optimizely-development",
+      "needle": "Oprimizely",
+      "detected": true
+    },
+    {
+      "label": "20260908-095831-www-cylogy-com-company",
+      "needle": "a superior level quality",
+      "detected": true
+    },
+    {
+      "label": "20260908-095941-www-cylogy-com-insights-5-takeaways-from-the-2020-sitecore-symposium",
+      "needle": "are more",
+      "detected": true
+    }
+  ]
+}

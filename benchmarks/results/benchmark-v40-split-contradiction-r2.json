@@ -1,0 +1,35 @@
+{
+  "label": "Directly contradictory guidance",
+  "source": "artificial",
+  "url": "http://127.0.0.1:8088/pages/contradictory-guidance.html",
+  "expectedClassification": "unhealthy",
+  "classification": "unhealthy",
+  "insufficientEvidence": false,
+  "assessmentInvalid": false,
+  "model": "gpt-5.4-mini",
+  "pageSummary": "This is a short instructional page about invoice submission for Meridian Digital customers. It says the guide explains how to submit invoices for manual review and includes a section about where to send invoices. The page also provides a support contact for account questions.",
+  "recommendationsComplete": true,
+  "titlePromiseAssessment": {
+    "titleQuote": "Invoice Submission Guide",
+    "titlePromise": "The page will provide guidance about submitting invoices.",
+    "fulfillment": "fulfilled",
+    "reason": "The body substantively develops invoice submission guidance, including instructions about where invoices should be sent and how they are reviewed before payment.",
+    "bodyEvidenceQuote": "This guide explains how customers should submit invoices for manual review."
+  },
+  "titlePromiseValidation": {
+    "status": "valid",
+    "reason": "literal_evidence_valid",
+    "normalizedBodyEvidenceQuote": "This guide explains how customers should submit invoices for manual review."
+  },
+  "requiredIssues": [
+    "direct_statement_contradiction"
+  ],
+  "allowedIssues": [],
+  "forbiddenIssues": [],
+  "issues": [
+    "direct_statement_contradiction"
+  ],
+  "scored": true,
+  "passed": true,
+  "error": null
+}

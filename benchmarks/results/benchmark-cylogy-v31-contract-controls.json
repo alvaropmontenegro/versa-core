@@ -1,0 +1,135 @@
+[
+  {
+    "label": "Cylogy containerization",
+    "source": "live",
+    "url": "https://www.cylogy.com/services/hosting-infrastructure/sitecore-containerization/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy service page about Sitecore containerization. It explains benefits of using a container-based architecture for Sitecore implementations and describes how Cylogy can help with strategy, training, and related digital experience work. The page also includes a section of additional customer success stories and calls to view them.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Sitecore Containerization",
+      "titlePromise": "Content about Sitecore containerization.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the same subject by explaining container-based architecture for Sitecore and describing related benefits and services.",
+      "bodyEvidenceQuote": "Whether you’re working on a new Sitecore implementation or have an existing one that you’re looking to optimize, choosing a container-based architecture has many benefits."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Whether you’re working on a new Sitecore implementation or have an existing one that you’re looking to optimize, choosing a container-based architecture has many benefits."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Sitecore headless",
+    "source": "live",
+    "url": "https://www.cylogy.com/services/sitecore-headless/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy service page about Sitecore Headless. It presents consulting and implementation services such as roadmap planning, API development and content modeling, front-end selection, migration, hosting, DevOps, and maintenance. The page is aimed at organizations considering or using Sitecore headless solutions and includes additional consulting services and a client testimonial.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Sitecore Headless",
+      "titlePromise": "Substantive content about Sitecore Headless.",
+      "fulfillment": "fulfilled",
+      "reason": "The page develops the Sitecore Headless topic with explanations of the architecture and multiple related services such as roadmap planning, consulting, API development, migration, hosting, and maintenance.",
+      "bodyEvidenceQuote": "Our Sitecore Headless Services"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Our Sitecore Headless Services"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Marketo technology",
+    "source": "live",
+    "url": "https://www.cylogy.com/technologies/marketo/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy technology page about Adobe/Marketo Engage. It describes Marketo as a marketing automation platform and explains its use for lead management, email marketing, ABM, personalization, and CRM integration. The page also includes related technology references, customer success stories, and calls to view more stories or open site navigation.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Adobe/Marketo Engage",
+      "titlePromise": "Content about Adobe/Marketo Engage, specifically Marketo Engage as the subject of the page.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the same subject named in the title by describing Marketo/Adobe Marketo Engage, its marketing automation capabilities, and related use cases and services.",
+      "bodyEvidenceQuote": "Marketo is a comprehensive marketing automation software built to help organizations automate and measure marketing engagement, tasks and workflows and centralize all materials, templates and reports for every kind of campaign from email to ABM to social media."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Marketo is a comprehensive marketing automation software built to help organizations automate and measure marketing engagement, tasks and workflows and centralize all materials, templates and reports for every kind of campaign from email to ABM to social media."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Google Analytics technology",
+    "source": "live",
+    "url": "https://www.cylogy.com/technologies/google-analytics/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy technology page with a Google Analytics title and substantial body content focused on Umbraco CMS. It describes Umbraco, its mid-market solution variants, and Cylogy’s Umbraco partnership, then lists additional technologies and customer success stories. The page also includes calls to action for related services and case studies.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Google Analytics",
+      "titlePromise": "The page should provide substantive content about Google Analytics.",
+      "fulfillment": "not_fulfilled",
+      "reason": "The body does not develop Google Analytics as the main subject; it mainly presents Umbraco CMS information, Umbraco solution variants, and Cylogy’s Umbraco partnership, with only a brief introductory sentence about Google Analytics.",
+      "bodyEvidenceQuote": "Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors",
+      "title_body_mismatch"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  }
+]

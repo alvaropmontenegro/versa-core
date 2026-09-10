@@ -1,0 +1,2150 @@
+[
+  {
+    "label": "Healthy article",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/healthy-article.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a marketing guide article from Meridian Digital about building an effective content calendar for 2025. It walks readers through auditing existing content, defining content pillars, mapping content to the buyer journey, choosing a publishing cadence, building a calendar template, and planning around seasonal events. The intended audience appears to be marketing teams or B2B SaaS content planners.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "How to Build an Effective Content Calendar for 2025",
+      "titlePromise": "The title promises a guide about creating an effective content calendar for the year 2025.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops exactly that subject by explaining why content calendars matter and giving step-by-step guidance for auditing content, defining pillars, mapping the buyer journey, choosing cadence, building a template, and planning seasonal events.",
+      "bodyEvidenceQuote": "In this guide, we walk through a practical framework for building a content calendar that keeps your team aligned, your pipeline full, and your audience engaged throughout 2025."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "In this guide, we walk through a practical framework for building a content calendar that keeps your team aligned, your pipeline full, and your audience engaged throughout 2025."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2790,
+          "completionTokens": 314,
+          "totalTokens": 3104
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2627,
+          "completionTokens": 25,
+          "totalTokens": 2652
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Healthy product",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/healthy-product.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a marketing landing page for Meridian Digital, a project management platform. It presents core features such as visual planning, task management, collaboration, reporting, integrations, automation, security, and mobile apps. The page is aimed at teams considering project management software and invites them to start a free trial.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Project Management That Works",
+      "titlePromise": "The page is expected to show a project management solution and explain how it helps teams plan, track, and deliver work effectively.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops project management software features, workflows, collaboration, reporting, and trial signup, which matches the title’s promise of effective project management.",
+      "bodyEvidenceQuote": "Plan, track, and deliver work with your team in one place."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Plan, track, and deliver work with your team in one place."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2101,
+          "completionTokens": 267,
+          "totalTokens": 2368
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1938,
+          "completionTokens": 25,
+          "totalTokens": 1963
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Healthy support guide",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/healthy-support-doc.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a support/help article from Meridian Digital about setting up team permissions in a workspace. It explains prerequisites, built-in roles, project-level overrides, optional teams, verification steps, and troubleshooting. The intended audience is admins on Professional or Enterprise plans who manage access control for members and projects.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "How to Set Up Team Permissions",
+      "titlePromise": "The page promises instructions for configuring team permissions in Meridian, including roles and access settings.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly develops the promised subject by explaining prerequisites, roles, step-by-step setup, project-level permissions, team creation, verification, and troubleshooting for permissions management.",
+      "bodyEvidenceQuote": "This guide walks you through configuring roles and access levels so every team member has the right level of access."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "This guide walks you through configuring roles and access levels so every team member has the right level of access."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2412,
+          "completionTokens": 264,
+          "totalTokens": 2676
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2249,
+          "completionTokens": 25,
+          "totalTokens": 2274
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Sensitive topic handled responsibly",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/sensitive-topic-good.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is an internal Meridian help page for support operations and Trust & Safety. It explains how agents should handle tickets that mention self-harm, including when to use the guide, required escalation steps, and documentation limits. The page emphasizes calm acknowledgment, immediate escalation, and using approved crisis-response templates.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Support Triage for Messages That Mention Self-Harm",
+      "titlePromise": "The title promises guidance for triaging support messages that mention self-harm.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly develops that subject by explaining scope, when to use the guide, required response steps, and documentation limits for messages mentioning self-harm or immediate personal safety concerns.",
+      "bodyEvidenceQuote": "Scope: This internal guide helps Meridian support agents route tickets that mention self-harm or immediate personal safety concerns."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Scope: This internal guide helps Meridian support agents route tickets that mention self-harm or immediate personal safety concerns."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1790,
+          "completionTokens": 302,
+          "totalTokens": 2092
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1627,
+          "completionTokens": 25,
+          "totalTokens": 1652
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Historical event recap",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/historical-event-recap.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a company blog recap about Meridian Digital’s experience at Web Summit 2019 in Lisbon. It summarizes the main themes the team noticed, especially privacy, analytics, and product-led growth, and ends with practical takeaways they plan to use in client workshops. The page is aimed at readers interested in digital experience platforms and marketing/analytics trends.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "What We Learned at Web Summit 2019",
+      "titlePromise": "The page will explain Meridian Digital’s lessons, observations, or takeaways from Web Summit 2019.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly develops the promised recap by describing the team’s notes from the event and the main ideas they took away, including privacy, analytics, and practical lessons.",
+      "bodyEvidenceQuote": "This recap captures the main ideas that stood out to us at the time, especially around privacy, analytics, and product-led growth."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "This recap captures the main ideas that stood out to us at the time, especially around privacy, analytics, and product-led growth."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1787,
+          "completionTokens": 280,
+          "totalTokens": 2067
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1624,
+          "completionTokens": 25,
+          "totalTokens": 1649
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Unverified claims are outside intrinsic scope",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/unverified-claims.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a marketing page for Meridian Digital, a project-management platform aimed at teams that coordinate delivery work. It highlights claimed advantages such as resilience, reduced tool sprawl, automated reporting, GDPR-related compliance, and faster delivery. The page ends with a free-trial call to action.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Why Teams Choose Meridian",
+      "titlePromise": "The page is expected to explain the reasons teams choose Meridian, likely by outlining its benefits, features, or value for team workflows.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops that expectation by describing Meridian Digital as a project-management platform and listing reasons teams might choose it, including resilience, reduced tool sprawl, compliance, and faster delivery.",
+      "bodyEvidenceQuote": "Meridian Digital is a project-management platform for teams that coordinate delivery work."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Meridian Digital is a project-management platform for teams that coordinate delivery work."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1744,
+          "completionTokens": 290,
+          "totalTokens": 2034
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1581,
+          "completionTokens": 25,
+          "totalTokens": 1606
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Objective spelling and grammar errors",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/writing-errors.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a short instructional page about preparing for a client workshop. It focuses on creating a shared agenda, gathering participant inputs, and distributing the agenda before the session. The intended audience appears to be facilitators or organizers planning the workshop.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Preparing for a Client Workshop",
+      "titlePromise": "The title promises guidance on how to prepare for a client workshop.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops workshop preparation by discussing agenda planning, collecting inputs, and sending the agenda to participants before the session.",
+      "bodyEvidenceQuote": "A successful workshop begins with a shared agenda and a clear list of decisions."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "A successful workshop begins with a shared agenda and a clear list of decisions."
+    },
+    "requiredIssues": [
+      "writing_errors"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "The sentence contains an agreement problem: \"Each facilitator\" is singular, while \"are responsible\" is plural. The proposed fix changes only the verb, but agreement errors need human review because the intended construction could be different. \"definately\" is a clear misspelling of \"definitely\". The proposed correction fixes only that word and does not change the rest of the text.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Each facilitator are responsible for collecting inputs before the session. The final agenda definately includes time for questions and next steps.",
+            "purpose": "writing_error",
+            "errorType": "agreement",
+            "problemSpan": "Each facilitator are",
+            "explanation": "The sentence contains an agreement problem: \"Each facilitator\" is singular, while \"are responsible\" is plural. The proposed fix changes only the verb, but agreement errors need human review because the intended construction could be different.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "verification": {
+              "candidateIndex": 0,
+              "decision": "confirmed_error",
+              "correctionSafe": false,
+              "reason": "The sentence contains an agreement problem: \"Each facilitator\" is singular, while \"are responsible\" is plural. The proposed fix changes only the verb, but agreement errors need human review because the intended construction could be different."
+            },
+            "correctionPolicy": "agreement_requires_human_review",
+            "blockRole": "prose",
+            "blockId": "block-159"
+          },
+          {
+            "quote": "Each facilitator are responsible for collecting inputs before the session. The final agenda definately includes time for questions and next steps.",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "definately",
+            "explanation": "\"definately\" is a clear misspelling of \"definitely\". The proposed correction fixes only that word and does not change the rest of the text.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Each facilitator are responsible for collecting inputs before the session. The final agenda definitely includes time for questions and next steps.",
+            "verification": {
+              "candidateIndex": 1,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "\"definately\" is a clear misspelling of \"definitely\". The proposed correction fixes only that word and does not change the rest of the text."
+            },
+            "blockRole": "prose",
+            "blockId": "block-159",
+            "edit": {
+              "start": 92,
+              "length": 10,
+              "replacement": "definitely"
+            }
+          }
+        ],
+        "pageQuotes": [
+          "Each facilitator are responsible for collecting inputs before the session. The final agenda definately includes time for questions and next steps."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Apply safe corrections and review errors without an unambiguous correction.",
+          "suggestedCorrections": [
+            {
+              "original": "Each facilitator are responsible for collecting inputs before the session. The final agenda definately includes time for questions and next steps.",
+              "suggestion": "Each facilitator are responsible for collecting inputs before the session. The final agenda definitely includes time for questions and next steps.",
+              "pageQuote": "Each facilitator are responsible for collecting inputs before the session. The final agenda definately includes time for questions and next steps.",
+              "problemSpan": "definately",
+              "edit": {
+                "start": 92,
+                "length": 10,
+                "replacement": "definitely"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1476,
+          "completionTokens": 235,
+          "totalTokens": 1711
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1313,
+          "completionTokens": 259,
+          "totalTokens": 1572
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_verification",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 785,
+          "completionTokens": 131,
+          "totalTokens": 916
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Persistently unprofessional writing",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/unprofessional-writing.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a short service landing page for an analytics offering called \"Our Analytics Service.\" It promotes the service with highly enthusiastic marketing language and briefly states that analysts connect reporting to the questions a team needs to answer. The intended audience appears to be organizations or teams looking for analytics support.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Our Analytics Service",
+      "titlePromise": "The page is expected to describe an analytics service and explain what that service offers.",
+      "fulfillment": "fulfilled",
+      "reason": "The body stays on the same subject as the title and does describe analytics-related services, including reporting and how analysts connect reporting to team questions.",
+      "bodyEvidenceQuote": "Our analysts connect reporting to the questions your team needs to answer."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Our analysts connect reporting to the questions your team needs to answer."
+    },
+    "requiredIssues": [
+      "unprofessional_writing"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "brand_safety_risk",
+      "unprofessional_writing"
+    ],
+    "issueDetails": [
+      {
+        "code": "brand_safety_risk",
+        "reason": "The main content uses exaggerated promotional language that is not professional in tone.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "We deliver the most amazing analytics in the universe.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-52"
+          },
+          {
+            "quote": "Our team is absolutely incredible, unbelievably brilliant, and totally unmatched.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-52"
+          },
+          {
+            "quote": "Choose us now for game-changing, world-class, next-level results that will blow your mind.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-205"
+          }
+        ],
+        "pageQuotes": [
+          "We deliver the most amazing analytics in the universe.",
+          "Our team is absolutely incredible, unbelievably brilliant, and totally unmatched.",
+          "Choose us now for game-changing, world-class, next-level results that will blow your mind."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Remove or rewrite the cited language to avoid abusive, discriminatory, humiliating, or coercive treatment.",
+          "suggestedCorrections": []
+        }
+      },
+      {
+        "code": "unprofessional_writing",
+        "reason": "Two substantive prose blocks use exaggerated, hype-heavy marketing language that is empty and cliché-driven, which materially undermines professional credibility across the page.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "We deliver the most amazing analytics in the universe. Our team is absolutely incredible, unbelievably brilliant, and totally unmatched.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-52"
+          },
+          {
+            "quote": "Choose us now for game-changing, world-class, next-level results that will blow your mind. Nobody does analytics better. Nobody does analytics better.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-205"
+          }
+        ],
+        "pageQuotes": [
+          "We deliver the most amazing analytics in the universe. Our team is absolutely incredible, unbelievably brilliant, and totally unmatched.",
+          "Choose us now for game-changing, world-class, next-level results that will blow your mind. Nobody does analytics better. Nobody does analytics better."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Rewrite the cited passages using professional, specific language appropriate for the intended audience.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1487,
+          "completionTokens": 314,
+          "totalTokens": 1801
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1324,
+          "completionTokens": 114,
+          "totalTokens": 1438
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": false,
+    "error": null
+  },
+  {
+    "label": "Published placeholder content",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/incomplete-placeholder-content.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This page is a customer onboarding guide for Meridian Digital. It is aimed at a team preparing for the first month after launch and covers access setup, migration planning, and weekly progress review with an implementation lead. One section contains a placeholder for migration timeline and owner responsibilities.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Customer Onboarding Guide",
+      "titlePromise": "The page will provide guidance for customer onboarding, likely covering how to prepare and manage the initial post-launch period.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the onboarding subject with preparation steps, access setup, migration planning, and weekly review, which matches the guide promised by the title.",
+      "bodyEvidenceQuote": "Use this guide to prepare your team for the first month after launch."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Use this guide to prepare your team for the first month after launch."
+    },
+    "requiredIssues": [
+      "published_placeholder_content"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "published_placeholder_content"
+    ],
+    "issueDetails": [
+      {
+        "code": "published_placeholder_content",
+        "reason": "Reader-facing content is visibly published as unfinished filler and contains an explicit placeholder marker.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "[Insert migration timeline and owner responsibilities here.]",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-332"
+          }
+        ],
+        "pageQuotes": [
+          "[Insert migration timeline and owner responsibilities here.]"
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Replace the cited placeholder content with reviewed final copy before keeping the page published.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1500,
+          "completionTokens": 263,
+          "totalTokens": 1763
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1337,
+          "completionTokens": 58,
+          "totalTokens": 1395
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Directly contradictory guidance",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/contradictory-guidance.html",
+    "expectedClassification": "unhealthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is an invoice submission guide for Meridian Digital. It tells customers how to submit invoices for manual review and includes a support contact for account questions. The page focuses on invoice routing and review instructions.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Invoice Submission Guide",
+      "titlePromise": "The page will explain how to submit invoices and related submission guidance.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops invoice submission instructions, including where invoices should be sent and how they are reviewed.",
+      "bodyEvidenceQuote": "This guide explains how customers should submit invoices for manual review."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "This guide explains how customers should submit invoices for manual review."
+    },
+    "requiredIssues": [
+      "direct_statement_contradiction"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [
+      {
+        "code": "direct_statement_contradiction",
+        "reason": "One statement says invoices must not be sent to support, while another says all customers must submit every invoice to support for review before payment can be processed.",
+        "contradictionKind": "opposite_polarity",
+        "contradictionCondition": "Where invoices should be sent for review",
+        "claimAPolarity": "affirmed",
+        "claimBPolarity": "affirmed",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Customers must not send invoices to the support team.",
+            "purpose": "claim_a",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-200"
+          },
+          {
+            "quote": "All customers must submit every invoice to the support team for review before payment can be processed.",
+            "purpose": "claim_b",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-311"
+          }
+        ],
+        "rejectionReason": "invalid_issue_evidence_contract"
+      }
+    ],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1504,
+          "completionTokens": 331,
+          "totalTokens": 1835
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1341,
+          "completionTokens": 25,
+          "totalTokens": 1366
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": false,
+    "error": null
+  },
+  {
+    "label": "Title and body cover different subjects",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/title-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a marketing landing page for Meridian Digital, presented as a project management software offering. It describes the platform’s workflow, tracking, integrations, pricing tiers, and onboarding benefits for teams considering a switch. The page also invites visitors to start a free trial.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "10 Best Project Management Tools Compared (2025)",
+      "titlePromise": "The title promises a comparison of ten project management tools, likely evaluating multiple options side by side.",
+      "fulfillment": "not_fulfilled",
+      "reason": "The body does not compare ten tools or present a multi-tool comparison; it mainly promotes Meridian Digital as a single product and explains its features, pricing, and trial offer.",
+      "bodyEvidenceQuote": "Meridian Digital was designed from the ground up to eliminate the friction that slows teams down."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Meridian Digital was designed from the ground up to eliminate the friction that slows teams down."
+    },
+    "requiredIssues": [
+      "title_body_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "title_body_mismatch"
+    ],
+    "issueDetails": [
+      {
+        "code": "title_body_mismatch",
+        "reason": "The body does not compare ten tools or present a multi-tool comparison; it mainly promotes Meridian Digital as a single product and explains its features, pricing, and trial offer.",
+        "pageQuotes": [
+          "10 Best Project Management Tools Compared (2025)",
+          "Meridian Digital was designed from the ground up to eliminate the friction that slows teams down."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Align the title with the main content or revise the body so it clearly delivers the title's promise.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2133,
+          "completionTokens": 256,
+          "totalTokens": 2389
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1970,
+          "completionTokens": 25,
+          "totalTokens": 1995
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Cylogy Google Analytics content mismatch",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/cylogy-google-analytics-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a short informational page about Umbraco CMS. It describes Umbraco as a flexible, cost-effective open-source CMS with editing, hosting, extension, and cross-platform features. The page appears aimed at readers evaluating Umbraco as a platform for developers, designers, editors, or business use.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Google Analytics",
+      "titlePromise": "The title creates an expectation that the page will explain Google Analytics or discuss analytics-related features, uses, or information.",
+      "fulfillment": "not_fulfilled",
+      "reason": "The body mainly develops Umbraco CMS rather than Google Analytics, so the page does not materially deliver the subject promised by the visible title.",
+      "bodyEvidenceQuote": "Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business."
+    },
+    "requiredIssues": [
+      "title_body_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "title_body_mismatch"
+    ],
+    "issueDetails": [
+      {
+        "code": "title_body_mismatch",
+        "reason": "The body mainly develops Umbraco CMS rather than Google Analytics, so the page does not materially deliver the subject promised by the visible title.",
+        "pageQuotes": [
+          "Google Analytics",
+          "Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Align the title with the main content or revise the body so it clearly delivers the title's promise.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1575,
+          "completionTokens": 286,
+          "totalTokens": 1861
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1412,
+          "completionTokens": 25,
+          "totalTokens": 1437
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Abusive and coercive brand language",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/brand-safety-risk.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a marketing advice page about trade show booth tactics for Meridian Digital. It focuses on drawing a crowd, controlling conversations, and steering attendees toward demos and sales leads. The page is aimed at field marketing or sales teams planning event presence.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "How to Work a Trade Show Crowd",
+      "titlePromise": "The title promises guidance on managing, attracting, and engaging a crowd at a trade show.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops trade show crowd tactics throughout, including booth setup, attention-getting methods, and ways to keep visitors engaged while sales reps work leads.",
+      "bodyEvidenceQuote": "Trade shows are simple if you remember that most attendees are bored, distracted, and easy to steer if your team keeps control of the conversation."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Trade shows are simple if you remember that most attendees are bored, distracted, and easy to steer if your team keeps control of the conversation."
+    },
+    "requiredIssues": [
+      "brand_safety_risk"
+    ],
+    "allowedIssues": [
+      "unprofessional_writing"
+    ],
+    "forbiddenIssues": [],
+    "issues": [
+      "brand_safety_risk"
+    ],
+    "issueDetails": [
+      {
+        "code": "brand_safety_risk",
+        "reason": "The page explicitly uses sexist and demeaning language toward women in a marketing instruction.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Use booth girls to stop traffic",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "heading",
+            "blockId": "block-453"
+          },
+          {
+            "quote": "hire booth girls who know how to flirt, smile on command, and keep the men hanging around while your sales team works the serious leads.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-515"
+          },
+          {
+            "quote": "Some prospects from smaller markets need hand-holding and will waste your team’s time if you let them ramble.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-880"
+          },
+          {
+            "quote": "Cut them off early, move them through the script, and focus your energy on buyers who look polished enough to close inside the quarter.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-880"
+          },
+          {
+            "quote": "Keep the music loud enough that people feel awkward leaving without talking.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "list_item",
+            "blockId": "block-1208"
+          },
+          {
+            "quote": "Make jokes about indecisive visitors so the rest of the crowd stays engaged.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "list_item",
+            "blockId": "block-1309"
+          }
+        ],
+        "pageQuotes": [
+          "Use booth girls to stop traffic",
+          "hire booth girls who know how to flirt, smile on command, and keep the men hanging around while your sales team works the serious leads.",
+          "Some prospects from smaller markets need hand-holding and will waste your team’s time if you let them ramble.",
+          "Cut them off early, move them through the script, and focus your energy on buyers who look polished enough to close inside the quarter.",
+          "Keep the music loud enough that people feel awkward leaving without talking.",
+          "Make jokes about indecisive visitors so the rest of the crowd stays engaged."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Remove or rewrite the cited language to avoid abusive, discriminatory, humiliating, or coercive treatment.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [
+      {
+        "code": "unprofessional_writing",
+        "reason": "The page contains a repeated demeaning, manipulative editorial pattern across multiple substantive prose blocks, including instructions to exploit attendees and pressure them rather than provide professional guidance.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Trade shows are simple if you remember that most attendees are bored, distracted, and easy to steer if your team keeps control of the conversation.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-161"
+          },
+          {
+            "quote": "If you really want a crowd, hire booth girls who know how to flirt, smile on command, and keep the men hanging around while your sales team works the serious leads.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-515"
+          },
+          {
+            "quote": "Some prospects from smaller markets need hand-holding and will waste your team’s time if you let them ramble.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-880"
+          },
+          {
+            "quote": "Keep the music loud enough that people feel awkward leaving without talking.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "list_item",
+            "blockId": "block-1208"
+          }
+        ],
+        "rejectionReason": "invalid_issue_evidence_contract"
+      }
+    ],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1772,
+          "completionTokens": 478,
+          "totalTokens": 2250
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1609,
+          "completionTokens": 165,
+          "totalTokens": 1774
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Unsafe sensitive-topic guidance",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/sensitive-topic-bad.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is an internal guidance page for support operations about replying to self-harm messages from users. It outlines a response flow that emphasizes brief acknowledgment, redirecting to product issues, and closing tickets if the statements continue. The page is written for support agents and frames escalation as optional in some cases.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "How Support Agents Should Reply to Self-Harm Messages",
+      "titlePromise": "The title promises guidance on how support agents should respond to self-harm messages.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly develops that subject by giving a recommended response flow for users who say they want to hurt themselves, including how to acknowledge the message, what to tell the user, and when to close the ticket or escalate.",
+      "bodyEvidenceQuote": "When users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "When users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible."
+    },
+    "requiredIssues": [
+      "sensitive_topic_without_context"
+    ],
+    "allowedIssues": [
+      "brand_safety_risk"
+    ],
+    "forbiddenIssues": [],
+    "issues": [
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "issueDetails": [
+      {
+        "code": "brand_safety_risk",
+        "reason": "The page instructs support agents to minimize and redirect self-harm disclosures rather than respond safely.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "When users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-183"
+          },
+          {
+            "quote": "Escalation is optional unless the user is blocking other queue work.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-849"
+          }
+        ],
+        "pageQuotes": [
+          "When users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible.",
+          "Escalation is optional unless the user is blocking other queue work."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Remove or rewrite the cited language to avoid abusive, discriminatory, humiliating, or coercive treatment.",
+          "suggestedCorrections": []
+        }
+      },
+      {
+        "code": "sensitive_topic_without_context",
+        "reason": "The page gives reader-facing guidance for handling self-harm messages, but the guidance prioritizes redirecting away from the crisis and says escalation is optional unless the user is blocking queue work, which is materially insufficient for a safety-critical situation.",
+        "pageQuotes": [
+          "When users send messages saying they want to hurt themselves, agents should stay calm, avoid overreacting, and move the conversation back toward the product issue as fast as possible."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Revise the cited guidance to include appropriate boundaries, safety context, and escalation.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1639,
+          "completionTokens": 442,
+          "totalTokens": 2081
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1476,
+          "completionTokens": 25,
+          "totalTokens": 1501
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Bufete Padilla Altea Norwegian route",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/bufete-padilla-altea-no.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a law firm landing page for Bufete Padilla focused on English-speaking legal services in Altea and nearby areas. It highlights services for international clients, especially property-related and estate matters, and includes FAQ-style information about fees, languages, and practice areas. The page also contains seasonal closure notices and calls to book a consultation.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "English-Speaking Lawyers in Altea",
+      "titlePromise": "The page is expected to present lawyers in Altea who provide English-speaking legal services and related information about those services.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops exactly that subject by describing professional legal services in Altea, listing legal matters handled there, and stating that the team works in English and other languages.",
+      "bodyEvidenceQuote": "In Altea we handle villa and high-value property conveyancing, planning and licence due diligence, Ley de Costas compliance, wealth tax, international estate planning, wills and non-resident taxation."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "In Altea we handle villa and high-value property conveyancing, planning and licence due diligence, Ley de Costas compliance, wealth tax, international estate planning, wills and non-resident taxation."
+    },
+    "requiredIssues": [
+      "language_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "language_mismatch"
+    ],
+    "issueDetails": [
+      {
+        "code": "language_mismatch",
+        "reason": "The page declares language 'no', while its main reader-facing content is 'es'.",
+        "pageQuotes": [
+          "Vacaciones de verano: Cerramos oficinas el viernes 7 de agosto a las 14:00 y reabrimos el 1 de septiembre."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Align the declared language, route, and metadata with the page's main language, or translate the main content into the declared language.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2070,
+          "completionTokens": 326,
+          "totalTokens": 2396
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1907,
+          "completionTokens": 25,
+          "totalTokens": 1932
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "Endesa Santa Coloma placeholder and writing errors",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/endesa-santa-coloma-placeholder.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Spanish-language local service page for an Endesa office at Calle Rambla de San Sebastián, 42, Santa Coloma De Gramenet, Barcelona. It presents nearby Endesa services, mentions available services, and includes a call to action to request an appointment. The page also notes that there is no permanence and that users can change tariffs or companies without penalty.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Calle Rambla de San Sebastián, 42, Santa Coloma De Gramenet, Barcelona",
+      "titlePromise": "The page is expected to provide information about the Endesa office or point at this specific address in Santa Coloma De Gramenet, Barcelona.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the same local office/location subject by inviting users to find the nearest Endesa point and by presenting services and an appointment action for that address.",
+      "bodyEvidenceQuote": "Encuentra tu Punto Endesa más cercano para contratar Energía, Placas Solares o Movilidad eléctrica"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Encuentra tu Punto Endesa más cercano para contratar Energía, Placas Solares o Movilidad eléctrica"
+    },
+    "requiredIssues": [
+      "published_placeholder_content",
+      "writing_errors"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors",
+      "published_placeholder_content"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "In Spanish, the noun is normally spelled “decisión” with an accent mark. The original “decision” is a clear spelling error in this context, and the proposed correction fixes it without changing the meaning.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Toma una decision formidable",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "decision",
+            "explanation": "In Spanish, the noun is normally spelled “decisión” with an accent mark. The original “decision” is a clear spelling error in this context, and the proposed correction fixes it without changing the meaning.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Toma una decisión formidable",
+            "verification": {
+              "candidateIndex": 0,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "In Spanish, the noun is normally spelled “decisión” with an accent mark. The original “decision” is a clear spelling error in this context, and the proposed correction fixes it without changing the meaning."
+            },
+            "blockRole": "prose",
+            "blockId": "block-527",
+            "edit": {
+              "start": 9,
+              "length": 8,
+              "replacement": "decisión"
+            }
+          }
+        ],
+        "pageQuotes": [
+          "Toma una decision formidable"
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Correct the objective writing errors identified in the cited sentences.",
+          "suggestedCorrections": [
+            {
+              "original": "Toma una decision formidable",
+              "suggestion": "Toma una decisión formidable",
+              "pageQuote": "Toma una decision formidable",
+              "problemSpan": "decision",
+              "edit": {
+                "start": 9,
+                "length": 8,
+                "replacement": "decisión"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "code": "published_placeholder_content",
+        "reason": "This visible block is published filler and contains the explicit placeholder marker \"Lorem ipsum\".",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Loresm imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "ui_text",
+            "blockId": "block-258"
+          }
+        ],
+        "pageQuotes": [
+          "Loresm imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Replace the cited placeholder content with reviewed final copy before keeping the page published.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1583,
+          "completionTokens": 341,
+          "totalTokens": 1924
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1420,
+          "completionTokens": 180,
+          "totalTokens": 1600
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_verification",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 717,
+          "completionTokens": 76,
+          "totalTokens": 793
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": false,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [
+      {
+        "quote": "Sin permanencia: puedes cambiarte de tarifa (o de compañia) sin penalización.",
+        "problemSpan": "compañia",
+        "errorType": "spelling",
+        "correctionStatus": "safe",
+        "correctedQuote": "Sin permanencia: puedes cambiarte de tarifa (o de compañía) sin penalización."
+      }
+    ],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": false,
+    "error": null
+  },
+  {
+    "label": "regional-controls",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/regional-controls.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a short notes-style page titled \"Team notes.\" It contains a few brief prose statements about a visit, conference attendance, a café drive-thru window, and services in design, development, and support. The page appears to be a general internal or informational note rather than a detailed article.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Team notes",
+      "titlePromise": "The page is expected to contain notes or brief information about a team or team-related matters.",
+      "fulfillment": "fulfilled",
+      "reason": "The body consists of short note-like statements and team-related content, so it substantively matches the expectation created by the title.",
+      "bodyEvidenceQuote": "Our team attend conferences to exchange ideas with their peers."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Our team attend conferences to exchange ideas with their peers."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [
+      "writing_errors"
+    ],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [
+      {
+        "code": "writing_errors",
+        "reason": "In this sentence, the singular collective noun 'team' takes the singular verb 'attend' only if the intended meaning is the group as a unit; here the sentence is written as a standard statement about the team, so the verb form is not the required agreement. Changing it to 'team attends' makes the subject-verb agreement correct.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Our team attend conferences to exchange ideas with their peers.",
+            "purpose": "writing_error",
+            "errorType": "agreement",
+            "problemSpan": "team attend",
+            "explanation": "In this sentence, the singular collective noun 'team' takes the singular verb 'attend' only if the intended meaning is the group as a unit; here the sentence is written as a standard statement about the team, so the verb form is not the required agreement. Changing it to 'team attends' makes the subject-verb agreement correct.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Our team attends conferences to exchange ideas with their peers.",
+            "verification": {
+              "candidateIndex": 0,
+              "decision": "accepted_usage",
+              "correctionSafe": false,
+              "reason": "‘Team’ is a collective noun and can take a plural verb in British English when the members are meant collectively. The sentence has a valid reading, so this is not a confirmed agreement error."
+            }
+          }
+        ],
+        "rejectionReason": "writing_verification_did_not_confirm_defect"
+      }
+    ],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1459,
+          "completionTokens": 241,
+          "totalTokens": 1700
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1296,
+          "completionTokens": 144,
+          "totalTokens": 1440
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_verification",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 643,
+          "completionTokens": 73,
+          "totalTokens": 716
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "inline-author",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/inline-author.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a short English page titled \"Team notes.\" It identifies the writer as Lindsay Sullivan and includes a simple call to contact the team for details. The page appears to be a minimal informational note rather than a detailed article or form.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Team notes",
+      "titlePromise": "The page is expected to provide team notes or information related to team updates, notes, or internal commentary.",
+      "fulfillment": "fulfilled",
+      "reason": "The body matches the title by presenting a brief note-style page with authorship and a team contact prompt, which is consistent with team notes content.",
+      "bodyEvidenceQuote": "Written By: Lindsay Sullivan"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Written By: Lindsay Sullivan"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [
+      "writing_errors"
+    ],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1420,
+          "completionTokens": 213,
+          "totalTokens": 1633
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1257,
+          "completionTokens": 25,
+          "totalTokens": 1282
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "writing-positive-controls",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/writing-positive-controls.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a short internal-style notes page titled \"Team notes.\" It contains two brief statements about working in small teams and a developer reviewing changes. The page appears intended to inform readers about team-related status notes.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Team notes",
+      "titlePromise": "The page will provide notes or updates related to a team.",
+      "fulfillment": "fulfilled",
+      "reason": "The body presents brief team-related notes, including team size and a review of changes, which matches the expectation of team notes.",
+      "bodyEvidenceQuote": "We work in in small teams."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "We work in in small teams."
+    },
+    "requiredIssues": [
+      "writing_errors"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "‘We work in in small teams.’ contains a duplicated preposition, and the intended reading is ungrammatical. Removing one ‘in’ fixes the sentence without changing the meaning. ‘developmer’ is a clear spelling error in this context; ‘developer’ is the ordinary intended word, and the proposed correction is safe.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "We work in in small teams.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "in in",
+            "explanation": "‘We work in in small teams.’ contains a duplicated preposition, and the intended reading is ungrammatical. Removing one ‘in’ fixes the sentence without changing the meaning.",
+            "correctionStatus": "safe",
+            "correctedQuote": "We work in small teams.",
+            "verification": {
+              "candidateIndex": 0,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "‘We work in in small teams.’ contains a duplicated preposition, and the intended reading is ungrammatical. Removing one ‘in’ fixes the sentence without changing the meaning."
+            },
+            "blockRole": "prose",
+            "blockId": "block-41",
+            "edit": {
+              "start": 8,
+              "length": 5,
+              "replacement": "in"
+            }
+          },
+          {
+            "quote": "The developmer reviewed the changes.",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "developmer",
+            "explanation": "‘developmer’ is a clear spelling error in this context; ‘developer’ is the ordinary intended word, and the proposed correction is safe.",
+            "correctionStatus": "safe",
+            "correctedQuote": "The developer reviewed the changes.",
+            "verification": {
+              "candidateIndex": 1,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "‘developmer’ is a clear spelling error in this context; ‘developer’ is the ordinary intended word, and the proposed correction is safe."
+            },
+            "blockRole": "prose",
+            "blockId": "block-84",
+            "edit": {
+              "start": 4,
+              "length": 10,
+              "replacement": "developer"
+            }
+          }
+        ],
+        "pageQuotes": [
+          "We work in in small teams.",
+          "The developmer reviewed the changes."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Correct the objective writing errors identified in the cited sentences.",
+          "suggestedCorrections": [
+            {
+              "original": "We work in in small teams.",
+              "suggestion": "We work in small teams.",
+              "pageQuote": "We work in in small teams.",
+              "problemSpan": "in in",
+              "edit": {
+                "start": 8,
+                "length": 5,
+                "replacement": "in"
+              }
+            },
+            {
+              "original": "The developmer reviewed the changes.",
+              "suggestion": "The developer reviewed the changes.",
+              "pageQuote": "The developmer reviewed the changes.",
+              "problemSpan": "developmer",
+              "edit": {
+                "start": 4,
+                "length": 10,
+                "replacement": "developer"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1422,
+          "completionTokens": 207,
+          "totalTokens": 1629
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1259,
+          "completionTokens": 172,
+          "totalTokens": 1431
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_verification",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 629,
+          "completionTokens": 119,
+          "totalTokens": 748
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  }
+]

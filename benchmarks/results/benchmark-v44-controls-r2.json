@@ -1,0 +1,257 @@
+[
+  {
+    "label": "regional-controls",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/regional-controls.html",
+    "expectedClassification": "healthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a short notes-style page titled \"Team notes.\" It contains a few brief prose statements about a visit, conference attendance, a café drive-thru window, and the team’s design, development, and support services. The page appears to be a simple internal or informational note rather than a structured article or product page.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Team notes",
+      "titlePromise": "The title suggests a page containing notes or brief observations from a team, likely covering assorted team-related information.",
+      "fulfillment": "fulfilled",
+      "reason": "The body consists of several short prose notes and observations, which matches the expectation of a notes-style page.",
+      "bodyEvidenceQuote": "Several details stuck out during the visit."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Several details stuck out during the visit."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [
+      "writing_errors"
+    ],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "In this sentence, the singular collective noun 'team' takes the singular verb form 'attends'. The current verb agreement is objectively incorrect in standard English for this subject-verb pairing.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Our team attend conferences to exchange ideas with their peers.",
+            "purpose": "writing_error",
+            "errorType": "agreement",
+            "problemSpan": "team attend",
+            "explanation": "In this sentence, the singular collective noun 'team' takes the singular verb form 'attends'. The current verb agreement is objectively incorrect in standard English for this subject-verb pairing.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Our team attends conferences to exchange ideas with their peers.",
+            "blockRole": "prose",
+            "blockId": "block-101",
+            "edit": {
+              "start": 4,
+              "length": 11,
+              "replacement": "team attends"
+            }
+          }
+        ],
+        "pageQuotes": [
+          "Our team attend conferences to exchange ideas with their peers."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Correct the objective writing errors identified in the cited sentences.",
+          "suggestedCorrections": [
+            {
+              "original": "Our team attend conferences to exchange ideas with their peers.",
+              "suggestion": "Our team attends conferences to exchange ideas with their peers.",
+              "pageQuote": "Our team attend conferences to exchange ideas with their peers.",
+              "problemSpan": "team attend"
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-safe-corrections",
+    "evidencePassed": false,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [
+      {
+        "quote": "Our team attend conferences to exchange ideas with their peers.",
+        "purpose": "writing_error",
+        "errorType": "agreement",
+        "problemSpan": "team attend",
+        "explanation": "In this sentence, the singular collective noun 'team' takes the singular verb form 'attends'. The current verb agreement is objectively incorrect in standard English for this subject-verb pairing.",
+        "correctionStatus": "safe",
+        "correctedQuote": "Our team attends conferences to exchange ideas with their peers.",
+        "blockRole": "prose",
+        "blockId": "block-101",
+        "edit": {
+          "start": 4,
+          "length": 11,
+          "replacement": "team attends"
+        }
+      }
+    ],
+    "scored": true,
+    "passed": false,
+    "error": null
+  },
+  {
+    "label": "inline-author",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/inline-author.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a short English page titled \"Team notes.\" It identifies the writer as Lindsay Sullivan and includes a brief call to contact the team for details. The page appears to be a simple internal or informational note rather than a detailed article.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Team notes",
+      "titlePromise": "The title suggests a page containing team notes or brief internal notes about the team.",
+      "fulfillment": "fulfilled",
+      "reason": "The body matches the title by presenting a short note-style page with an author line and a team contact prompt, which is consistent with team notes.",
+      "bodyEvidenceQuote": "Written By: Lindsay Sullivan"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Written By: Lindsay Sullivan"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [
+      "writing_errors"
+    ],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-safe-corrections",
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "writing-positive-controls",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/writing-positive-controls.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a short English page titled \"Team notes\". It contains two brief prose statements about working in small teams and a developer reviewing changes. The page appears to be a simple internal note or status page rather than a detailed article or form.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Team notes",
+      "titlePromise": "The page is expected to provide notes or information about a team, likely brief team-related updates or observations.",
+      "fulfillment": "fulfilled",
+      "reason": "The body stays on the same general subject as the title by presenting short notes about team work and a developer reviewing changes.",
+      "bodyEvidenceQuote": "We work in in small teams."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "We work in in small teams."
+    },
+    "requiredIssues": [
+      "writing_errors"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "The sentence contains a duplicated preposition, which makes the wording objectively ungrammatical in this context. Removing one instance fixes the error without changing the meaning. \"developmer\" is a misspelling of the ordinary word \"developer\" in this English sentence. Replacing the misspelled word corrects the block.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "We work in in small teams.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "in in",
+            "explanation": "The sentence contains a duplicated preposition, which makes the wording objectively ungrammatical in this context. Removing one instance fixes the error without changing the meaning.",
+            "correctionStatus": "safe",
+            "correctedQuote": "We work in small teams.",
+            "blockRole": "prose",
+            "blockId": "block-41",
+            "edit": {
+              "start": 8,
+              "length": 5,
+              "replacement": "in"
+            }
+          },
+          {
+            "quote": "The developmer reviewed the changes.",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "developmer",
+            "explanation": "\"developmer\" is a misspelling of the ordinary word \"developer\" in this English sentence. Replacing the misspelled word corrects the block.",
+            "correctionStatus": "safe",
+            "correctedQuote": "The developer reviewed the changes.",
+            "blockRole": "prose",
+            "blockId": "block-84",
+            "edit": {
+              "start": 4,
+              "length": 10,
+              "replacement": "developer"
+            }
+          }
+        ],
+        "pageQuotes": [
+          "We work in in small teams.",
+          "The developmer reviewed the changes."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Correct the objective writing errors identified in the cited sentences.",
+          "suggestedCorrections": [
+            {
+              "original": "We work in in small teams.",
+              "suggestion": "We work in small teams.",
+              "pageQuote": "We work in in small teams.",
+              "problemSpan": "in in"
+            },
+            {
+              "original": "The developmer reviewed the changes.",
+              "suggestion": "The developer reviewed the changes.",
+              "pageQuote": "The developmer reviewed the changes.",
+              "problemSpan": "developmer"
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-safe-corrections",
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  }
+]

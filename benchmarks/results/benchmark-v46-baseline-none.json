@@ -1,0 +1,768 @@
+[
+  {
+    "label": "Endesa Santa Coloma placeholder and writing errors",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8089/endesa-santa-coloma-placeholder.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This page is a Spanish location/branch landing page for an Endesa office at Calle Rambla de San Sebastián, 42, Santa Coloma De Gramenet, Barcelona. It presents nearby service offerings such as energy, solar panels, and electric mobility, and includes a call to action to request an appointment. The page also mentions tariff switching without penalty.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Calle Rambla de San Sebastián, 42, Santa Coloma De Gramenet, Barcelona",
+      "titlePromise": "A location-specific page about the Endesa office at this address.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops the same location-specific subject by describing the nearest Endesa point for services and offering an appointment CTA, which matches a branch/location landing page.",
+      "bodyEvidenceQuote": "Encuentra tu Punto Endesa más cercano para contratar Energía, Placas Solares o Movilidad eléctrica"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Encuentra tu Punto Endesa más cercano para contratar Energía, Placas Solares o Movilidad eléctrica"
+    },
+    "requiredIssues": [
+      "published_placeholder_content",
+      "writing_errors"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "published_placeholder_content",
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "published_placeholder_content",
+        "reason": "Reader-facing content is published with explicit placeholder filler text.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Loresm imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl.",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "ui_text",
+            "blockId": "block-258"
+          }
+        ],
+        "pageQuotes": [
+          "Loresm imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Replace the cited placeholder content with reviewed final copy before keeping the page published.",
+          "suggestedCorrections": []
+        }
+      },
+      {
+        "code": "writing_errors",
+        "reason": "In Spanish, 'decisión' requires an accent mark on the final 'o'. The unaccented form is not the correct spelling in this context, so adding the missing diacritic fixes the objective error. In Spanish, the correct spelling is 'compañía' with an accent mark on the 'i'. The current form is objectively misspelled, and adding the missing diacritic fixes it.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Toma una decision formidable",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "decision",
+            "explanation": "In Spanish, 'decisión' requires an accent mark on the final 'o'. The unaccented form is not the correct spelling in this context, so adding the missing diacritic fixes the objective error.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Toma una decisión formidable",
+            "blockRole": "prose",
+            "blockId": "block-527",
+            "edit": {
+              "start": 9,
+              "length": 8,
+              "replacement": "decisión"
+            }
+          },
+          {
+            "quote": "de compañia",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "compañia",
+            "explanation": "In Spanish, the correct spelling is 'compañía' with an accent mark on the 'i'. The current form is objectively misspelled, and adding the missing diacritic fixes it.",
+            "correctionStatus": "safe",
+            "correctedQuote": "de compañía",
+            "blockRole": "prose",
+            "blockId": "block-572",
+            "edit": {
+              "start": 3,
+              "length": 8,
+              "replacement": "compañía"
+            }
+          }
+        ],
+        "pageQuotes": [
+          "Toma una decision formidable",
+          "de compañia"
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Correct the objective writing errors identified in the cited sentences.",
+          "suggestedCorrections": [
+            {
+              "original": "Toma una decision formidable",
+              "suggestion": "Toma una decisión formidable",
+              "pageQuote": "Toma una decision formidable",
+              "problemSpan": "decision",
+              "edit": {
+                "start": 9,
+                "length": 8,
+                "replacement": "decisión"
+              }
+            },
+            {
+              "original": "de compañia",
+              "suggestion": "de compañía",
+              "pageQuote": "de compañia",
+              "problemSpan": "compañia",
+              "edit": {
+                "start": 3,
+                "length": 8,
+                "replacement": "compañía"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [
+      {
+        "code": "writing_errors",
+        "reason": "In this block, 'Loresm imsum' is a misspelling of the standard placeholder phrase 'Lorem ipsum'. The rest of the block remains unchanged, so replacing only this span fixes the objective spelling error.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Loresm imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl.",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "Loresm imsum",
+            "explanation": "In this block, 'Loresm imsum' is a misspelling of the standard placeholder phrase 'Lorem ipsum'. The rest of the block remains unchanged, so replacing only this span fixes the objective spelling error.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl.",
+            "blockRole": "ui_text",
+            "blockId": "block-258"
+          }
+        ],
+        "rejectionReason": "writing_evidence_is_a_published_placeholder_block"
+      },
+      {
+        "code": "writing_errors",
+        "reason": "In this block, 'ultirices' is a misspelling of 'ultrices'. The error is confined to a single word, and correcting it fixes the objective spelling issue without altering the rest of the block.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Loresm imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultirices congue nisi nisl.",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "ultirices",
+            "explanation": "In this block, 'ultirices' is a misspelling of 'ultrices'. The error is confined to a single word, and correcting it fixes the objective spelling issue without altering the rest of the block.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Loresm imsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl. Lorem ipsum dolor sit amet consectetur. Eget faucibus risus massa facilisis. Viverra ultrices congue nisi nisl.",
+            "blockRole": "ui_text",
+            "blockId": "block-258"
+          }
+        ],
+        "rejectionReason": "writing_evidence_is_a_published_placeholder_block"
+      }
+    ],
+    "taxonomyVersion": "intrinsic-v45-dedicated-writing",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_a2ddb31f2d8641d080270b1b82539312",
+          "systemFingerprint": null,
+          "inputHash": "B8D286F14DC2FEEA456A6525144F8D2B71E8FFBC05D35E0F9D0C73CACEC2C2CF",
+          "promptHash": "D95C9C5F6C4158C9DCAF773B0A46CFFFD5899C7C46C608F5EA5402B5509AD848"
+        },
+        "usage": {
+          "promptTokens": 1583,
+          "completionTokens": 306,
+          "totalTokens": 1889,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_7a6aced8895948e188b72c9fa7d4d359",
+          "systemFingerprint": null,
+          "inputHash": "B8D286F14DC2FEEA456A6525144F8D2B71E8FFBC05D35E0F9D0C73CACEC2C2CF",
+          "promptHash": "7D69854E971AEF311F5B063617E722368976C6741C70BE37451ADE13F326BC87"
+        },
+        "usage": {
+          "promptTokens": 823,
+          "completionTokens": 93,
+          "totalTokens": 916,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_0a1d7fb47bab47f5b6cc3ed6e24887c1",
+          "systemFingerprint": null,
+          "inputHash": "B8D286F14DC2FEEA456A6525144F8D2B71E8FFBC05D35E0F9D0C73CACEC2C2CF",
+          "promptHash": "E1BD2ED340DEA3A944A1AC167D51BF0D848C43396564F3477D1DEB6F0E085CBE"
+        },
+        "usage": {
+          "promptTokens": 1045,
+          "completionTokens": 527,
+          "totalTokens": 1572,
+          "reasoningTokens": 0
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": false,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [
+      {
+        "quote": "Sin permanencia: puedes cambiarte de tarifa (o de compañia) sin penalización.",
+        "problemSpan": "compañia",
+        "errorType": "spelling",
+        "correctionStatus": "safe",
+        "correctedQuote": "Sin permanencia: puedes cambiarte de tarifa (o de compañía) sin penalización."
+      }
+    ],
+    "unexpectedCorrections": [
+      {
+        "quote": "de compañia",
+        "purpose": "writing_error",
+        "errorType": "spelling",
+        "problemSpan": "compañia",
+        "explanation": "In Spanish, the correct spelling is 'compañía' with an accent mark on the 'i'. The current form is objectively misspelled, and adding the missing diacritic fixes it.",
+        "correctionStatus": "safe",
+        "correctedQuote": "de compañía",
+        "blockRole": "prose",
+        "blockId": "block-572",
+        "edit": {
+          "start": 3,
+          "length": 8,
+          "replacement": "compañía"
+        }
+      }
+    ],
+    "scored": true,
+    "passed": false,
+    "error": null
+  },
+  {
+    "label": "regional-controls",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8089/regional-controls.html",
+    "expectedClassification": "healthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is a short English page titled Team notes. It contains a few brief prose statements about a visit, team conferences, a café drive-thru window, and offering design, development, and support services. The page appears to be a lightweight internal or general notes-style page rather than a detailed article or product page.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Team notes",
+      "titlePromise": "The page will contain notes or updates related to a team.",
+      "fulfillment": "fulfilled",
+      "reason": "The body consists of brief note-like statements about the team and related details, which matches the expectation set by the title.",
+      "bodyEvidenceQuote": "Our team attend conferences to exchange ideas with their peers."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Our team attend conferences to exchange ideas with their peers."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [
+      "writing_errors"
+    ],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "The subject-verb agreement is inconsistent in this block. With singular collective noun \"team\", the verb should be singular in this reading; if the intent is the members of the team, the sentence would need a different construction. Because the intended reading is not explicit, this is an agreement issue that requires review.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Our team attend conferences to exchange ideas with their peers.",
+            "purpose": "writing_error",
+            "errorType": "agreement",
+            "problemSpan": "team attend",
+            "explanation": "The subject-verb agreement is inconsistent in this block. With singular collective noun \"team\", the verb should be singular in this reading; if the intent is the members of the team, the sentence would need a different construction. Because the intended reading is not explicit, this is an agreement issue that requires review.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "correctionPolicy": "agreement_requires_human_review",
+            "blockRole": "prose",
+            "blockId": "block-101"
+          }
+        ],
+        "pageQuotes": [
+          "Our team attend conferences to exchange ideas with their peers."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Apply safe corrections and review errors without an unambiguous correction.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v45-dedicated-writing",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_161e5e7444354b0fadb30802b816302f",
+          "systemFingerprint": null,
+          "inputHash": "5481CEA853A60E728AB07992B3C36BD80D46B432CE71D63060EFD004F9D9D67F",
+          "promptHash": "D95C9C5F6C4158C9DCAF773B0A46CFFFD5899C7C46C608F5EA5402B5509AD848"
+        },
+        "usage": {
+          "promptTokens": 1459,
+          "completionTokens": 235,
+          "totalTokens": 1694,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_fb25576baa424fc39c3e50ed94db27d8",
+          "systemFingerprint": null,
+          "inputHash": "5481CEA853A60E728AB07992B3C36BD80D46B432CE71D63060EFD004F9D9D67F",
+          "promptHash": "7D69854E971AEF311F5B063617E722368976C6741C70BE37451ADE13F326BC87"
+        },
+        "usage": {
+          "promptTokens": 699,
+          "completionTokens": 21,
+          "totalTokens": 720,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_55518b162df24de288ef0a144950f068",
+          "systemFingerprint": null,
+          "inputHash": "5481CEA853A60E728AB07992B3C36BD80D46B432CE71D63060EFD004F9D9D67F",
+          "promptHash": "E1BD2ED340DEA3A944A1AC167D51BF0D848C43396564F3477D1DEB6F0E085CBE"
+        },
+        "usage": {
+          "promptTokens": 921,
+          "completionTokens": 117,
+          "totalTokens": 1038,
+          "reasoningTokens": 0
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": false,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [
+      {
+        "quote": "Our team attend conferences to exchange ideas with their peers.",
+        "purpose": "writing_error",
+        "errorType": "agreement",
+        "problemSpan": "team attend",
+        "explanation": "The subject-verb agreement is inconsistent in this block. With singular collective noun \"team\", the verb should be singular in this reading; if the intent is the members of the team, the sentence would need a different construction. Because the intended reading is not explicit, this is an agreement issue that requires review.",
+        "correctionStatus": "requires_review",
+        "correctedQuote": null,
+        "correctionPolicy": "agreement_requires_human_review",
+        "blockRole": "prose",
+        "blockId": "block-101"
+      }
+    ],
+    "scored": true,
+    "passed": false,
+    "error": null
+  },
+  {
+    "label": "inline-author",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8089/inline-author.html",
+    "expectedClassification": "healthy",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is a short English page titled \"Team notes.\" It shows an author credit for Lindsay Sullivan and includes a simple call to contact the team for details. The page appears to be a minimal informational or contact-oriented note rather than a detailed article.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Team notes",
+      "titlePromise": "The page should provide notes or information intended for a team or about team-related matters.",
+      "fulfillment": "fulfilled",
+      "reason": "The body is consistent with a brief team-related notes page: it includes an author credit and a prompt to contact the team for details, which fits the expectation created by the title.",
+      "bodyEvidenceQuote": "Contact our team for details."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Contact our team for details."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [
+      "writing_errors"
+    ],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v45-dedicated-writing",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_bc9a185fd3b84073ae44e2ed74370484",
+          "systemFingerprint": null,
+          "inputHash": "B6AF4C2F2294FB62B8A46A4A35331275E6345EA026626E2013DEFC452C4752E4",
+          "promptHash": "D95C9C5F6C4158C9DCAF773B0A46CFFFD5899C7C46C608F5EA5402B5509AD848"
+        },
+        "usage": {
+          "promptTokens": 1420,
+          "completionTokens": 233,
+          "totalTokens": 1653,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_7212979f055a40b59bb41e3ccd20c78d",
+          "systemFingerprint": null,
+          "inputHash": "B6AF4C2F2294FB62B8A46A4A35331275E6345EA026626E2013DEFC452C4752E4",
+          "promptHash": "7D69854E971AEF311F5B063617E722368976C6741C70BE37451ADE13F326BC87"
+        },
+        "usage": {
+          "promptTokens": 660,
+          "completionTokens": 21,
+          "totalTokens": 681,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_e934ccb246ab429fbf856f2ebc283901",
+          "systemFingerprint": null,
+          "inputHash": "B6AF4C2F2294FB62B8A46A4A35331275E6345EA026626E2013DEFC452C4752E4",
+          "promptHash": "E1BD2ED340DEA3A944A1AC167D51BF0D848C43396564F3477D1DEB6F0E085CBE"
+        },
+        "usage": {
+          "promptTokens": 882,
+          "completionTokens": 14,
+          "totalTokens": 896,
+          "reasoningTokens": 0
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  },
+  {
+    "label": "writing-positive-controls",
+    "source": "frozen",
+    "url": "http://127.0.0.1:8089/writing-positive-controls.html",
+    "expectedClassification": "unhealthy",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "pageSummary": "This is a short notes page titled \"Team notes\". It contains a couple of brief prose statements about team size and a developer reviewing changes. The page appears intended for an internal audience looking for lightweight team updates.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Team notes",
+      "titlePromise": "The page will provide notes or updates related to a team.",
+      "fulfillment": "fulfilled",
+      "reason": "The body content is about a team and includes short note-like statements about working in small teams and a developer reviewing changes, which matches the title’s expectation.",
+      "bodyEvidenceQuote": "We work in in small teams."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "We work in in small teams."
+    },
+    "requiredIssues": [
+      "writing_errors"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "The sentence repeats the preposition \"in\", which makes the clause ungrammatical. Removing one instance fixes the error while preserving the intended meaning. \"developmer\" is a misspelling of the ordinary English word \"developer\". Replacing the misspelled word with the correct spelling fixes the error.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "We work in in small teams.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "in in",
+            "explanation": "The sentence repeats the preposition \"in\", which makes the clause ungrammatical. Removing one instance fixes the error while preserving the intended meaning.",
+            "correctionStatus": "safe",
+            "correctedQuote": "We work in small teams.",
+            "blockRole": "prose",
+            "blockId": "block-41",
+            "edit": {
+              "start": 8,
+              "length": 5,
+              "replacement": "in"
+            }
+          },
+          {
+            "quote": "The developmer reviewed the changes.",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "developmer",
+            "explanation": "\"developmer\" is a misspelling of the ordinary English word \"developer\". Replacing the misspelled word with the correct spelling fixes the error.",
+            "correctionStatus": "safe",
+            "correctedQuote": "The developer reviewed the changes.",
+            "blockRole": "prose",
+            "blockId": "block-84",
+            "edit": {
+              "start": 4,
+              "length": 10,
+              "replacement": "developer"
+            }
+          }
+        ],
+        "pageQuotes": [
+          "We work in in small teams.",
+          "The developmer reviewed the changes."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Correct the objective writing errors identified in the cited sentences.",
+          "suggestedCorrections": [
+            {
+              "original": "We work in in small teams.",
+              "suggestion": "We work in small teams.",
+              "pageQuote": "We work in in small teams.",
+              "problemSpan": "in in",
+              "edit": {
+                "start": 8,
+                "length": 5,
+                "replacement": "in"
+              }
+            },
+            {
+              "original": "The developmer reviewed the changes.",
+              "suggestion": "The developer reviewed the changes.",
+              "pageQuote": "The developmer reviewed the changes.",
+              "problemSpan": "developmer",
+              "edit": {
+                "start": 4,
+                "length": 10,
+                "replacement": "developer"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v45-dedicated-writing",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_8366ce553c0b430ead494a0fd2c29c6c",
+          "systemFingerprint": null,
+          "inputHash": "8F09C2F85D9369E788399DA88633344EC70D91F8E4297CFE1A77AA9C1DAE4D36",
+          "promptHash": "D95C9C5F6C4158C9DCAF773B0A46CFFFD5899C7C46C608F5EA5402B5509AD848"
+        },
+        "usage": {
+          "promptTokens": 1422,
+          "completionTokens": 196,
+          "totalTokens": 1618,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_b50ea43b6f4448e6aa4767e9b334d7f2",
+          "systemFingerprint": null,
+          "inputHash": "8F09C2F85D9369E788399DA88633344EC70D91F8E4297CFE1A77AA9C1DAE4D36",
+          "promptHash": "7D69854E971AEF311F5B063617E722368976C6741C70BE37451ADE13F326BC87"
+        },
+        "usage": {
+          "promptTokens": 662,
+          "completionTokens": 21,
+          "totalTokens": 683,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_5b354f7be4b1482abd31147c8b3115cc",
+          "systemFingerprint": null,
+          "inputHash": "8F09C2F85D9369E788399DA88633344EC70D91F8E4297CFE1A77AA9C1DAE4D36",
+          "promptHash": "E1BD2ED340DEA3A944A1AC167D51BF0D848C43396564F3477D1DEB6F0E085CBE"
+        },
+        "usage": {
+          "promptTokens": 884,
+          "completionTokens": 159,
+          "totalTokens": 1043,
+          "reasoningTokens": 0
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": true,
+    "passed": true,
+    "error": null
+  }
+]

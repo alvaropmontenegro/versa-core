@@ -1,0 +1,2009 @@
+[
+  {
+    "label": "Cylogy Sitecore development",
+    "source": "live",
+    "url": "https://www.cylogy.com/services/sitecore-development/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a service landing page for Cylogy focused on Sitecore development. It describes implementation strategy, design execution, website enhancements, third-party integrations, process best practices, and personalization and marketing feature implementation. The page also includes a testimonial and several customer success story teasers.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Sitecore Development",
+      "titlePromise": "The page is expected to explain Sitecore development services and what Cylogy offers in that area.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops Sitecore development services through implementation strategy, design execution, enhancements, integrations, process development, and personalization/marketing features.",
+      "bodyEvidenceQuote": "From start to finish, Cylogy manages the entire Sitecore Experience Platform implementation process – from technical consultation to project collaboration – based on your business requirements."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "From start to finish, Cylogy manages the entire Sitecore Experience Platform implementation process – from technical consultation to project collaboration – based on your business requirements."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "issueDetails": [],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2874,
+          "completionTokens": 290,
+          "totalTokens": 3164
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2711,
+          "completionTokens": 25,
+          "totalTokens": 2736
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Sitecore headless",
+    "source": "live",
+    "url": "https://www.cylogy.com/services/sitecore-headless/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy service page about Sitecore Headless. It describes what Sitecore Headless is and outlines consulting, API and content modeling, front-end implementation, migration, hosting, DevOps, and maintenance services for organizations considering or using Sitecore headless architecture. The page also includes additional consulting services and a testimonial.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Sitecore Headless",
+      "titlePromise": "The page is expected to explain Sitecore Headless and related services or information about that subject.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantially develops the promised subject by defining Sitecore Headless and presenting multiple related service areas such as roadmap planning, product consulting, API development, front-end implementation, migration, and hosting/maintenance.",
+      "bodyEvidenceQuote": "Our Sitecore Headless Services"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Our Sitecore Headless Services"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "The sentence has a clear comma splice: the participial phrase is followed by an independent clause without proper separation. Removing the comma after “Sitecore” yields a grammatical reading. There is a real agreement problem: “choices” is plural, but the sentence continues with the singular verb “enables.” The proposed fix changes only one verb, but the rest of the sentence still contains additional agreement/structure problems, so the repair is not safely complete. The phrase is missing a linking word between “instance” and “Sitecore XM Cloud,” so the sentence is ungrammatical as written. Inserting “to” fixes the construction without changing the intended meaning.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Headless development paired with Sitecore, leverages Sitecore’s robust features alongside the agility and speed of headless, enabling you to fully harness the potential of your digital experiences.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "paired with Sitecore, leverages",
+            "explanation": "The sentence has a clear comma splice: the participial phrase is followed by an independent clause without proper separation. Removing the comma after “Sitecore” yields a grammatical reading.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Headless development paired with Sitecore leverages Sitecore’s robust features alongside the agility and speed of headless, enabling you to fully harness the potential of your digital experiences.",
+            "verification": {
+              "candidateIndex": 0,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "The sentence has a clear comma splice: the participial phrase is followed by an independent clause without proper separation. Removing the comma after “Sitecore” yields a grammatical reading."
+            },
+            "blockRole": "prose",
+            "blockId": "block-48",
+            "edit": {
+              "start": 21,
+              "length": 31,
+              "replacement": "paired with Sitecore leverages"
+            }
+          },
+          {
+            "quote": "Thoughtful API design choices enables developers, results in improved performance and streamlines future modifications, ensuring the project’s adaptability and scalability over time.",
+            "purpose": "writing_error",
+            "errorType": "agreement",
+            "problemSpan": "choices enables",
+            "explanation": "There is a real agreement problem: “choices” is plural, but the sentence continues with the singular verb “enables.” The proposed fix changes only one verb, but the rest of the sentence still contains additional agreement/structure problems, so the repair is not safely complete.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "verification": {
+              "candidateIndex": 2,
+              "decision": "confirmed_error",
+              "correctionSafe": false,
+              "reason": "There is a real agreement problem: “choices” is plural, but the sentence continues with the singular verb “enables.” The proposed fix changes only one verb, but the rest of the sentence still contains additional agreement/structure problems, so the repair is not safely complete."
+            },
+            "correctionPolicy": "agreement_requires_human_review",
+            "blockRole": "ui_text",
+            "blockId": "block-6386"
+          },
+          {
+            "quote": "Moving your Sitecore instance Sitecore XM Cloud will be one of them.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "instance Sitecore XM Cloud",
+            "explanation": "The phrase is missing a linking word between “instance” and “Sitecore XM Cloud,” so the sentence is ungrammatical as written. Inserting “to” fixes the construction without changing the intended meaning.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Moving your Sitecore instance to Sitecore XM Cloud will be one of them.",
+            "verification": {
+              "candidateIndex": 4,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "The phrase is missing a linking word between “instance” and “Sitecore XM Cloud,” so the sentence is ungrammatical as written. Inserting “to” fixes the construction without changing the intended meaning."
+            },
+            "blockRole": "ui_text",
+            "blockId": "block-11496",
+            "edit": {
+              "start": 21,
+              "length": 26,
+              "replacement": "instance to Sitecore XM Cloud"
+            }
+          }
+        ],
+        "pageQuotes": [
+          "Headless development paired with Sitecore, leverages Sitecore’s robust features alongside the agility and speed of headless, enabling you to fully harness the potential of your digital experiences.",
+          "Thoughtful API design choices enables developers, results in improved performance and streamlines future modifications, ensuring the project’s adaptability and scalability over time.",
+          "Moving your Sitecore instance Sitecore XM Cloud will be one of them."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Apply safe corrections and review errors without an unambiguous correction.",
+          "suggestedCorrections": [
+            {
+              "original": "Headless development paired with Sitecore, leverages Sitecore’s robust features alongside the agility and speed of headless, enabling you to fully harness the potential of your digital experiences.",
+              "suggestion": "Headless development paired with Sitecore leverages Sitecore’s robust features alongside the agility and speed of headless, enabling you to fully harness the potential of your digital experiences.",
+              "pageQuote": "Headless development paired with Sitecore, leverages Sitecore’s robust features alongside the agility and speed of headless, enabling you to fully harness the potential of your digital experiences.",
+              "problemSpan": "paired with Sitecore, leverages",
+              "edit": {
+                "start": 21,
+                "length": 31,
+                "replacement": "paired with Sitecore leverages"
+              }
+            },
+            {
+              "original": "Moving your Sitecore instance Sitecore XM Cloud will be one of them.",
+              "suggestion": "Moving your Sitecore instance to Sitecore XM Cloud will be one of them.",
+              "pageQuote": "Moving your Sitecore instance Sitecore XM Cloud will be one of them.",
+              "problemSpan": "instance Sitecore XM Cloud",
+              "edit": {
+                "start": 21,
+                "length": 26,
+                "replacement": "instance to Sitecore XM Cloud"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [
+      {
+        "code": "writing_errors",
+        "reason": "The compound subject 'Our team' is singular in this sentence, so the plural verb 'possess' is not grammatically valid here. Changing it to 'possesses' fixes the agreement error.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Our team of seasoned Sitecore specialists and certified developers possess the expertise and insight necessary to navigate these complexities.",
+            "purpose": "writing_error",
+            "errorType": "agreement",
+            "problemSpan": "possess",
+            "explanation": "The compound subject 'Our team' is singular in this sentence, so the plural verb 'possess' is not grammatically valid here. Changing it to 'possesses' fixes the agreement error.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Our team of seasoned Sitecore specialists and certified developers possesses the expertise and insight necessary to navigate these complexities.",
+            "verification": {
+              "candidateIndex": 1,
+              "decision": "accepted_usage",
+              "correctionSafe": false,
+              "reason": "“Our team” can be read as a collective noun taking a plural verb in accepted usage, especially in BrE-style agreement. The original is grammatical, so no correction is needed."
+            }
+          }
+        ],
+        "rejectionReason": "writing_verification_did_not_confirm_defect"
+      },
+      {
+        "code": "writing_errors",
+        "reason": "The list is missing a conjunction before the final item, so the coordination is incomplete. Adding 'and' before 'developer expertise' fixes the list structure.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "When selecting the appropriate front-end technology for a headless CMS, it’s crucial to consider factors like flexibility, scalability, developer expertise.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "flexibility, scalability, developer expertise",
+            "explanation": "The list is missing a conjunction before the final item, so the coordination is incomplete. Adding 'and' before 'developer expertise' fixes the list structure.",
+            "correctionStatus": "safe",
+            "correctedQuote": "When selecting the appropriate front-end technology for a headless CMS, it’s crucial to consider factors like flexibility, scalability, and developer expertise.",
+            "verification": {
+              "candidateIndex": 3,
+              "decision": "accepted_usage",
+              "correctionSafe": false,
+              "reason": "The list is acceptable as a compact series in headline-style prose; omission of the final conjunction is not mandatory grammar. The original can be read as valid."
+            }
+          }
+        ],
+        "rejectionReason": "writing_verification_did_not_confirm_defect"
+      }
+    ],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 4082,
+          "completionTokens": 306,
+          "totalTokens": 4388
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 3919,
+          "completionTokens": 600,
+          "totalTokens": 4519
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_verification",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 3786,
+          "completionTokens": 311,
+          "totalTokens": 4097
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy mobile apps",
+    "source": "live",
+    "url": "https://www.cylogy.com/services/mobile-app-development-and-maintenance/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a service page for Cylogy focused on mobile app development and maintenance. It presents the company’s approach to building, testing, integrating, and supporting mobile applications, with sections on UX, cross-platform development, QA, and post-launch maintenance. The page also includes additional services, a testimonial, and links to customer success stories.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Mobile App Development & Maintenance",
+      "titlePromise": "The page is expected to explain mobile app development and ongoing maintenance services.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops both mobile app development and maintenance, including tailored app development, UX, cross-platform development, integration, testing and QA, and post-launch support and maintenance.",
+      "bodyEvidenceQuote": "Our post-launch support and maintenance services ensure that your app continues to perform well and stays up-to-date with the latest technological advancements."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Our post-launch support and maintenance services ensure that your app continues to perform well and stays up-to-date with the latest technological advancements."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "‘Exerience’ is a clear misspelling of ‘Experience’ in the heading. The comma joins two independent clauses, creating a comma splice. Replacing it with a period or semicolon fixes the punctuation without changing the meaning. ‘it’s’ is the wrong form here; the sentence needs the possessive ‘its’ to refer to the app’s goals.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "The User Exerience",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "Exerience",
+            "explanation": "‘Exerience’ is a clear misspelling of ‘Experience’ in the heading.",
+            "correctionStatus": "safe",
+            "correctedQuote": "The User Experience",
+            "verification": {
+              "candidateIndex": 0,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "‘Exerience’ is a clear misspelling of ‘Experience’ in the heading."
+            },
+            "blockRole": "heading",
+            "blockId": "block-1171",
+            "edit": {
+              "start": 9,
+              "length": 9,
+              "replacement": "Experience"
+            }
+          },
+          {
+            "quote": "We’ll help your app interoperate with a CRM, ERP, or other enterprise solutions, we ensure smooth data flow and problem-free usage.",
+            "purpose": "writing_error",
+            "errorType": "punctuation",
+            "problemSpan": "solutions, we ensure",
+            "explanation": "The comma joins two independent clauses, creating a comma splice. Replacing it with a period or semicolon fixes the punctuation without changing the meaning.",
+            "correctionStatus": "safe",
+            "correctedQuote": "We’ll help your app interoperate with a CRM, ERP, or other enterprise solutions. We ensure smooth data flow and problem-free usage.",
+            "verification": {
+              "candidateIndex": 2,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "The comma joins two independent clauses, creating a comma splice. Replacing it with a period or semicolon fixes the punctuation without changing the meaning."
+            },
+            "blockRole": "ui_text",
+            "blockId": "block-2878",
+            "edit": {
+              "start": 70,
+              "length": 20,
+              "replacement": "solutions. We ensure"
+            }
+          },
+          {
+            "quote": "Cylogy’s QA team builds a comprehensive testing strategy for each application, focused on ensuring the app meets all it’s performance and functionality goals.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "it’s",
+            "explanation": "‘it’s’ is the wrong form here; the sentence needs the possessive ‘its’ to refer to the app’s goals.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Cylogy’s QA team builds a comprehensive testing strategy for each application, focused on ensuring the app meets all its performance and functionality goals.",
+            "verification": {
+              "candidateIndex": 3,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "‘it’s’ is the wrong form here; the sentence needs the possessive ‘its’ to refer to the app’s goals."
+            },
+            "blockRole": "ui_text",
+            "blockId": "block-3637",
+            "edit": {
+              "start": 117,
+              "length": 4,
+              "replacement": "its"
+            }
+          }
+        ],
+        "pageQuotes": [
+          "The User Exerience",
+          "We’ll help your app interoperate with a CRM, ERP, or other enterprise solutions, we ensure smooth data flow and problem-free usage.",
+          "Cylogy’s QA team builds a comprehensive testing strategy for each application, focused on ensuring the app meets all it’s performance and functionality goals."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Correct the objective writing errors identified in the cited sentences.",
+          "suggestedCorrections": [
+            {
+              "original": "The User Exerience",
+              "suggestion": "The User Experience",
+              "pageQuote": "The User Exerience",
+              "problemSpan": "Exerience",
+              "edit": {
+                "start": 9,
+                "length": 9,
+                "replacement": "Experience"
+              }
+            },
+            {
+              "original": "We’ll help your app interoperate with a CRM, ERP, or other enterprise solutions, we ensure smooth data flow and problem-free usage.",
+              "suggestion": "We’ll help your app interoperate with a CRM, ERP, or other enterprise solutions. We ensure smooth data flow and problem-free usage.",
+              "pageQuote": "We’ll help your app interoperate with a CRM, ERP, or other enterprise solutions, we ensure smooth data flow and problem-free usage.",
+              "problemSpan": "solutions, we ensure",
+              "edit": {
+                "start": 70,
+                "length": 20,
+                "replacement": "solutions. We ensure"
+              }
+            },
+            {
+              "original": "Cylogy’s QA team builds a comprehensive testing strategy for each application, focused on ensuring the app meets all it’s performance and functionality goals.",
+              "suggestion": "Cylogy’s QA team builds a comprehensive testing strategy for each application, focused on ensuring the app meets all its performance and functionality goals.",
+              "pageQuote": "Cylogy’s QA team builds a comprehensive testing strategy for each application, focused on ensuring the app meets all it’s performance and functionality goals.",
+              "problemSpan": "it’s",
+              "edit": {
+                "start": 117,
+                "length": 4,
+                "replacement": "its"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [
+      {
+        "code": "writing_errors",
+        "reason": "The phrase is grammatically awkward because 'your app business goals' is not a valid noun phrase in this context. Replacing it with 'help make your business goals for your app a reality' fixes the sentence structure while preserving the intended meaning.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Our tailored app development will help make your app business goals a reality.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "help make your app business goals a reality",
+            "explanation": "The phrase is grammatically awkward because 'your app business goals' is not a valid noun phrase in this context. Replacing it with 'help make your business goals for your app a reality' fixes the sentence structure while preserving the intended meaning.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "verification": {
+              "candidateIndex": 1,
+              "decision": "accepted_usage",
+              "correctionSafe": false,
+              "reason": "The sentence is understandable and grammatically acceptable as marketing copy; ‘help make your app business goals a reality’ can be read as an informal/awkward but valid construction, so no definite error is established."
+            }
+          }
+        ],
+        "rejectionReason": "writing_verification_did_not_confirm_defect"
+      }
+    ],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2930,
+          "completionTokens": 301,
+          "totalTokens": 3231
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2767,
+          "completionTokens": 443,
+          "totalTokens": 3210
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_verification",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2455,
+          "completionTokens": 208,
+          "totalTokens": 2663
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Sitecore technology",
+    "source": "live",
+    "url": "https://www.cylogy.com/technologies/sitecore/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy technology landing page about Sitecore DXP and Sitecore CMS. It describes Sitecore Experience Platform features such as content management, personalization, analytics, multilingual support, and enterprise customization. The page also promotes related technologies and showcases customer success stories and service examples.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Sitecore DXP | What is sitecore",
+      "titlePromise": "The page is expected to explain what Sitecore DXP/Sitecore is and describe its platform or solution capabilities.",
+      "fulfillment": "fulfilled",
+      "reason": "The body directly explains Sitecore Experience Platform and develops its CMS, marketing, personalization, analytics, and enterprise features, which matches the title’s promise to explain Sitecore.",
+      "bodyEvidenceQuote": "Sitecore’s Experience Platform combines CMS with customer data, analytics, and marketing automation capabilities to nurture customers throughout their journey with personalized content in real-time, across any channel."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Sitecore’s Experience Platform combines CMS with customer data, analytics, and marketing automation capabilities to nurture customers throughout their journey with personalized content in real-time, across any channel."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "The subject is singular, so the coordinated predicate should not switch to the plural verb \"lend\". Changing it to \"lends\" fixes the agreement error without altering the intended meaning. \"Connect and engagement\" is not a valid parallel construction. Replacing \"engagement\" with \"engage\" yields a grammatical phrase and preserves the sentence’s meaning. The comma after \"redesign\" wrongly splits the subject from its verb. Removing that comma makes the sentence grammatical, and the proposed repair is safe.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Sitecore’s core competency and future technology delivers unparalleled leadership in the industry, and lend the flexibility and reliability needed to support our enterprise organizations now and in the future.",
+            "purpose": "writing_error",
+            "errorType": "agreement",
+            "problemSpan": "delivers unparalleled leadership in the industry, and lend",
+            "explanation": "The subject is singular, so the coordinated predicate should not switch to the plural verb \"lend\". Changing it to \"lends\" fixes the agreement error without altering the intended meaning.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "verification": {
+              "candidateIndex": 0,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "The subject is singular, so the coordinated predicate should not switch to the plural verb \"lend\". Changing it to \"lends\" fixes the agreement error without altering the intended meaning."
+            },
+            "correctionPolicy": "agreement_requires_human_review",
+            "blockRole": "ui_text",
+            "blockId": "block-1155"
+          },
+          {
+            "quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "connect and engagement",
+            "explanation": "\"Connect and engagement\" is not a valid parallel construction. Replacing \"engagement\" with \"engage\" yields a grammatical phrase and preserves the sentence’s meaning.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engage with their customers more effectively.",
+            "verification": {
+              "candidateIndex": 1,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "\"Connect and engagement\" is not a valid parallel construction. Replacing \"engagement\" with \"engage\" yields a grammatical phrase and preserves the sentence’s meaning."
+            },
+            "blockRole": "ui_text",
+            "blockId": "block-2906",
+            "edit": {
+              "start": 112,
+              "length": 22,
+              "replacement": "connect and engage"
+            }
+          },
+          {
+            "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+            "purpose": "writing_error",
+            "errorType": "punctuation",
+            "problemSpan": "redesign, features",
+            "explanation": "The comma after \"redesign\" wrongly splits the subject from its verb. Removing that comma makes the sentence grammatical, and the proposed repair is safe.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+            "verification": {
+              "candidateIndex": 2,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "The comma after \"redesign\" wrongly splits the subject from its verb. Removing that comma makes the sentence grammatical, and the proposed repair is safe."
+            },
+            "blockRole": "ui_text",
+            "blockId": "block-4079",
+            "edit": {
+              "start": 24,
+              "length": 18,
+              "replacement": "redesign features"
+            }
+          }
+        ],
+        "pageQuotes": [
+          "Sitecore’s core competency and future technology delivers unparalleled leadership in the industry, and lend the flexibility and reliability needed to support our enterprise organizations now and in the future.",
+          "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+          "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Apply safe corrections and review errors without an unambiguous correction.",
+          "suggestedCorrections": [
+            {
+              "original": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+              "suggestion": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engage with their customers more effectively.",
+              "pageQuote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+              "problemSpan": "connect and engagement",
+              "edit": {
+                "start": 112,
+                "length": 22,
+                "replacement": "connect and engage"
+              }
+            },
+            {
+              "original": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+              "suggestion": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+              "pageQuote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+              "problemSpan": "redesign, features",
+              "edit": {
+                "start": 24,
+                "length": 18,
+                "replacement": "redesign features"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2440,
+          "completionTokens": 300,
+          "totalTokens": 2740
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2277,
+          "completionTokens": 420,
+          "totalTokens": 2697
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_verification",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1940,
+          "completionTokens": 173,
+          "totalTokens": 2113
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Marketo technology",
+    "source": "live",
+    "url": "https://www.cylogy.com/technologies/marketo/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy technology services page focused on Adobe/Marketo Engage. It describes Marketo as a marketing automation platform for lead management, email marketing, account-based marketing, personalization, and CRM integration. The page also includes links and examples of related technologies and customer success stories from Cylogy.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Adobe/Marketo Engage",
+      "titlePromise": "The page is expected to discuss Adobe/Marketo Engage, likely describing the platform and Cylogy’s related services or expertise.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops Marketo/Adobe Marketo Engage with explanations of marketing automation, lead management, email marketing, ABM, personalization, and Salesforce integration, which matches the title’s subject.",
+      "bodyEvidenceQuote": "Marketo is a comprehensive marketing automation software built to help organizations automate and measure marketing engagement, tasks and workflows and centralize all materials, templates and reports for every kind of campaign from email to ABM to social media."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Marketo is a comprehensive marketing automation software built to help organizations automate and measure marketing engagement, tasks and workflows and centralize all materials, templates and reports for every kind of campaign from email to ABM to social media."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "‘is helps’ is not a valid verb phrase in this context; the sentence needs a single finite verb such as ‘helps’. The proposed correction fixes that specific error without changing the intended meaning. ‘connect and engagement’ breaks parallel verb form: ‘connect’ is a verb but ‘engagement’ is a noun. Replacing it with ‘engage’ yields a grammatical coordinated verb phrase, and the repair is safe.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Marketo is helps us attract leads and guide them through the sales funnel to help your company grow.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "is helps",
+            "explanation": "‘is helps’ is not a valid verb phrase in this context; the sentence needs a single finite verb such as ‘helps’. The proposed correction fixes that specific error without changing the intended meaning.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Marketo helps us attract leads and guide them through the sales funnel to help your company grow.",
+            "verification": {
+              "candidateIndex": 0,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "‘is helps’ is not a valid verb phrase in this context; the sentence needs a single finite verb such as ‘helps’. The proposed correction fixes that specific error without changing the intended meaning."
+            },
+            "blockRole": "ui_text",
+            "blockId": "block-985",
+            "edit": {
+              "start": 8,
+              "length": 8,
+              "replacement": "helps"
+            }
+          },
+          {
+            "quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "connect and engagement",
+            "explanation": "‘connect and engagement’ breaks parallel verb form: ‘connect’ is a verb but ‘engagement’ is a noun. Replacing it with ‘engage’ yields a grammatical coordinated verb phrase, and the repair is safe.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engage with their customers more effectively. Related Services:",
+            "verification": {
+              "candidateIndex": 1,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "‘connect and engagement’ breaks parallel verb form: ‘connect’ is a verb but ‘engagement’ is a noun. Replacing it with ‘engage’ yields a grammatical coordinated verb phrase, and the repair is safe."
+            },
+            "blockRole": "ui_text",
+            "blockId": "block-2133",
+            "edit": {
+              "start": 112,
+              "length": 22,
+              "replacement": "connect and engage"
+            }
+          }
+        ],
+        "pageQuotes": [
+          "Marketo is helps us attract leads and guide them through the sales funnel to help your company grow.",
+          "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:"
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Correct the objective writing errors identified in the cited sentences.",
+          "suggestedCorrections": [
+            {
+              "original": "Marketo is helps us attract leads and guide them through the sales funnel to help your company grow.",
+              "suggestion": "Marketo helps us attract leads and guide them through the sales funnel to help your company grow.",
+              "pageQuote": "Marketo is helps us attract leads and guide them through the sales funnel to help your company grow.",
+              "problemSpan": "is helps",
+              "edit": {
+                "start": 8,
+                "length": 8,
+                "replacement": "helps"
+              }
+            },
+            {
+              "original": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:",
+              "suggestion": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engage with their customers more effectively. Related Services:",
+              "pageQuote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:",
+              "problemSpan": "connect and engagement",
+              "edit": {
+                "start": 112,
+                "length": 22,
+                "replacement": "connect and engage"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2284,
+          "completionTokens": 327,
+          "totalTokens": 2611
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2121,
+          "completionTokens": 256,
+          "totalTokens": 2377
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_verification",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1585,
+          "completionTokens": 138,
+          "totalTokens": 1723
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Salesforce technology",
+    "source": "live",
+    "url": "https://www.cylogy.com/technologies/salesforce/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy technology services page focused on Salesforce Sales Cloud. It describes Salesforce as a cloud-based CRM platform, highlights implementation and integration benefits, and mentions related technologies such as Sitecore and Marketo. The page also includes customer success stories and calls to explore additional services.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Salesforce Sales Cloud",
+      "titlePromise": "The page is expected to be about Salesforce Sales Cloud, describing that product or related services and information.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops Salesforce as a cloud-based CRM platform, explains why it is a solution, and includes related Salesforce-adjacent technology and service content.",
+      "bodyEvidenceQuote": "Salesforce is an industry leading cloud-based CRM platform that integrates all your teams and technologies to create a consistent and enjoyable experience for every customer."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Salesforce is an industry leading cloud-based CRM platform that integrates all your teams and technologies to create a consistent and enjoyable experience for every customer."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "The sentence has a clear coordination problem: \"demonstrates the long-term efficacy and a passion\" joins unlike structures after the same verb, so the original is not grammatically complete as written. The proposed repair is not safe because the intended parallel structure is ambiguous. The comma after \"redesign\" wrongly splits the subject from its verb. Removing that comma fixes the punctuation error without changing meaning.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "This demonstrates the long-term efficacy and a passion for the continual evolution and enhancement necessary to grow with your enterprise.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "the long-term efficacy and a passion",
+            "explanation": "The sentence has a clear coordination problem: \"demonstrates the long-term efficacy and a passion\" joins unlike structures after the same verb, so the original is not grammatically complete as written. The proposed repair is not safe because the intended parallel structure is ambiguous.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "verification": {
+              "candidateIndex": 5,
+              "decision": "confirmed_error",
+              "correctionSafe": false,
+              "reason": "The sentence has a clear coordination problem: \"demonstrates the long-term efficacy and a passion\" joins unlike structures after the same verb, so the original is not grammatically complete as written. The proposed repair is not safe because the intended parallel structure is ambiguous."
+            },
+            "correctionPolicy": "verifier_requires_review",
+            "blockRole": "ui_text",
+            "blockId": "block-864"
+          },
+          {
+            "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+            "purpose": "writing_error",
+            "errorType": "punctuation",
+            "problemSpan": "redesign, features",
+            "explanation": "The comma after \"redesign\" wrongly splits the subject from its verb. Removing that comma fixes the punctuation error without changing meaning.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+            "verification": {
+              "candidateIndex": 6,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "The comma after \"redesign\" wrongly splits the subject from its verb. Removing that comma fixes the punctuation error without changing meaning."
+            },
+            "blockRole": "ui_text",
+            "blockId": "block-3330",
+            "edit": {
+              "start": 24,
+              "length": 18,
+              "replacement": "redesign features"
+            }
+          }
+        ],
+        "pageQuotes": [
+          "This demonstrates the long-term efficacy and a passion for the continual evolution and enhancement necessary to grow with your enterprise.",
+          "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Apply safe corrections and review errors without an unambiguous correction.",
+          "suggestedCorrections": [
+            {
+              "original": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+              "suggestion": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+              "pageQuote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+              "problemSpan": "redesign, features",
+              "edit": {
+                "start": 24,
+                "length": 18,
+                "replacement": "redesign features"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [
+      {
+        "code": "writing_errors",
+        "reason": "The sentence is missing a necessary comma or conjunction between the participial phrase and the following clause. As written, the structure is not grammatically complete; inserting a comma before \"enabling\" fixes the run-on construction.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Salesforce is a cloud-based CRM platform that integrates all of your teams and technologies enabling us to create a consistent and enjoyable experience for every customer.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "integrates all of your teams and technologies enabling us",
+            "explanation": "The sentence is missing a necessary comma or conjunction between the participial phrase and the following clause. As written, the structure is not grammatically complete; inserting a comma before \"enabling\" fixes the run-on construction.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Salesforce is a cloud-based CRM platform that integrates all of your teams and technologies, enabling us to create a consistent and enjoyable experience for every customer.",
+            "verification": {
+              "candidateIndex": 0,
+              "decision": "accepted_usage",
+              "correctionSafe": false,
+              "reason": "The sentence is readable as a participial modifier: the platform integrates teams and technologies, enabling us to create a consistent experience. The missing comma is optional style, not a mandatory grammar error."
+            }
+          }
+        ],
+        "rejectionReason": "writing_verification_did_not_confirm_defect"
+      },
+      {
+        "code": "writing_errors",
+        "reason": "In this context, the compound modifier should be hyphenated before the noun it modifies. \"Industry leading\" as written is not the standard grammatical form here; \"industry-leading\" fixes the modifier.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Salesforce is an industry leading cloud-based CRM platform that integrates all your teams and technologies to create a consistent and enjoyable experience for every customer.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "industry leading",
+            "explanation": "In this context, the compound modifier should be hyphenated before the noun it modifies. \"Industry leading\" as written is not the standard grammatical form here; \"industry-leading\" fixes the modifier.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Salesforce is an industry-leading cloud-based CRM platform that integrates all your teams and technologies to create a consistent and enjoyable experience for every customer.",
+            "verification": {
+              "candidateIndex": 1,
+              "decision": "accepted_usage",
+              "correctionSafe": false,
+              "reason": "\"Industry leading\" is an accepted open compound in ordinary usage, so the original is valid. Hyphenation is a style preference, not a confirmed error."
+            }
+          }
+        ],
+        "rejectionReason": "writing_verification_did_not_confirm_defect"
+      },
+      {
+        "code": "writing_errors",
+        "reason": "For a nonrestrictive human subject in standard written English, \"companies that\" is the grammatically correct relative pronoun here. Replacing \"who\" with \"that\" fixes the usage without changing meaning.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Companies who use Salesforce see an average 27% increase in sales revenues, 32% increase in lead conversion and a 34% increase in customer satisfaction.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "Companies who",
+            "explanation": "For a nonrestrictive human subject in standard written English, \"companies that\" is the grammatically correct relative pronoun here. Replacing \"who\" with \"that\" fixes the usage without changing meaning.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Companies that use Salesforce see an average 27% increase in sales revenues, 32% increase in lead conversion and a 34% increase in customer satisfaction.",
+            "verification": {
+              "candidateIndex": 2,
+              "decision": "accepted_usage",
+              "correctionSafe": false,
+              "reason": "\"Companies who use Salesforce\" is acceptable in ordinary usage, especially in informal or broad reference to people within companies. The sentence is not demonstrably invalid."
+            }
+          }
+        ],
+        "rejectionReason": "writing_verification_did_not_confirm_defect"
+      },
+      {
+        "code": "writing_errors",
+        "reason": "\"Employ\" is not the correct verb for implementing software in this context. Replacing it with \"implement\" makes the sentence grammatically and semantically valid.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Traditional CRMs can take over a year to employ compared to Salesforce, which can be implemented within weeks.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "take over a year to employ",
+            "explanation": "\"Employ\" is not the correct verb for implementing software in this context. Replacing it with \"implement\" makes the sentence grammatically and semantically valid.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Traditional CRMs can take over a year to implement compared to Salesforce, which can be implemented within weeks.",
+            "verification": {
+              "candidateIndex": 3,
+              "decision": "accepted_usage",
+              "correctionSafe": false,
+              "reason": "\"Take over a year to employ\" is awkward, but the complete sentence can still be read as intended in context. The proposed change alters wording rather than fixing a clearly mandatory grammatical break."
+            }
+          }
+        ],
+        "rejectionReason": "writing_verification_did_not_confirm_defect"
+      },
+      {
+        "code": "writing_errors",
+        "reason": "The compound adjective modifying \"Salesforce\" should be hyphenated here. \"Cloud based\" is not the standard grammatical form in this position; \"cloud-based\" fixes the modifier.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Because it’s cloud based, Salesforce is accessible to our team and yours anytime, anywhere.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "cloud based",
+            "explanation": "The compound adjective modifying \"Salesforce\" should be hyphenated here. \"Cloud based\" is not the standard grammatical form in this position; \"cloud-based\" fixes the modifier.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Because it’s cloud-based, Salesforce is accessible to our team and yours anytime, anywhere.",
+            "verification": {
+              "candidateIndex": 4,
+              "decision": "accepted_usage",
+              "correctionSafe": false,
+              "reason": "\"Cloud based\" is an accepted open compound in this position. Hyphenation is optional style, so no confirmed error is demonstrated."
+            }
+          }
+        ],
+        "rejectionReason": "writing_verification_did_not_confirm_defect"
+      }
+    ],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2282,
+          "completionTokens": 290,
+          "totalTokens": 2572
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2119,
+          "completionTokens": 831,
+          "totalTokens": 2950
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_verification",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2210,
+          "completionTokens": 393,
+          "totalTokens": 2603
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Google Analytics technology",
+    "source": "live",
+    "url": "https://www.cylogy.com/technologies/google-analytics/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy technology/services page with a prominent section about Google Analytics and substantial body content about Umbraco CMS, including its features, product versions, and Cylogy’s Umbraco partnership. It also includes additional technology blurbs and multiple customer success story teasers. The page appears aimed at visitors evaluating CMS and digital platform services.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Google Analytics",
+      "titlePromise": "The title creates an expectation that the page will explain Google Analytics or provide information related to that analytics product.",
+      "fulfillment": "not_fulfilled",
+      "reason": "The substantive body mainly develops Umbraco CMS, Cylogy’s Umbraco partnership, additional technologies, and customer success stories rather than Google Analytics.",
+      "bodyEvidenceQuote": "Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors",
+      "title_body_mismatch"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "‘developmer’ is a clear misspelling of ‘developer’. The proposed correction fixes the typo without changing meaning. ‘connect and engagement’ is not parallel: a verb is coordinated with a noun. Changing it to ‘connect and engage’ repairs the grammar cleanly. The comma in ‘redesign, features’ wrongly splits the subject from its verb. Removing it yields a grammatical sentence.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Umbraco has an extensive track record with development beginning in 2000 and, being based on the .NET framework, has a large potential and actual developmer community with 200,000 registered developers.",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "developmer",
+            "explanation": "‘developmer’ is a clear misspelling of ‘developer’. The proposed correction fixes the typo without changing meaning.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Umbraco has an extensive track record with development beginning in 2000 and, being based on the .NET framework, has a large potential and actual developer community with 200,000 registered developers.",
+            "verification": {
+              "candidateIndex": 0,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "‘developmer’ is a clear misspelling of ‘developer’. The proposed correction fixes the typo without changing meaning."
+            },
+            "blockRole": "ui_text",
+            "blockId": "block-1050",
+            "edit": {
+              "start": 146,
+              "length": 10,
+              "replacement": "developer"
+            }
+          },
+          {
+            "quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "connect and engagement",
+            "explanation": "‘connect and engagement’ is not parallel: a verb is coordinated with a noun. Changing it to ‘connect and engage’ repairs the grammar cleanly.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engage with their customers more effectively. Related Services:",
+            "verification": {
+              "candidateIndex": 1,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "‘connect and engagement’ is not parallel: a verb is coordinated with a noun. Changing it to ‘connect and engage’ repairs the grammar cleanly."
+            },
+            "blockRole": "ui_text",
+            "blockId": "block-2871",
+            "edit": {
+              "start": 112,
+              "length": 22,
+              "replacement": "connect and engage"
+            }
+          },
+          {
+            "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors. Discover how we optimized the user experience!",
+            "purpose": "writing_error",
+            "errorType": "punctuation",
+            "problemSpan": "redesign, features",
+            "explanation": "The comma in ‘redesign, features’ wrongly splits the subject from its verb. Removing it yields a grammatical sentence.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors. Discover how we optimized the user experience!",
+            "verification": {
+              "candidateIndex": 2,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "The comma in ‘redesign, features’ wrongly splits the subject from its verb. Removing it yields a grammatical sentence."
+            },
+            "blockRole": "ui_text",
+            "blockId": "block-4044",
+            "edit": {
+              "start": 24,
+              "length": 18,
+              "replacement": "redesign features"
+            }
+          }
+        ],
+        "pageQuotes": [
+          "Umbraco has an extensive track record with development beginning in 2000 and, being based on the .NET framework, has a large potential and actual developmer community with 200,000 registered developers.",
+          "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:",
+          "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors. Discover how we optimized the user experience!"
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Correct the objective writing errors identified in the cited sentences.",
+          "suggestedCorrections": [
+            {
+              "original": "Umbraco has an extensive track record with development beginning in 2000 and, being based on the .NET framework, has a large potential and actual developmer community with 200,000 registered developers.",
+              "suggestion": "Umbraco has an extensive track record with development beginning in 2000 and, being based on the .NET framework, has a large potential and actual developer community with 200,000 registered developers.",
+              "pageQuote": "Umbraco has an extensive track record with development beginning in 2000 and, being based on the .NET framework, has a large potential and actual developmer community with 200,000 registered developers.",
+              "problemSpan": "developmer",
+              "edit": {
+                "start": 146,
+                "length": 10,
+                "replacement": "developer"
+              }
+            },
+            {
+              "original": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:",
+              "suggestion": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engage with their customers more effectively. Related Services:",
+              "pageQuote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:",
+              "problemSpan": "connect and engagement",
+              "edit": {
+                "start": 112,
+                "length": 22,
+                "replacement": "connect and engage"
+              }
+            },
+            {
+              "original": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors. Discover how we optimized the user experience!",
+              "suggestion": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors. Discover how we optimized the user experience!",
+              "pageQuote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors. Discover how we optimized the user experience!",
+              "problemSpan": "redesign, features",
+              "edit": {
+                "start": 24,
+                "length": 18,
+                "replacement": "redesign features"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "code": "title_body_mismatch",
+        "reason": "The substantive body mainly develops Umbraco CMS, Cylogy’s Umbraco partnership, additional technologies, and customer success stories rather than Google Analytics.",
+        "pageQuotes": [
+          "Google Analytics",
+          "Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Align the title with the main content or revise the body so it clearly delivers the title's promise.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [
+      {
+        "code": "published_placeholder_content",
+        "reason": "This block is visibly unfinished filler and contains an explicit placeholder-like markup fragment rather than reader-facing prose.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "\\r\\n\\r\\n\\u003c/div\\u003e”,”_service_block_text”:”field_5d5ded018c47f”,”service_block_image”:6899,”_service_block_image”:”field_5d5ded2b8c480″,”service_block_display_cta_button”:””,”_service_block_display_cta_button”:”field_5d5ded5c8c482″},”mode”:”edit”} /–>",
+            "purpose": "page_evidence",
+            "errorType": "none",
+            "problemSpan": "",
+            "explanation": "",
+            "correctionOrRule": "none",
+            "suggestionConfidence": "none",
+            "correctedQuote": "",
+            "blockRole": "prose",
+            "blockId": "block-4901"
+          }
+        ],
+        "rejectionReason": "invalid_issue_evidence_contract"
+      }
+    ],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 3477,
+          "completionTokens": 294,
+          "totalTokens": 3771
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 3314,
+          "completionTokens": 577,
+          "totalTokens": 3891
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_verification",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2988,
+          "completionTokens": 151,
+          "totalTokens": 3139
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Contentful technology",
+    "source": "live",
+    "url": "https://www.cylogy.com/technologies/contentful/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a technology overview page about Contentful on the Cylogy website. It describes Contentful as a cloud-based, API-first headless CMS and highlights benefits for developers, product owners, content creators, and IT teams. The page also includes links to related technologies and several customer success stories.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Contentful",
+      "titlePromise": "The title creates the expectation that the page will explain or discuss Contentful.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops Contentful as the main subject, explaining what it is, how its headless architecture works, and why it may be a good choice for headless projects.",
+      "bodyEvidenceQuote": "Contentful is a cloud-based headless CMS that originated in in 2013."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Contentful is a cloud-based headless CMS that originated in in 2013."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "The phrase has a duplicated preposition, “in in 2013,” which is ungrammatical. Removing one “in” fixes it without changing meaning. The phrase “connect and engagement” is not parallel: a verb is coordinated with a noun. The sentence needs repair, but the exact intended fix is not fully determined from the snapshot, so correctionSafe is false.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Contentful is a cloud-based headless CMS that originated in in 2013.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "in in",
+            "explanation": "The phrase has a duplicated preposition, “in in 2013,” which is ungrammatical. Removing one “in” fixes it without changing meaning.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Contentful is a cloud-based headless CMS that originated in 2013.",
+            "verification": {
+              "candidateIndex": 0,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "The phrase has a duplicated preposition, “in in 2013,” which is ungrammatical. Removing one “in” fixes it without changing meaning."
+            },
+            "blockRole": "ui_text",
+            "blockId": "block-320",
+            "edit": {
+              "start": 57,
+              "length": 5,
+              "replacement": "in"
+            }
+          },
+          {
+            "quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "connect and engagement",
+            "explanation": "The phrase “connect and engagement” is not parallel: a verb is coordinated with a noun. The sentence needs repair, but the exact intended fix is not fully determined from the snapshot, so correctionSafe is false.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "verification": {
+              "candidateIndex": 3,
+              "decision": "confirmed_error",
+              "correctionSafe": false,
+              "reason": "The phrase “connect and engagement” is not parallel: a verb is coordinated with a noun. The sentence needs repair, but the exact intended fix is not fully determined from the snapshot, so correctionSafe is false."
+            },
+            "correctionPolicy": "verifier_requires_review",
+            "blockRole": "ui_text",
+            "blockId": "block-2105"
+          }
+        ],
+        "pageQuotes": [
+          "Contentful is a cloud-based headless CMS that originated in in 2013.",
+          "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Apply safe corrections and review errors without an unambiguous correction.",
+          "suggestedCorrections": [
+            {
+              "original": "Contentful is a cloud-based headless CMS that originated in in 2013.",
+              "suggestion": "Contentful is a cloud-based headless CMS that originated in 2013.",
+              "pageQuote": "Contentful is a cloud-based headless CMS that originated in in 2013.",
+              "problemSpan": "in in",
+              "edit": {
+                "start": 57,
+                "length": 5,
+                "replacement": "in"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [
+      {
+        "code": "writing_errors",
+        "reason": "'thru' is a misspelling in this formal page context; the standard spelling 'through' is required here. Replacing it corrects the word without affecting the rest of the list item.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "For product owners – Launch digital products faster thru ease of replication and content reuse",
+            "purpose": "writing_error",
+            "errorType": "spelling",
+            "problemSpan": "thru",
+            "explanation": "'thru' is a misspelling in this formal page context; the standard spelling 'through' is required here. Replacing it corrects the word without affecting the rest of the list item.",
+            "correctionStatus": "safe",
+            "correctedQuote": "For product owners – Launch digital products faster through ease of replication and content reuse",
+            "verification": {
+              "candidateIndex": 1,
+              "decision": "accepted_usage",
+              "correctionSafe": false,
+              "reason": "“Thru” is an accepted informal spelling in some usage, so this is not a mandatory spelling error from the text alone."
+            }
+          }
+        ],
+        "rejectionReason": "writing_verification_did_not_confirm_defect"
+      },
+      {
+        "code": "writing_errors",
+        "reason": "The word order is ungrammatical in this sentence; the subject and adverbial phrase are arranged incorrectly. Moving 'in every aspect' to a natural position fixes the sentence.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Contentful in every aspect is designed as a composable and headless platform.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "Contentful in every aspect is designed",
+            "explanation": "The word order is ungrammatical in this sentence; the subject and adverbial phrase are arranged incorrectly. Moving 'in every aspect' to a natural position fixes the sentence.",
+            "correctionStatus": "requires_review",
+            "correctedQuote": null,
+            "verification": {
+              "candidateIndex": 2,
+              "decision": "accepted_usage",
+              "correctionSafe": false,
+              "reason": "The sentence is awkward, but a grammatical reading exists with “Contentful” as the subject and “in every aspect” as an adverbial phrase. No mandatory rule is clearly broken."
+            }
+          }
+        ],
+        "rejectionReason": "writing_verification_did_not_confirm_defect"
+      },
+      {
+        "code": "writing_errors",
+        "reason": "The comma incorrectly separates the subject from its verb, which is a punctuation error in this sentence. Removing the comma fixes the clause structure.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+            "purpose": "writing_error",
+            "errorType": "punctuation",
+            "problemSpan": "redesign, features",
+            "explanation": "The comma incorrectly separates the subject from its verb, which is a punctuation error in this sentence. Removing the comma fixes the clause structure.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+            "verification": {
+              "candidateIndex": 4,
+              "decision": "accepted_usage",
+              "correctionSafe": false,
+              "reason": "The comma after “redesign” can be read as a stylistic pause in this page text, and the sentence is still interpretable. This is not a clearly mandatory punctuation error."
+            }
+          }
+        ],
+        "rejectionReason": "writing_verification_did_not_confirm_defect"
+      }
+    ],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2301,
+          "completionTokens": 268,
+          "totalTokens": 2569
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2138,
+          "completionTokens": 547,
+          "totalTokens": 2685
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_verification",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1916,
+          "completionTokens": 287,
+          "totalTokens": 2203
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Sitecore CDP technology",
+    "source": "live",
+    "url": "https://www.cylogy.com/technologies/sitecore-cdp/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy technology landing page about Sitecore CDP. It describes the platform as a customer data and engagement solution with omnichannel data collection, real-time context, audience segmentation, and data ingestion from multiple sources. The page also includes links to additional technologies and several customer success stories.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Sitecore CDP",
+      "titlePromise": "The page is expected to be about Sitecore CDP and explain what it is or what Cylogy offers related to it.",
+      "fulfillment": "fulfilled",
+      "reason": "The body substantively develops Sitecore CDP as the central subject, including what it is and the capabilities it brings to the table.",
+      "bodyEvidenceQuote": "Sitecore CDP helps customers connect and unify customer data across all digital channels to drive relevance with an intelligent customer data platform and allow understanding and engagement of customers in real-time."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Sitecore CDP helps customers connect and unify customer data across all digital channels to drive relevance with an intelligent customer data platform and allow understanding and engagement of customers in real-time."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "The original has a clear grammar error: the phrase \"connect and engagement\" breaks parallel structure, and \"helping brands ...\" is awkwardly attached to the preceding clause. The proposed correction restores a valid parallel verb phrase and keeps the intended meaning.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "helping brands of all sizes and industries, connect and engagement with their customers more effectively",
+            "explanation": "The original has a clear grammar error: the phrase \"connect and engagement\" breaks parallel structure, and \"helping brands ...\" is awkwardly attached to the preceding clause. The proposed correction restores a valid parallel verb phrase and keeps the intended meaning.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries connect and engage with their customers more effectively. Related Services:",
+            "verification": {
+              "candidateIndex": 0,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "The original has a clear grammar error: the phrase \"connect and engagement\" breaks parallel structure, and \"helping brands ...\" is awkwardly attached to the preceding clause. The proposed correction restores a valid parallel verb phrase and keeps the intended meaning."
+            },
+            "blockRole": "ui_text",
+            "blockId": "block-1609",
+            "edit": {
+              "start": 68,
+              "length": 104,
+              "replacement": "helping brands of all sizes and industries connect and engage with their customers more effectively"
+            }
+          }
+        ],
+        "pageQuotes": [
+          "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:"
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Correct the objective writing errors identified in the cited sentences.",
+          "suggestedCorrections": [
+            {
+              "original": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:",
+              "suggestion": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries connect and engage with their customers more effectively. Related Services:",
+              "pageQuote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:",
+              "problemSpan": "helping brands of all sizes and industries, connect and engagement with their customers more effectively",
+              "edit": {
+                "start": 68,
+                "length": 104,
+                "replacement": "helping brands of all sizes and industries connect and engage with their customers more effectively"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2219,
+          "completionTokens": 306,
+          "totalTokens": 2525
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2056,
+          "completionTokens": 190,
+          "totalTokens": 2246
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_verification",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 1445,
+          "completionTokens": 84,
+          "totalTokens": 1529
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy company",
+    "source": "live",
+    "url": "https://www.cylogy.com/company/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a company/about page for Cylogy, a San Francisco-based digital agency focused on Sitecore, Episerver, and broader digital experience consulting. It presents the firm’s mission, leadership team, client testimonials, partner approach, and several customer success stories. The page is aimed at prospective clients or partners evaluating the company’s capabilities and services.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Who We Are",
+      "titlePromise": "The page will introduce the company and explain its identity, people, and what it does.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the company overview with mission statements, leadership bios, client testimonial, partnership approach, and success stories, which substantively matches an introduction to who the company is.",
+      "bodyEvidenceQuote": "We’re Your Trusted Advisor."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "We’re Your Trusted Advisor."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "issueDetails": [
+      {
+        "code": "writing_errors",
+        "reason": "‘a superior level quality’ is ungrammatical in this context; it needs a preposition such as ‘of’ to form a valid noun phrase. The proposed correction fixes that specific error without changing the meaning.",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Our mission is to be a trusted advisor, relentlessly advancing our clients’ top digital business priorities through strategy and a superior level quality.",
+            "purpose": "writing_error",
+            "errorType": "grammar",
+            "problemSpan": "a superior level quality",
+            "explanation": "‘a superior level quality’ is ungrammatical in this context; it needs a preposition such as ‘of’ to form a valid noun phrase. The proposed correction fixes that specific error without changing the meaning.",
+            "correctionStatus": "safe",
+            "correctedQuote": "Our mission is to be a trusted advisor, relentlessly advancing our clients’ top digital business priorities through strategy and a superior level of quality.",
+            "verification": {
+              "candidateIndex": 0,
+              "decision": "confirmed_error",
+              "correctionSafe": true,
+              "reason": "‘a superior level quality’ is ungrammatical in this context; it needs a preposition such as ‘of’ to form a valid noun phrase. The proposed correction fixes that specific error without changing the meaning."
+            },
+            "blockRole": "ui_text",
+            "blockId": "block-1768",
+            "edit": {
+              "start": 129,
+              "length": 24,
+              "replacement": "a superior level of quality"
+            }
+          }
+        ],
+        "pageQuotes": [
+          "Our mission is to be a trusted advisor, relentlessly advancing our clients’ top digital business priorities through strategy and a superior level quality."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Correct the objective writing errors identified in the cited sentences.",
+          "suggestedCorrections": [
+            {
+              "original": "Our mission is to be a trusted advisor, relentlessly advancing our clients’ top digital business priorities through strategy and a superior level quality.",
+              "suggestion": "Our mission is to be a trusted advisor, relentlessly advancing our clients’ top digital business priorities through strategy and a superior level of quality.",
+              "pageQuote": "Our mission is to be a trusted advisor, relentlessly advancing our clients’ top digital business priorities through strategy and a superior level quality.",
+              "problemSpan": "a superior level quality",
+              "edit": {
+                "start": 129,
+                "length": 24,
+                "replacement": "a superior level of quality"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "rejectedIssues": [
+      {
+        "code": "writing_errors",
+        "reason": "The apostrophe in \"90’s\" is incorrect for this decade reference in this context; the standard form is \"90s.\"",
+        "contradictionKind": "none",
+        "contradictionCondition": "",
+        "claimAPolarity": "none",
+        "claimBPolarity": "none",
+        "claimAValue": "",
+        "claimBValue": "",
+        "evidence": [
+          {
+            "quote": "Ryan began his career at Oracle working with Fortune 100 clients running Oracle’s flagship database and applications products. In the late 90’s he moved on to focus on digital experience technologies, with a focus on personalization and digital analytics at Macromedia. Ryan has been a certified Sitecore developer since 2008 and brings years of enterprise class project experience to every Cylogy client.",
+            "purpose": "writing_error",
+            "errorType": "punctuation",
+            "problemSpan": "90’s",
+            "explanation": "The apostrophe in \"90’s\" is incorrect for this decade reference in this context; the standard form is \"90s.\"",
+            "correctionStatus": "safe",
+            "correctedQuote": "Ryan began his career at Oracle working with Fortune 100 clients running Oracle’s flagship database and applications products. In the late 90s he moved on to focus on digital experience technologies, with a focus on personalization and digital analytics at Macromedia. Ryan has been a certified Sitecore developer since 2008 and brings years of enterprise class project experience to every Cylogy client.",
+            "verification": {
+              "candidateIndex": 1,
+              "decision": "accepted_usage",
+              "correctionSafe": false,
+              "reason": "‘late 90’s’ is an accepted informal decade form in some usage, so this is not a confirmed punctuation error. Since the original is usable as written, no correction is needed."
+            }
+          }
+        ],
+        "rejectionReason": "writing_verification_did_not_confirm_defect"
+      }
+    ],
+    "taxonomyVersion": "intrinsic-v44-reviewed-agreement",
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics and extractor heuristics; not computed visual visibility",
+      "recurrence": "unknown_within_single_page"
+    },
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2766,
+          "completionTokens": 274,
+          "totalTokens": 3040
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2603,
+          "completionTokens": 357,
+          "totalTokens": 2960
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_verification",
+        "status": "completed",
+        "model": "gpt-5.4-mini",
+        "usage": {
+          "promptTokens": 2192,
+          "completionTokens": 135,
+          "totalTokens": 2327
+        },
+        "error": null
+      }
+    ],
+    "evidencePassed": true,
+    "forbiddenWritingEvidence": [],
+    "duplicateWritingEvidence": [],
+    "missingCorrections": [],
+    "unexpectedCorrections": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  }
+]

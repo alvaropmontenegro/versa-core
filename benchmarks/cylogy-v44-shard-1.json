@@ -1,0 +1,112 @@
+[
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "service"
+    ],
+    "label": "Cylogy Sitecore development",
+    "url": "https://www.cylogy.com/services/sitecore-development/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "service"
+    ],
+    "label": "Cylogy Sitecore headless",
+    "url": "https://www.cylogy.com/services/sitecore-headless/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "service"
+    ],
+    "label": "Cylogy mobile apps",
+    "url": "https://www.cylogy.com/services/mobile-app-development-and-maintenance/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "technology"
+    ],
+    "label": "Cylogy Sitecore technology",
+    "url": "https://www.cylogy.com/technologies/sitecore/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "technology"
+    ],
+    "label": "Cylogy Marketo technology",
+    "url": "https://www.cylogy.com/technologies/marketo/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "technology"
+    ],
+    "label": "Cylogy Salesforce technology",
+    "url": "https://www.cylogy.com/technologies/salesforce/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "technology"
+    ],
+    "label": "Cylogy Google Analytics technology",
+    "url": "https://www.cylogy.com/technologies/google-analytics/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "technology"
+    ],
+    "label": "Cylogy Contentful technology",
+    "url": "https://www.cylogy.com/technologies/contentful/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "technology"
+    ],
+    "label": "Cylogy Sitecore CDP technology",
+    "url": "https://www.cylogy.com/technologies/sitecore-cdp/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "company"
+    ],
+    "label": "Cylogy company",
+    "url": "https://www.cylogy.com/company/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  }
+]

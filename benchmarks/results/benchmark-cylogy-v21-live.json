@@ -1,0 +1,950 @@
+[
+  {
+    "label": "Cylogy home",
+    "source": "live",
+    "url": "https://www.cylogy.com/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a marketing homepage for Cylogy, a digital consulting firm in San Francisco. It presents services and capabilities around Umbraco, Sitecore, WordPress, Contentful, Salesforce, and Marketo, along with client and testimonial highlights. The page is aimed at organizations seeking help with digital experience strategy, development, training, and related technology services.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "San Francisco’s Leading Digital Experience Consultants",
+      "titlePromise": "The page will present information about digital experience consulting services in San Francisco.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the promised consulting topic with service descriptions, technology platforms, client examples, and a testimonial for a San Francisco digital experience consulting firm.",
+      "bodyEvidenceQuote": "Whether you’re in need of Umbraco, Sitecore or WordPress consulting, strategy, development or training, Cylogy can help solve your challenges and elevate your digital presence."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Whether you’re in need of Umbraco, Sitecore or WordPress consulting, strategy, development or training, Cylogy can help solve your challenges and elevate your digital presence."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy site health",
+    "source": "live",
+    "url": "https://www.cylogy.com/services/site-health-maintenance/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a service page for Cylogy focused on site health and maintenance. It describes ongoing website support, monitoring, patching, reliability, and continuity services, along with monthly reviews and reports. The page also includes customer success story teasers and calls to view more case studies or contact the company.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Site Health & Maintenance",
+      "titlePromise": "A page about site health and maintenance services.",
+      "fulfillment": "fulfilled",
+      "reason": "The body describes ongoing website support, monitoring, patching, reliability, continuity, and monthly site health reports, which matches the service topic promised by the title.",
+      "bodyEvidenceQuote": "We maintain your website with ongoing support services to keep your website up to date and optimized, so you can focus on your business."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "We maintain your website with ongoing support services to keep your website up to date and optimized, so you can focus on your business."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy hosting infrastructure",
+    "source": "live",
+    "url": "https://www.cylogy.com/services/hosting-infrastructure/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy services page focused on hosting, infrastructure, containerization, and DevOps optimization. It describes reliability, security, DevOps strategy, and management offerings for companies, and includes customer success stories and testimonial content. The page also presents multiple case-study cards with brief summaries and calls to view each success story.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Infrastructure",
+      "titlePromise": "The page will provide substantive information about infrastructure services or infrastructure-related offerings.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops infrastructure-related services with reliability, security, and DevOps management content, so the title’s subject is delivered.",
+      "bodyEvidenceQuote": "Reliability and Security"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Reliability and Security"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy containerization",
+    "source": "live",
+    "url": "https://www.cylogy.com/services/hosting-infrastructure/sitecore-containerization/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy service page focused on Sitecore containerization. It explains benefits of container-based architecture for Sitecore implementations, including simpler local environments, deployments, and monitoring. The page also includes additional services and customer success story links, along with calls to contact or navigate further.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Sitecore Containerization",
+      "titlePromise": "The page should provide substantive information about Sitecore containerization.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the title by explaining what containerization means for Sitecore implementations and describing related benefits such as local environments, deployments, and monitoring.",
+      "bodyEvidenceQuote": "Does Containerization Make Sense for My Organization?"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Does Containerization Make Sense for My Organization?"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Optimizely development",
+    "source": "live",
+    "url": "https://www.cylogy.com/services/optimizely-development/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a service landing page for Cylogy’s Optimizely development offering. It describes implementation, headless development, migration, integrations, and process support for organizations using or moving to Optimizely. The page also includes customer success stories and calls to view more case studies or contact the company.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Optimizely Development",
+      "titlePromise": "Information about Optimizely development services and related implementation support.",
+      "fulfillment": "fulfilled",
+      "reason": "The page content presents Optimizely development services, including implementation strategy, headless development, migration, integrations, and process support.",
+      "bodyEvidenceQuote": "Optimizely Implementation Strategy"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Optimizely Implementation Strategy"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy DevOps",
+    "source": "live",
+    "url": "https://www.cylogy.com/services/optimize-your-devops-processes/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy services page about DevOps optimization. It describes ways the team can improve DevOps processes for reliability, flexibility, faster delivery, and reduced deployment risk, and it explains that they can work with existing tools. The page also includes additional services and several customer success story teasers with links to view more details.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "DevOps Optimization",
+      "titlePromise": "Content about DevOps optimization services or guidance.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the promised subject by describing optimization of DevOps processes, benefits such as reliability and faster delivery, and related implementation support.",
+      "bodyEvidenceQuote": "We’ll leverage your DevOps process for cost optimization, increased reliability, flexibility and faster delivery of new features."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "We’ll leverage your DevOps process for cost optimization, increased reliability, flexibility and faster delivery of new features."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy enterprise WordPress",
+    "source": "live",
+    "url": "https://www.cylogy.com/services/enterprise-grade-wordpress/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy services page about enterprise-grade WordPress development. It describes WordPress-focused enterprise project execution, expertise, and related services, and it includes customer success story highlights and testimonial content. The page is aimed at readers considering WordPress for enterprise-class projects and invites them to view success stories or contact the company.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Enterprise-grade WordPress Development",
+      "titlePromise": "A page about enterprise-grade WordPress development services and related information about that offering.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the same subject promised by the title, describing enterprise-class WordPress project execution, expertise, and related services.",
+      "bodyEvidenceQuote": "Enterprise-class Project Execution"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Enterprise-class Project Execution"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy digital strategy",
+    "source": "live",
+    "url": "https://www.cylogy.com/services/digital-strategy/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy services page about digital strategy. It presents consulting offerings such as design thinking workshops, product selection, customer data integration, cloud infrastructure planning, and digital team advisory. The page also includes additional services and a set of customer success stories with links to view each story.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Digital Strategy",
+      "titlePromise": "Substantive content about digital strategy services and related guidance.",
+      "fulfillment": "fulfilled",
+      "reason": "The page delivers digital strategy consulting content through multiple service sections, workshops, and advisory descriptions that match the title’s subject.",
+      "bodyEvidenceQuote": "We advise on projects across industries at each stage of the strategic lifecycle."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "We advise on projects across industries at each stage of the strategic lifecycle."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Sitecore training",
+    "source": "live",
+    "url": "https://www.cylogy.com/services/sitecore-training/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a service landing page for Cylogy’s Sitecore training offering. It describes training for teams at different skill levels and roles, including super users, marketing employees, developers, and admins, and mentions online or in-person delivery. The page also includes additional service and customer success story links.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Sitecore Training for Your Entire Team",
+      "titlePromise": "The page promises information about Sitecore training for an entire team, including what the training covers and who it is for.",
+      "fulfillment": "fulfilled",
+      "reason": "The body content describes customizable Sitecore training for teams and explains who should receive it, including super users, marketing employees, developers, and admins. It also covers training formats and related use cases such as implementations, upgrades, cloud migration, and online delivery.",
+      "bodyEvidenceQuote": "Who Should Receive Sitecore Training?"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Who Should Receive Sitecore Training?"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy SEO and analytics",
+    "source": "live",
+    "url": "https://www.cylogy.com/services/enterprise-seo-and-analytics-optimization/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy services page about enterprise SEO and analytics optimization. It describes SEO and analytics consulting, including keyword research, technical SEO, reporting, tag management, BI integration, and GA4 migration. The page also presents additional services and several customer success stories with links to learn more.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Enterprise SEO and Analytics Optimization",
+      "titlePromise": "A page about enterprise SEO and analytics optimization services and related information.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the same service topic named in the title by describing SEO and analytics optimization, listing specific service activities, and presenting related consulting and success-story content.",
+      "bodyEvidenceQuote": "Our comprehensive SEO and analytics optimization services include:"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Our comprehensive SEO and analytics optimization services include:"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Sitecore development",
+    "source": "live",
+    "url": "https://www.cylogy.com/services/sitecore-development/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a service landing page for Cylogy’s Sitecore development work. It describes offerings such as Sitecore implementation strategy, design execution, third-party integrations, process and best practices development, and personalization and marketing feature implementation. The page also includes additional services and a set of customer success stories with calls to view individual case studies.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Sitecore Development",
+      "titlePromise": "Content about Sitecore development services and related implementation work.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops Sitecore development services through implementation strategy, design execution, integrations, process and best practices, and personalization features.",
+      "bodyEvidenceQuote": "We’re here to help you establish a Sitecore development plan for your next project. Whether you’re looking for strategic design consulting, custom enhancements or third-party integrations, you’re in the right place."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "We’re here to help you establish a Sitecore development plan for your next project. Whether you’re looking for strategic design consulting, custom enhancements or third-party integrations, you’re in the right place."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Sitecore headless",
+    "source": "live",
+    "url": "https://www.cylogy.com/services/sitecore-headless/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy services page focused on Sitecore Headless. It presents an overview of headless development with Sitecore and describes service areas such as roadmap planning, product consulting, API and content modeling, front-end implementation, migration, hosting, DevOps, and maintenance. The page is aimed at visitors evaluating Sitecore-related services and includes additional consulting categories plus a testimonial and contact prompts.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Sitecore Headless",
+      "titlePromise": "The page will provide substantive information about Sitecore Headless and related services or details.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops Sitecore Headless as the main subject and includes explanatory content plus service offerings such as roadmap planning, consulting, API development, front-end implementation, migration, hosting, DevOps, and maintenance.",
+      "bodyEvidenceQuote": "Our Sitecore Headless Services"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Our Sitecore Headless Services"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy mobile apps",
+    "source": "live",
+    "url": "https://www.cylogy.com/services/mobile-app-development-and-maintenance/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy service page about mobile app development and maintenance. It describes tailored app development, cross-platform development, integration, testing and QA, and post-launch support. The page also includes customer success stories and calls to view more stories or contact the company.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Mobile App Development & Maintenance",
+      "titlePromise": "A page about mobile app development and maintenance services.",
+      "fulfillment": "fulfilled",
+      "reason": "The body content describes app development, cross-platform development, integration, testing and QA, and post-launch support and maintenance, which matches the title's service promise.",
+      "bodyEvidenceQuote": "Our post-launch support and maintenance services ensure that your app continues to perform well and stays up-to-date with the latest technological advancements."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Our post-launch support and maintenance services ensure that your app continues to perform well and stays up-to-date with the latest technological advancements."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Sitecore technology",
+    "source": "live",
+    "url": "https://www.cylogy.com/technologies/sitecore/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy technology page focused on Sitecore DXP and Sitecore CMS. It describes Sitecore’s content management, personalization, analytics, and marketing automation capabilities, then lists enterprise-oriented features and related technologies. The page also includes customer success stories and calls to view more stories or related services.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Sitecore DXP | What is sitecore",
+      "titlePromise": "A page explaining what Sitecore DXP is and describing Sitecore-related content or solutions.",
+      "fulfillment": "fulfilled",
+      "reason": "The body explains Sitecore Experience Platform and Sitecore DXP, then expands on features, enterprise benefits, related technologies, and customer success stories. This matches the title’s promise of an explanatory Sitecore page.",
+      "bodyEvidenceQuote": "Sitecore Experience Platform is a complete content management solution with integrated digital marketing functionality to create powerful and personalized customer experiences."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Sitecore Experience Platform is a complete content management solution with integrated digital marketing functionality to create powerful and personalized customer experiences."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Marketo technology",
+    "source": "live",
+    "url": "https://www.cylogy.com/technologies/marketo/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy Technologies page about Adobe/Marketo Engage. It describes Marketo as a marketing automation platform and outlines related capabilities such as lead management, email marketing, ABM, personalization, and Salesforce integration. The page also includes links to related technologies and a carousel of customer success stories.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Adobe/Marketo Engage",
+      "titlePromise": "Content about Adobe/Marketo Engage, including what it is and related marketing automation information.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops Adobe/Marketo Engage with an explanation of Marketo as marketing automation software, its products, integrations, and related services. The page stays on the same subject rather than switching to an unrelated topic.",
+      "bodyEvidenceQuote": "Marketo offers separate products for lead management, email marketing, ABM and more."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Marketo offers separate products for lead management, email marketing, ABM and more."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Salesforce technology",
+    "source": "live",
+    "url": "https://www.cylogy.com/technologies/salesforce/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy Technologies page focused on Salesforce Sales Cloud. It describes Salesforce as a cloud-based CRM platform and explains benefits such as workflow automation, data integration, scalability, and customer experience improvements. The page also includes links to related technologies and a series of customer success stories with calls to view each story.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Salesforce Sales Cloud",
+      "titlePromise": "Content about Salesforce Sales Cloud, including what it is and related Salesforce-focused information.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops Salesforce Sales Cloud with an explanation of the platform, its cloud CRM features, automation, integration, scalability, and related Salesforce content. The page stays on the promised subject rather than switching to an unrelated topic.",
+      "bodyEvidenceQuote": "Salesforce is able to automate workflows and integrate easily with existing data and systems all while keeping your data secure."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Salesforce is able to automate workflows and integrate easily with existing data and systems all while keeping your data secure."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Google Analytics technology",
+    "source": "live",
+    "url": "https://www.cylogy.com/technologies/google-analytics/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy technology landing page focused on Umbraco CMS. It describes Umbraco’s features, product options, and Cylogy’s positioning as a partner for delivering Umbraco projects. The page also includes related technology links and a carousel of customer success stories.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Google Analytics",
+      "titlePromise": "The page should provide substantive content about Google Analytics.",
+      "fulfillment": "not_fulfilled",
+      "reason": "The main body content is about Umbraco CMS, its product options, and Cylogy’s Umbraco services, not Google Analytics.",
+      "bodyEvidenceQuote": "What is Umbraco?"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "What is Umbraco?"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "title_body_mismatch"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Contentful technology",
+    "source": "live",
+    "url": "https://www.cylogy.com/technologies/contentful/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy technology page about Contentful. It describes Contentful as a cloud-based headless CMS and outlines benefits for developers, product owners, content creators/editors, and admins & IT. The page also includes related technology links and a set of customer success stories with calls to view each story.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Contentful",
+      "titlePromise": "The page should provide substantive information about Contentful.",
+      "fulfillment": "fulfilled",
+      "reason": "The body explains what Contentful is, describes its architecture and benefits, and includes related technology and customer success-story content about the subject.",
+      "bodyEvidenceQuote": "Contentful in every aspect is designed as a composable and headless platform. If you’re looking to build a flexible, extensible platform with a purely headless architecture, Contentful is a great pick."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Contentful in every aspect is designed as a composable and headless platform. If you’re looking to build a flexible, extensible platform with a purely headless architecture, Contentful is a great pick."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Sitecore CDP technology",
+    "source": "live",
+    "url": "https://www.cylogy.com/technologies/sitecore-cdp/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy technology page focused on Sitecore CDP. It describes Sitecore CDP as a customer data platform for unifying data, real-time insights, segmentation, and omnichannel engagement. The page also includes links to related technologies and a series of customer success stories.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Sitecore CDP",
+      "titlePromise": "Content about Sitecore CDP.",
+      "fulfillment": "fulfilled",
+      "reason": "The page delivers substantive content about Sitecore CDP, including what it is and what it brings to the table.",
+      "bodyEvidenceQuote": "What is Sitecore CDP?"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "What is Sitecore CDP?"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy company",
+    "source": "live",
+    "url": "https://www.cylogy.com/company/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a company profile page for Cylogy. It presents the agency as a San Francisco-based digital experience consultant and describes its services, leadership team, client relationships, and testimonials. The page also highlights several customer success stories and provides calls to explore services, partners, and more case studies.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Who We Are",
+      "titlePromise": "A company/about page describing who the organization is, including its identity and background.",
+      "fulfillment": "fulfilled",
+      "reason": "The body presents Cylogy’s company description, leadership team, client relationships, and testimonials, which matches the expectation of an about/company page.",
+      "bodyEvidenceQuote": "Headquartered in the heart of technology, we are a San Francisco-based digital agency with the energy and excitement to turn your digital experience dreams into reality."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Headquartered in the heart of technology, we are a San Francisco-based digital agency with the energy and excitement to turn your digital experience dreams into reality."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy partners",
+    "source": "live",
+    "url": "https://www.cylogy.com/company/partners/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy company page about partners. It introduces agency partners and briefly describes several partner firms, then highlights Cylogy services and customer success stories. The page is aimed at visitors who want to learn about Cylogy’s collaborations and related offerings.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Partners",
+      "titlePromise": "Content about partners or partner organizations associated with Cylogy.",
+      "fulfillment": "fulfilled",
+      "reason": "The page presents partner agencies and describes their work, which matches the title's expectation of partner-related content.",
+      "bodyEvidenceQuote": "At Cylogy, we’ve partnered with best-in-class design, UX, and content strategy agencies to deliver superior digital experiences to our clients."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "At Cylogy, we’ve partnered with best-in-class design, UX, and content strategy agencies to deliver superior digital experiences to our clients."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy careers",
+    "source": "live",
+    "url": "https://www.cylogy.com/company/careers/",
+    "expectedClassification": "unreviewed",
+    "classification": "unhealthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a careers page for Cylogy. It presents the company’s team culture, remote-work flexibility, global reach, and collaboration-focused values. The page is aimed at prospective job candidates and includes headings and short descriptive text about working at the company, plus a prompt to join the team.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Join the Cylogy Team!",
+      "titlePromise": "A careers page inviting readers to join Cylogy or learn about working there.",
+      "fulfillment": "fulfilled",
+      "reason": "The body content describes Cylogy’s team culture, flexibility, global reach, and collaboration, which matches the career-oriented invitation promised by the title.",
+      "bodyEvidenceQuote": "At Cylogy, we value flexibility, which is why we hire trustworthy team members who respect the time of our clients, our team and themselves so we can deliver amazing client results, while having a life outside of work."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "At Cylogy, we value flexibility, which is why we hire trustworthy team members who respect the time of our clients, our team and themselves so we can deliver amazing client results, while having a life outside of work."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [
+      "writing_errors"
+    ],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy contact",
+    "source": "live",
+    "url": "https://www.cylogy.com/contact-us/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a contact page for Cylogy. It presents the company name, a street address in San Francisco, a phone number, and an email address. The page is intended for readers who want to contact the company or find its location.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Contact Us",
+      "titlePromise": "The page will provide contact information or ways to reach Cylogy.",
+      "fulfillment": "fulfilled",
+      "reason": "The body presents contact details for the company, including an address, phone number, and email address.",
+      "bodyEvidenceQuote": "600 California St. 11th Floor San Francisco, CA 94108 United States"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "600 California St. 11th Floor San Francisco, CA 94108 United States"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Pelion project",
+    "source": "live",
+    "url": "https://www.cylogy.com/project/pelion/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a portfolio/project page about Cylogy’s rapid build and launch of the Pelion Corp website. It describes the website project, the services and technology involved, and includes a client testimonial and project facts. The page is aimed at readers interested in the project details, partners, and Cylogy’s web development work.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Pelion Corp Site Rapid Build and Launch",
+      "titlePromise": "A portfolio case study about Pelion’s site rapid build and launch.",
+      "fulfillment": "fulfilled",
+      "reason": "The page presents a project case study about Pelion’s website build and launch, including project description, facts, services, partners, and testimonial content.",
+      "bodyEvidenceQuote": "Pelion provides solutions that allow companies to securely connect and manage their IoT (Internet of Things) devices."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Pelion provides solutions that allow companies to securely connect and manage their IoT (Internet of Things) devices."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Qlik project",
+    "source": "live",
+    "url": "https://www.cylogy.com/project/qlik-change-management/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a portfolio/project page about a Qlik deployment and change management engagement. It describes strategy and implementation work around deployment automation, source control branching, release and hotfix procedures, and environment-specific configuration. The page also includes project facts, services, partner sections, and related project navigation.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Qlik Change Management Strategy & Implementation",
+      "titlePromise": "A portfolio case study about Qlik change management strategy and implementation.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the same subject by describing deployment automation, DevOps strategy, branching and release procedures, and implementation details for Qlik.",
+      "bodyEvidenceQuote": "We started by defining a DevOps strategy to set up a foundation for success."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "We started by defining a DevOps strategy to set up a foundation for success."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Sabre project",
+    "source": "live",
+    "url": "https://www.cylogy.com/project/sabre/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a portfolio project page about Cylogy’s work for Sabre Travel Network Support Portal. It describes a support platform rebuild on Sitecore, summarizes the project’s scope and technical approach, and lists a few project facts and services. The page also includes sections for technology partners, related projects, and contact/navigation prompts.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Sabre Travel Network Support Portal",
+      "titlePromise": "A page about the Sabre Travel Network Support Portal, including substantive information about that support portal or the project around it.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the Sabre Travel Network Support Portal topic with a project description, technical implementation details, and supporting facts about the portal.",
+      "bodyEvidenceQuote": "A full rebuild of Sabre’s extensive international support platform on Sitecore using advanced analytics features."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "A full rebuild of Sabre’s extensive international support platform on Sitecore using advanced analytics features."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Symposium 2020 recap",
+    "source": "live",
+    "url": "https://www.cylogy.com/insights/5-takeaways-from-the-2020-sitecore-symposium/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy Insights blog post about the 2020 Sitecore Symposium. It presents five takeaways from the event, focusing on Sitecore’s customer-centric strategy, Content Hub, automation and personalization, SaaS plans, and leadership ambitions. The page also includes related-post links and a contact form for visitors who want help.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "5 takeaways from the 2020 Sitecore Symposium",
+      "titlePromise": "The page promises five takeaways from the 2020 Sitecore Symposium.",
+      "fulfillment": "fulfilled",
+      "reason": "The body delivers five numbered takeaways and discusses the 2020 Sitecore Symposium throughout the article.",
+      "bodyEvidenceQuote": "1. The future requires even more customer-centric and granular approaches"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "1. The future requires even more customer-centric and granular approaches"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Symposium 2024 preview",
+    "source": "live",
+    "url": "https://www.cylogy.com/insights/what-to-look-forward-to-at-the-sitecore-symposium/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a blog article about the 2024 Sitecore Symposium. It describes keynote speakers, breakout sessions, networking, workshops, product updates, community engagement, the venue, and Nashville as the host city. The page is aimed at readers interested in the event and includes a contact form and related posts at the bottom.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "What to Look Forward to at the 2024 Sitecore Symposium",
+      "titlePromise": "A preview of what readers can expect at the 2024 Sitecore Symposium.",
+      "fulfillment": "fulfilled",
+      "reason": "The article body develops the promised preview by describing keynotes, sessions, networking, workshops, product updates, community engagement, the venue, and Nashville. It matches the title’s expectation of looking forward to the 2024 Sitecore Symposium.",
+      "bodyEvidenceQuote": "One of the highlights of the Sitecore Symposium is the lineup of keynote speakers who are at the forefront of digital innovation."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "One of the highlights of the Sitecore Symposium is the lineup of keynote speakers who are at the forefront of digital innovation."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy Sitecore SaaS",
+    "source": "live",
+    "url": "https://www.cylogy.com/insights/sitecores-move-to-a-saas-model-key-questions-for-new-and-existing-customers/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a 404-style not-found page for Cylogy. It tells the reader that the requested page is unavailable and offers navigation options such as returning home or opening the menu.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "Page is not found",
+      "titlePromise": "The page will provide content about a page not being found, likely a not-found or error page.",
+      "fulfillment": "fulfilled",
+      "reason": "The visible content matches the title’s expectation by stating that the page is not here and showing a not-found heading.",
+      "bodyEvidenceQuote": "We’re sorry the page that you are looking for is not here."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "We’re sorry the page that you are looking for is not here."
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  },
+  {
+    "label": "Cylogy content migration",
+    "source": "live",
+    "url": "https://www.cylogy.com/insights/7-essential-ingredients-of-a-successful-content-migration/",
+    "expectedClassification": "unreviewed",
+    "classification": "healthy",
+    "insufficientEvidence": false,
+    "assessmentInvalid": false,
+    "model": "gpt-5.4-mini",
+    "pageSummary": "This is a Cylogy Insights article about planning a successful content migration during a website project. It presents seven recommended practices, including auditing content, starting early, using a content strategy, planning redirects, cleaning up media assets, and using automation carefully. The page also includes related-post links and a contact form for readers who want help with content migration.",
+    "recommendationsComplete": true,
+    "titlePromiseAssessment": {
+      "titleQuote": "7 essential ingredients of a successful content migration",
+      "titlePromise": "The title promises an article explaining seven essential ingredients or key practices for a successful content migration.",
+      "fulfillment": "fulfilled",
+      "reason": "The body develops the promised topic by presenting seven numbered sections about content migration practices, including auditing content, starting early, using strategy, redirects, media cleanup, and automation.",
+      "bodyEvidenceQuote": "1. Don’t automatically lift and shift"
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "1. Don’t automatically lift and shift"
+    },
+    "requiredIssues": [],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": false,
+    "passed": null,
+    "error": null
+  }
+]

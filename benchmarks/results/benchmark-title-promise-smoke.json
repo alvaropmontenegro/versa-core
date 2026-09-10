@@ -1,0 +1,34 @@
+[
+  {
+    "label": "Title and body cover different subjects",
+    "source": "artificial",
+    "url": "http://127.0.0.1:8088/pages/title-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "classification": "inconclusive",
+    "requiredIssues": [
+      "title_body_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": true,
+    "passed": false,
+    "error": "OpenAI returned HTTP 400: {\n  \"error\": {\n    \"message\": \"Invalid schema for response_format 'intrinsic_audit': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'titleBodyAssessment' supplied.\",\n    \"type\": \"invalid_request_error\",\n    \"param\": \"response_format\",\n    \"code\": null\n  }\n}"
+  },
+  {
+    "label": "Cylogy Google Analytics content mismatch",
+    "source": "snapshot",
+    "url": "http://127.0.0.1:8089/cylogy-google-analytics-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "classification": "inconclusive",
+    "requiredIssues": [
+      "title_body_mismatch"
+    ],
+    "allowedIssues": [],
+    "forbiddenIssues": [],
+    "issues": [],
+    "scored": true,
+    "passed": false,
+    "error": "OpenAI returned HTTP 400: {\n  \"error\": {\n    \"message\": \"Invalid schema for response_format 'intrinsic_audit': In context=(), 'required' is required to be supplied and to be an array including every key in properties. Extra required key 'titleBodyAssessment' supplied.\",\n    \"type\": \"invalid_request_error\",\n    \"param\": \"response_format\",\n    \"code\": null\n  }\n}"
+  }
+]

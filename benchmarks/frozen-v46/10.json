@@ -1,0 +1,160 @@
+{
+  "url": "http://127.0.0.1:8088/pages/title-mismatch.html",
+  "finalUrl": "http://127.0.0.1:8088/pages/title-mismatch.html",
+  "outputLanguage": "en",
+  "executedAt": "2026-09-08T22:40:09.6721854+00:00",
+  "capture": {
+    "statusCode": 200,
+    "finalUrl": "http://127.0.0.1:8088/pages/title-mismatch.html",
+    "html": "\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022en\u0022 data-versa-display=\u0022block\u0022 data-versa-layout-version=\u00221\u0022\u003E\u003Chead data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta charset=\u0022UTF-8\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1.0\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cmeta name=\u0022description\u0022 content=\u0022An honest comparison of the top 10 project management tools for modern teams.\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Ctitle data-versa-display=\u0022none\u0022\u003E10 Best Project Management Tools Compared (2025) \u2014 Meridian Digital\u003C/title\u003E\n  \u003Clink rel=\u0022canonical\u0022 href=\u0022https://test.versacontent.com/pages/title-mismatch.html\u0022 data-versa-display=\u0022none\u0022\u003E\n  \u003Cstyle data-versa-display=\u0022none\u0022\u003E\n    * { margin: 0; padding: 0; box-sizing: border-box; }\n    body { font-family: -apple-system, BlinkMacSystemFont, \u0027Segoe UI\u0027, Roboto, sans-serif; color: #1a1a2e; line-height: 1.7; background: #fff; }\n    header { background: #1a1a2e; color: #fff; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }\n    header .logo { font-weight: 700; font-size: 1.25rem; }\n    header nav a { color: #a0a0c0; text-decoration: none; margin-left: 1.5rem; font-size: 0.9rem; }\n    header nav a:hover { color: #fff; }\n    main { max-width: 800px; margin: 2rem auto; padding: 0 1.5rem; }\n    h1 { font-size: 2rem; margin-bottom: 1rem; line-height: 1.3; }\n    h2 { font-size: 1.4rem; margin: 2rem 0 0.75rem; color: #1a1a2e; }\n    h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; }\n    p { margin-bottom: 1rem; color: #333; }\n    ul, ol { margin: 0 0 1rem 1.5rem; }\n    li { margin-bottom: 0.4rem; }\n    a { color: #4361ee; }\n    .meta { font-size: 0.85rem; color: #666; margin-bottom: 1.5rem; }\n    .cta { display: inline-block; background: #4361ee; color: #fff; padding: 0.75rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: 600; margin: 1rem 0; }\n    .cta:hover { background: #3a56d4; }\n    .tags { margin-top: 2rem; }\n    .tags span { background: #f0f0f5; padding: 0.25rem 0.75rem; border-radius: 99px; font-size: 0.8rem; margin-right: 0.5rem; color: #555; }\n    footer { background: #f8f8fc; border-top: 1px solid #e0e0e8; padding: 2rem; margin-top: 3rem; text-align: center; font-size: 0.85rem; color: #666; }\n    footer a { color: #4361ee; text-decoration: none; }\n    .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin: 1.5rem 0; }\n    .card { border: 1px solid #e0e0e8; border-radius: 8px; padding: 1.5rem; }\n    .card h3 { margin-top: 0; }\n    .price { font-size: 2rem; font-weight: 700; color: #4361ee; }\n    blockquote { border-left: 3px solid #4361ee; padding: 1rem 1.5rem; background: #f8f8fc; margin: 1.5rem 0; font-style: italic; }\n    table { width: 100%; border-collapse: collapse; margin: 1rem 0; }\n    th, td { padding: 0.75rem; text-align: left; border-bottom: 1px solid #e0e0e8; }\n    th { background: #f8f8fc; font-weight: 600; }\n    img { max-width: 100%; height: auto; border-radius: 8px; margin: 1rem 0; }\n  \u003C/style\u003E\n\u003C/head\u003E\n\u003Cbody data-versa-display=\u0022block\u0022\u003E\n  \u003Cheader data-versa-display=\u0022flex\u0022\u003E\n    \u003Cdiv class=\u0022logo\u0022 data-versa-display=\u0022block\u0022\u003EMeridian Digital\u003C/div\u003E\n    \u003Cnav data-versa-display=\u0022block\u0022\u003E\n      \u003Ca href=\u0022/pages/healthy-product\u0022 data-versa-display=\u0022inline\u0022\u003EProduct\u003C/a\u003E\n      \u003Ca href=\u0022/pages/healthy-pricing\u0022 data-versa-display=\u0022inline\u0022\u003EPricing\u003C/a\u003E\n      \u003Ca href=\u0022/pages/healthy-contact\u0022 data-versa-display=\u0022inline\u0022\u003EContact\u003C/a\u003E\n      \u003Ca href=\u0022/pages/hub-index\u0022 data-versa-display=\u0022inline\u0022\u003EBlog\u003C/a\u003E\n    \u003C/nav\u003E\n  \u003C/header\u003E\n  \u003Cmain data-versa-display=\u0022block\u0022\u003E\n    \u003Ch1 data-versa-display=\u0022block\u0022\u003E10 Best Project Management Tools Compared (2025)\u003C/h1\u003E\n\n    \u003Cp class=\u0022meta\u0022 data-versa-display=\u0022block\u0022\u003EPublished March 12, 2025 \u00B7 5 min read\u003C/p\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003EWhen it comes to project management, Meridian stands out from the crowd. In a market that continues to grow more competitive every year, one platform has consistently risen to the top \u2014 and it\u0027s not hard to see why.\u003C/p\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EThe Platform Built for How Teams Actually Work\u003C/h2\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003EMeridian Digital was designed from the ground up to eliminate the friction that slows teams down. Unlike legacy tools that force you into predefined workflows, Meridian adapts to your process. Whether your team follows Agile, Waterfall, or a hybrid methodology, Meridian molds itself to the way you work \u2014 not the other way around.\u003C/p\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003EThe drag-and-drop timeline builder makes sprint planning effortless. Automated dependency tracking ensures nothing falls through the cracks. And real-time dashboards give project leads the visibility they need without requiring anyone to manually update status fields.\u003C/p\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EFeatures That Drive Results\u003C/h2\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003EMeridian\u0027s feature set is purpose-built for productivity. Here\u0027s what our customers rely on most:\u003C/p\u003E\n\n    \u003Cul data-versa-display=\u0022block\u0022\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003E\u003Cstrong data-versa-display=\u0022inline\u0022\u003ESmart Resource Allocation:\u003C/strong\u003E Meridian automatically balances workloads across team members, preventing burnout and ensuring optimal throughput.\u003C/li\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003E\u003Cstrong data-versa-display=\u0022inline\u0022\u003EIntegrated Time Tracking:\u003C/strong\u003E No more switching between tools. Meridian\u0027s built-in time tracker ties hours directly to tasks, making reporting seamless.\u003C/li\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003E\u003Cstrong data-versa-display=\u0022inline\u0022\u003ECustom Workflows:\u003C/strong\u003E Build the exact workflow your team needs with our visual workflow editor. Add approval gates, automated notifications, and conditional logic.\u003C/li\u003E\n      \u003Cli data-versa-display=\u0022list-item\u0022\u003E\u003Cstrong data-versa-display=\u0022inline\u0022\u003E200\u002B Integrations:\u003C/strong\u003E Meridian connects with Slack, GitHub, Figma, Google Workspace, and hundreds of other tools your team already uses.\u003C/li\u003E\n    \u003C/ul\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EPricing That Makes Sense\u003C/h2\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003EMeridian offers transparent, per-seat pricing with no hidden fees. Our Starter plan begins at $12 per user per month and includes unlimited projects, 10 GB of storage, and access to all core features. The Professional plan at $24 per user per month adds advanced analytics, custom fields, and priority support. Enterprise pricing is available for organizations that need dedicated infrastructure and premium SLAs.\u003C/p\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EWhy Teams Switch to Meridian\u003C/h2\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003EThe most common reason teams switch to Meridian is clarity. Other tools bury critical information behind layers of menus and settings. Meridian surfaces what matters \u2014 overdue tasks, blocked dependencies, budget burn rate \u2014 right on the main dashboard. Project leads tell us they spend less time hunting for information and more time making decisions.\u003C/p\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003EOnboarding is another major differentiator. New team members can start contributing on their first day. Meridian\u0027s intuitive interface requires no training, and our interactive walkthroughs guide users through key features as they explore.\u003C/p\u003E\n\n    \u003Ch2 data-versa-display=\u0022block\u0022\u003EGet Started with Meridian\u003C/h2\u003E\n\n    \u003Cp data-versa-display=\u0022block\u0022\u003EIf your current project management tool is slowing your team down, it\u0027s time to make the switch. Meridian offers a 14-day free trial with full access to every feature \u2014 no credit card required. See for yourself why thousands of teams trust Meridian to deliver their most important work.\u003C/p\u003E\n\n    \u003Ca href=\u0022/pages/healthy-pricing\u0022 class=\u0022cta\u0022 data-versa-display=\u0022inline-block\u0022\u003EStart Your Free Trial\u003C/a\u003E\n\n    \u003Cdiv class=\u0022tags\u0022 data-versa-display=\u0022block\u0022\u003E\n      \u003Cspan data-versa-display=\u0022inline\u0022\u003EProject Management\u003C/span\u003E\n      \u003Cspan data-versa-display=\u0022inline\u0022\u003EProductivity\u003C/span\u003E\n      \u003Cspan data-versa-display=\u0022inline\u0022\u003ETeam Collaboration\u003C/span\u003E\n      \u003Cspan data-versa-display=\u0022inline\u0022\u003ESoftware\u003C/span\u003E\n    \u003C/div\u003E\n  \u003C/main\u003E\n  \u003Cfooter data-versa-display=\u0022block\u0022\u003E\n    \u003Cp data-versa-display=\u0022block\u0022\u003E\u00A9 2025 Meridian Digital Inc. All rights reserved. | \u003Ca href=\u0022/pages/healthy-legal\u0022 data-versa-display=\u0022inline\u0022\u003ETerms\u003C/a\u003E | \u003Ca href=\u0022mailto:hello@meridian.digital\u0022 data-versa-display=\u0022inline\u0022\u003Ehello@meridian.digital\u003C/a\u003E | \u002B1 (415) 555-0120\u003C/p\u003E\n  \u003C/footer\u003E\n\n\n\u003C/body\u003E\u003C/html\u003E",
+    "bodyText": "Meridian Digital\nProduct Pricing Contact Blog\n10 Best Project Management Tools Compared (2025)\n\nPublished March 12, 2025 \u00B7 5 min read\n\nWhen it comes to project management, Meridian stands out from the crowd. In a market that continues to grow more competitive every year, one platform has consistently risen to the top \u2014 and it\u0027s not hard to see why.\n\nThe Platform Built for How Teams Actually Work\n\nMeridian Digital was designed from the ground up to eliminate the friction that slows teams down. Unlike legacy tools that force you into predefined workflows, Meridian adapts to your process. Whether your team follows Agile, Waterfall, or a hybrid methodology, Meridian molds itself to the way you work \u2014 not the other way around.\n\nThe drag-and-drop timeline builder makes sprint planning effortless. Automated dependency tracking ensures nothing falls through the cracks. And real-time dashboards give project leads the visibility they need without requiring anyone to manually update status fields.\n\nFeatures That Drive Results\n\nMeridian\u0027s feature set is purpose-built for productivity. Here\u0027s what our customers rely on most:\n\nSmart Resource Allocation: Meridian automatically balances workloads across team members, preventing burnout and ensuring optimal throughput.\nIntegrated Time Tracking: No more switching between tools. Meridian\u0027s built-in time tracker ties hours directly to tasks, making reporting seamless.\nCustom Workflows: Build the exact workflow your team needs with our visual workflow editor. Add approval gates, automated notifications, and conditional logic.\n200\u002B Integrations: Meridian connects with Slack, GitHub, Figma, Google Workspace, and hundreds of other tools your team already uses.\nPricing That Makes Sense\n\nMeridian offers transparent, per-seat pricing with no hidden fees. Our Starter plan begins at $12 per user per month and includes unlimited projects, 10 GB of storage, and access to all core features. The Professional plan at $24 per user per month adds advanced analytics, custom fields, and priority support. Enterprise pricing is available for organizations that need dedicated infrastructure and premium SLAs.\n\nWhy Teams Switch to Meridian\n\nThe most common reason teams switch to Meridian is clarity. Other tools bury critical information behind layers of menus and settings. Meridian surfaces what matters \u2014 overdue tasks, blocked dependencies, budget burn rate \u2014 right on the main dashboard. Project leads tell us they spend less time hunting for information and more time making decisions.\n\nOnboarding is another major differentiator. New team members can start contributing on their first day. Meridian\u0027s intuitive interface requires no training, and our interactive walkthroughs guide users through key features as they explore.\n\nGet Started with Meridian\n\nIf your current project management tool is slowing your team down, it\u0027s time to make the switch. Meridian offers a 14-day free trial with full access to every feature \u2014 no credit card required. See for yourself why thousands of teams trust Meridian to deliver their most important work.\n\nStart Your Free Trial\nProject Management Productivity Team Collaboration Software\n\n\u00A9 2025 Meridian Digital Inc. All rights reserved. | Terms | hello@meridian.digital | \u002B1 (415) 555-0120",
+    "bodyWordCount": 491
+  },
+  "metadata": {
+    "title": "10 Best Project Management Tools Compared (2025) \u2014 Meridian Digital",
+    "metaDescription": "An honest comparison of the top 10 project management tools for modern teams.",
+    "canonicalUrl": "https://test.versacontent.com/pages/title-mismatch.html",
+    "language": "en"
+  },
+  "structuralOutline": {
+    "markdown": "\u003Cui_text\u003EMeridian Digital\u003C/ui_text\u003E\n\n\u003Cheading level=\u00221\u0022\u003E10 Best Project Management Tools Compared (2025)\u003C/heading\u003E\n\n\u003Cprose\u003EPublished March 12, 2025 \u00B7 5 min read\u003C/prose\u003E\n\n\u003Cprose\u003EWhen it comes to project management, Meridian stands out from the crowd. In a market that continues to grow more competitive every year, one platform has consistently risen to the top \u2014 and it\u0027s not hard to see why.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EThe Platform Built for How Teams Actually Work\u003C/heading\u003E\n\n\u003Cprose\u003EMeridian Digital was designed from the ground up to eliminate the friction that slows teams down. Unlike legacy tools that force you into predefined workflows, Meridian adapts to your process. Whether your team follows Agile, Waterfall, or a hybrid methodology, Meridian molds itself to the way you work \u2014 not the other way around.\u003C/prose\u003E\n\n\u003Cprose\u003EThe drag-and-drop timeline builder makes sprint planning effortless. Automated dependency tracking ensures nothing falls through the cracks. And real-time dashboards give project leads the visibility they need without requiring anyone to manually update status fields.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EFeatures That Drive Results\u003C/heading\u003E\n\n\u003Cprose\u003EMeridian\u0027s feature set is purpose-built for productivity. Here\u0027s what our customers rely on most:\u003C/prose\u003E\n\n\u003Clist_item\u003ESmart Resource Allocation: Meridian automatically balances workloads across team members, preventing burnout and ensuring optimal throughput.\u003C/list_item\u003E\n\n\u003Clist_item\u003EIntegrated Time Tracking: No more switching between tools. Meridian\u0027s built-in time tracker ties hours directly to tasks, making reporting seamless.\u003C/list_item\u003E\n\n\u003Clist_item\u003ECustom Workflows: Build the exact workflow your team needs with our visual workflow editor. Add approval gates, automated notifications, and conditional logic.\u003C/list_item\u003E\n\n\u003Clist_item\u003E200\u002B Integrations: Meridian connects with Slack, GitHub, Figma, Google Workspace, and hundreds of other tools your team already uses.\u003C/list_item\u003E\n\n\u003Cheading level=\u00222\u0022\u003EPricing That Makes Sense\u003C/heading\u003E\n\n\u003Cprose\u003EMeridian offers transparent, per-seat pricing with no hidden fees. Our Starter plan begins at $12 per user per month and includes unlimited projects, 10 GB of storage, and access to all core features. The Professional plan at $24 per user per month adds advanced analytics, custom fields, and priority support. Enterprise pricing is available for organizations that need dedicated infrastructure and premium SLAs.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EWhy Teams Switch to Meridian\u003C/heading\u003E\n\n\u003Cprose\u003EThe most common reason teams switch to Meridian is clarity. Other tools bury critical information behind layers of menus and settings. Meridian surfaces what matters \u2014 overdue tasks, blocked dependencies, budget burn rate \u2014 right on the main dashboard. Project leads tell us they spend less time hunting for information and more time making decisions.\u003C/prose\u003E\n\n\u003Cprose\u003EOnboarding is another major differentiator. New team members can start contributing on their first day. Meridian\u0027s intuitive interface requires no training, and our interactive walkthroughs guide users through key features as they explore.\u003C/prose\u003E\n\n\u003Cheading level=\u00222\u0022\u003EGet Started with Meridian\u003C/heading\u003E\n\n\u003Cprose\u003EIf your current project management tool is slowing your team down, it\u0027s time to make the switch. Meridian offers a 14-day free trial with full access to every feature \u2014 no credit card required. See for yourself why thousands of teams trust Meridian to deliver their most important work.\u003C/prose\u003E\n\n\u003Ccta\u003EStart Your Free Trial\u003C/cta\u003E\n\n\u003Cui_text\u003EProject Management Productivity Team Collaboration Software\u003C/ui_text\u003E",
+    "summary": {
+      "estimatedTokens": 901,
+      "truncatedByTextLimit": false
+    }
+  },
+  "analysis": {
+    "observations": {
+      "mainContentLanguage": "en",
+      "mainContentLanguageEvidence": "When it comes to project management, Meridian stands out from the crowd.",
+      "pagePurpose": "Promote Meridian Digital\u2019s project management software, explain its features and pricing, and encourage visitors to start a free trial.",
+      "pageSummary": "This is a marketing landing page for Meridian Digital, a project management platform. It highlights features such as timelines, resource allocation, time tracking, workflows, integrations, and pricing tiers. The page targets teams evaluating project management software and ends with a free-trial call to action."
+    },
+    "sensitiveTopicAssessment": {
+      "status": "not_applicable",
+      "evidenceQuote": "",
+      "reason": "The page does not provide guidance for handling a sensitive or safety-critical situation."
+    },
+    "titlePromiseAssessment": {
+      "titleQuote": "10 Best Project Management Tools Compared (2025)",
+      "titlePromise": "The title promises a comparison or roundup of ten project management tools for 2025.",
+      "fulfillment": "not_fulfilled",
+      "reason": "The title creates an expectation of a multi-tool comparison, but the body mainly develops Meridian Digital as a single product landing page with features, pricing, and a trial offer rather than comparing 10 tools.",
+      "bodyEvidenceQuote": "Meridian Digital was designed from the ground up to eliminate the friction that slows teams down."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Meridian Digital was designed from the ground up to eliminate the friction that slows teams down."
+    },
+    "sensitiveTopicValidation": {
+      "status": "valid",
+      "reason": "no_sensitive_guidance_detected",
+      "normalizedEvidenceQuote": ""
+    },
+    "issues": [
+      {
+        "code": "title_body_mismatch",
+        "reason": "The title creates an expectation of a multi-tool comparison, but the body mainly develops Meridian Digital as a single product landing page with features, pricing, and a trial offer rather than comparing 10 tools.",
+        "pageQuotes": [
+          "10 Best Project Management Tools Compared (2025)",
+          "Meridian Digital was designed from the ground up to eliminate the friction that slows teams down."
+        ],
+        "source": "page",
+        "recommendation": {
+          "summary": "Align the title with the main content or revise the body so it clearly delivers the title\u0027s promise.",
+          "suggestedCorrections": []
+        }
+      }
+    ],
+    "rejectedIssues": [],
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_e881736193dc44c193f01ee903571dcc",
+          "systemFingerprint": null,
+          "inputHash": "BCA76D237CCA3A74972C58AE7F664F2D5BE04F3F4D549B4F8A66FA1FB56E4FD8",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 2184,
+          "completionTokens": 279,
+          "totalTokens": 2463,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_7c205e95c29246d9869cf577c269b964",
+          "systemFingerprint": null,
+          "inputHash": "BCA76D237CCA3A74972C58AE7F664F2D5BE04F3F4D549B4F8A66FA1FB56E4FD8",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 1378,
+          "completionTokens": 21,
+          "totalTokens": 1399,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_a50ef2b062e44b6fbdb508d3dba727c9",
+          "systemFingerprint": null,
+          "inputHash": "BCA76D237CCA3A74972C58AE7F664F2D5BE04F3F4D549B4F8A66FA1FB56E4FD8",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 1521,
+          "completionTokens": 217,
+          "totalTokens": 1738,
+          "reasoningTokens": 197
+        },
+        "error": null
+      }
+    ],
+    "classification": {
+      "type": "unhealthy",
+      "confidence": null,
+      "confidenceBasis": "not_calibrated",
+      "insufficientEvidence": false
+    },
+    "externalVerification": {
+      "enabled": false,
+      "skipped": true
+    }
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "webSourceUrls": []
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "source": "snapshot",
+    "scored": true,
+    "label": "regional-controls",
+    "artifact": "regional-controls.html",
+    "expectedClassification": "healthy",
+    "expectedFindings": [],
+    "forbiddenIssues": [
+      "writing_errors"
+    ],
+    "exactWritingCorrections": true,
+    "expectedWritingCorrections": []
+  },
+  {
+    "source": "snapshot",
+    "scored": true,
+    "label": "inline-author",
+    "artifact": "inline-author.html",
+    "expectedClassification": "healthy",
+    "expectedFindings": [],
+    "forbiddenIssues": [
+      "writing_errors"
+    ],
+    "exactWritingCorrections": true,
+    "expectedWritingCorrections": []
+  },
+  {
+    "source": "snapshot",
+    "scored": true,
+    "label": "writing-positive-controls",
+    "artifact": "writing-positive-controls.html",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "writing_errors"
+    ],
+    "forbiddenIssues": [],
+    "exactWritingCorrections": true,
+    "expectedWritingCorrections": [
+      {
+        "quote": "We work in in small teams.",
+        "problemSpan": "in in",
+        "errorType": "grammar",
+        "correctionStatus": "safe",
+        "correctedQuote": "We work in small teams."
+      },
+      {
+        "quote": "The developmer reviewed the changes.",
+        "problemSpan": "developmer",
+        "errorType": "spelling",
+        "correctionStatus": "safe",
+        "correctedQuote": "The developer reviewed the changes."
+      }
+    ]
+  }
+]

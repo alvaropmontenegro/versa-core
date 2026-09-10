@@ -1,0 +1,482 @@
+[
+  {
+    "Page": "Cylogy containerization",
+    "Code": "writing_errors",
+    "Problem": "redesign, features",
+    "Quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+    "Correction": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+    "Explanation": "The comma incorrectly separates the subject from its verb in this sentence. Removing the comma makes the clause grammatical."
+  },
+  {
+    "Page": "Cylogy Optimizely development",
+    "Code": "writing_errors",
+    "Problem": "you users",
+    "Quote": "Are you looking to create a world-class digital experience for you users on the Optimizely DXP platform?",
+    "Correction": "Are you looking to create a world-class digital experience for your users on the Optimizely DXP platform?",
+    "Explanation": "The phrase is ungrammatical because the possessive pronoun 'you' cannot directly modify 'users' here; the sentence needs the object pronoun 'your' to form a valid noun phrase."
+  },
+  {
+    "Page": "Cylogy Optimizely development",
+    "Code": "writing_errors",
+    "Problem": "you?",
+    "Quote": "Whether you’re working on a new project or looking to enhance an existing one, our team of experts can help you determine whether headless might be right for you?",
+    "Correction": "Whether you’re working on a new project or looking to enhance an existing one, our team of experts can help you determine whether headless might be right for you.",
+    "Explanation": "This is a declarative statement, so ending it with a question mark is incorrect punctuation in this context."
+  },
+  {
+    "Page": "Cylogy Optimizely development",
+    "Code": "writing_errors",
+    "Problem": "Oprimizely",
+    "Quote": "Oprimizely & Integration",
+    "Correction": "Optimizely & Integration",
+    "Explanation": "The service name is misspelled in the heading; replacing it with the correct spelling makes the label valid."
+  },
+  {
+    "Page": "Cylogy DevOps",
+    "Code": "writing_errors",
+    "Problem": "It’s a critical part of the process to watch the optimized deployment process in normal operation by your team, review the process with you to determine if there are any issues that need resolving.",
+    "Quote": "Our work isn’t done when your new DevOps process is implemented and deployed. It’s a critical part of the process to watch the optimized deployment process in normal operation by your team, review the process with you to determine if there are any issues that need resolving.",
+    "Correction": "Our work isn’t done when your new DevOps process is implemented and deployed. It’s a critical part of the process to have your team watch the optimized deployment process in normal operation, review the process with you to determine if there are any issues that need resolving.",
+    "Explanation": "The sentence is missing a main verb for the second coordinated action, making the clause ungrammatical as written. Adding a verb such as 'to have your team watch' or restructuring the clause fixes the sentence."
+  },
+  {
+    "Page": "Cylogy DevOps",
+    "Code": "writing_errors",
+    "Problem": "insure",
+    "Quote": "Our team will fine tune the process to insure the process meets expectations.",
+    "Correction": "Our team will fine tune the process to ensure the process meets expectations.",
+    "Explanation": "'Insure' is the wrong word in this context; the intended meaning is 'ensure'. Replacing it makes the sentence valid and preserves the meaning."
+  },
+  {
+    "Page": "Cylogy DevOps",
+    "Code": "writing_errors",
+    "Problem": "redesign, features",
+    "Quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+    "Correction": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+    "Explanation": "The comma incorrectly separates the subject from its verb. Removing the comma makes the clause grammatical."
+  },
+  {
+    "Page": "Cylogy enterprise WordPress",
+    "Code": "writing_errors",
+    "Problem": "Wordpress",
+    "Quote": "Wordpress is the most-used content management system on the planet.",
+    "Correction": "WordPress is the most-used content management system on the planet.",
+    "Explanation": "In this block, the product name is written with a lowercase 'p' as 'Wordpress', which is an objective spelling error in the page's own English text. The standard form used elsewhere on the page is 'WordPress', so changing the span to that exact form fixes the misspelling without altering meaning."
+  },
+  {
+    "Page": "Cylogy enterprise WordPress",
+    "Code": "writing_errors",
+    "Problem": "insure",
+    "Quote": "We’ll help you with the features you need, supported by best-of-breed tools while, as importantly, using our knowledge to insure pitfalls and problematic tools are avoided.",
+    "Correction": "We’ll help you with the features you need, supported by best-of-breed tools while, as importantly, using our knowledge to ensure pitfalls and problematic tools are avoided.",
+    "Explanation": "Here 'insure' is the wrong word in context; the sentence is about avoiding pitfalls, so the intended verb is 'ensure'. Replacing only that word makes the sentence grammatically and semantically correct."
+  },
+  {
+    "Page": "Cylogy enterprise WordPress",
+    "Code": "writing_errors",
+    "Problem": "redesign, features",
+    "Quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+    "Correction": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+    "Explanation": "The comma incorrectly separates the subject 'website redesign' from its verb 'features'. Removing that comma fixes the sentence structure while preserving the intended meaning."
+  },
+  {
+    "Page": "Cylogy Sitecore training",
+    "Code": "writing_errors",
+    "Problem": "redesign, features",
+    "Quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+    "Correction": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+    "Explanation": "The comma incorrectly separates the subject from its verb in this sentence, making the clause ungrammatical. Removing the comma fixes the sentence structure."
+  },
+  {
+    "Page": "Cylogy SEO and analytics",
+    "Code": "writing_errors",
+    "Problem": "insure",
+    "Quote": "With analytics, we insure you’re getting the greatest business advantage from your data through effective use of current analytics tools, implemented via industry best practices.",
+    "Correction": "With analytics, we ensure you’re getting the greatest business advantage from your data through effective use of current analytics tools, implemented via industry best practices.",
+    "Explanation": "In this sentence, \"insure\" is the wrong word; the intended meaning is to make certain, which requires \"ensure\". Replacing it with \"ensure\" makes the sentence objectively correct in context."
+  },
+  {
+    "Page": "Cylogy SEO and analytics",
+    "Code": "writing_errors",
+    "Problem": "optimization and sitemap review/best practices",
+    "Quote": "Technical SEO, including website structure, site speed, mobile optimization and sitemap review/best practices",
+    "Correction": "Technical SEO, including website structure, site speed, mobile optimization, and sitemap review/best practices",
+    "Explanation": "The list item is missing a serial comma before the final \"and\" in a multi-item series, which makes the punctuation inconsistent within the series. Adding the comma before \"and sitemap review/best practices\" fixes the punctuation without changing meaning."
+  },
+  {
+    "Page": "Cylogy Sitecore development",
+    "Code": "writing_errors",
+    "Problem": "system, it’s",
+    "Quote": "Sitecore isn’t just a web content management system, it’s a highly sophisticated omnichannel content marketing platform and the Cylogy’s experienced Sitecore developers have the background and knowledge both technically and at the business and marketing level to help you get the most value from the platform.",
+    "Correction": "Sitecore isn’t just a web content management system. it’s a highly sophisticated omnichannel content marketing platform and the Cylogy’s experienced Sitecore developers have the background and knowledge both technically and at the business and marketing level to help you get the most value from the platform.",
+    "Explanation": "This is a comma splice: two independent clauses are joined only by a comma. Replacing the comma with a period fixes the punctuation by separating the clauses into two sentences."
+  },
+  {
+    "Page": "Cylogy Sitecore development",
+    "Code": "writing_errors",
+    "Problem": "the Cylogy’s",
+    "Quote": "Sitecore isn’t just a web content management system, it’s a highly sophisticated omnichannel content marketing platform and the Cylogy’s experienced Sitecore developers have the background and knowledge both technically and at the business and marketing level to help you get the most value from the platform.",
+    "Correction": "Sitecore isn’t just a web content management system, it’s a highly sophisticated omnichannel content marketing platform and Cylogy’s experienced Sitecore developers have the background and knowledge both technically and at the business and marketing level to help you get the most value from the platform.",
+    "Explanation": "The definite article is incorrect before the proper noun here. Removing it yields the grammatically correct possessive form."
+  },
+  {
+    "Page": "Cylogy Sitecore development",
+    "Code": "writing_errors",
+    "Problem": "redesign, features",
+    "Quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+    "Correction": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+    "Explanation": "The comma incorrectly separates the subject from its verb. Removing the comma fixes the sentence structure."
+  },
+  {
+    "Page": "Cylogy Sitecore headless",
+    "Code": "writing_errors",
+    "Problem": "paired with Sitecore, leverages",
+    "Quote": "Headless development paired with Sitecore, leverages Sitecore’s robust features alongside the agility and speed of headless, enabling you to fully harness the potential of your digital experiences.",
+    "Correction": "Headless development paired with Sitecore leverages Sitecore’s robust features alongside the agility and speed of headless, enabling you to fully harness the potential of your digital experiences.",
+    "Explanation": "The subject is singular and the comma incorrectly separates the participial phrase from the verb, creating an ungrammatical construction. Removing the comma fixes the sentence structure."
+  },
+  {
+    "Page": "Cylogy Sitecore headless",
+    "Code": "writing_errors",
+    "Problem": "team of seasoned Sitecore specialists and certified developers possess",
+    "Quote": "Our team of seasoned Sitecore specialists and certified developers possess the expertise and insight necessary to navigate these complexities.",
+    "Correction": "Our team of seasoned Sitecore specialists and certified developers possesses the expertise and insight necessary to navigate these complexities.",
+    "Explanation": "The singular subject \"team\" requires a singular verb in this context. Changing \"possess\" to \"possesses\" makes the subject-verb agreement correct."
+  },
+  {
+    "Page": "Cylogy Sitecore headless",
+    "Code": "writing_errors",
+    "Problem": "choices enables developers, results",
+    "Quote": "Thoughtful API design choices enables developers, results in improved performance and streamlines future modifications, ensuring the project’s adaptability and scalability over time.",
+    "Correction": "Thoughtful API design choices enable developers and result in improved performance and streamline future modifications, ensuring the project’s adaptability and scalability over time.",
+    "Explanation": "The plural subject \"choices\" does not agree with the singular verb \"enables,\" and the comma creates a faulty construction. Replacing it with \"enable developers and result\" fixes the agreement and sentence structure."
+  },
+  {
+    "Page": "Cylogy Sitecore headless",
+    "Code": "writing_errors",
+    "Problem": "flexibility, scalability, developer expertise",
+    "Quote": "When selecting the appropriate front-end technology for a headless CMS, it’s crucial to consider factors like flexibility, scalability, developer expertise.",
+    "Correction": "When selecting the appropriate front-end technology for a headless CMS, it’s crucial to consider factors like flexibility, scalability, and developer expertise.",
+    "Explanation": "The list is missing a coordinating conjunction before the final item, so the sentence is not grammatically complete as written. Adding \"and\" makes the series correct."
+  },
+  {
+    "Page": "Cylogy Sitecore headless",
+    "Code": "writing_errors",
+    "Problem": "When building your headless CMS there are things to consider",
+    "Quote": "When building your headless CMS there are things to consider.",
+    "Correction": "When building your headless CMS, there are things to consider.",
+    "Explanation": "The introductory clause is missing punctuation after \"CMS,\" which makes the sentence grammatically incorrect. Adding a comma fixes the clause boundary."
+  },
+  {
+    "Page": "Cylogy mobile apps",
+    "Code": "writing_errors",
+    "Problem": "Whether they’re simplifying routine tasks or being central to business functionality and growth.",
+    "Quote": "Whether they’re simplifying routine tasks or being central to business functionality and growth.",
+    "Correction": "Whether they’re simplifying routine tasks or being central to business functionality and growth, mobile apps have become a key element of daily life, both business and personal.",
+    "Explanation": "This sentence is a fragment because it has no main clause; it cannot stand as a complete statement in this prose block. Replacing it with a full clause makes the sentence grammatically complete."
+  },
+  {
+    "Page": "Cylogy mobile apps",
+    "Code": "writing_errors",
+    "Problem": "insure",
+    "Quote": "We future-proof the apps we build. We utilize the latest app development frameworks and methodologies. Along with our flexible and robust development practices, we insure your app is resilient, flexible and can meet all your current requirements with the modularity to grow with you in an organized. maintainable way.",
+    "Correction": "We future-proof the apps we build. We utilize the latest app development frameworks and methodologies. Along with our flexible and robust development practices, we ensure your app is resilient, flexible and can meet all your current requirements with the modularity to grow with you in an organized. maintainable way.",
+    "Explanation": "In this context, the intended word is the verb meaning 'make certain'; 'insure' is the wrong spelling for that meaning. Changing it to 'ensure' fixes the objective word-choice error."
+  },
+  {
+    "Page": "Cylogy mobile apps",
+    "Code": "writing_errors",
+    "Problem": "organized. maintainable",
+    "Quote": "We future-proof the apps we build. We utilize the latest app development frameworks and methodologies. Along with our flexible and robust development practices, we insure your app is resilient, flexible and can meet all your current requirements with the modularity to grow with you in an organized. maintainable way.",
+    "Correction": "We future-proof the apps we build. We utilize the latest app development frameworks and methodologies. Along with our flexible and robust development practices, we insure your app is resilient, flexible and can meet all your current requirements with the modularity to grow with you in an organized, maintainable way.",
+    "Explanation": "The period splits a single modifier phrase into two fragments, which is invalid punctuation in this sentence. Replacing the period with a comma correctly joins the modifiers into one phrase."
+  },
+  {
+    "Page": "Cylogy mobile apps",
+    "Code": "writing_errors",
+    "Problem": "UX/UI come",
+    "Quote": "The usability of an application is critical. Even if an app has all the required features, if it’s frustrating and difficult to use or unappealing, that’s a failure. This is where effective UX/UI come into play.",
+    "Correction": "The usability of an application is critical. Even if an app has all the required features, if it’s frustrating and difficult to use or unappealing, that’s a failure. This is where effective UX/UI comes into play.",
+    "Explanation": "The subject 'UX/UI' is treated as a singular concept here, so the plural verb 'come' does not agree with it in this sentence. Changing it to 'comes' makes the subject-verb agreement consistent."
+  },
+  {
+    "Page": "Cylogy mobile apps",
+    "Code": "writing_errors",
+    "Problem": "insuring",
+    "Quote": "Wireframing, prototyping, and user testing are critical in insuring the app has the seamless functionality and usability needed.",
+    "Correction": "Wireframing, prototyping, and user testing are critical in ensuring the app has the seamless functionality and usability needed.",
+    "Explanation": "Here the intended meaning is 'making certain,' so 'insuring' is the wrong spelling for the verb used in this context. Replacing it with 'ensuring' corrects the word choice."
+  },
+  {
+    "Page": "Cylogy mobile apps",
+    "Code": "writing_errors",
+    "Problem": "Exerience",
+    "Quote": "The User Exerience",
+    "Correction": "The User Experience",
+    "Explanation": "The heading contains a clear misspelling of the ordinary word 'Experience.' Correcting the missing letters fixes the spelling error."
+  },
+  {
+    "Page": "Cylogy mobile apps",
+    "Code": "writing_errors",
+    "Problem": "solutions, we",
+    "Quote": "We’ll help your app interoperate with a CRM, ERP, or other enterprise solutions, we ensure smooth data flow and problem-free usage.",
+    "Correction": "We’ll help your app interoperate with a CRM, ERP, or other enterprise solutions. We ensure smooth data flow and problem-free usage.",
+    "Explanation": "This is a comma splice joining two independent clauses without a coordinating conjunction or other separator. Replacing the comma with a period makes the sentence grammatically valid."
+  },
+  {
+    "Page": "Cylogy mobile apps",
+    "Code": "writing_errors",
+    "Problem": "it’s",
+    "Quote": "it’s performance and functionality goals.",
+    "Correction": "its performance and functionality goals.",
+    "Explanation": "The apostrophe form means 'it is,' which does not fit before the noun phrase 'performance and functionality goals.' Using the possessive 'its' makes the phrase grammatically correct."
+  },
+  {
+    "Page": "Cylogy Sitecore technology",
+    "Code": "writing_errors",
+    "Problem": "and lend",
+    "Quote": "Sitecore’s core competency and future technology delivers unparalleled leadership in the industry, and lend the flexibility and reliability needed to support our enterprise organizations now and in the future.",
+    "Correction": "Sitecore’s core competency and future technology delivers unparalleled leadership in the industry, and lends the flexibility and reliability needed to support our enterprise organizations now and in the future.",
+    "Explanation": "The singular subject \"Sitecore’s core competency and future technology\" requires a singular verb form here; \"lend\" is not grammatically consistent in this sentence. Changing it to \"lends\" fixes the agreement error."
+  },
+  {
+    "Page": "Cylogy Sitecore technology",
+    "Code": "writing_errors",
+    "Problem": "connect and engagement",
+    "Quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively.",
+    "Correction": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engage with their customers more effectively.",
+    "Explanation": "The coordinated phrase is ungrammatical because \"engagement\" is a noun, not a verb parallel to \"connect.\" Replacing it with \"engage\" makes the construction grammatical and preserves the intended meaning."
+  },
+  {
+    "Page": "Cylogy Sitecore technology",
+    "Code": "writing_errors",
+    "Problem": "redesign, features",
+    "Quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+    "Correction": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+    "Explanation": "The comma incorrectly separates the subject from its verb. Removing the comma makes the sentence grammatically valid."
+  },
+  {
+    "Page": "Cylogy Marketo technology",
+    "Code": "writing_errors",
+    "Problem": "and measure marketing engagement, tasks and workflows and centralize",
+    "Quote": "Marketo is a comprehensive marketing automation software built to help organizations automate and measure marketing engagement, tasks and workflows and centralize all materials, templates and reports for every kind of campaign from email to ABM to social media.",
+    "Correction": "Marketo is a comprehensive marketing automation software built to help organizations automate and measure marketing engagement, tasks, and workflows and centralize all materials, templates, and reports for every kind of campaign from email to ABM to social media.",
+    "Explanation": "The sentence has a coordination error: the verb phrase is missing a parallel structure after \"measure\" and the repeated \"and\" makes the list ungrammatical in this context. Replacing it with a clearer parallel construction fixes the sentence."
+  },
+  {
+    "Page": "Cylogy Marketo technology",
+    "Code": "writing_errors",
+    "Problem": "makes Marketo",
+    "Quote": "The software’s friendly user interface and ability to automate almost everything along with its drag-and-drop simplicity makes Marketo the perfect, scalable solution for every enterprise.",
+    "Correction": "The software’s friendly user interface and ability to automate almost everything along with its drag-and-drop simplicity make Marketo the perfect, scalable solution for every enterprise.",
+    "Explanation": "The compound subject \"The software’s friendly user interface and ability to automate almost everything along with its drag-and-drop simplicity\" is plural in sense, so the singular verb \"makes\" is not grammatically consistent here. Changing it to \"make\" resolves the agreement error."
+  },
+  {
+    "Page": "Cylogy Marketo technology",
+    "Code": "writing_errors",
+    "Problem": "is helps",
+    "Quote": "From acquisition to advocacy, Marketo is helps us attract leads and guide them through the sales funnel to help your company grow.",
+    "Correction": "From acquisition to advocacy, Marketo helps us attract leads and guide them through the sales funnel to help your company grow.",
+    "Explanation": "\"is helps\" is not a valid verb construction in English. Removing \"is\" yields a grammatical sentence with the intended meaning."
+  },
+  {
+    "Page": "Cylogy Marketo technology",
+    "Code": "writing_errors",
+    "Problem": "connect and engagement",
+    "Quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:",
+    "Correction": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engage with their customers more effectively. Related Services:",
+    "Explanation": "The coordinated phrase is ungrammatical because \"engagement\" is a noun and does not parallel the verb \"connect\". Replacing it with the verb \"engage\" makes the coordination grammatical."
+  },
+  {
+    "Page": "Cylogy Marketo technology",
+    "Code": "writing_errors",
+    "Problem": "redesign, features",
+    "Quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+    "Correction": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+    "Explanation": "The comma incorrectly separates the subject from its verb. Removing the comma fixes the punctuation error."
+  },
+  {
+    "Page": "Cylogy Google Analytics technology",
+    "Code": "writing_errors",
+    "Problem": "developmer",
+    "Quote": "Umbraco has an extensive track record with development beginning in 2000 and, being based on the .NET framework, has a large potential and actual developmer community with 200,000 registered developers.",
+    "Correction": "Umbraco has an extensive track record with development beginning in 2000 and, being based on the .NET framework, has a large potential and actual developer community with 200,000 registered developers.",
+    "Explanation": "The word is misspelled in this sentence; the intended word is the common noun for people who develop software. Replacing it with the correct spelling makes the sentence valid."
+  },
+  {
+    "Page": "Cylogy Google Analytics technology",
+    "Code": "writing_errors",
+    "Problem": "helping brands of all sizes and industries, connect and engagement with their customers more effectively",
+    "Quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:",
+    "Correction": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engage with their customers more effectively. Related Services:",
+    "Explanation": "The sentence has an agreement/parallelism error: the phrase after the comma is not grammatically consistent, and 'connect and engagement' is not a valid coordinated verb phrase here. Changing it to 'connect and engage' fixes the construction."
+  },
+  {
+    "Page": "Cylogy Google Analytics technology",
+    "Code": "title_body_mismatch",
+    "Problem": "",
+    "Quote": "Google Analytics | Umbraco is a flexible, cost-effective open-source CMS that is simple to deploy and can grow effectively with your business.",
+    "Correction": "",
+    "Explanation": "The visible body mainly develops Umbraco CMS, its versions, and Cylogy’s Umbraco partnership, rather than Google Analytics. The title promises Google Analytics, but the substantive content centers on a different subject."
+  },
+  {
+    "Page": "Cylogy Contentful technology",
+    "Code": "writing_errors",
+    "Problem": "in in",
+    "Quote": "Contentful is a cloud-based headless CMS that originated in in 2013.",
+    "Correction": "Contentful is a cloud-based headless CMS that originated in 2013.",
+    "Explanation": "The sentence contains a duplicated preposition, which makes the wording objectively ungrammatical. Removing one instance fixes the error without changing the meaning."
+  },
+  {
+    "Page": "Cylogy Contentful technology",
+    "Code": "writing_errors",
+    "Problem": "thru",
+    "Quote": "For product owners – Launch digital products faster thru ease of replication and content reuse",
+    "Correction": "For product owners – Launch digital products faster through ease of replication and content reuse",
+    "Explanation": "\"thru\" is a nonstandard spelling in this context. Replacing it with the standard form makes the phrase correct while preserving the intended meaning."
+  },
+  {
+    "Page": "Cylogy Contentful technology",
+    "Code": "writing_errors",
+    "Problem": "redesign, features",
+    "Quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+    "Correction": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+    "Explanation": "The comma incorrectly separates the subject from its verb, creating a punctuation error. Removing the comma fixes the sentence structure."
+  },
+  {
+    "Page": "Cylogy Sitecore CDP technology",
+    "Code": "writing_errors",
+    "Problem": "connect and engagement",
+    "Quote": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engagement with their customers more effectively. Related Services:",
+    "Correction": "Salesforce is a cloud-based customer relationship management (CRM), helping brands of all sizes and industries, connect and engage with their customers more effectively. Related Services:",
+    "Explanation": "The phrase is grammatically invalid because the coordinated verbs do not match in form: after 'helping brands ...' the text needs parallel verb forms. 'engagement' is a noun, so it cannot coordinate with 'connect' here. Replacing it with the verb 'engage' makes the construction grammatical."
+  },
+  {
+    "Page": "Cylogy company",
+    "Code": "writing_errors",
+    "Problem": "a superior level quality",
+    "Quote": "Our mission is to be a trusted advisor, relentlessly advancing our clients’ top digital business priorities through strategy and a superior level quality.",
+    "Correction": "Our mission is to be a trusted advisor, relentlessly advancing our clients’ top digital business priorities through strategy and a superior level of quality.",
+    "Explanation": "The phrase is ungrammatical in this sentence because it is missing the noun that should follow \"level\". Adding \"of\" creates the standard construction \"a superior level of quality,\" which makes the sentence grammatically complete."
+  },
+  {
+    "Page": "Cylogy company",
+    "Code": "writing_errors",
+    "Problem": "redesign, features",
+    "Quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+    "Correction": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+    "Explanation": "The comma incorrectly separates the subject from its verb. Removing the comma fixes the sentence structure so the subject \"Spare the Air’s website redesign\" correctly connects to the verb \"features.\""
+  },
+  {
+    "Page": "Cylogy partners",
+    "Code": "writing_errors",
+    "Problem": "one-of- a-kind",
+    "Quote": "Lowercase Productions is an award winning team of innovators, architects, visual planners and design experts, all focused on improving the way we communicate in the digital world by delivering one-of- a-kind designs that communicate clear messages to consumers.",
+    "Correction": "Lowercase Productions is an award winning team of innovators, architects, visual planners and design experts, all focused on improving the way we communicate in the digital world by delivering one-of-a-kind designs that communicate clear messages to consumers.",
+    "Explanation": "The hyphenated compound is broken by an extra space, making the word form invalid as written. Removing the space restores the correct punctuation in the compound adjective."
+  },
+  {
+    "Page": "Cylogy partners",
+    "Code": "writing_errors",
+    "Problem": "womenled",
+    "Quote": "Civic Edge Consulting is an employee-owned, womenled business based in San Francisco, providing responsive public relations, strategic messaging and communications along with authentic community engagements throughout the bay area.",
+    "Correction": "Civic Edge Consulting is an employee-owned, women-led business based in San Francisco, providing responsive public relations, strategic messaging and communications along with authentic community engagements throughout the bay area.",
+    "Explanation": "The compound word is missing a hyphen, so the visible form is not the standard written word in this context. Adding the hyphen fixes the spelling of the compound modifier."
+  },
+  {
+    "Page": "Cylogy partners",
+    "Code": "writing_errors",
+    "Problem": "bay area",
+    "Quote": "Civic Edge Consulting is an employee-owned, womenled business based in San Francisco, providing responsive public relations, strategic messaging and communications along with authentic community engagements throughout the bay area.",
+    "Correction": "Civic Edge Consulting is an employee-owned, womenled business based in San Francisco, providing responsive public relations, strategic messaging and communications along with authentic community engagements throughout the Bay Area.",
+    "Explanation": "The proper noun is presented without the required capitalization in this context. Capitalizing both words corrects the written form of the place name."
+  },
+  {
+    "Page": "Cylogy partners",
+    "Code": "writing_errors",
+    "Problem": "redesign,",
+    "Quote": "Spare the Air’s website redesign, features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+    "Correction": "Spare the Air’s website redesign features a clean, contemporary, highly engaging, and fun design that is built to reflect the needs of all site visitors.",
+    "Explanation": "The comma incorrectly separates the subject from its verb, creating an invalid sentence structure. Removing the comma fixes the punctuation and restores the grammatical connection."
+  },
+  {
+    "Page": "Cylogy careers",
+    "Code": "writing_errors",
+    "Problem": "everyday",
+    "Quote": "At Cylogy we encourage collaboration and intellectual curiosity. We practice this everyday by allowing space for team members to express their ideas; big or small.",
+    "Correction": "At Cylogy we encourage collaboration and intellectual curiosity. We practice this every day by allowing space for team members to express their ideas; big or small.",
+    "Explanation": "In this sentence, 'everyday' is used where the adverb 'every day' is required. The original form is grammatically invalid in context because it modifies the verb phrase 'We practice this'; changing it to 'every day' fixes the adverbial usage without altering meaning."
+  },
+  {
+    "Page": "Cylogy Symposium 2020 recap",
+    "Code": "writing_errors",
+    "Problem": "team attend",
+    "Quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+    "Correction": "Each year the Cylogy team attends the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+    "Explanation": "The subject 'team' is singular here, so the verb must agree; 'attend' makes the sentence grammatically invalid. Changing it to 'attends' fixes the agreement without altering the meaning."
+  },
+  {
+    "Page": "Cylogy Symposium 2020 recap",
+    "Code": "writing_errors",
+    "Problem": "keynotes are more",
+    "Quote": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes are more.",
+    "Correction": "Each year the Cylogy team attend the Sitecore Symposium, the annual conference that connects the global Sitecore community to hear strategic platform announcements, knowledge-sharing sessions, case studies, thought-provoking keynotes and more.",
+    "Explanation": "The list ends with 'and more,' but the sentence currently has 'are more,' which is not grammatical in this context. Replacing it with 'and more' completes the list correctly."
+  },
+  {
+    "Page": "Cylogy Symposium 2020 recap",
+    "Code": "writing_errors",
+    "Problem": "Here’s five",
+    "Quote": "Here’s five key takeaways from the 2020 Sitecore Symposium.",
+    "Correction": "Here are five key takeaways from the 2020 Sitecore Symposium.",
+    "Explanation": "'Here’s' is a singular contraction and does not agree with the plural noun phrase 'five key takeaways.' Using 'Here are' makes the sentence grammatically correct."
+  },
+  {
+    "Page": "Cylogy Symposium 2020 recap",
+    "Code": "writing_errors",
+    "Problem": "This fact that",
+    "Quote": "This fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.",
+    "Correction": "The fact that sessions are showcasing a range of Content Hub capabilities suggests that the product will get a push in 2021, particularly as it continues to be fully integrated into the platform.",
+    "Explanation": "The phrase 'This fact that' is ungrammatical because 'fact' needs a determiner or a different construction. Replacing it with 'The fact that' yields a valid sentence."
+  },
+  {
+    "Page": "Cylogy Symposium 2020 recap",
+    "Code": "writing_errors",
+    "Problem": "as effectively makes",
+    "Quote": "It also makes good sense for Sitecore as effectively makes the platform a whole digital marketing and content ecosystem.",
+    "Correction": "It also makes good sense for Sitecore as it effectively makes the platform a whole digital marketing and content ecosystem.",
+    "Explanation": "The sentence is missing the subject after 'as'; 'as effectively makes' is not grammatical. Adding 'it' restores a complete clause and fixes the error."
+  },
+  {
+    "Page": "Cylogy Symposium 2020 recap",
+    "Code": "writing_errors",
+    "Problem": "stuck out",
+    "Quote": "Here, two things stuck out for me that bode well for the future.",
+    "Correction": "Here, two things stood out for me that bode well for the future.",
+    "Explanation": "In this context, the idiomatic past-tense verb is 'stood out'; 'stuck out' is not the correct grammatical form for the intended meaning. Replacing it with 'stood out' fixes the sentence."
+  },
+  {
+    "Page": "Cylogy Symposium 2020 recap",
+    "Code": "writing_errors",
+    "Problem": "Tzikaki",
+    "Quote": "Tzikaki wasn’t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency.",
+    "Correction": "Tzikakis wasn’t pretending that everything had been perfect, acknowledging that things could have been done better and warning against complacency.",
+    "Explanation": "The name is misspelled in the sentence; 'Tzikaki' is missing the final 's' shown elsewhere on the page. Changing it to 'Tzikakis' corrects the spelling."
+  },
+  {
+    "Page": "Cylogy Symposium 2024 preview",
+    "Code": "writing_errors",
+    "Problem": "Written By:",
+    "Quote": "Written By:",
+    "Correction": "Written By: Lindsay Sullivan",
+    "Explanation": "This standalone byline label is incomplete because it lacks the author name after the colon, making the visible text grammatically unfinished in this block."
+  },
+  {
+    "Page": "Cylogy content migration",
+    "Code": "writing_errors",
+    "Problem": "you might have a new Digital Experience Platform (DXP) or Content Management System (CMS) and you can wave goodbye",
+    "Quote": "Planning and implementing a new website can be exciting. You get to work on a shiny new design, you might have a new Digital Experience Platform (DXP) or Content Management System (CMS) and you can wave goodbye to the old website that you’ve fallen out of love with.",
+    "Correction": "Planning and implementing a new website can be exciting. You get to work on a shiny new design, you might have a new Digital Experience Platform (DXP) or Content Management System (CMS), and you can wave goodbye to the old website that you’ve fallen out of love with.",
+    "Explanation": "The sentence is missing a coordinating conjunction or punctuation between the two independent clauses after the comma, making the original punctuation grammatically invalid in this context. Adding a comma before 'and' fixes the run-on structure."
+  }
+]

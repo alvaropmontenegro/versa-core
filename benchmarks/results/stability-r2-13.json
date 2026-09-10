@@ -1,0 +1,18 @@
+{
+  "label": "Abusive and coercive brand language",
+  "source": "artificial",
+  "url": "http://127.0.0.1:8088/pages/brand-safety-risk.html",
+  "expectedClassification": "unhealthy",
+  "classification": "unhealthy",
+  "requiredIssues": [
+    "brand_safety_risk"
+  ],
+  "allowedIssues": [],
+  "forbiddenIssues": [],
+  "issues": [
+    "brand_safety_risk"
+  ],
+  "scored": true,
+  "passed": true,
+  "error": null
+}

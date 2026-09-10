@@ -1,0 +1,33 @@
+{
+  "label": "Cylogy Marketo technology",
+  "source": "live",
+  "url": "https://www.cylogy.com/technologies/marketo/",
+  "expectedClassification": "unreviewed",
+  "classification": "unhealthy",
+  "insufficientEvidence": false,
+  "assessmentInvalid": false,
+  "model": "gpt-5.4",
+  "pageSummary": "This is a technology-focused marketing page about Adobe/Marketo Engage. It describes Marketo’s marketing automation capabilities, positioning it as a solution for lead management, email marketing, ABM, and campaign execution. The page also points readers to related services, additional technologies, and customer success stories they can explore.",
+  "recommendationsComplete": true,
+  "titlePromiseAssessment": {
+    "titleQuote": "Adobe/Marketo Engage",
+    "titlePromise": "The page should provide substantive information about Adobe/Marketo Engage as a technology or offering.",
+    "fulfillment": "fulfilled",
+    "reason": "The main content explains what Marketo is, describes its marketing automation capabilities, and presents it as a solution for enterprise marketing needs.",
+    "bodyEvidenceQuote": "Marketo offers separate products for lead management, email marketing, ABM and more. This allows us to create a customized, scalable solution for your enterprise. Marketo has tailored applications specifically for Salesforce to create a seamless integration with two-way syncing between Marketo and your CRM. The software’s friendly user interface and ability to automate almost everything along with its drag-and-drop simplicity makes Marketo the perfect, scalable solution for every enterprise. From acquisition to advocacy, Marketo is helps us attract leads and guide them through the sales funnel to help your company grow."
+  },
+  "titlePromiseValidation": {
+    "status": "valid",
+    "reason": "literal_evidence_valid",
+    "normalizedBodyEvidenceQuote": "Marketo offers separate products for lead management, email marketing, ABM and more. This allows us to create a customized, scalable solution for your enterprise. Marketo has tailored applications specifically for Salesforce to create a seamless integration with two-way syncing between Marketo and your CRM. The software’s friendly user interface and ability to automate almost everything along with its drag-and-drop simplicity makes Marketo the perfect, scalable solution for every enterprise. From acquisition to advocacy, Marketo is helps us attract leads and guide them through the sales funnel to help your company grow."
+  },
+  "requiredIssues": [],
+  "allowedIssues": [],
+  "forbiddenIssues": [],
+  "issues": [
+    "writing_errors"
+  ],
+  "scored": false,
+  "passed": null,
+  "error": null
+}

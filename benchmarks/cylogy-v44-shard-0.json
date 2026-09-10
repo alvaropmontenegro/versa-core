@@ -1,0 +1,113 @@
+[
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "site",
+      "baseline"
+    ],
+    "label": "Cylogy home",
+    "url": "https://www.cylogy.com/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "service"
+    ],
+    "label": "Cylogy site health",
+    "url": "https://www.cylogy.com/services/site-health-maintenance/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "service"
+    ],
+    "label": "Cylogy hosting infrastructure",
+    "url": "https://www.cylogy.com/services/hosting-infrastructure/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "service"
+    ],
+    "label": "Cylogy containerization",
+    "url": "https://www.cylogy.com/services/hosting-infrastructure/sitecore-containerization/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "service"
+    ],
+    "label": "Cylogy Optimizely development",
+    "url": "https://www.cylogy.com/services/optimizely-development/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "service"
+    ],
+    "label": "Cylogy DevOps",
+    "url": "https://www.cylogy.com/services/optimize-your-devops-processes/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "service"
+    ],
+    "label": "Cylogy enterprise WordPress",
+    "url": "https://www.cylogy.com/services/enterprise-grade-wordpress/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "service"
+    ],
+    "label": "Cylogy digital strategy",
+    "url": "https://www.cylogy.com/services/digital-strategy/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "service"
+    ],
+    "label": "Cylogy Sitecore training",
+    "url": "https://www.cylogy.com/services/sitecore-training/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "source": "live",
+    "scored": false,
+    "tags": [
+      "service"
+    ],
+    "label": "Cylogy SEO and analytics",
+    "url": "https://www.cylogy.com/services/enterprise-seo-and-analytics-optimization/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  }
+]

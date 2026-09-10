@@ -1,0 +1,20 @@
+{
+  "label": "Unsafe sensitive-topic guidance",
+  "source": "artificial",
+  "url": "http://127.0.0.1:8088/pages/sensitive-topic-bad.html",
+  "expectedClassification": "unhealthy",
+  "classification": "unhealthy",
+  "requiredIssues": [
+    "sensitive_topic_without_context"
+  ],
+  "allowedIssues": [
+    "brand_safety_risk"
+  ],
+  "forbiddenIssues": [],
+  "issues": [
+    "sensitive_topic_without_context"
+  ],
+  "scored": true,
+  "passed": true,
+  "error": null
+}

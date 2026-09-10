@@ -1,0 +1,14 @@
+{
+  "label": "Healthy support guide",
+  "source": "artificial",
+  "url": "http://127.0.0.1:8088/pages/healthy-support-doc.html",
+  "expectedClassification": "healthy",
+  "classification": "healthy",
+  "requiredIssues": [],
+  "allowedIssues": [],
+  "forbiddenIssues": [],
+  "issues": [],
+  "scored": true,
+  "passed": true,
+  "error": null
+}

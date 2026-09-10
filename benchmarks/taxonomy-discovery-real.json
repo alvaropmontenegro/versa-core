@@ -1,0 +1,8 @@
+[
+  { "source": "live", "scored": false, "tags": ["real-world", "recruitment"], "label": "Ethisys hiring announcement 2021", "url": "https://ethisys.co.uk/2021/11/30/were-hiring/", "expectedClassification": "unreviewed", "expectedFindings": [] },
+  { "source": "live", "scored": false, "tags": ["real-world", "spanish-law", "golden-visa"], "label": "Pellicer Golden Visa NL", "url": "https://www.pellicerheredia.com/nl/golden-visa-in-spanje/", "expectedClassification": "unreviewed", "expectedFindings": [] },
+  { "source": "live", "scored": false, "tags": ["real-world", "spanish-law", "golden-visa"], "label": "Bufete Golden Visa", "url": "https://bufetepadillatorrevieja.com/en/golden-visa-spain-lawyer", "expectedClassification": "unreviewed", "expectedFindings": [] },
+  { "source": "live", "scored": false, "tags": ["real-world", "spanish-law", "immigration"], "label": "Eurodicas Democratic Memory Law", "url": "https://www.eurodicas.com.br/lei-da-memoria-democratica-na-espanha-pode-ser-derrubada/", "expectedClassification": "unreviewed", "expectedFindings": [] },
+  { "source": "live", "scored": false, "tags": ["real-world", "spanish-law", "immigration"], "label": "Legalteam Democratic Memory Law", "url": "https://legalteam.es/ley-de-memoria-democratica-publicada-en-el-boe/", "expectedClassification": "unreviewed", "expectedFindings": [] },
+  { "source": "live", "scored": false, "tags": ["real-world", "spanish-law", "golden-visa"], "label": "Pellicer Golden Visa EN", "url": "https://www.pellicerheredia.com/en/golden-visa-spain/", "expectedClassification": "unreviewed", "expectedFindings": [] }
+]

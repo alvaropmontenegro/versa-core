@@ -1,0 +1,19 @@
+
+source     label                                         classification issues                           scored passed
+------     -----                                         -------------- ------                           ------ ------
+artificial Healthy article                               healthy        {}                                 True   True
+artificial Healthy product                               healthy        {}                                 True   True
+artificial Healthy support guide                         healthy        {}                                 True   True
+artificial Sensitive topic handled responsibly           healthy        {}                                 True   True
+artificial Historical event recap                        healthy        {}                                 True   True
+artificial Unverified claims are outside intrinsic scope unhealthy      {direct_statement_contradiction}   True  False
+artificial Objective spelling and grammar errors         unhealthy      {writing_errors}                   True   True
+artificial Persistently unprofessional writing           unhealthy      {unprofessional_writing}           True   True
+artificial Published placeholder content                 unhealthy      {published_placeholder_content}    True   True
+artificial Directly contradictory guidance               unhealthy      {direct_statement_contradiction}   True   True
+artificial Title and body cover different subjects       unhealthy      {title_body_mismatch}              True   True
+snapshot   Cylogy Google Analytics content mismatch      unhealthy      {title_body_mismatch}              True   True
+artificial Abusive and coercive brand language           unhealthy      {brand_safety_risk}                True   True
+artificial Unsafe sensitive-topic guidance               unhealthy      {brand_safety_risk}                True  False
+snapshot   Bufete Padilla Altea Norwegian route          unhealthy      {language_mismatch}                True   True
+

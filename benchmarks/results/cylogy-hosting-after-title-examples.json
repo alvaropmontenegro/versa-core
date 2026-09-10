@@ -1,0 +1,14 @@
+{
+  "label": "Cylogy hosting infrastructure",
+  "source": "live",
+  "url": "https://www.cylogy.com/services/hosting-infrastructure/",
+  "expectedClassification": "unreviewed",
+  "classification": "healthy",
+  "requiredIssues": [],
+  "allowedIssues": [],
+  "forbiddenIssues": [],
+  "issues": [],
+  "scored": false,
+  "passed": null,
+  "error": null
+}

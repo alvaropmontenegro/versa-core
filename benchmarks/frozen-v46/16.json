@@ -1,0 +1,145 @@
+{
+  "url": "http://127.0.0.1:8089/regional-controls.html",
+  "finalUrl": "http://127.0.0.1:8089/regional-controls.html",
+  "outputLanguage": "en",
+  "executedAt": "2026-09-08T22:41:48.9011762+00:00",
+  "capture": {
+    "statusCode": 200,
+    "finalUrl": "http://127.0.0.1:8089/regional-controls.html",
+    "html": "\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022en-GB\u0022 data-versa-display=\u0022block\u0022 data-versa-layout-version=\u00221\u0022\u003E\u003Chead data-versa-display=\u0022none\u0022\u003E\u003Cmeta charset=\u0022utf-8\u0022 data-versa-display=\u0022none\u0022\u003E\u003Ctitle data-versa-display=\u0022none\u0022\u003ETeam notes\u003C/title\u003E\u003C/head\u003E\u003Cbody data-versa-display=\u0022block\u0022\u003E\u003Cmain data-versa-display=\u0022block\u0022\u003E\u003Ch1 data-versa-display=\u0022block\u0022\u003ETeam notes\u003C/h1\u003E\u003Cp data-versa-display=\u0022block\u0022\u003ESeveral details stuck out during the visit.\u003C/p\u003E\u003Cp data-versa-display=\u0022block\u0022\u003EOur team attend conferences to exchange ideas with their peers.\u003C/p\u003E\u003Cp data-versa-display=\u0022block\u0022\u003EThe caf\u00E9 has a drive-thru window.\u003C/p\u003E\u003Cp data-versa-display=\u0022block\u0022\u003EWe provide design, development and support.\u003C/p\u003E\u003C/main\u003E\u003C/body\u003E\u003C/html\u003E",
+    "bodyText": "Team notes\n\nSeveral details stuck out during the visit.\n\nOur team attend conferences to exchange ideas with their peers.\n\nThe caf\u00E9 has a drive-thru window.\n\nWe provide design, development and support.",
+    "bodyWordCount": 31
+  },
+  "metadata": {
+    "title": "Team notes",
+    "canonicalUrl": "http://127.0.0.1:8089/regional-controls.html",
+    "language": "en-GB"
+  },
+  "structuralOutline": {
+    "markdown": "\u003Cheading level=\u00221\u0022\u003ETeam notes\u003C/heading\u003E\n\n\u003Cprose\u003ESeveral details stuck out during the visit.\u003C/prose\u003E\n\n\u003Cprose\u003EOur team attend conferences to exchange ideas with their peers.\u003C/prose\u003E\n\n\u003Cprose\u003EThe caf\u00E9 has a drive-thru window.\u003C/prose\u003E\n\n\u003Cprose\u003EWe provide design, development and support.\u003C/prose\u003E",
+    "summary": {
+      "estimatedTokens": 72,
+      "truncatedByTextLimit": false
+    }
+  },
+  "analysis": {
+    "observations": {
+      "mainContentLanguage": "en",
+      "mainContentLanguageEvidence": "Several details stuck out during the visit.",
+      "pagePurpose": "To present brief team notes and a few short observations about visits, conferences, a caf\u00E9, and services offered.",
+      "pageSummary": "This is a short notes-style page titled \u0022Team notes.\u0022 It contains a few brief prose statements about a visit, attending conferences, a caf\u00E9 drive-thru window, and a team that provides design, development, and support. The page appears to be a simple collection of assorted team-related remarks rather than a detailed article or product page."
+    },
+    "sensitiveTopicAssessment": {
+      "status": "not_applicable",
+      "evidenceQuote": "",
+      "reason": "The page does not provide guidance for handling a high-stakes sensitive situation."
+    },
+    "titlePromiseAssessment": {
+      "titleQuote": "Team notes",
+      "titlePromise": "The page will contain notes or brief information from a team.",
+      "fulfillment": "fulfilled",
+      "reason": "The body consists of short note-like statements from or about a team, which matches the expectation of a team notes page.",
+      "bodyEvidenceQuote": "Our team attend conferences to exchange ideas with their peers."
+    },
+    "titlePromiseValidation": {
+      "status": "valid",
+      "reason": "literal_evidence_valid",
+      "normalizedBodyEvidenceQuote": "Our team attend conferences to exchange ideas with their peers."
+    },
+    "sensitiveTopicValidation": {
+      "status": "valid",
+      "reason": "no_sensitive_guidance_detected",
+      "normalizedEvidenceQuote": ""
+    },
+    "issues": [],
+    "rejectedIssues": [],
+    "auditScope": {
+      "content": "eligible_snapshot_blocks",
+      "includesRecurringContent": true,
+      "excludedRegions": "navigation, footer, banner, dialogs, hidden nodes and noise markers",
+      "visibilityBasis": "DOM semantics with computed display boundaries; old snapshots use embedded CSS only; no pixel visibility guarantee",
+      "recurrence": "unknown_within_single_page"
+    },
+    "taxonomyVersion": "intrinsic-v46-grounded-writing",
+    "pipelineStages": [
+      {
+        "stage": "page_understanding",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_acb1c677bd5249e58d64c445afc1db7a",
+          "systemFingerprint": null,
+          "inputHash": "5481CEA853A60E728AB07992B3C36BD80D46B432CE71D63060EFD004F9D9D67F",
+          "promptHash": "9492A2DDD286E170F0239024E4E1F56D5F9F4A406E64A7E24C686DD83955ED2D"
+        },
+        "usage": {
+          "promptTokens": 1510,
+          "completionTokens": 244,
+          "totalTokens": 1754,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "editorial_quality_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "none",
+          "requestId": "req_f54ad68bfbb1462e8bf74474546725a8",
+          "systemFingerprint": null,
+          "inputHash": "5481CEA853A60E728AB07992B3C36BD80D46B432CE71D63060EFD004F9D9D67F",
+          "promptHash": "3F8311155F54FE42891F80E7D2869990CBF3C9916C42CDBB0F29D4FEE5578D8A"
+        },
+        "usage": {
+          "promptTokens": 704,
+          "completionTokens": 21,
+          "totalTokens": 725,
+          "reasoningTokens": 0
+        },
+        "error": null
+      },
+      {
+        "stage": "writing_errors_inspection",
+        "status": "completed",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "telemetry": {
+          "returnedModel": "gpt-5.4-mini-2026-03-17",
+          "finishReason": "stop",
+          "reasoningEffort": "medium",
+          "requestId": "req_5365e893178e4cfa99bcee4a89a534a6",
+          "systemFingerprint": null,
+          "inputHash": "5481CEA853A60E728AB07992B3C36BD80D46B432CE71D63060EFD004F9D9D67F",
+          "promptHash": "83ACDD2695AE4C25CA72B4650D4917C1DCA16C58D4F29519C177D4E16C0DFF23"
+        },
+        "usage": {
+          "promptTokens": 847,
+          "completionTokens": 206,
+          "totalTokens": 1053,
+          "reasoningTokens": 186
+        },
+        "error": null
+      }
+    ],
+    "classification": {
+      "type": "healthy",
+      "confidence": null,
+      "confidenceBasis": "not_calibrated",
+      "insufficientEvidence": false
+    },
+    "externalVerification": {
+      "enabled": false,
+      "skipped": true
+    }
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "webSourceUrls": []
+  }
+}

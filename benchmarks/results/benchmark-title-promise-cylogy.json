@@ -1,0 +1,16 @@
+{
+  "label": "Cylogy Google Analytics content mismatch",
+  "source": "snapshot",
+  "url": "http://127.0.0.1:8089/cylogy-google-analytics-mismatch.html",
+  "expectedClassification": "unhealthy",
+  "classification": "healthy",
+  "requiredIssues": [
+    "title_body_mismatch"
+  ],
+  "allowedIssues": [],
+  "forbiddenIssues": [],
+  "issues": [],
+  "scored": true,
+  "passed": false,
+  "error": null
+}

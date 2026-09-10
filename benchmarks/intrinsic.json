@@ -1,0 +1,28 @@
+[
+  { "source": "artificial", "scored": true, "tags": ["control", "writing"], "label": "Healthy article", "artifact": "healthy-article.html", "expectedClassification": "healthy", "expectedFindings": [] },
+  { "source": "artificial", "scored": true, "tags": ["control", "commercial"], "label": "Healthy product", "artifact": "healthy-product.html", "expectedClassification": "healthy", "expectedFindings": [] },
+  { "source": "artificial", "scored": true, "tags": ["control", "guide"], "label": "Healthy support guide", "artifact": "healthy-support-doc.html", "expectedClassification": "healthy", "expectedFindings": [] },
+  { "source": "artificial", "scored": true, "tags": ["control", "sensitive"], "label": "Sensitive topic handled responsibly", "artifact": "sensitive-topic-good.html", "expectedClassification": "healthy", "expectedFindings": [] },
+  { "source": "artificial", "scored": true, "tags": ["scope-guard", "historical"], "label": "Historical event recap", "artifact": "historical-event-recap.html", "expectedClassification": "healthy", "expectedFindings": [] },
+  { "source": "artificial", "scored": true, "tags": ["scope-guard", "fact-check"], "label": "Unverified claims are outside intrinsic scope", "artifact": "unverified-claims.html", "expectedClassification": "healthy", "expectedFindings": [] },
+
+  { "source": "artificial", "scored": true, "tags": ["writing_errors"], "label": "Objective spelling and grammar errors", "artifact": "writing-errors.html", "expectedClassification": "unhealthy", "expectedFindings": ["writing_errors"] },
+  { "source": "artificial", "scored": true, "tags": ["unprofessional_writing"], "label": "Persistently unprofessional writing", "artifact": "unprofessional-writing.html", "expectedClassification": "unhealthy", "expectedFindings": ["unprofessional_writing"] },
+  { "source": "artificial", "scored": true, "tags": ["published_placeholder_content"], "label": "Published placeholder content", "artifact": "incomplete-placeholder-content.html", "expectedClassification": "unhealthy", "expectedFindings": ["published_placeholder_content"] },
+  { "source": "artificial", "scored": true, "tags": ["direct_statement_contradiction"], "label": "Directly contradictory guidance", "artifact": "contradictory-guidance.html", "expectedClassification": "unhealthy", "expectedFindings": ["direct_statement_contradiction"] },
+  { "source": "artificial", "scored": true, "tags": ["title_body_mismatch"], "label": "Title and body cover different subjects", "artifact": "title-mismatch.html", "expectedClassification": "unhealthy", "expectedFindings": ["title_body_mismatch"] },
+  { "source": "snapshot", "scored": true, "tags": ["title_body_mismatch", "real-world"], "label": "Cylogy Google Analytics content mismatch", "artifact": "cylogy-google-analytics-mismatch.html", "expectedClassification": "unhealthy", "expectedFindings": ["title_body_mismatch"] },
+  { "source": "artificial", "scored": true, "tags": ["brand_safety_risk"], "label": "Abusive and coercive brand language", "artifact": "brand-safety-risk.html", "expectedClassification": "unhealthy", "expectedFindings": ["brand_safety_risk"], "allowedFindings": ["unprofessional_writing"] },
+  { "source": "artificial", "scored": true, "tags": ["sensitive_topic_without_context"], "label": "Unsafe sensitive-topic guidance", "artifact": "sensitive-topic-bad.html", "expectedClassification": "unhealthy", "expectedFindings": ["sensitive_topic_without_context"], "allowedFindings": ["brand_safety_risk"] },
+  { "source": "snapshot", "scored": true, "tags": ["language_mismatch", "real-world"], "label": "Bufete Padilla Altea Norwegian route", "artifact": "bufete-padilla-altea-no.html", "expectedClassification": "unhealthy", "expectedFindings": ["language_mismatch"] },
+  { "source": "snapshot", "scored": true, "tags": ["published_placeholder_content", "writing_errors", "real-world"], "label": "Endesa Santa Coloma placeholder and writing errors", "artifact": "endesa-santa-coloma-placeholder.html", "expectedClassification": "unhealthy", "expectedFindings": ["published_placeholder_content", "writing_errors"],
+    "exactWritingCorrections": true,
+    "expectedWritingCorrections": [
+      { "quote": "Toma una decision formidable", "problemSpan": "decision", "errorType": "spelling", "correctionStatus": "safe", "correctedQuote": "Toma una decisión formidable" },
+      { "quote": "Sin permanencia: puedes cambiarte de tarifa (o de compañia) sin penalización.", "problemSpan": "compañia", "errorType": "spelling", "correctionStatus": "safe", "correctedQuote": "Sin permanencia: puedes cambiarte de tarifa (o de compañía) sin penalización." }
+    ]
+  },
+
+  { "source": "live", "scored": false, "tags": ["monitor", "historical"], "label": "Cylogy Symposium 2020 recap", "url": "https://www.cylogy.com/insights/5-takeaways-from-the-2020-sitecore-symposium/", "expectedClassification": "healthy", "expectedFindings": [] },
+  { "source": "live", "scored": false, "tags": ["monitor", "language"], "label": "Bufete Padilla Altea Norwegian route", "url": "https://bufetepadillatorrevieja.com/no/lawyers-altea", "expectedClassification": "unhealthy", "expectedFindings": ["language_mismatch"] }
+]

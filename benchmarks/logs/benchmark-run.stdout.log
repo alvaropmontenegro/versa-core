@@ -1,0 +1,10 @@
+
+source     label                              classification issues scored passed error
+------     -----                              -------------- ------ ------ ------ -----
+artificial Garbled training content           healthy        {}       True  False 
+artificial Repetitive platform content        healthy        {}       True  False 
+artificial Fragmented migration content       healthy        {}       True  False 
+artificial Technical terminology is clear     healthy        {}       True   True 
+artificial Informal service copy is clear     healthy        {}       True   True 
+artificial Normal product repetition is clear healthy        {}       True   True 
+
