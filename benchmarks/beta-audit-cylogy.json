@@ -1,0 +1,515 @@
+[
+  {
+    "id": "cylogy-01",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy home",
+    "description": "Restores the original Cylogy site case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-02",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy site health",
+    "description": "Restores the original Cylogy service case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/services/site-health-maintenance/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-03",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy hosting infrastructure",
+    "description": "Restores the original Cylogy service case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/services/hosting-infrastructure/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-04",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy containerization",
+    "description": "Restores the original Cylogy service case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/services/hosting-infrastructure/sitecore-containerization/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-05",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy Optimizely development",
+    "description": "Restores the original Cylogy service case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/services/optimizely-development/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-06",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy DevOps",
+    "description": "Restores the original Cylogy service case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/services/optimize-your-devops-processes/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-07",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy enterprise WordPress",
+    "description": "Restores the original Cylogy service case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/services/enterprise-grade-wordpress/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-08",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy digital strategy",
+    "description": "Restores the original Cylogy service case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/services/digital-strategy/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-09",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy Sitecore training",
+    "description": "Restores the original Cylogy service case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/services/sitecore-training/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-10",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy SEO and analytics",
+    "description": "Restores the original Cylogy service case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/services/enterprise-seo-and-analytics-optimization/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-11",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy Sitecore development",
+    "description": "Restores the original Cylogy service case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/services/sitecore-development/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-12",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy Sitecore headless",
+    "description": "Restores the original Cylogy service case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/services/sitecore-headless/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-13",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy mobile apps",
+    "description": "Restores the original Cylogy service case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/services/mobile-app-development-and-maintenance/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-14",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy Sitecore technology",
+    "description": "Restores the original Cylogy technology case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/technologies/sitecore/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-15",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy Marketo technology",
+    "description": "Restores the original Cylogy technology case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/technologies/marketo/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-16",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy Salesforce technology",
+    "description": "Restores the original Cylogy technology case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/technologies/salesforce/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-17",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy Google Analytics technology",
+    "description": "The recorded case contrasts Google Analytics entry signals with Umbraco content and includes expected writing errors.",
+    "url": "https://www.cylogy.com/technologies/google-analytics/",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": [
+      "intent_mismatch",
+      "writing_errors"
+    ]
+  },
+  {
+    "id": "cylogy-18",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy Contentful technology",
+    "description": "Restores the original Cylogy technology case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/technologies/contentful/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-19",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy Sitecore CDP technology",
+    "description": "Restores the original Cylogy technology case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/technologies/sitecore-cdp/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-20",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy company",
+    "description": "Restores the original Cylogy company case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/company/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-21",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy partners",
+    "description": "Restores the original Cylogy company case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/company/partners/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-22",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy careers",
+    "description": "Restores the original Cylogy company case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/company/careers/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-23",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy contact",
+    "description": "Restores the original Cylogy transactional case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/contact-us/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-24",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy Pelion project",
+    "description": "Restores the original Cylogy project case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/project/pelion/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-25",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy Qlik project",
+    "description": "Restores the original Cylogy project case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/project/qlik-change-management/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-26",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy Sabre project",
+    "description": "Restores the original Cylogy project case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/project/sabre/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-27",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy Symposium 2020 recap",
+    "description": "Restores the original Cylogy insight case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/insights/5-takeaways-from-the-2020-sitecore-symposium/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-28",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy Symposium 2024 preview",
+    "description": "Restores the original Cylogy insight case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/insights/what-to-look-forward-to-at-the-sitecore-symposium/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "cylogy-29",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy Sitecore SaaS",
+    "description": "Restores the original Cylogy insight case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/insights/sitecores-move-to-a-saas-model-key-questions-for-new-and-existing-customers/",
+    "expectedClassification": "unhealthy",
+    "expectedFindings": ["error_404"]
+  },
+  {
+    "id": "cylogy-30",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Cylogy content migration",
+    "description": "Restores the original Cylogy insight case for exploratory BetaAudit review. Expected findings have not been reviewed.",
+    "url": "https://www.cylogy.com/insights/7-essential-ingredients-of-a-successful-content-migration/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  }
+]

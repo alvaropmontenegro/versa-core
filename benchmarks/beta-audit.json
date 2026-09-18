@@ -1,0 +1,413 @@
+[
+  {
+    "id": "page-01",
+    "tags": [
+      "control",
+      "healthy"      
+    ],
+    "label": "Content Calendar Planning",
+    "description": "A coherent article provides a healthy control for writing quality and alignment between the title and body.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/healthy-article.html",
+    "expectedClassification": "healthy",
+    "expectedIssues": []
+  },
+  {
+    "id": "page-02",
+    "tags": [
+      "control",
+      "healthy"
+    ],
+    "label": "Project Management That Works",
+    "description": "A complete product page checks that ordinary commercial content is not treated as an editorial issue.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/healthy-product.html",
+    "expectedClassification": "healthy",
+    "expectedIssues": []
+  },
+  {
+    "id": "page-03",
+    "tags": [
+      "control",
+      "healthy"
+    ],
+    "label": "Team Permissions Guide",
+    "description": "A clear support guide provides a healthy control for procedural content.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/healthy-support-doc.html",
+    "expectedClassification": "healthy",
+    "expectedIssues": []
+  },
+  {
+    "id": "page-04",
+    "tags": [
+      "control",
+      "healthy"
+    ],
+    "label": "Web Summit 2019 Recap",
+    "description": "A historical event recap checks that old dates alone do not trigger an intrinsic content issue.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/historical-event-recap.html",
+    "expectedClassification": "healthy",
+    "expectedIssues": []
+  },
+  {
+    "id": "page-05",
+    "tags": [
+      "control",
+      "healthy"
+    ],
+    "label": "Why Teams Choose Meridian",
+    "description": "Unverified promotional claims check that external fact verification remains outside this audit's scope.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/unverified-claims.html",
+    "expectedClassification": "healthy",
+    "expectedIssues": []
+  },
+  {
+    "id": "page-06",
+    "tags": [
+      "unhealthy",
+      "writing_errors"
+    ],
+    "label": "Preparing for a Client Workshop",
+    "description": "Deliberate writing mistakes provide a positive control for detecting writing errors.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/writing-errors.html",
+    "expectedClassification": "unhealthy",
+    "expectedIssues": [
+      "writing_errors"
+    ]
+  },  
+  {
+    "id": "page-08",
+    "tags": [
+      "unhealthy",
+      "direct_statement_contradiction"
+    ],
+    "label": "Invoice Submission Guide",
+    "description": "Opposing instructions require and prohibit sending invoices to support. Tests contradiction detection while the body still fulfills the announced topic.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/invoice-submission-guide.html",
+    "expectedClassification": "unhealthy",
+    "expectedIssues": [
+      "direct_statement_contradiction"
+    ]
+  },
+  {
+    "id": "page-09",
+    "tags": [
+      "unhealthy",
+      "brand_safety_risk"
+    ],
+    "label": "Working a Trade Show Crowd",
+    "description": "Abusive and coercive instructions test whether harmful treatment of people is detected.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/brand-safety-risk.html",
+    "expectedClassification": "unhealthy",
+    "expectedIssues": [
+      "brand_safety_risk"
+    ]
+  },
+  {
+    "id": "page-10",
+    "tags": [      
+      "healthy",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Self-Harm Support Triage",
+    "description": "Responsible guidance on a sensitive topic checks that mentioning the topic alone does not produce a concern.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/sensitive-topic-good.html",
+    "expectedClassification": "healthy",
+    "expectedIssues": []
+  },
+  {
+    "id": "page-11",
+    "tags": [
+      "unhealthy",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Replies to Self-Harm Messages",
+    "description": "Unsafe support guidance provides a positive control for harmful actions or missing essential safety context.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/sensitive-topic-bad.html",
+    "expectedClassification": "unhealthy",
+    "expectedIssues": [
+      "sensitive_topic_without_context"
+    ]
+  },
+  {
+    "id": "page-12",
+    "tags": [
+      "control",
+      "healthy",
+      "language_mismatch"
+    ],
+    "label": "Weekly Reading — Aligned Languages",
+    "description": "English text, an explicit English URL locale, and English HTML language should produce no language mismatch.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/language-aligned.html",
+    "expectedClassification": "healthy",
+    "expectedIssues": []
+  },
+  {
+    "id": "page-13",
+    "tags": [
+      "unhealthy",
+      "language_mismatch"
+    ],
+    "label": "Weekly Reading — URL Divergence",
+    "description": "English text and HTML agree, while the canonical URL indicates Portuguese. Only the URL language finding is expected.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/language-url-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "expectedIssues": [
+      "url_language_mismatch"
+    ]
+  },
+  {
+    "id": "page-14",
+    "tags": [
+      "unhealthy",
+      "language_mismatch"
+    ],
+    "label": "Weekly Reading — HTML Divergence",
+    "description": "English text and URL agree, while HTML declares Portuguese. Only the HTML language finding is expected.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/language-html-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "expectedIssues": [
+      "html_language_mismatch"
+    ]
+  },
+  {
+    "id": "page-15",
+    "tags": [
+      "unhealthy",
+      "language_mismatch"
+    ],
+    "label": "Weekly Reading — Both Diverge",
+    "description": "English text differs from both the Portuguese URL locale and HTML declaration. Both language findings are expected.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/language-both-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "expectedIssues": [
+      "url_language_mismatch",
+      "html_language_mismatch"
+    ]
+  },
+  {
+    "id": "page-16",
+    "tags": [
+      "control",
+      "healthy",
+      "language_mismatch"
+    ],
+    "label": "Weekly Reading — Neutral URL",
+    "description": "A country-only URL has no explicit language indicator. English text and HTML agree, so the unknown URL signal must not create a mismatch.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/language-unknown-url.html",
+    "expectedClassification": "healthy",
+    "expectedIssues": []
+  },
+  {
+    "id": "page-17",
+    "tags": [
+      "control",
+      "healthy",
+      "language_mismatch"
+    ],
+    "label": "Weekly Reading — Missing HTML Language",
+    "description": "The HTML language declaration is absent. English text and URL agree; missing metadata must not count as a mismatch.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/language-missing-html.html",
+    "expectedClassification": "healthy",
+    "expectedIssues": []
+  },
+  {
+    "id": "page-18",
+    "tags": [
+      "control",
+      "healthy",
+      "language_mismatch"
+    ],
+    "label": "Weekly Reading — Regional English",
+    "description": "The text and URL indicate English while HTML declares en-US. Regional variants must compare as the same base language.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/language-regional.html",
+    "expectedClassification": "healthy",
+    "expectedIssues": []
+  },
+  {
+    "id": "page-19",
+    "tags": [
+      "unhealthy",
+      "language_mismatch"
+    ],
+    "label": "Weekly Reading — Neutral URL, Wrong HTML",
+    "description": "The URL has no explicit language signal, but HTML declares Portuguese for English text. Only the HTML language finding is expected.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/language-unknown-url-html-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "expectedIssues": [
+      "html_language_mismatch"
+    ]
+  },
+  {
+    "id": "page-20",
+    "tags": [
+      "control",
+      "healthy",
+      "live",
+      "language_mismatch"
+    ],
+    "label": "Bufete Padilla — Spanish",
+    "description": "The Spanish route provides a live language control, expecting agreement between the body, URL locale, and HTML declaration.",
+    "url": "https://bufetepadillatorrevieja.com/es/lawyers-altea",
+    "expectedClassification": "healthy",
+    "expectedIssues": []
+  },
+  {
+    "id": "page-21",
+    "tags": [
+      "unhealthy",
+      "live",
+      "language_mismatch"
+    ],
+    "label": "Bufete Padilla — Norwegian Route",
+    "description": "The Norwegian route and HTML declaration indicate Norwegian, while the observed body is predominantly English with some Spanish. Tests both language divergences.",
+    "url": "https://bufetepadillatorrevieja.com/no/lawyers-altea",
+    "expectedClassification": "unhealthy",
+    "expectedIssues": [
+      "html_language_mismatch",
+      "url_language_mismatch"
+    ]
+  },
+  {
+    "id": "page-22",
+    "tags": [
+      "healthy",
+      "live",
+      "language_mismatch"
+    ],
+    "label": "Porsche Brazil",
+    "description": "Tests a URL that separates the Brazilian market from the explicit pt locale. The market must not obscure the Portuguese language signal.",
+    "url": "https://www.porsche.com/brazil/pt/",
+    "expectedClassification": "unhealthy",
+    "expectedIssues": [ "writing_errors", "published_placeholder_content" ]
+  },
+  {
+    "id": "page-23",
+    "tags": [
+      "control",
+      "healthy",
+      "live",
+      "language_mismatch"
+    ],
+    "label": "Porsche Spain Service",
+    "description": "Tests a country-based route with English path words but no explicit locale. Neither the country nor those words should establish a URL language.",
+    "url": "https://www.porsche.com/spain/accessoriesandservice/porscheservice/",
+    "expectedClassification": "healthy",
+    "expectedIssues": []
+  },
+  {
+    "id": "page-24",
+    "tags": [      
+      "healthy",
+      "live",
+      "language_mismatch"
+    ],
+    "label": "Porsche Colombia",
+    "description": "Tests a regional URL with a language suffix in latin-america-es and a separate Colombian market segment.",
+    "url": "https://www.porsche.com/latin-america-es/_colombia_/",
+    "expectedClassification": "unhealthy",
+    "expectedIssues": [ "writing_errors", "published_placeholder_content" ]
+  },
+  {
+    "id": "page-25",
+    "tags": [
+      "unhealthy",
+      "snapshot",
+      "published_placeholder_content",
+      "writing_errors"
+    ],
+    "label": "Endesa Santa Coloma",
+    "description": "A frozen page containing published placeholder text and writing errors tests detection of both categories.",
+    "url": "file:///C:/Dev/versa/versa-core/benchmarks_old/snapshots/endesa-santa-coloma-placeholder.html",
+    "expectedClassification": "unhealthy",
+    "expectedIssues": [
+      "published_placeholder_content",
+      "writing_errors"
+    ]
+  },
+  {
+    "id": "page-26",
+    "tags": [
+      "unhealthy",
+      "published_placeholder_content"
+    ],
+    "label": "Customer Onboarding Guide",
+    "description": "Published unfinished content provides a positive control for explicit placeholder markers.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/incomplete-placeholder-content.html",
+    "expectedClassification": "unhealthy",
+    "expectedIssues": [
+      "published_placeholder_content"
+    ]
+  },
+  {
+    "id": "page-27",
+    "tags": [
+      "unhealthy",
+      "intent_mismatch"
+    ],
+    "label": "10 Project Management Tools Compared",
+    "description": "The title and main heading promise ten compared tools, but the body promotes only one product. Tests an unfulfilled purpose within the same broad topic.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/title-mismatch.html",
+    "expectedClassification": "unhealthy",
+    "expectedIssues": [
+      "intent_mismatch"
+    ]
+  },
+  {
+    "id": "page-28",
+    "tags": [
+      "unhealthy",
+      "live",
+      "intent_mismatch",
+      "writing_errors"
+    ],
+    "label": "Cylogy Google Analytics",
+    "description": "The recorded case contrasts Google Analytics entry signals with Umbraco content and includes expected writing errors.",
+    "url": "https://www.cylogy.com/technologies/google-analytics/",
+    "expectedClassification": "unhealthy",
+    "expectedIssues": [
+      "intent_mismatch",
+      "writing_errors"
+    ]
+  },
+  {
+    "id": "page-29",
+    "tags": [
+      "unhealthy",
+      "live",
+      "intent_mismatch",
+      "writing_errors"
+    ],
+    "label": "Endesa Energy Homepage",
+    "description": "A broad homepage mixes services, forms, and notices. Tests against false intent mismatch from diverse components while preserving the expected writing finding.",
+    "url": "https://www.endesa.com/es/",
+    "expectedClassification": "unhealthy",
+    "expectedIssues": [
+      "writing_errors"
+    ]
+  },
+  {
+    "id": "page-30",
+    "tags": [      
+      "healthy",
+      "intent_mismatch"
+    ],
+    "label": "Content Calendar — Generic URL",
+    "description": "A generic resource URL accompanies an aligned metadata title, H1, and body. Checks that an uninformative URL does not create intent mismatch.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/resource-042.html",
+    "expectedClassification": "healthy",
+    "expectedIssues": []
+  },
+  {
+    "id": "page-31",
+    "tags": [
+      "unhealthy",
+      "intent_mismatch"
+    ],
+    "label": "Content Calendar — Unrelated H1",
+    "description": "A prominent main heading announces standing desks, but the URL, metadata title, and body concern content calendars. Tests the expectation created by a main H1.",
+    "url": "file:///C:/Dev/versa/versa-web/test-site/pages/how-to-plan-a-monthly-content-calendar.html",
+    "expectedClassification": "unhealthy",
+    "expectedIssues": [
+      "intent_mismatch"
+    ]
+  }
+]

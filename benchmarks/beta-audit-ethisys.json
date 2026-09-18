@@ -1,0 +1,512 @@
+[
+  {
+    "id": "ethisys-01",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Home",
+    "description": "Includes a service or company page from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-02",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Sitecore",
+    "description": "Includes a service or company page from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/sitecore/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-03",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Blog",
+    "description": "Includes a service or company page from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/blog/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-04",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Microsoft",
+    "description": "Includes a service or company page from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/microsoft/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-05",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Umbraco Specialism",
+    "description": "Includes a service or company page from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/umbraco-specialism/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-06",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Contentstack",
+    "description": "Includes a service or company page from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/contentstack/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-07",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Design And Ux",
+    "description": "Includes a service or company page from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/design-and-ux/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-08",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Privacy",
+    "description": "Includes a service or company page from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/privacy/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-09",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Terms And Conditions",
+    "description": "Includes a service or company page from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/terms-and-conditions/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-10",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Composable Dxp",
+    "description": "Includes a service or company page from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/composable-dxp/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-11",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Service",
+    "description": "Includes a service or company page from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/service/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-12",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Jobs",
+    "description": "Includes a service or company page from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/jobs/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-13",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Sitecore Service",
+    "description": "Includes a service or company page from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/sitecore-service/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-14",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Contact Page",
+    "description": "Includes a service or company page from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/contact-page/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-15",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Our Leaders",
+    "description": "Includes a service or company page from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/about-us/our-leaders/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-16",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Artificial Intelligence",
+    "description": "Includes a service or company page from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/artificial-intelligence/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-17",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Recruitment",
+    "description": "Includes a service or company page from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/recruitment/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-18",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Advisory Services",
+    "description": "Includes a service or company page from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/advisory-services/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-19",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Radoslaw Kozlowski",
+    "description": "Includes a service or company page from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/about-us/our-leaders/radoslaw-kozlowski/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-20",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Neil Shack",
+    "description": "Includes a service or company page from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/about-us/our-leaders/neil-shack/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-21",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Dlink",
+    "description": "Includes a project case study from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/portfolio/dlink/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-22",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — The Law Society",
+    "description": "Includes a project case study from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/portfolio/the-law-society/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-23",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Radley Yeldar",
+    "description": "Includes a project case study from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/portfolio/radley-yeldar/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-24",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Ramarketing Pr",
+    "description": "Includes a project case study from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/portfolio/ramarketing-pr/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-25",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Wpa",
+    "description": "Includes a project case study from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/portfolio/wpa/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-26",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Were Hiring",
+    "description": "Includes a dated article from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/2021/11/30/were-hiring/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-27",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Neil Shack Wins Sitecore Most Valuable Professional Award For A Sixth Consecutive Year",
+    "description": "Includes a dated article from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/2022/01/31/neil-shack-wins-sitecore-most-valuable-professional-award-for-a-sixth-consecutive-year/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-28",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Ethisys Awarded Iso 27001 Certification",
+    "description": "Includes a dated article from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/2026/06/23/ethisys-awarded-iso-27001-certification/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-29",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Ethisys Awarded A Place On The Digital Outcomes And Specialists 7 Framework",
+    "description": "Includes a dated article from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/2026/02/03/ethisys-awarded-a-place-on-the-digital-outcomes-and-specialists-7-framework/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  },
+  {
+    "id": "ethisys-30",
+    "tags": [
+      "language_mismatch",
+      "intent_mismatch",
+      "writing_errors",
+      "published_placeholder_content",
+      "direct_statement_contradiction",
+      "brand_safety_risk",
+      "sensitive_topic_without_context"
+    ],
+    "label": "Ethisys — Ethisys Achieves Twilio Gold Partner Status For 2026",
+    "description": "Includes a dated article from the Ethisys sitemap to review entry expectations, language signals, writing, and supported editorial issues. Expected findings have not been reviewed.",
+    "url": "https://ethisys.co.uk/2026/01/30/ethisys-achieves-twilio-gold-partner-status-for-2026/",
+    "expectedClassification": "unreviewed",
+    "expectedFindings": []
+  }
+]
